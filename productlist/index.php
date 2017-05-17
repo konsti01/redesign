@@ -1,71 +1,90 @@
-<?php include_once('header.php'); ?>
+<?php include_once('../header.php'); ?>
 
-<div class="row md-no-gutter">
+<link rel="stylesheet" type="text/css" href="/productlist/style.css">
 
-    <div class="col-md-3">
-        <div class="contentborder padding10">
-            <span class="title small">Termékkategóriák</span><br>
-            <a href="https://www.meska.hu/s/allatfelszerelesek/c-304">
-                Állatfelszerelések </a>
-            <br>
-            <a href="https://www.meska.hu/s/babamamagyerek/c-305">
-                Baba-mama-gyerek </a>
-            <br>
-            <a href="https://www.meska.hu/s/butor/c-313">
-                Bútor </a>
-            <br>
-            <a href="https://www.meska.hu/s/dekoracio/c-314">
-                Dekoráció </a>
-            <br>
-            <a href="https://www.meska.hu/s/ekszer-ora/c-327">
-                Ékszer, óra </a>
-            <br>
-            <a href="https://www.meska.hu/s/eskuvo/c-317">
-                Esküvő </a>
-            <br>
-            <a href="https://www.meska.hu/s/ferfiaknak/c-339">
-                Férfiaknak </a>
-            <br>
-            <a href="https://www.meska.hu/s/jatek/c-340">
-                Játék </a>
-            <br>
-            <a href="https://www.meska.hu/s/kepzomuveszet/c-357">
-                Képzőművészet </a>
-            <br>
-            <a href="https://www.meska.hu/s/konyhafelszereles/c-393">
-                Konyhafelszerelés </a>
-            <br>
-            <a href="https://www.meska.hu/s/magyar-motivumokkal/c-572">
-                Magyar motívumokkal </a>
-            <br>
-            <a href="https://www.meska.hu/s/mindenmas/c-401">
-                Mindenmás </a>
-            <br>
-            <a href="https://www.meska.hu/s/naptar-kepeslap-album/c-351">
-                Naptár, képeslap, album </a>
-            <br>
-            <a href="https://www.meska.hu/s/otthon-lakberendezes/c-406">
-                Otthon, lakberendezés </a>
-            <br>
-            <a href="https://www.meska.hu/s/ruha-divat-cipo/c-432">
-                Ruha, divat, cipő </a>
-            <br>
-            <a href="https://www.meska.hu/s/szepsegapolas/c-454">
-                Szépségápolás </a>
-            <br>
-            <a href="https://www.meska.hu/s/taska/c-464">
-                Táska </a>
-            <br>
+<div class="row">
+        <div class="sidebar col-md-2">
+            <a href="#">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <span>Kategóriák</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                <span>Állatfelszerelések</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Baba-mama-gyerek" title="Baba-mama-gyerek">
+                <span>Baba-mama-gyerek</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Bútor" title="Bútor">
+                <span>Bútor</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Dekoráció" title="Dekoráció">
+                <span>Dekoráció</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Ékszer, óra" title="Ékszer, óra">
+                <span>Ékszer, óra</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Esküvő" title="Esküvő">
+                <span>Esküvő</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Férfiaknak" title="Férfiaknak">
+                <span>Férfiaknak</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Játék" title="Játék">
+                <span>Játék</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Képzőművészet" title="Képzőművészet">
+                <span>Képzőművészet</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Konyhafelszerelés" title="Konyhafelszerelés">
+                <span>Konyhafelszerelés</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Magyar motívumokkal" title="Magyar motívumokkal">
+                <span>Magyar motívumokkal</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Mindenmás" title="Mindenmás">
+                <span>Mindenmás</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Naptár, képeslap, album" title="Naptár, képeslap, album">
+                <span>Naptár, képeslap, album</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Otthon, lakberendezés" title="Otthon, lakberendezés">
+                <span>Otthon, lakberendezés</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Ruha, divat, cipő" title="Ruha, divat, cipő">
+                <span>Ruha, divat, cipő</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Szépségápolás" title="Szépségápolás">
+                <span>Szépségápolás</span>
+            </a>
+            <a href="#">
+                <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Táska" title="Táska">
+                <span>Táska</span>
+            </a>
         </div>
-    </div>
 
-    <div class="col-md-9 col-sm-12 col-xs-12">
+    <div class="col-md-10 col-sm-12 col-xs-12">
         <div class="contentborder padding10">
 
             <ol class="breadcrumb">
                 <li><a href="https://www.meska.hu/">
                         <i class="fa fa-home" aria-hidden="true"></i>
-                        <img src="/bootstrap/svg/meska_hu.svg" style="" class="breadcrumb-meskahu"/>
+                        <img src="https://www.meska.hu/bootstrap/svg/meska_hu.svg" style="" class="breadcrumb-meskahu"/>
                     </a></li>
                 <li class="active"><a href="https://www.meska.hu/s/Mind"></a></li>
             </ol>
@@ -332,51 +351,28 @@
             </div>
             <div class="clearfix"></div>
 
-            <div>
-
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/k/r/kristinya_product_12847_150830124153_728655.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/d/o/dorothy13_product_173489_170116131433_096437.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/m/i/mirmo_product_122887_160810144500_167247.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/t/i/tildadekor_product_179411_170116142338_170868.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/g/a/galambolt_product_39373_170116114937_453127.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/g/a/galambolt_product_39373_170116113546_5504100.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/z/a/zamiamania_product_65929_170116154840_03896.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/a/l/alcinarose_product_80079_160602142521_83561.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/k/e/kelemen339_product_150418_170123085901_930436.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/m/i/milevi_product_19639_160423163743_77298.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/m/i/milevi_product_19639_160113231701_747447.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/c/z/czetka11_product_23756_140320203635_1.JPG">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/o/r/orsolya1204_product_10823_160418172951_949242.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/m/a/magdalena55_product_98522_130504163203_1.jpg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/l/a/lampamania_product_193202_170124101050_758980.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/a/n/anitszirk_product_1095_170119175409_600956.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/g/y/gyeneskatika_product_117421_160202224633_423840.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/j/u/jucko_product_225_170121115014_087299.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/z/s/zsuzsannanagy_product_152921_170121162306_068635.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/k/a/kantajulcsi_product_87141_151218173619_767736.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/p/i/pipike976_product_128015_160925145613_532544.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/b/u/bucicollection_product_229452_170125104549_4371.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/v/v/vvictorine_product_237115_170117140455_047397.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/l/i/lina85_product_64098_160718071806_309745.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/l/i/lina85_product_64098_160718070159_4391100.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/l/i/lina85_product_64098_160912223716_663989.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/i/l/ildiko72_product_8121_170122155943_177759.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/b/a/bacskaieszter_product_242105_170122165913_842718.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/s/o/solba66_product_87723_170122171528_703437.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/v/i/vighilda_product_3650_170122222453_736797.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/v/i/vighilda_product_3650_160718230805_82563.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/k/i/kislili_product_126405_160925091242_36756.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/v/e/vendula_product_74386_170123175938_354352.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/h/a/handycat69_product_72462_160903215857_015879.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/k/e/keziszottes_product_95675_151210184106_2.JPG">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/e/v/evercover_product_140415_150531174901_965868.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/v/i/vighilda_product_3650_170122223556_80089.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/p/i/pillow_product_138451_160324181855_378619.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/g/e/gemma_product_18843_151208190231_222887.jpeg">
-                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/s/m/smilelady_product_15741_170124163601_840873.jpeg">
+            <div class="row">
+                <?php
+                    for($i=1;$i<=40;$i++){ ?>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 padding10">
+                            <div class="product-box">
+                                <img alt="" title="" src="https://www.meska.hu/img/product/thumbnail/k/r/kristinya_product_12847_150830124153_728655.jpeg">
+                                <div class="seller-pic">
+                                    <img src="https://www.meska.hu/img/avatar/medium/Ritzy_avatar_66524_1489947806.jpg">
+                                </div>
+                                <div class="product-description">
+                                    <div class="seller">eladóneve</div>
+                                    <div class="description">Lorem ipsum valami</div>
+                                    <div class="price">5 456.- Ft</div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    <?php }
+                ?>
             </div>
         </div>
     </div>
 </div>
 
-<?php include_once('footer.php'); ?>
+<?php include_once('../footer.php'); ?>

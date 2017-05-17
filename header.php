@@ -13,7 +13,8 @@
 
     <!--TODO-->
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/simple-sidebar.css">
-    <link rel="stylesheet" href="https://www.meska.hu/bootstrap/font-awesome.css">
+    <!-- <link rel="stylesheet" href="https://www.meska.hu/bootstrap/font-awesome.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/lightbox/css/lightbox.min.css">
 
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/meska-theme.css?v=201705121128">
@@ -67,7 +68,7 @@
 
     <meta name="p:domain_verify" content="558a6ae954e9b86e3d27c7c036f1e147"/>
 
-    <base href="https://www.meska.hu/" />
+    <!-- <base href="https://www.meska.hu/" /> -->
 </head>
 <body>
 <script type="text/javascript">
