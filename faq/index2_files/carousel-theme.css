@@ -1,0 +1,89 @@
+.shopDatasCarousel .image-container.md-2 a img {
+	width: 100%;
+}
+
+.shopDatasCarousel div.item div.image-container{
+	padding: 2% 0 0 0;
+	height: 23.5%;
+	overflow: hidden;
+}
+
+.shopDatasCarousel div.item div.image-container:first-child{
+	padding: 0;
+}
+
+.shopDatasCarousel {
+	margin-top: 30px;
+}
+
+.shopDatasCarousel .carousel-indicators {
+	top: -25px;
+	bottom: auto;
+}
+
+.carousel-indicators li {
+	border-color: #777777;
+}
+.carousel-indicators li.active {
+	background-color: #777777;
+}
+
+.shopDatasCarousel .carousel-control {
+	width: 10%;
+	background: none;
+}
+
+@media(max-width:991px) {
+	.shopDatasCarousel .carousel-control {
+		width: 4%;
+	}
+}
+
+.shopDatasCarousel .carousel-control .control-left, .shopDatasCarousel .carousel-control .control-right{
+	font-family: 'Amatic SC', cursive;
+	font-size: 45px;
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	margin-top: -0.8em;
+	width: 16px;
+	width: 60%;
+}
+.shopDatasCarousel .carousel-control .control-left {
+	left: 0px;
+}
+.shopDatasCarousel .carousel-control .control-right {
+	right: 0px;
+}
+
+.shopDatasCarousel .carousel-inner .item {
+	padding: 0 25px 0 25px;
+}
+
+
+#productImageCarousel .carousel-control {
+	width: 10%;
+	top:62px;
+	bottom: 62px;
+}
+
+#productImageCarousel .carousel-control .control-left, #productImageCarousel .carousel-control .control-right{
+	font-family: 'Amatic SC', cursive;
+	font-size: 45px;
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	margin-top: -0.8em;
+	width: 16px;
+	width: 60%;
+}
+#productImageCarousel .carousel-control .control-left {
+	left: 15px;
+}
+#productImageCarousel .carousel-control .control-right {
+	right: 15px;
+}
+
+#productImageCarousel .carousel-control {
+	background: none;
+}

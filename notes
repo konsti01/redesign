@@ -1,3 +1,5 @@
+git status
+
 git clone [repo neve] - lemásol egy meglévő repot
 git pull - változások letöltése
 
@@ -7,3 +9,11 @@ OR
 git add [filename] - csak ezt
 git commit -m "message"
 git push
+
+
+
+bal helyett jobbra rendezés
+lenyíló legyen
+normálisan 4 kép egy sorban
+nagyobb felbontásnál 6
+mobilnál 2

@@ -1,0 +1,15 @@
+.nav-tabs li a{
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.tab-content .tab-pane {
+	margin: 10px;
+}
+
+@media(max-width:767px) {
+	.nav>li>a {
+		padding: 10px 10px 10px 10px;
+	}
+}
