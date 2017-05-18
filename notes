@@ -1,15 +1,3 @@
-git status
-
-git clone [repo neve] - lemásol egy meglévő repot
-git pull - változások letöltése
-
-változtatás feltöltése:
-git add . - üsszes változás hozzáadása
-OR
-git add [filename] - csak ezt
-git commit -m "message"
-git push
-
 bal helyett jobbra rendezés
 lenyíló legyen ??
 

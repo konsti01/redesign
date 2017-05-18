@@ -1,0 +1,19 @@
+@media only screen and (max-width: 990px){
+    .sidebar{
+        margin:10px 15px;
+        float:none;
+        width:auto;
+    }
+    .sidebar-trigger{
+
+    }
+    .sidebar-content{
+        display:none;
+    }
+    .bannerhely{
+        display:none;
+    }
+    .widget{
+        display:none;
+    }
+}

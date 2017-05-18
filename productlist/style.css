@@ -2,11 +2,18 @@
     margin:0;
     padding:0;
 }
+.row-right{
+
+}
 
 .sidebar{
     background-color: #2B2E33;
     float: left;
     height: 100%;
+}
+.sidebar-content{
+    margin:0;
+    padding:0;
 }
 .sidebar a{
     background-color: #2B2E33;
@@ -47,6 +54,21 @@
     height: 150px;
     background-color: #ccc;
 }
+
+#cont .products{
+    display:none;
+}
+
+/*.show-more{
+    width:250px;
+    text-align:center;
+    background-color:#006633;
+    color:#fff;
+    margin:0 auto 0 auto;
+    padding:5px 0px;
+    text-transform:uppercase;
+    cursor:pointer;
+}*/
 
 .product-box{
     background-color: rgba(243,243,243,1.0)!important;
