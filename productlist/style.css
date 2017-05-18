@@ -1,5 +1,6 @@
-body {
-
+.row-left{
+    margin:0;
+    padding:0;
 }
 
 .sidebar{
@@ -35,10 +36,21 @@ body {
     font-size: 12px;
 }
 
+.bannerhely{
+    margin: 5px 0 0 0;
+    height: 250px;
+    background-color: #ccc;
+}
+
+.widget{
+    margin: 5px 0 0 0;
+    height: 150px;
+    background-color: #ccc;
+}
+
 .product-box{
     background-color: rgba(243,243,243,1.0)!important;
     padding: 9px 11px;
-
 }
 .product-box img{
     width: 100%;
