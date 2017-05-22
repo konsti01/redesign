@@ -1,6 +1,6 @@
 //GOMBOS VERZIÓ
 
-/*$(document).ready(function () {
+$(document).ready(function () {
     size_cont = $("#cont .products").size();        //ez most 40
     x=12;                                           //ennyit jelenít meg először
     $('#cont .products:lt('+x+')').show();
@@ -8,11 +8,11 @@
         x= (x+4 <= size_cont) ? x+4 : size_cont;    //ennyit ad hozzá a megjelenítendőkhöz
         $('#cont .products:lt('+x+')').show();      //és megjeleníti
     });
-});*/
+});
 
 //SCROLL VERZIÓ
 
-$(document).ready(function() {
+/*$(document).ready(function() {
     var win = $(window);
     var doc = $(document);
     var size_cont = $("#cont .products").size();        //ez most 40
@@ -25,4 +25,19 @@ $(document).ready(function() {
             $('#cont .products:lt('+x+')').show();      //és megjeleníti
         }
     });
+});*/
+
+
+//BANNERHELY ÉS WIDGET FIX
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 650) {
+        $(".bannerhely").addClass("bannerhely-fixed col-md-2");
+        $(".widget").addClass("widget-fixed col-md-2");
+    }
+    else {
+        $(".bannerhely").removeClass("bannerhely-fixed col-md-2");
+        $(".widget").removeClass("widget-fixed col-md-2");
+    }
 });

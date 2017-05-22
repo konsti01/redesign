@@ -87,9 +87,7 @@
             <div class="widget col-md-12">WIDGET</div>
         </div>
         <!-- RIGHT COL -->
-        <div class="col-md-10 col-sm-12 col-xs-12">
-            <div class="contentborder padding10">
-
+        <div class="row-right col-md-10 col-sm-12 col-xs-12">
                 <ol class="breadcrumb">
                     <li><a href="https://www.meska.hu/">
                             <i class="fa fa-home" aria-hidden="true"></i>
@@ -380,8 +378,7 @@
                     <?php }
                     ?>
                 </div>
-                <!-- <div class="show-more">Több termék megjelenítése</div> -->
-            </div>
+                <div class="show-more">Több termék megjelenítése</div>
         </div>
 </div>
 
