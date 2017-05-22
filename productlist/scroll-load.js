@@ -1,5 +1,4 @@
 //GOMBOS VERZIÓ
-
 $(document).ready(function () {
     size_cont = $("#cont .products").size();        //ez most 40
     x=12;                                           //ennyit jelenít meg először
@@ -11,7 +10,6 @@ $(document).ready(function () {
 });
 
 //SCROLL VERZIÓ
-
 /*$(document).ready(function() {
     var win = $(window);
     var doc = $(document);
@@ -27,17 +25,30 @@ $(document).ready(function () {
     });
 });*/
 
-
 //BANNERHELY ÉS WIDGET FIX
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 650) {
-        $(".bannerhely").addClass("bannerhely-fixed col-md-2");
-        $(".widget").addClass("widget-fixed col-md-2");
+        $(".bannerhely").addClass("bannerhely-fixed col-md-2-custom");
+        $(".widget").addClass("widget-fixed col-md-2-custom");
     }
     else {
-        $(".bannerhely").removeClass("bannerhely-fixed col-md-2");
-        $(".widget").removeClass("widget-fixed col-md-2");
+        $(".bannerhely").removeClass("bannerhely-fixed col-md-2-custom");
+        $(".widget").removeClass("widget-fixed col-md-2-custom");
     }
 });
+
+//PRODUCT IMAGE HEIGHT
+$(document).ready(function() {
+    var window_width = $(window).width();               //ablak szélessége
+    var nav_width = $('.col-md-2-custom').width();      //nav szélessége
+    $('.col-md-10-custom').css({
+        'width': window_width - nav_width + 'px'        //ablak-nav
+    });
+
+    var image_width = $('.product-image').width();    //kép szélessége
+    $('.product-image').css({
+        'height': image_width + 'px'                  //magasság=szélesség
+    });
+ });

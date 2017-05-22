@@ -5,7 +5,7 @@
 
 <div class="row">
         <!-- LEFT COL -->
-        <div class="row-left col-md-2 col-sm-12 col-xs-12">
+        <div class="row-left col-md-2-custom col-sm-12 col-xs-12">
             <div class="sidebar col-md-12 col-sm-12">
                 <a href="#" class="sidebar-trigger">
                     <i class="fa fa-bars" aria-hidden="true"></i>
@@ -87,7 +87,7 @@
             <div class="widget col-md-12">WIDGET</div>
         </div>
         <!-- RIGHT COL -->
-        <div class="row-right col-md-10 col-sm-12 col-xs-12">
+        <div class="row-right col-md-10-custom col-sm-12 col-xs-12">
                 <ol class="breadcrumb">
                     <li><a href="https://www.meska.hu/">
                             <i class="fa fa-home" aria-hidden="true"></i>
@@ -361,24 +361,36 @@
                 <div class="row" id="cont">
                     <?php
                     for($i=1;$i<=40;$i++){ ?>
-                        <div class="products col-xs-6 col-sm-4 col-md-3 col-lg-3 padding10">
+                        <div class="products col-xs-6 col-sm-4 col-md-3 col-lg-3 padding5">
                             <div class="product-box">
-                                <img alt="" title="" src="https://www.meska.hu/img/product/normal/t/u/turmix_product_26783_161214182000_050397.jpeg">
+                                <img class="product-image" alt="" title="" src="https://www.meska.hu/img/product/normal/t/u/turmix_product_26783_161214182000_050397.jpeg">
                                 <div class="seller-pic">
                                     <img src="https://www.meska.hu/img/avatar/medium/Ritzy_avatar_66524_1489947806.jpg">
                                 </div>
                                 <div class="product-description">
-                                    <div class="seller">eladóneve</div>
-                                    <div class="description">Lorem ipsum valami</div>
+                                    <div class="seller">VintageEkszerekKicsinyBoltja</div>
+                                    <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
                                     <div class="price">5 456.- Ft</div>
                                 </div>
                                 <div class="clear"></div>
+                                <div class="overlay">
+                                    <a href="" class="button">Tovább >></a>
+                                </div>
                             </div>
                         </div>
                     <?php }
                     ?>
                 </div>
                 <div class="show-more">Több termék megjelenítése</div>
+                <div class="category-desc">
+                    <div class="title">Termékkategória leírása</div>
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
         </div>
 </div>
 

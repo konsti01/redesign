@@ -2,21 +2,20 @@
 
 }
 .row-left{
-    margin-top:-20px;
-    padding:0;
-
-    float:left;
+    margin-top: -20px;
+    padding: 0;
+    float: left;
 }
 
 .sidebar{
     background-color: #2B2E33;
     float: left;
     height: 100%;
-    padding:0;
+    padding: 0;
 }
 .sidebar-content{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 .sidebar a{
     background-color: #2B2E33;
@@ -60,82 +59,111 @@
 
 .bannerhely-fixed{
     margin: 5px 0 0 0;
-
     height: 250px;
     background-color: #ccc;
-    position:fixed; top:5px;
+    position: fixed; top: 5px;
 }
 
 .widget-fixed{
     margin: 5px 0 0 0;
     height: 150px;
-
     background-color: #ccc;
-    position:fixed; top:265px;
+    position: fixed; top: 265px;
 }
 
 .row-right{
 
-
 }
 
 #cont{
-
+    margin: 0;
 }
 
 #cont .products{
-    display:none;
+    display: none;
 }
 
 .show-more{
-    width:250px;
-    text-align:center;
-    background-color:#006633;
-    color:#fff;
-    margin:0 auto 0 auto;
-    padding:5px 0px;
-    text-transform:uppercase;
-    cursor:pointer;
+    width: 250px;
+    text-align: center;
+    background-color: #006633;
+    color: #fff;
+    margin: 10px auto 0 auto;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .product-box{
     background-color: rgba(243,243,243,1.0)!important;
     padding: 9px 11px;
-    margin:5px;
 }
-.product-box img{
+.product-image{
     width: 100%;
+    /*height: js*/
 }
 .product-box .seller-pic{
-    padding:11px 0px 0px 0px;
-    float:left;
-    width:71px;
+    padding: 11px 0px 0px 0px;
+    float: left;
+    width: 51px;
 
 }
 .product-box .seller-pic img{
-    width:60px;
-    border-radius:30px;
+    width: 40px;
+    border-radius: 30px;
 }
 .product-box .product-description{
-
-    padding:5px 5px 5px 0px;
-    float:left;
-    font-size:12px;
+    width: 75%;
+    padding: 10px 0px 10px 0px;
+    float: left;
+    font-size: 12px;
 }
-
 .product-box .seller{
-    font-size:10px;
-    text-transform:uppercase;
-    color:#ccc;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #ccc;
 }
 .product-box .description{
-    text-align:justify;
-    padding:5px 0px;
+    font-size:14px;
+    padding: 5px 0px;
 }
 .product-box .price{
-    padding:5px 0px;
+    font-size:16px;
+    padding: 5px 0px;
+}
+.product-box .overlay{
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    opacity: 0;
+    background-color:rgba(0,0,0,.8);
+    text-align:center;
+}
+.product-box:hover .overlay{
+    opacity:1;
+}
+.product-box .overlay .button{
+    color:#fff;
+    position:relative; top:25%;
+    display:inline-block;
+    border:1px solid #fff;
+    padding:5px 8px;
+}
+
+.category-desc .content{
+    text-align:justify;
 }
 
 .clear{
-    clear:both;
+    clear: both;
+}
+
+/*A fix 300px nav miatt */
+.col-md-2-custom{
+    width: 300px;
+}
+.col-md-10-custom{
+    /*js*/
 }
