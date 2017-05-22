@@ -212,7 +212,7 @@ h1.bold {
 }
 
 .btn-default:hover{
-	background-color: #fdffde;
+	background-color: #005533;
 }
 
 .btn.btn-no-border {
@@ -750,6 +750,11 @@ input:invalid {
         left:-125px;
         opacity:0.3;
     }
+    #search-button{
+        position: relative;
+        top: -40px;
+        left: 110px !important;
+    }
 }
 
 .search input[type="search"] {
@@ -860,6 +865,8 @@ input:invalid {
         background-color: #005533;
         color: #fff;
     }
+
+
 }
 
 /*KÉRDÉSEK*/
@@ -887,6 +894,30 @@ input:invalid {
     font-size:13px;
     letter-spacing:0.75px;
 }
+.col-md-10 .btn:hover{
+    color:#fff;
+}
 .col-md-10 .fa{
     margin-right:20px;
+}
+
+#query.active #search-button{
+    display:block;
+}
+
+#search-button{
+    border: 1px solid rgb(139, 195, 74);
+    color: #336600;
+    border-radius: 5px;
+    background-color: #fff;
+    height: 30px;
+    position:relative;
+    top: -40px;
+    left: 260px;
+
+}
+#search-button:hover{
+    color: #33600;
+    background-color: rgb(139, 195, 74);
+    border: 1px solid rgb(139, 195, 74);
 }
