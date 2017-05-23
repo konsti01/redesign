@@ -1,15 +1,82 @@
-@media only screen and (max-width: 990px){
-    .sidebar{
-        margin:10px 15px;
-        float:none;
-        width:auto;
+@media only screen and (max-width: 767px){
+    .product-box .seller{
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #ccc;
     }
-    .sidebar-trigger{
+}     /* xsm */
 
+@media only screen and (min-width: 767px) and (max-width: 990px){
+    .product-box .seller{
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #ccc;
     }
-    .sidebar-content{
-        display:none;
+}       /* sm */
+
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+    .product-box .seller-pic{
+        padding: 11px 0px 0px 0px;
+        float: left;
+        width: 26px;
     }
+    .product-box .seller-pic img{
+        width: 20px;
+        border-radius: 30px;
+    }
+    .product-box .product-description{
+        width: 75%;
+        padding: 10px 0px 10px 0px;
+        float: left;
+        font-size: 12px;
+    }
+    .product-box .seller{
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #ccc;
+    }
+    .product-box .description{
+        font-size:14px;
+        padding: 5px 0px;
+    }
+    .product-box .price{
+        font-size:16px;
+        padding: 5px 0px;
+    }
+}     /* md */
+
+@media only screen and (min-width: 1200px){
+    .product-box .seller-pic{
+        padding: 11px 0px 0px 0px;
+        float: left;
+        width: 26px;
+    }
+    .product-box .seller-pic img{
+        width: 20px;
+        border-radius: 30px;
+    }
+    .product-box .product-description{
+        width: 75%;
+        padding: 10px 0px 10px 0px;
+        float: left;
+        font-size: 12px;
+    }
+    .product-box .seller{
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #ccc;
+    }
+    .product-box .description{
+        font-size:14px;
+        padding: 5px 0px;
+    }
+    .product-box .price{
+        font-size:16px;
+        padding: 5px 0px;
+    }
+}        /* lg */
+
+@media only screen and (max-width: 990px){
     .bannerhely{
         display:none;
     }

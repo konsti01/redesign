@@ -1,11 +1,10 @@
-bal helyett jobbra rendezés
-lenyíló legyen ??
-
 large - 6 product
 medium - 4 product
 small - 2 product
+xsmall - 1 product
 
-alkotó képe körül azonos spacing
-nem kell #cont fehér háttér, marad a zöld alatta lévő
-menü 300px széles legyen
+xsm     <- 767
+sm      767 - 990
+md      990 - 1200
+lg      1200 ->
 

@@ -4,9 +4,10 @@
 <link rel="stylesheet" type="text/css" href="/productlist/responsive.css">
 
 <div class="row">
+    <div class="row-wrapper">
         <!-- LEFT COL -->
-        <div class="row-left col-md-2-custom col-sm-12 col-xs-12">
-            <div class="sidebar col-md-12 col-sm-12">
+        <div class="row-left">
+            <div class="sidebar col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <a href="#" class="sidebar-trigger">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                     <span>Kategóriák</span>
@@ -87,7 +88,7 @@
             <div class="widget col-md-12">WIDGET</div>
         </div>
         <!-- RIGHT COL -->
-        <div class="row-right col-md-10-custom col-sm-12 col-xs-12">
+        <div class="row-right">
                 <ol class="breadcrumb">
                     <li><a href="https://www.meska.hu/">
                             <i class="fa fa-home" aria-hidden="true"></i>
@@ -361,9 +362,9 @@
                 <div class="row" id="cont">
                     <?php
                     for($i=1;$i<=40;$i++){ ?>
-                        <div class="products col-xs-6 col-sm-4 col-md-3 col-lg-3 padding5">
+                        <div class="products col-xs-12 col-sm-6 col-md-3 col-lg-2 padding5">
                             <div class="product-box">
-                                <img class="product-image" alt="" title="" src="https://www.meska.hu/img/product/normal/t/u/turmix_product_26783_161214182000_050397.jpeg">
+                                <img class="product-image" alt="" title="" src="https://www.meska.hu/img/product/small/d/u/dundomuvek_product_115793_160923202505_793299.jpeg">
                                 <div class="seller-pic">
                                     <img src="https://www.meska.hu/img/avatar/medium/Ritzy_avatar_66524_1489947806.jpg">
                                 </div>
@@ -392,6 +393,7 @@
                     </div>
                 </div>
         </div>
+    </div>
 </div>
 
 <?php include_once('../footer.php'); ?>
