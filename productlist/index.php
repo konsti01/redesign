@@ -375,7 +375,7 @@
                                 </div>
                                 <div class="clear"></div>
                                 <div class="overlay">
-                                    <a href="" class="button">Tovább >></a>
+                                    <a href="" class="button">Tovább »</a>
                                 </div>
                             </div>
                         </div>
