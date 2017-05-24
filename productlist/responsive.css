@@ -4,9 +4,9 @@
         text-transform: uppercase;
         color: #ccc;
     }
-}     /* xsm */
+}     /* xs */
 
-@media only screen and (min-width: 767px) and (max-width: 990px){
+@media only screen and (min-width: 768px) and (max-width: 990px){
     .product-box .seller{
         font-size: 15px;
         text-transform: uppercase;
@@ -14,7 +14,7 @@
     }
 }       /* sm */
 
-@media only screen and (min-width: 990px) and (max-width: 1200px){
+@media only screen and (min-width: 991px) and (max-width: 1200px){
     .product-box .seller-pic{
         padding: 11px 0px 0px 0px;
         float: left;
@@ -45,7 +45,10 @@
     }
 }     /* md */
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1201px) and (max-width: 1600px){
+    .col-lg-2-custom{
+        width: 20%;
+    }
     .product-box .seller-pic{
         padding: 11px 0px 0px 0px;
         float: left;
@@ -76,11 +79,73 @@
     }
 }        /* lg */
 
+@media only screen and (min-width: 1601px){
+    .product-box .seller-pic{
+        padding: 11px 0px 0px 0px;
+        float: left;
+        width: 26px;
+    }
+    .product-box .seller-pic img{
+        width: 20px;
+        border-radius: 30px;
+    }
+    .product-box .product-description{
+        width: 75%;
+        padding: 10px 0px 10px 0px;
+        float: left;
+        font-size: 12px;
+    }
+    .product-box .seller{
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #ccc;
+    }
+    .product-box .description{
+        font-size:14px;
+        padding: 5px 0px;
+    }
+    .product-box .price{
+        font-size:16px;
+        padding: 5px 0px;
+    }
+}        /* xl */
+
+/* BANNER és WIDGET */
 @media only screen and (max-width: 990px){
+    .row-wrapper{
+        padding-left: 0;
+    }
     .bannerhely{
-        display:none;
+        display: none;
     }
     .widget{
-        display:none;
+        display: none;
     }
-}
+    .row-left{
+        padding: 0;
+        margin-left: 0;
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+    .sidebar-trigger{
+        text-align: center;
+    }
+    .sidebar-content{
+        display: none;
+    }
+    .sidebar a{
+
+    }
+    .sidebar a i{
+
+    }
+    /*****DropDown*****/
+    .sidebar{
+        position: relative;
+
+    }
+    .sidebar:hover .sidebar-content{
+        display: block;
+    }
+}       /* sm - xs */

@@ -2,90 +2,91 @@
 
 <link rel="stylesheet" type="text/css" href="/productlist/style.css">
 <link rel="stylesheet" type="text/css" href="/productlist/responsive.css">
+<link rel="stylesheet" type="text/css" href="/productlist/BootstrapXL.css">
 
 <div class="row">
     <div class="row-wrapper">
         <!-- LEFT COL -->
         <div class="row-left">
-            <div class="sidebar col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="sidebar col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <a href="#" class="sidebar-trigger">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                     <span>Kategóriák</span>
                 </a>
-                <div class="sidebar-content col-md-12 col-sm-12">
+                <div class="sidebar-content col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
                     <span>Állatfelszerelések</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Baba-mama-gyerek" title="Baba-mama-gyerek">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Baba-mama-gyerek" title="Baba-mama-gyerek">
                     <span>Baba-mama-gyerek</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Bútor" title="Bútor">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Bútor" title="Bútor">
                     <span>Bútor</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Dekoráció" title="Dekoráció">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Dekoráció" title="Dekoráció">
                     <span>Dekoráció</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Ékszer, óra" title="Ékszer, óra">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Ékszer, óra" title="Ékszer, óra">
                     <span>Ékszer, óra</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Esküvő" title="Esküvő">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Esküvő" title="Esküvő">
                     <span>Esküvő</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Férfiaknak" title="Férfiaknak">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Férfiaknak" title="Férfiaknak">
                     <span>Férfiaknak</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Játék" title="Játék">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Játék" title="Játék">
                     <span>Játék</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Képzőművészet" title="Képzőművészet">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Képzőművészet" title="Képzőművészet">
                     <span>Képzőművészet</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Konyhafelszerelés" title="Konyhafelszerelés">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Konyhafelszerelés" title="Konyhafelszerelés">
                     <span>Konyhafelszerelés</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Magyar motívumokkal" title="Magyar motívumokkal">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Magyar motívumokkal" title="Magyar motívumokkal">
                     <span>Magyar motívumokkal</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Mindenmás" title="Mindenmás">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Mindenmás" title="Mindenmás">
                     <span>Mindenmás</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Naptár, képeslap, album" title="Naptár, képeslap, album">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Naptár, képeslap, album" title="Naptár, képeslap, album">
                     <span>Naptár, képeslap, album</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Otthon, lakberendezés" title="Otthon, lakberendezés">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Otthon, lakberendezés" title="Otthon, lakberendezés">
                     <span>Otthon, lakberendezés</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Ruha, divat, cipő" title="Ruha, divat, cipő">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Ruha, divat, cipő" title="Ruha, divat, cipő">
                     <span>Ruha, divat, cipő</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Szépségápolás" title="Szépségápolás">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Szépségápolás" title="Szépségápolás">
                     <span>Szépségápolás</span>
                 </a>
                 <a href="#">
-                    <img src="https://www.meska.hu/images/category_pictures/baba-mama-gyerek.svg" alt="Táska" title="Táska">
+                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Táska" title="Táska">
                     <span>Táska</span>
                 </a>
                 </div>
             </div>
                 <div class="clear"></div>
-            <div class="bannerhely col-md-12">BANNERHELY</div>
-            <div class="widget col-md-12">WIDGET</div>
+            <div class="bannerhely col-xs-12 col-sm-12 col-md-12 col-lg-12">BANNERHELY</div>
+            <div class="widget col-xs-12 col-sm-12 col-md-12 col-lg-12">WIDGET</div>
         </div>
         <!-- RIGHT COL -->
         <div class="row-right">
@@ -361,10 +362,13 @@
 
                 <div class="row" id="cont">
                     <?php
-                    for($i=1;$i<=40;$i++){ ?>
-                        <div class="products col-xs-12 col-sm-6 col-md-3 col-lg-2 padding5">
+                    for($i=1;$i<=120;$i++){ ?>
+                        <div class="products col-xs-6 col-sm-4 col-md-3 col-lg-2-custom col-xl-2 padding5">
                             <div class="product-box">
-                                <img class="product-image" alt="" title="" src="https://www.meska.hu/img/product/small/d/u/dundomuvek_product_115793_160923202505_793299.jpeg">
+                                <div class="image-wrap">
+                                    <img class="product-image" alt="" title="" src="https://www.meska.hu/img/product/small/d/u/dundomuvek_product_115793_160923202505_793299.jpeg">
+                                    <a href="" class="button">Tovább »</a>
+                                </div>
                                 <div class="seller-pic">
                                     <img src="https://www.meska.hu/img/avatar/medium/Ritzy_avatar_66524_1489947806.jpg">
                                 </div>
@@ -374,9 +378,6 @@
                                     <div class="price">5 456.- Ft</div>
                                 </div>
                                 <div class="clear"></div>
-                                <div class="overlay">
-                                    <a href="" class="button">Tovább »</a>
-                                </div>
                             </div>
                         </div>
                     <?php }
@@ -397,4 +398,3 @@
 </div>
 
 <?php include_once('../footer.php'); ?>
-
