@@ -1,12 +1,7 @@
-xl  -   6 product   1601    -       ->
-lg  -   5 product   1201    -       1600
-md  -   4 product   991     -       1200
-sm  -   3 product   768     -       990
+xl  -   6 product   1651    -       ->
+lg  -   5 product   1301    -       1650
+md  -   4 product   1101     -      1300
+sm  -   3 product   768     -       1100
 xs  -   2 product   0       -       767
 
 TODO:
-menü felülre lenyílóra /fekvő mobilnál selectben/
-képek max 300px
-
-NOTES:
-tovább >> gombot 400-as weightre raktam, mert a 300 nagyon vékonyka

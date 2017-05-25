@@ -363,8 +363,8 @@
                 <div class="row" id="cont">
                     <?php
                     for($i=1;$i<=120;$i++){ ?>
-                        <div class="products col-xs-6 col-sm-4 col-md-3 col-lg-2-custom col-xl-2 padding5">
-                            <div class="product-box">
+                            <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                                <div class="product-box" onclick="location.href='#';">
                                 <div class="image-wrap">
                                     <img class="product-image" alt="" title="" src="https://www.meska.hu/img/product/small/d/u/dundomuvek_product_115793_160923202505_793299.jpeg">
                                     <a href="" class="button">Tovább »</a>
@@ -378,8 +378,8 @@
                                     <div class="price">5 456.- Ft</div>
                                 </div>
                                 <div class="clear"></div>
+                                </div>
                             </div>
-                        </div>
                     <?php }
                     ?>
                 </div>
