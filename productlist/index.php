@@ -1,6 +1,7 @@
 <?php include_once('../header.php'); ?>
 
 <link rel="stylesheet" type="text/css" href="/productlist/style.css">
+<link rel="stylesheet" type="text/css" href="/productlist/fonts.css">
 <link rel="stylesheet" type="text/css" href="/productlist/responsive.css">
 <link rel="stylesheet" type="text/css" href="/productlist/BootstrapXL.css">
 
@@ -90,6 +91,7 @@
         </div>
         <!-- RIGHT COL -->
         <div class="row-right">
+            <div class="specify">
                 <ol class="breadcrumb">
                     <li><a href="https://www.meska.hu/">
                             <i class="fa fa-home" aria-hidden="true"></i>
@@ -97,9 +99,7 @@
                         </a></li>
                     <li class="active"><a href="https://www.meska.hu/s/Mind"></a></li>
                 </ol>
-
                 <h1 class="title">Keresés termékek között</h1><br>
-
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Technika <span class="caret"></span>
@@ -275,7 +275,6 @@
                         </li>
                     </ul>
                 </div>
-
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Szín <span class="caret"></span>
@@ -308,7 +307,6 @@
                         <li><a href="https://www.meska.hu/s/narancssarga/co-568">Narancssárga</a></li>
                     </ul>
                 </div>
-
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Ár <span class="caret"></span>
@@ -327,7 +325,6 @@
                         <li><a href="https://www.meska.hu/s/Mind/20000">20000 - </a></li>
                     </ul>
                 </div>
-
                 <div class="btn-group"></div>
                 <div class="checkbox btn-group">
                     <label>
@@ -352,14 +349,13 @@
                         <input type="checkbox" value="j" onclick="window.location.href='https://www.meska.hu/s/Mind/j'"> zsűrizett
                     </label>
                 </div>
-
                 <div class="col-md-12 col-sm-12 col-xs-12 no-padding paddingtb10">
                     Keresési szempontok:
-                    <a class="color-red pull-right" href="https://www.meska.hu/s/Mind">Keresési szempontok törlése
+                        <a class="color-red pull-right" href="https://www.meska.hu/s/Mind">Keresési szempontok törlése
                         <i class="fa fa-close" aria-hidden="true"></i></a>
                 </div>
                 <div class="clearfix"></div>
-
+            </div>
                 <div class="row" id="cont">
                     <?php
                     for($i=1;$i<=120;$i++){ ?>
@@ -367,7 +363,7 @@
                                 <div class="product-box" onclick="location.href='#';">
                                 <div class="image-wrap">
                                     <img class="product-image" alt="" title="" src="https://www.meska.hu/img/product/small/d/u/dundomuvek_product_115793_160923202505_793299.jpeg">
-                                    <a href="" class="button">Tovább »</a>
+                                    <img src="img/plus.svg" class="icon">
                                 </div>
                                 <div class="seller-pic">
                                     <img src="https://www.meska.hu/img/avatar/medium/Ritzy_avatar_66524_1489947806.jpg">
