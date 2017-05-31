@@ -441,19 +441,27 @@ function cut($s, $lenght, $append) {
                         <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                             <div class="product-box" onclick="location.href='#';">
                                 <div class="image-wrap">
-                                    <img class="product-image" alt="" title="" src="<?=$p['image']?>">
+                                    <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
                                     <img src="img/plus.svg" class="icon">
                                 </div>
                                 <div class="seller-pic">
                                     <?php if ($p['avatar'] != '') { ?>
+                                    <a href="https://<?=$p['shop_name']?>.meska.hu">
                                         <img src="https://www.meska.hu/img/avatar/thumbnail/<?=$p['avatar']?>">
+                                    </a>
                                     <?php } else {?>
+                                    <a href="https://<?=$p['shop_name']?>.meska.hu">
                                         <img src="https://www.meska.hu/images/no_avatar.jpg">
+                                    </a>
                                     <?php } ?>
                                 </div>
                                 <div class="product-description">
-                                    <div class="seller"><?=$p['shop_name']?></div>
-                                    <div class="description"><?=cut($p['product_name'], 35, '...')?></div>
+                                    <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                        <div class="seller"><?=$p['shop_name']?></div>
+                                    </a>
+                                    <a href="https://meska.hu/t<?=$p['id']?>">
+                                        <div class="description"><?=cut($p['product_name'], 35, '...')?></div>
+                                    </a>
                                     <div class="price"><?=productPrice($p['price'], '.')?></div>
                                 </div>
                                 <div class="clear"></div>
