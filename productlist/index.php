@@ -23,10 +23,14 @@ function cut($s, $lenght, $append) {
 }
 
 ?>
-
+<!-- CSS -->
 <link rel="stylesheet" type="text/css" href="/productlist/style.css">
-<link rel="stylesheet" type="text/css" href="/productlist/fonts.css">
 <link rel="stylesheet" type="text/css" href="/productlist/responsive.css">
+
+<!-- FONTS -->
+<link rel="stylesheet" type="text/css" href="/productlist/fonts.css">
+
+<!-- BOOTSTRAP -->
 <link rel="stylesheet" type="text/css" href="/productlist/BootstrapXL.css">
 
 <div class="row">
@@ -123,12 +127,13 @@ function cut($s, $lenght, $append) {
                         </a></li>
                     <li class="active"><a href="https://www.meska.hu/s/Mind"></a></li>
                 </ol>
-                <h1 class="title">Keresés termékek között</h1><br>
+                <h1 class="title">Termékkategória</h1><br>
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Technika <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu">
+                        <input type="text" placeholder="Keresés..." class="button-search">
                         <li>
                             <a href="https://www.meska.hu/s/babaes-babkeszites/t-472">
                                 Baba-és bábkészítés </a>
@@ -304,31 +309,32 @@ function cut($s, $lenght, $append) {
                         Szín <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a href="https://www.meska.hu/s/arany/co-512">Arany</a></li>
-                        <li><a href="https://www.meska.hu/s/attetszo/co-513">Áttetsző</a></li>
-                        <li><a href="https://www.meska.hu/s/barna/co-514">Barna</a></li>
-                        <li><a href="https://www.meska.hu/s/beige/co-515">Beige</a></li>
-                        <li><a href="https://www.meska.hu/s/bordo/co-516">Bordó</a></li>
-                        <li><a href="https://www.meska.hu/s/bronz/co-517">Bronz</a></li>
-                        <li><a href="https://www.meska.hu/s/ezust/co-518">Ezüst</a></li>
-                        <li><a href="https://www.meska.hu/s/feher/co-519">Fehér</a></li>
-                        <li><a href="https://www.meska.hu/s/fekete/co-520">Fekete</a></li>
-                        <li><a href="https://www.meska.hu/s/kek/co-521">Kék</a></li>
-                        <li><a href="https://www.meska.hu/s/lila/co-522">Lila</a></li>
-                        <li><a href="https://www.meska.hu/s/piros/co-523">Piros</a></li>
-                        <li><a href="https://www.meska.hu/s/rez/co-524">Réz</a></li>
-                        <li><a href="https://www.meska.hu/s/rozsaszin/co-525">Rózsaszín</a></li>
-                        <li><a href="https://www.meska.hu/s/sarga/co-526">Sárga</a></li>
-                        <li><a href="https://www.meska.hu/s/pinkmagenta/co-791">Pink/Magenta</a></li>
-                        <li><a href="https://www.meska.hu/s/szurke/co-527">Szürke</a></li>
-                        <li><a href="https://www.meska.hu/s/turkiz/co-528">Türkiz</a></li>
-                        <li><a href="https://www.meska.hu/s/zold/co-529">Zöld</a></li>
-                        <li><a href="https://www.meska.hu/s/csikos/co-530">Csíkos</a></li>
-                        <li><a href="https://www.meska.hu/s/kockas/co-531">Kockás</a></li>
-                        <li><a href="https://www.meska.hu/s/mintas/co-532">Mintás</a></li>
-                        <li><a href="https://www.meska.hu/s/pottyos/co-533">Pöttyös</a></li>
-                        <li><a href="https://www.meska.hu/s/tarka/co-534">Tarka</a></li>
-                        <li><a href="https://www.meska.hu/s/narancssarga/co-568">Narancssárga</a></li>
+                        <input type="text" placeholder="Keresés..." class="button-search">
+                        <li><a href="https://www.meska.hu/s/arany/co-512">Arany <div class="color gold"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/attetszo/co-513">Áttetsző <div class="color transparent"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/barna/co-514">Barna <div class="color brown"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/beige/co-515">Beige <div class="color beige"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/bordo/co-516">Bordó <div class="color deep-red"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/bronz/co-517">Bronz <div class="color bronze"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/ezust/co-518">Ezüst <div class="color silver"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/feher/co-519">Fehér <div class="color white"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/fekete/co-520">Fekete <div class="color black"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/kek/co-521">Kék <div class="color blue"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/lila/co-522">Lila <div class="color purple"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/piros/co-523">Piros <div class="color red"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/rez/co-524">Réz <div class="color copper"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/rozsaszin/co-525">Rózsaszín <div class="color pink"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/sarga/co-526">Sárga <div class="color yellow"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/pinkmagenta/co-791">Pink/Magenta <div class="color magenta"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/szurke/co-527">Szürke <div class="color gray"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/turkiz/co-528">Türkiz <div class="color turquoise"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/zold/co-529">Zöld <div class="color green"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/csikos/co-530">Csíkos <div class="color stripe"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/kockas/co-531">Kockás <div class="color ska"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/mintas/co-532">Mintás <div class="color pattern"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/pottyos/co-533">Pöttyös <div class="color dot"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/tarka/co-534">Tarka <div class="color tarka"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/narancssarga/co-568">Narancssárga <div class="color orange"></div> </a></li>
                     </ul>
                 </div>
                 <div class="btn-group">
@@ -373,14 +379,63 @@ function cut($s, $lenght, $append) {
                         <input type="checkbox" value="j" onclick="window.location.href='https://www.meska.hu/s/Mind/j'"> zsűrizett
                     </label>
                 </div>
-                <div class="col-md-12 col-sm-12 col-xs-12 no-padding paddingtb10">
+                <div class="keresesi-szempontok col-md-12 col-sm-12 col-xs-12 no-padding paddingtb10">
                     Keresési szempontok:
+                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
+                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
+                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
+                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
                         <a class="color-red pull-right" href="https://www.meska.hu/s/Mind">Keresési szempontok törlése
                         <i class="fa fa-close" aria-hidden="true"></i></a>
+                </div>
+                <div class="search-bar">
+                    <form role="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get" class="search search-full">
+                        <input name="utf8" type="hidden" value="✓">
+                        <img src="https://image.flaticon.com/icons/svg/54/54554.svg">
+                        <input type="search" name="query" id="search-bar" placeholder="Szabadszavas kereső..." autocomplete="off" aria-label="Search">
+                    </form>
                 </div>
                 <div class="clearfix"></div>
             </div>
                 <div class="row" id="cont">
+                    <div class="kereso">
+                        <div class="keywords">
+                            <b>Termékkategóriában népszerű kulcsszavak:</b>
+                            <span class="keyword">kulcsszo1</span>,
+                            <span class="keyword">kulcsszo2</span>,
+                            <span class="keyword">kulcsszo3</span>,
+                            <span class="keyword">kulcsszo4</span>,
+                            <span class="keyword">kulcsszo5</span>,
+                            <span class="keyword">kulcsszo6</span>,
+                            <span class="keyword">kulcsszo7</span>,
+                            <span class="keyword">kulcsszo8</span>,
+                            <span class="keyword">kulcsszo9</span>,
+                            <span class="keyword">kulcsszo10</span>,
+                            <span class="keyword">kulcsszo11</span>,
+                            <span class="keyword">kulcsszo12</span>,
+                            <span class="keyword">kulcsszo13</span>,
+                            <span class="keyword">kulcsszo14</span>,
+                            <span class="keyword">kulcsszo15</span>,
+                            <span class="keyword">kulcsszo16</span>,
+                            <span class="keyword">kulcsszo17</span>,
+                            <span class="keyword">kulcsszo18</span>,
+                            <span class="keyword">kulcsszo19</span>,
+                            <span class="keyword">kulcsszo20</span>,
+                        </div>
+                        <div class="sort">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Rendezés <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="">Szempont 1</a></li>
+                                    <li><a href="">Szempont 2</a></li>
+                                    <li><a href="">Szempont 3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
                     <?php
                     foreach ($products as $p){ ?>
                         <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">

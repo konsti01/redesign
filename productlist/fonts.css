@@ -1,4 +1,11 @@
+/* Dosis */
 @font-face{
     font-family:"Dosis";
     src:url(../assets/fonts/Dosis-Regular.otf) format("truetype");
+}
+
+/* Open Sans Condensed */
+@font-face{
+    font-family:"Open Sans Condensed";
+    src:url(../assets/fonts/OpenSans-CondLight.ttf) format("truetype");
 }

@@ -5,4 +5,11 @@ sm  -   3 product   768     -       1100
 xs  -   2 product   0       -       767
 
 TODO:
-seller font size
+ár - csúszka
+
+a kategória nevét és a keresési szempontokat felrögzíteném, hogy amikor legörgetünk, azok mindig látszódjanak
+
+keresés (select2 iránymutatás)
+
+a keresési szempontok csak akkor látszódnak, ha kerestünk valamit
+

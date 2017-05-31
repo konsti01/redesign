@@ -14,12 +14,12 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 820) {
-        $(".bannerhely").addClass("bannerhely-fixed col-md-2-300 col-lg-2-300 col-xl-2-300");
-        $(".widget").addClass("widget-fixed col-md-2-300 col-lg-2-300 col-xl-2-300");
+        $(".bannerhely").addClass("bannerhely-fixed col-md-2-250 col-lg-2-250 col-xl-2-250");
+        $(".widget").addClass("widget-fixed col-md-2-250 col-lg-2-250 col-xl-2-250");
     }
     else {
-        $(".bannerhely").removeClass("bannerhely-fixed col-md-2-300 col-lg-2-300 col-xl-2-300");
-        $(".widget").removeClass("widget-fixed col-md-2-300 col-lg-2-300 col-xl-2-300");
+        $(".bannerhely").removeClass("bannerhely-fixed col-md-2-250 col-lg-2-250 col-xl-2-250");
+        $(".widget").removeClass("widget-fixed col-md-2-250 col-lg-2-250 col-xl-2-250");
     }
 });
 

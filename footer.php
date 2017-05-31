@@ -94,7 +94,6 @@
 <script src="https://www.meska.hu/bootstrap/js/echo.min.js" type="text/javascript"></script>
 <script src="https://www.meska.hu/js/ajax_loadable.js" type="text/javascript"></script>
 
-
 <script>
     echo.init({
         offset: 100,
