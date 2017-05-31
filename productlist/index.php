@@ -1,4 +1,28 @@
 <?php include_once('../header.php'); ?>
+<?php include_once('data.php'); ?>
+
+<?php
+
+function productPrice($price, $currency = "Ft") {
+    $ret = number_format($price, NULL, " ", " ");
+    if ($currency != ''){
+        if ($currency == '.'){
+            $ret .= ".- Ft";
+        } else {
+            $ret .= " ".$currency;
+        }
+    }
+    return $ret;
+}
+
+function cut($s, $lenght, $append) {
+    if (mb_strlen($s, 'utf8') >= $lenght) {
+        return str_replace("\\", "", mb_substr($s, 0, $lenght, 'utf8') . $append);
+    }
+    return $s;
+}
+
+?>
 
 <link rel="stylesheet" type="text/css" href="/productlist/style.css">
 <link rel="stylesheet" type="text/css" href="/productlist/fonts.css">
@@ -358,26 +382,29 @@
             </div>
                 <div class="row" id="cont">
                     <?php
-                    for($i=1;$i<=120;$i++){ ?>
-                            <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
-                                <div class="product-box" onclick="location.href='#';">
+                    foreach ($products as $p){ ?>
+                        <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                            <div class="product-box" onclick="location.href='#';">
                                 <div class="image-wrap">
-                                    <img class="product-image" alt="" title="" src="https://www.meska.hu/img/product/small/d/u/dundomuvek_product_115793_160923202505_793299.jpeg">
+                                    <img class="product-image" alt="" title="" src="<?=$p['image']?>">
                                     <img src="img/plus.svg" class="icon">
                                 </div>
                                 <div class="seller-pic">
-                                    <img src="https://www.meska.hu/img/avatar/medium/Ritzy_avatar_66524_1489947806.jpg">
+                                    <?php if ($p['avatar'] != '') { ?>
+                                        <img src="https://www.meska.hu/img/avatar/thumbnail/<?=$p['avatar']?>">
+                                    <?php } else {?>
+                                        <img src="https://www.meska.hu/images/no_avatar.jpg">
+                                    <?php } ?>
                                 </div>
                                 <div class="product-description">
-                                    <div class="seller">VintageEkszerekKicsinyBoltja</div>
-                                    <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
-                                    <div class="price">5 456.- Ft</div>
+                                    <div class="seller"><?=$p['shop_name']?></div>
+                                    <div class="description"><?=cut($p['product_name'], 35, '...')?></div>
+                                    <div class="price"><?=productPrice($p['price'], '.')?></div>
                                 </div>
                                 <div class="clear"></div>
-                                </div>
                             </div>
-                    <?php }
-                    ?>
+                        </div>
+                    <?php } ?>
                 </div>
                 <div class="show-more">Több termék megjelenítése</div>
                 <div class="category-desc">
