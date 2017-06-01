@@ -5,9 +5,14 @@ sm  -   3 product   768     -       1100
 xs  -   2 product   0       -       767
 
 TODO:
+szabadszavas kereső row pos
+responsive product box min-heights
+
 ár - csúszka
 
-a kategória nevét és a keresési szempontokat felrögzíteném, hogy amikor legörgetünk, azok mindig látszódjanak
+.specify fix pos
+
+css 151
 
 keresés (select2 iránymutatás)
 

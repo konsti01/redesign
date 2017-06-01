@@ -143,7 +143,18 @@ body{
     background-color: #fff;
     padding: 7px 10px;
     float: left;
-    width: 73%;
+    width: 100%;
+}
+.keresesi-szempontok .trashcan{
+    width: 20px;
+    height: 20px;
+    background-image: url(img/trash.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    float: right;
+}
+.keresesi-szempontok .trashcan:hover{
+    background-image: url(img/trash_hover.svg);
 }
 .szempont{
     display: inline-block;
@@ -186,8 +197,14 @@ body{
     width: 80%;
     float: left;
 }
-#cont .kereso .keyword{
+#cont .kereso .keyword{}
+#cont .kereso .keyword a{
     text-decoration: underline;
+    color: #333;
+}
+#cont .kereso .keyword a:hover{
+    color: #000;
+    text-decoration: none;
 }
 #cont .kereso .sort{
     float: right;

@@ -379,15 +379,6 @@ function cut($s, $lenght, $append) {
                         <input type="checkbox" value="j" onclick="window.location.href='https://www.meska.hu/s/Mind/j'"> zsűrizett
                     </label>
                 </div>
-                <div class="keresesi-szempontok col-md-12 col-sm-12 col-xs-12 no-padding paddingtb10">
-                    Keresési szempontok:
-                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
-                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
-                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
-                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
-                        <a class="color-red pull-right" href="https://www.meska.hu/s/Mind">Keresési szempontok törlése
-                        <i class="fa fa-close" aria-hidden="true"></i></a>
-                </div>
                 <div class="search-bar">
                     <form role="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get" class="search search-full">
                         <input name="utf8" type="hidden" value="✓">
@@ -395,32 +386,40 @@ function cut($s, $lenght, $append) {
                         <input type="search" name="query" id="search-bar" placeholder="Szabadszavas kereső..." autocomplete="off" aria-label="Search">
                     </form>
                 </div>
+                <div class="keresesi-szempontok col-md-12 col-sm-12 col-xs-12 no-padding paddingtb10">
+                    Keresési szempontok:
+                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
+                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
+                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
+                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
+                    <a href=""><div class="trashcan"></div></a>
+                </div>
                 <div class="clearfix"></div>
             </div>
                 <div class="row" id="cont">
                     <div class="kereso">
                         <div class="keywords">
                             <b>Termékkategóriában népszerű kulcsszavak:</b>
-                            <span class="keyword">kulcsszo1</span>,
-                            <span class="keyword">kulcsszo2</span>,
-                            <span class="keyword">kulcsszo3</span>,
-                            <span class="keyword">kulcsszo4</span>,
-                            <span class="keyword">kulcsszo5</span>,
-                            <span class="keyword">kulcsszo6</span>,
-                            <span class="keyword">kulcsszo7</span>,
-                            <span class="keyword">kulcsszo8</span>,
-                            <span class="keyword">kulcsszo9</span>,
-                            <span class="keyword">kulcsszo10</span>,
-                            <span class="keyword">kulcsszo11</span>,
-                            <span class="keyword">kulcsszo12</span>,
-                            <span class="keyword">kulcsszo13</span>,
-                            <span class="keyword">kulcsszo14</span>,
-                            <span class="keyword">kulcsszo15</span>,
-                            <span class="keyword">kulcsszo16</span>,
-                            <span class="keyword">kulcsszo17</span>,
-                            <span class="keyword">kulcsszo18</span>,
-                            <span class="keyword">kulcsszo19</span>,
-                            <span class="keyword">kulcsszo20</span>,
+                            <span class="keyword"><a href="">kulcsszo1</a></span>,
+                            <span class="keyword"><a href="">kulcsszo2</a></span>,
+                            <span class="keyword"><a href="">kulcsszo3</a></span>,
+                            <span class="keyword"><a href="">kulcsszo4</a></span>,
+                            <span class="keyword"><a href="">kulcsszo5</a></span>,
+                            <span class="keyword"><a href="">kulcsszo6</a></span>,
+                            <span class="keyword"><a href="">kulcsszo7</a></span>,
+                            <span class="keyword"><a href="">kulcsszo8</a></span>,
+                            <span class="keyword"><a href="">kulcsszo9</a></span>,
+                            <span class="keyword"><a href="">kulcsszo10</a></span>,
+                            <span class="keyword"><a href="">kulcsszo11</a></span>,
+                            <span class="keyword"><a href="">kulcsszo12</a></span>,
+                            <span class="keyword"><a href="">kulcsszo13</a></span>,
+                            <span class="keyword"><a href="">kulcsszo14</a></span>,
+                            <span class="keyword"><a href="">kulcsszo15</a></span>,
+                            <span class="keyword"><a href="">kulcsszo16</a></span>,
+                            <span class="keyword"><a href="">kulcsszo17</a></span>,
+                            <span class="keyword"><a href="">kulcsszo18</a></span>,
+                            <span class="keyword"><a href="">kulcsszo19</a></span>,
+                            <span class="keyword"><a href="">kulcsszo20</a></span>,
                         </div>
                         <div class="sort">
                             <div class="btn-group">
