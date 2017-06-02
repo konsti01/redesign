@@ -355,29 +355,16 @@ function cut($s, $lenght, $append) {
                         <li><a href="https://www.meska.hu/s/Mind/20000">20000 - </a></li>
                     </ul>
                 </div>
-                <div class="btn-group"></div>
-                <div class="checkbox btn-group">
-                    <label>
-                        <input type="checkbox" value="cc" onclick="window.location.href='https://www.meska.hu/s/Mind/cc'"> bankkártya
-                    </label>
-                </div>
-                <div class="btn-group"></div>
-                <div class="checkbox btn-group">
-                    <label>
-                        <input type="checkbox" value="gc" onclick="window.location.href='https://www.meska.hu/s/Mind/gc'"> ajándékkártya
-                    </label>
-                </div>
-                <div class="btn-group"></div>
-                <div class="checkbox btn-group">
-                    <label>
-                        <input type="checkbox" value="j" onclick="window.location.href='https://www.meska.hu/s/Mind/om'"> saját alapanyag
-                    </label>
-                </div>
-                <div class="btn-group"></div>
-                <div class="checkbox btn-group">
-                    <label>
-                        <input type="checkbox" value="j" onclick="window.location.href='https://www.meska.hu/s/Mind/j'"> zsűrizett
-                    </label>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Fizetési és szállítási lehetőségek <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.meska.hu/s/Mind/cc">Bankkártya</a></li>
+                        <li><a href="https://www.meska.hu/s/Mind/gc">Ajándékkártya</a></li>
+                        <li><a href="https://www.meska.hu/s/Mind/om">Saját alapanyag</a></li>
+                        <li><a href="https://www.meska.hu/s/Mind/j">Zsűrizett</a></li>
+                    </ul>
                 </div>
                 <div class="search-bar">
                     <form role="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get" class="search search-full">
@@ -426,10 +413,12 @@ function cut($s, $lenght, $append) {
                                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Rendezés <span class="caret"></span>
                                 </button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="">Szempont 1</a></li>
-                                    <li><a href="">Szempont 2</a></li>
-                                    <li><a href="">Szempont 3</a></li>
+                                <ul class="dropdown-menu-2">
+                                    <li><a href="">Ár szerint csökkenő (legdrágább elől)</a></li>
+                                    <li><a href="">Ár szerint növekvő (legolcsóbb elől)</a></li>
+                                    <li><a href="">Legújabbak elől</a></li>
+                                    <li><a href="">Legnézettebbek elől</a></li>
+                                    <li><a href="">Legnépszerűbbek elől</a></li>
                                 </ul>
                             </div>
                         </div>

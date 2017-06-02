@@ -109,10 +109,6 @@
         font-size:14px;
         padding: 5px 0px;
     }
-    .product-box .price{
-        font-size:16px;
-        padding: 5px 0px;
-    }
 }        /* lg */
 
 @media only screen and (min-width: 1651px){

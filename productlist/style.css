@@ -35,7 +35,7 @@ body{
     padding: 0;
 }
 .sidebar a{
-    background-color: #4d4d4d;
+    background-color: #88B04B;
     border-bottom: 1px solid #ccc;
     color: #fff;
     text-decoration: none;
@@ -45,7 +45,7 @@ body{
     text-align: right;
 }
 .sidebar a:hover{
-    background-color: #212121;
+    background-color: #536b2e;
 }
 .sidebar a i{
     color: #fff;
@@ -142,6 +142,7 @@ body{
 .keresesi-szempontok{
     background-color: #fff;
     padding: 7px 10px;
+    margin: 5px 0 0 0;
     float: left;
     width: 100%;
 }
@@ -161,7 +162,7 @@ body{
     background-color: #eee;
     color: #999;
     padding: 2px 5px;
-    font-size: 10px;
+    font-size: 12px;
     position: relative; bottom: 2px;
 }
 .szempont img{
@@ -199,6 +200,7 @@ body{
 }
 #cont .kereso .keyword{}
 #cont .kereso .keyword a{
+    font-size: 12px;
     text-decoration: underline;
     color: #333;
 }
@@ -210,6 +212,46 @@ body{
     float: right;
     margin: 10px 0px 0px 0px;
 }
+.open > .dropdown-menu-2{
+    display: block;
+}
+.dropdown-menu-2{
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.dropdown-menu-2>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.dropdown-menu-2>li>a:focus, .dropdown-menu-2>li>a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+
 #cont .products{
     display: none;
 }
@@ -288,16 +330,17 @@ body{
     letter-spacing: 1px;
 }
 .product-box .description{
-    font-family: Dosis;
+    font-family: "Open Sans Condensed";
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size:16px;
     color: #000;
     padding: 5px 0px;
+    letter-spacing: 1px;
 }
 .product-box .price{
-    font-family: Dosis;
-    font-size:16px;
+    font-family: Amatic-SC;
+    font-size:24px;
     color: #000;
     opacity: 0.5;
     padding: 5px 0px;
@@ -310,6 +353,7 @@ body{
     text-align:justify;
 }
 
+/* Termékkategória nav */
 .col-md-2-250{
     width: 250px;
 }
@@ -318,6 +362,11 @@ body{
 }
 .col-xl-2-250{
     width: 250px;
+}
+
+/* Kategória dropdown */
+.dropdown-hover .dropdown-hover-menu{
+    z-index: 9999;
 }
 
 .clear{
