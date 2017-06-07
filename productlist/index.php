@@ -119,7 +119,7 @@ function cut($s, $lenght, $append) {
         </div>
         <!-- RIGHT COL -->
         <div class="row-right">
-            <div class="specify">
+
                 <ol class="breadcrumb">
                     <li><a href="https://www.meska.hu/">
                             <i class="fa fa-home" aria-hidden="true"></i>
@@ -127,6 +127,7 @@ function cut($s, $lenght, $append) {
                         </a></li>
                     <li class="active"><a href="https://www.meska.hu/s/Mind"></a></li>
                 </ol>
+            <div class="specify">
                 <h1 class="title">Termékkategória</h1><br>
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

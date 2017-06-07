@@ -35,32 +35,14 @@ $(document).ready(function () {
     }
 });
 
-//PRODUCT IMAGE HEIGHT
-/*$(document).ready(function() {
-    var window_width = $(window).width();               //ablak szélessége
-    var nav_width = $('.col-md-2-custom').width();      //nav szélessége
-    $('.col-md-10-custom').css({
-        'width': window_width - nav_width + 'px'        //ablak-nav
-    });
+//SPECIFY FIX
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
 
-    var image_width = $('.product-image').width();    //kép szélessége
-    $('.product-image').css({
-        'height': image_width + 'px'                  //magasság=szélesség
-    });
- });*/
-
-//SCROLL VERZIÓ
-/*$(document).ready(function() {
- var win = $(window);
- var doc = $(document);
- var size_cont = $("#cont .products").size();        //ez most 40
- var x = 12;                                         //ennyit
- $('#cont .products:lt('+x+')').show();              //jelenít meg először
-
- win.scroll(function() {
- if (doc.height() - win.height() == win.scrollTop()) {
- x = (x+4 <= size_cont) ? x+4 : size_cont;   //ennyit ad hozzá a megjelenítendőkhöz
- $('#cont .products:lt('+x+')').show();      //és megjeleníti
- }
- });
- });*/
+    if (scroll >= 150) {
+        $(".specify").addClass("specify-fixed");
+    }
+    else {
+        $(".specify").removeClass("specify-fixed");
+    }
+});

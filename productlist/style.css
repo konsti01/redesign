@@ -45,7 +45,7 @@ body{
     text-align: right;
 }
 .sidebar a:hover{
-    background-color: #536b2e;
+    background-color: #336600;
 }
 .sidebar a i{
     color: #fff;
@@ -60,7 +60,10 @@ body{
     float: right;
 }
 .sidebar a span {
-    font-size: 14px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Open Sans";
 }
 
 .bannerhely{
@@ -90,7 +93,7 @@ body{
 }
 
 .breadcrumb{
-    padding: 0;
+    padding: 5px;
     background-color: transparent;
     list-style: none;
     margin: 0 0 20px 0;
@@ -98,6 +101,13 @@ body{
 
 .specify{
     margin: 0 0 0 5px;
+}
+.specify-fixed{
+    position:fixed;
+    top: 0;
+    background-color: #F8F8F8;
+    border-bottom: 2px solid #F8F8F8;
+    z-index: 9999;
 }
 .btn-default:hover {
     background-color: transparent;
@@ -147,10 +157,11 @@ body{
     width: 100%;
 }
 .keresesi-szempontok .trashcan{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
+    margin: 5px 0 0 0;
     background-image: url(img/trash.svg);
-    background-size: 20px 20px;
+    background-size: 15px 15px;
     background-repeat: no-repeat;
     float: right;
 }
@@ -163,7 +174,12 @@ body{
     color: #999;
     padding: 2px 5px;
     font-size: 12px;
-    position: relative; bottom: 2px;
+    /*position: relative; bottom: 2px;*/
+    border-radius: 5px;
+}
+.szempont:hover{
+    background-color: #88B04B;
+    color: #fff;
 }
 .szempont img{
     width: 7px;
@@ -197,6 +213,9 @@ body{
 #cont .kereso .keywords{
     width: 80%;
     float: left;
+}
+#cont .kereso .keywords b{
+    font-size: 13px;
 }
 #cont .kereso .keyword{}
 #cont .kereso .keyword a{
@@ -259,8 +278,8 @@ body{
 .show-more{
     width: 270px;
     text-align: center;
-    color: rgb(139, 195, 74);
-    border: 1px solid rgb(139, 195, 74);
+    color: #88B04B;
+    border: 1px solid #88B04B;
     border-radius: 5px;
     margin: 10px auto 0 auto;
     padding: 10px 10px;
@@ -270,8 +289,8 @@ body{
 }
 .show-more:hover{
     color: #fff;
-    background-color: #006633;
-    border: 1px solid #006633;
+    background-color: #88B04B;
+    border: 1px solid #88B04B;
 }
 
 .product-box{
@@ -281,10 +300,9 @@ body{
     border: 1px solid #ccc;*/
     max-width: 322px;
     cursor: pointer;
-    min-height: 360px;
 }
 .image-wrap{
-    background-color: #65A89E;
+    background-color: #88B04B;
     max-width: 300px;
 }
 .product-image{
@@ -337,10 +355,11 @@ body{
     color: #000;
     padding: 5px 0px;
     letter-spacing: 1px;
+    height: 60px;
 }
 .product-box .price{
-    font-family: Amatic-SC;
-    font-size:24px;
+    font-family: Amatic SC;
+    font-size:24pt;
     color: #000;
     opacity: 0.5;
     padding: 5px 0px;
