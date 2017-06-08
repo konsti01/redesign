@@ -343,7 +343,9 @@ function cut($s, $lenght, $append) {
                         Ár <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a href="https://www.meska.hu/s/Mind/0-1999">0 - 1999</a></li>
+                        <li>
+                            <input type="text" id="range" name="range" value="">
+                        </li>
                         <li><a href="https://www.meska.hu/s/Mind/2000-3999">2000 - 3999</a></li>
                         <li><a href="https://www.meska.hu/s/Mind/4000-5999">4000 - 5999</a></li>
                         <li><a href="https://www.meska.hu/s/Mind/6000-7999">6000 - 7999</a></li>

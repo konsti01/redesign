@@ -2,19 +2,17 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="/productlist/scroll-load.js"></script>
-    <script src="/faq/index2_files/search.js"></script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Mind</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- RangeSlider -->
+    <link rel="stylesheet" type="text/css" href="/productlist/ion.rangeSlider-2.1.7/css/ion.rangeSlider.css">
+    <link rel="stylesheet" type="text/css" href="/productlist/ion.rangeSlider-2.1.7/css/ion.rangeSlider.skinFlat.css">
 
     <!--TODO-->
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/simple-sidebar.css">

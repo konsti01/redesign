@@ -84,6 +84,33 @@
     </div>
 </div>
 
+<!--RangeSlider -->
+<script type="text/javascript" src="/productlist/ion.rangeSlider-2.1.7/js/vendor/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="/productlist/ion.rangeSlider-2.1.7/js/ion-rangeSlider/ion.rangeSlider.js"></script>
+<script>
+
+    $(function () {
+
+        $("#range").ionRangeSlider({
+            hide_min_max: true,
+            keyboard: true,
+            min: 0,
+            max: 5000,
+            from: 1000,
+            to: 4000,
+            type: 'double',
+            step: 1,
+            prefix: "$",
+            grid: true
+        });
+
+    });
+</script>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/productlist/scroll-load.js"></script>
+<script src="/faq/index2_files/search.js"></script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
