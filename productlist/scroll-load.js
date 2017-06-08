@@ -41,8 +41,10 @@ $(window).scroll(function() {
 
     if (scroll >= 150) {
         $(".specify").addClass("specify-fixed");
+        $("#cont").addClass("cont-fixed");
     }
     else {
         $(".specify").removeClass("specify-fixed");
+        $("#cont").removeClass("cont-fixed");
     }
 });

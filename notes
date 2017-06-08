@@ -5,14 +5,9 @@ sm  -   3 product   768     -       1100
 xs  -   2 product   0       -       767
 
 TODO:
-szabadszavas kereső row pos
-responsive product box min-heights
+productbox text-overflow
 
-ár - csúszka
-
-.specify fix pos
-
-css 151
+landingpage videobg
 
 keresés (select2 iránymutatás)
 

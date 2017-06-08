@@ -105,6 +105,8 @@ body{
 .specify-fixed{
     position:fixed;
     top: 0;
+    left: 260px;
+    right: 10px;
     background-color: #F8F8F8;
     border-bottom: 2px solid #F8F8F8;
     z-index: 9999;
@@ -276,8 +278,8 @@ body{
     background-color: #f5f5f5;
 }
 
-#cont .products{
-    display: none;
+.cont-fixed{
+    margin: 150px 0 0 0 !important;
 }
 
 .show-more{

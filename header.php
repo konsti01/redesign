@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- RangeSlider -->
-    <link rel="stylesheet" type="text/css" href="/productlist/ion.rangeSlider-2.1.7/css/ion.rangeSlider.css">
-    <link rel="stylesheet" type="text/css" href="/productlist/ion.rangeSlider-2.1.7/css/ion.rangeSlider.skinFlat.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.7/css/ion.rangeSlider.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.7/css/ion.rangeSlider.skinNice.css">
 
     <!--TODO-->
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/simple-sidebar.css">
