@@ -25,6 +25,7 @@
 		<link href="css/animate.min.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/responsive.css" rel="stylesheet">
+        <link href="css/dynamic-bg.less" rel="stylesheet">
 		<!-- SCRIPTEK START -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
@@ -36,12 +37,17 @@
 		<!-- <script src="js/bootstrap-transition.js"></script> -->
 		<script src="js/owl.carousel.min.js"></script>
 		<script src="js/main.js"></script>
-		<!-- SCRIPTEK END -->
+        <!-- DynamicBG -->
+        <script src="js/device.min.js"></script> <!--OPTIONAL JQUERY PLUGIN-->
+        <script src="js/jquery.mb.YTPlayer.js"></script>
+        <script src="js/custom.js"></script>
+        <!-- SCRIPTEK END -->
 	</head>
 	<body>
 		<!-- HEADER START -->
 		<header class="header-wrapper">
-			<nav id="top-menu" class="navbar navbar-default fadeInDown my-animation"> <!-- navbar-fixed-top -->
+            <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=iNJdPyoqt8U',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
+            <nav id="top-menu" class="navbar navbar-default fadeInDown my-animation"> <!-- navbar-fixed-top -->
 			  <div class="container">
 				<div class="row">
 					<div class="col-xs-12">
@@ -608,9 +614,9 @@
 			</div>
 			<div class="footer-copyright">
 				<div class="container">
-					<span class="line">© 2008-2017 Meska.hu Kft. - Minden jog fenntartva!<span class="separator"> | </span><span>
-					<span class="line">Adószám: 14260960-2-43<span class="separator"> | </span><span>
-					<span class="line">Cégjegyzékszám: 01-09-896027<span>
+					<span class="line">© 2008-2017 Meska.hu Kft. - Minden jog fenntartva!</span><span class="separator"> | </span>
+					<span class="line">Adószám: 14260960-2-43</span><span class="separator"> | </span>
+					<span class="line">Cégjegyzékszám: 01-09-896027</span>
 				</div>
 			</div>
 		</footer>

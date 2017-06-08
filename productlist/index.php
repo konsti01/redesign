@@ -15,12 +15,12 @@ function productPrice($price, $currency = "Ft") {
     return $ret;
 }
 
-function cut($s, $lenght, $append) {
+/*function cut($s, $lenght, $append) {
     if (mb_strlen($s, 'utf8') >= $lenght) {
         return str_replace("\\", "", mb_substr($s, 0, $lenght, 'utf8') . $append);
     }
     return $s;
-}
+}*/
 
 ?>
 <!-- CSS -->
@@ -441,7 +441,7 @@ function cut($s, $lenght, $append) {
                                         <div class="seller"><?=$p['shop_name']?></div>
                                     </a>
                                     <a href="https://meska.hu/t<?=$p['id']?>">
-                                        <div class="description"><?=cut($p['product_name'], 35, '...')?></div>
+                                        <div class="description"><?=$p['product_name']?></div>
                                     </a>
                                     <div class="price"><?=productPrice($p['price'], '.')?></div>
                                 </div>
