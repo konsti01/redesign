@@ -85,35 +85,30 @@
 </div>
 
 <!--RangeSlider -->
-<script type="text/javascript" src="/productlist/ion.rangeSlider-2.1.7/js/vendor/jquery-1.12.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="/productlist/ion.rangeSlider-2.1.7/js/ion-rangeSlider/ion.rangeSlider.js"></script>
 <script>
-
     $(function () {
-
         $("#range").ionRangeSlider({
             hide_min_max: true,
             keyboard: true,
             min: 0,
-            max: 5000,
+            max: 20000,
             from: 1000,
-            to: 4000,
+            to: 5000,
             type: 'double',
             step: 1,
-            prefix: "$",
+            postfix: " Ft",
             grid: true
         });
-
     });
 </script>
 
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- localJS-->
 <script src="/productlist/scroll-load.js"></script>
 <script src="/faq/index2_files/search.js"></script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 

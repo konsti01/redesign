@@ -149,6 +149,11 @@ body{
 .tarka{background: url(img/tarka.jpg) no-repeat top center; background-size: 60px;}
 .orange{background-color: #ff9933;}
 
+.price-range{
+    width: 500px;
+    padding: 10px;
+}
+
 .keresesi-szempontok{
     background-color: #fff;
     padding: 7px 10px;
