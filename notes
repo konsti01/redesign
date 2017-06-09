@@ -5,9 +5,6 @@ sm  -   3 product   768     -       1100
 xs  -   2 product   0       -       767
 
 TODO:
-
-landingpage videobg
-
+.cont-fixed margin-top
+price slide display
 keresés (select2 iránymutatás)
-
-a keresési szempontok csak akkor látszódnak, ha kerestünk valamit

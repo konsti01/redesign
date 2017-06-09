@@ -375,48 +375,50 @@ function productPrice($price, $currency = "Ft") {
                     <a href=""><div class="trashcan"></div></a>
                 </div>
                 <div class="clearfix"></div>
-            </div>
-                <div class="row" id="cont">
-                    <div class="kereso">
-                        <div class="keywords">
-                            <b>Termékkategóriában népszerű kulcsszavak:</b>
-                            <span class="keyword"><a href="">kulcsszo1</a></span>,
-                            <span class="keyword"><a href="">kulcsszo2</a></span>,
-                            <span class="keyword"><a href="">kulcsszo3</a></span>,
-                            <span class="keyword"><a href="">kulcsszo4</a></span>,
-                            <span class="keyword"><a href="">kulcsszo5</a></span>,
-                            <span class="keyword"><a href="">kulcsszo6</a></span>,
-                            <span class="keyword"><a href="">kulcsszo7</a></span>,
-                            <span class="keyword"><a href="">kulcsszo8</a></span>,
-                            <span class="keyword"><a href="">kulcsszo9</a></span>,
-                            <span class="keyword"><a href="">kulcsszo10</a></span>,
-                            <span class="keyword"><a href="">kulcsszo11</a></span>,
-                            <span class="keyword"><a href="">kulcsszo12</a></span>,
-                            <span class="keyword"><a href="">kulcsszo13</a></span>,
-                            <span class="keyword"><a href="">kulcsszo14</a></span>,
-                            <span class="keyword"><a href="">kulcsszo15</a></span>,
-                            <span class="keyword"><a href="">kulcsszo16</a></span>,
-                            <span class="keyword"><a href="">kulcsszo17</a></span>,
-                            <span class="keyword"><a href="">kulcsszo18</a></span>,
-                            <span class="keyword"><a href="">kulcsszo19</a></span>,
-                            <span class="keyword"><a href="">kulcsszo20</a></span>,
-                        </div>
-                        <div class="sort">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Rendezés <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu-2">
-                                    <li><a href="">Ár szerint csökkenő (legdrágább elől)</a></li>
-                                    <li><a href="">Ár szerint növekvő (legolcsóbb elől)</a></li>
-                                    <li><a href="">Legújabbak elől</a></li>
-                                    <li><a href="">Legnézettebbek elől</a></li>
-                                    <li><a href="">Legnépszerűbbek elől</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
+
+                <div class="kereso">
+                    <div class="keywords">
+                        <b>Termékkategóriában népszerű kulcsszavak:</b>
+                        <span class="keyword"><a href="">kulcsszo1</a></span>,
+                        <span class="keyword"><a href="">kulcsszo2</a></span>,
+                        <span class="keyword"><a href="">kulcsszo3</a></span>,
+                        <span class="keyword"><a href="">kulcsszo4</a></span>,
+                        <span class="keyword"><a href="">kulcsszo5</a></span>,
+                        <span class="keyword"><a href="">kulcsszo6</a></span>,
+                        <span class="keyword"><a href="">kulcsszo7</a></span>,
+                        <span class="keyword"><a href="">kulcsszo8</a></span>,
+                        <span class="keyword"><a href="">kulcsszo9</a></span>,
+                        <span class="keyword"><a href="">kulcsszo10</a></span>,
+                        <span class="keyword"><a href="">kulcsszo11</a></span>,
+                        <span class="keyword"><a href="">kulcsszo12</a></span>,
+                        <span class="keyword"><a href="">kulcsszo13</a></span>,
+                        <span class="keyword"><a href="">kulcsszo14</a></span>,
+                        <span class="keyword"><a href="">kulcsszo15</a></span>,
+                        <span class="keyword"><a href="">kulcsszo16</a></span>,
+                        <span class="keyword"><a href="">kulcsszo17</a></span>,
+                        <span class="keyword"><a href="">kulcsszo18</a></span>,
+                        <span class="keyword"><a href="">kulcsszo19</a></span>,
+                        <span class="keyword"><a href="">kulcsszo20</a></span>,
                     </div>
+                    <div class="sort">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Rendezés <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu-2">
+                                <li><a href="">Ár szerint csökkenő (legdrágább elől)</a></li>
+                                <li><a href="">Ár szerint növekvő (legolcsóbb elől)</a></li>
+                                <li><a href="">Legújabbak elől</a></li>
+                                <li><a href="">Legnézettebbek elől</a></li>
+                                <li><a href="">Legnépszerűbbek elől</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+            </div>
+                <div class="row cont">
                     <?php
                     foreach ($products as $p){ ?>
                         <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">

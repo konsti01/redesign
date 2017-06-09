@@ -162,6 +162,7 @@ body{
     margin: 5px 0 0 0;
     float: left;
     width: 100%;
+    display: none;
 }
 .keresesi-szempontok .trashcan{
     width: 15px;
@@ -211,30 +212,31 @@ body{
     outline: none;
 }
 
-#cont{
+.cont{
     margin: 0;
 }
-#cont .kereso{
+.specify .kereso{
     margin: 5px;
+    display: none;
 }
-#cont .kereso .keywords{
+.specify .kereso .keywords{
     width: 80%;
     float: left;
 }
-#cont .kereso .keywords b{
+.specify .kereso .keywords b{
     font-size: 13px;
 }
-#cont .kereso .keyword{}
-#cont .kereso .keyword a{
+.specify .kereso .keyword{}
+.specify .kereso .keyword a{
     font-size: 12px;
     text-decoration: underline;
     color: #333;
 }
-#cont .kereso .keyword a:hover{
+.specify .kereso .keyword a:hover{
     color: #000;
     text-decoration: none;
 }
-#cont .kereso .sort{
+.specify .kereso .sort{
     float: right;
     margin: 10px 0px 0px 0px;
 }
@@ -278,8 +280,12 @@ body{
     background-color: #f5f5f5;
 }
 
+.keresesi-szempontok-visible, .kereso-visible{
+    display: block;
+}
+
 .cont-fixed{
-    margin: 150px 0 0 0 !important;
+    margin-top: 110px;
 }
 
 .show-more{

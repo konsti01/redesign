@@ -40,11 +40,29 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 150) {
-        $(".specify").addClass("specify-fixed");
-        $("#cont").addClass("cont-fixed");
+        $(".specify").addClass("specify-fixed"),
+        $(".cont").addClass("cont-fixed");
     }
     else {
-        $(".specify").removeClass("specify-fixed");
-        $("#cont").removeClass("cont-fixed");
+        $(".specify").removeClass("specify-fixed"),
+        $(".cont").removeClass("cont-fixed"),
+
+        $('.cont-fixed').css('margin-top', '110px');
+    }
+});
+
+//SPECIFY VISIBILITY
+$('input[name=query]').keyup(function(){
+    if($(this).val().length){
+        $('.keresesi-szempontok').show(),
+        $('.kereso').show(),
+
+        $('.cont-fixed').css('margin-top', '190px');
+    }
+    else{
+        $('.keresesi-szempontok').hide(),
+        $('.kereso').hide(),
+
+        $('.cont-fixed').css('margin-top', '110px');
     }
 });
