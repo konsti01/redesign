@@ -52,7 +52,7 @@ $(window).scroll(function() {
 });
 
 //SPECIFY VISIBILITY
-$('input[name=query]').keyup(function(){
+/*$('input[name=query]').keyup(function(){
     if($(this).val().length){
         $('.keresesi-szempontok').show(),
         $('.kereso').show(),
@@ -65,4 +65,4 @@ $('input[name=query]').keyup(function(){
 
         $('.cont-fixed').css('margin-top', '110px');
     }
-});
+});*/

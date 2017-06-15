@@ -100,7 +100,7 @@ body{
 }
 
 .specify{
-    margin: 0 0 0 5px;
+    margin: 0 5px 0 5px;
 }
 .specify-fixed{
     position:fixed;
@@ -123,7 +123,8 @@ body{
     width: 20px;
     height: 20px;
     border: 1px solid #ccc;
-    float: right;
+    float: left;
+    margin: 0 5px 0 0;
 }
 .gold{background-color: #cccc00;}
 .transparent{background-color: transparent;}
@@ -162,7 +163,7 @@ body{
     margin: 5px 0 0 0;
     float: left;
     width: 100%;
-    display: none;
+    /*display: none;*/
 }
 .keresesi-szempontok .trashcan{
     width: 15px;
@@ -216,8 +217,8 @@ body{
     margin: 0;
 }
 .specify .kereso{
-    margin: 5px;
-    display: none;
+    margin: 5px 5px 15px 5px;
+    /*display: none;*/
 }
 .specify .kereso .keywords{
     width: 80%;
@@ -285,7 +286,7 @@ body{
 }
 
 .cont-fixed{
-    margin-top: 110px;
+    margin-top: 215px;
 }
 
 .show-more{
@@ -308,7 +309,7 @@ body{
 
 .product-box{
     background-color: #fff;
-    padding: 9px 11px;
+    padding: 9px 11px 0px 11px;
     /*border-radius: 2px;
     border: 1px solid #ccc;*/
     max-width: 322px;
@@ -357,14 +358,15 @@ body{
 .product-box .seller-pic{
     padding: 11px 0px 0px 0px;
     float: left;
-    width: 51px;
+    width: 20%;
+    margin: 0 2% 0 0;
 }
 .product-box .seller-pic img{
-    width: 40px;
+    width: 100%;
     border-radius: 30px;
 }
 .product-box .product-description{
-    width: 75%;
+    width: 78%;
     padding: 10px 0px 10px 0px;
     float: left;
     font-size: 12px;
@@ -386,18 +388,31 @@ body{
     height: 60px;
     overflow: hidden;
     text-overflow: ellipsis;
+
+    position: relative;
 }
+.product-box .description:after {
+    content: "";
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 1.2em;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+}
+
 .product-box .price{
     font-family: Amatic SC;
-    font-size:24pt;
+    font-size:20px;
     font-weight: 900;
     color: #000;
     opacity: 0.5;
-    padding: 5px 0px;
+    padding: 5px 0px 0px 0px;
 }
 
 .category-desc{
-    margin: 0 0 0 5px;
+    margin: 0 5px 0 5px;
 }
 .category-desc .content{
     text-align:justify;

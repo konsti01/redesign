@@ -124,8 +124,9 @@ function productPrice($price, $currency = "Ft") {
                     <li><a href="https://www.meska.hu/">
                             <i class="fa fa-home" aria-hidden="true"></i>
                             <img src="https://www.meska.hu/bootstrap/svg/meska_hu.svg" style="" class="breadcrumb-meskahu"/>
-                        </a></li>
-                    <li class="active"><a href="https://www.meska.hu/s/Mind"></a></li>
+                        </a>
+                    </li>
+                    <li class="active"><a href="https://www.meska.hu/s/Mind"></a>Termékkategória</li>
                 </ol>
             <div class="specify">
                 <h1 class="title">Termékkategória</h1><br>
