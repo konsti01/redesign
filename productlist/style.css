@@ -2,6 +2,17 @@ body{
     background-color: #F8F8F8;
 }
 
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.header-menu ul {
+    margin: 0 0 0 5px;
+}
+
 .row{
     padding:0;
 }
@@ -13,6 +24,7 @@ body{
     margin-left: -250px;
     position: absolute;
     left: 250px;
+    top: 94px;
     width: 250px;
     overflow-y: auto;
     z-index: 1000;
@@ -34,7 +46,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.sidebar a{
+/*.sidebar a{
     background-color: #88B04B;
     border-bottom: 1px solid #ccc;
     color: #fff;
@@ -64,6 +76,55 @@ body{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: "Open Sans";
+}*/
+.sidebar .trigger{
+    background-color: #88B04B;
+    border: 0;
+    border-top: 1px solid #ccc;
+    border-radius: 0;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    padding: 10px 5px 10px 15px;
+    text-align: right;
+    outline: none;
+}
+.sidebar .trigger:hover, .sidebar .trigger:active, .sidebar .trigger:focus,
+.sidebar .trigger.hover, .sidebar .trigger.active, .sidebar .trigger.focus{
+    background-color: #336600;
+    border: 0;
+    border-top: 1px solid #ccc;
+    outline: none;
+}
+.sidebar .trigger img{
+    margin: -2px -3px -2px 5px;
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+.sidebar .trigger span{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Open Sans";
+}
+.subnav{
+    border-top: 1px solid #ccc;
+}
+.subnav a{
+    width: 100%;
+    float: right;
+    text-align: right;
+    background-color: #88B04B;
+    color: #fff;
+    padding: 5px;
+}
+.subnav a:hover{
+    width: 100%;
+    float: right;
+    background-color: #336600;
+    color: #fff;
 }
 
 .bannerhely{
@@ -82,14 +143,14 @@ body{
     margin: 5px 0 0 0;
     height: 250px;
     background-color: #ccc;
-    position: fixed; top: 5px;
+    position: fixed; top: 99px;
 }
 
 .widget-fixed{
     margin: 5px 0 0 0;
     height: 150px;
     background-color: #ccc;
-    position: fixed; top: 265px;
+    position: fixed; top: 359px;
 }
 
 .breadcrumb{
@@ -100,17 +161,25 @@ body{
 }
 
 .specify{
-    margin: 0 5px 0 5px;
-}
-.specify-fixed{
     position:fixed;
-    top: 0;
+    top: 94px;
     left: 260px;
     right: 10px;
     background-color: #F8F8F8;
     border-bottom: 2px solid #F8F8F8;
     z-index: 9999;
+    margin: 0 5px 0 5px;
+    padding: 0 0 5px 0;
 }
+/*.specify-fixed{
+    position:fixed;
+    top: 94px;
+    left: 260px;
+    right: 10px;
+    background-color: #F8F8F8;
+    border-bottom: 2px solid #F8F8F8;
+    z-index: 9999;
+}*/
 .btn-default:hover {
     background-color: transparent;
 }
@@ -159,11 +228,12 @@ body{
 
 .keresesi-szempontok{
     background-color: #fff;
+    font-size: 12px;
     padding: 7px 10px;
     margin: 5px 0 0 0;
     float: left;
     width: 100%;
-    /*display: none;*/
+    display: none;
 }
 .keresesi-szempontok .trashcan{
     width: 15px;
@@ -202,7 +272,7 @@ body{
     padding: 5px 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 25%;
+
 }
 .specify .search-bar img{
     width: 20px;
@@ -213,33 +283,32 @@ body{
     outline: none;
 }
 
+.specify .sort{
+    float: right;
+    margin: 0px 0px 0px 10px;
+}
+
 .cont{
-    margin: 0;
+    margin: 250px 0 0 0;
 }
-.specify .kereso{
-    margin: 5px 5px 15px 5px;
-    /*display: none;*/
-}
-.specify .kereso .keywords{
+
+.keywords{
     width: 80%;
     float: left;
+    margin:200px 5px 0 5px;
 }
-.specify .kereso .keywords b{
-    font-size: 13px;
+.keywords b{
+    font-size: 12px;
 }
-.specify .kereso .keyword{}
-.specify .kereso .keyword a{
+.keyword{}
+.keyword a{
     font-size: 12px;
     text-decoration: underline;
     color: #333;
 }
-.specify .kereso .keyword a:hover{
+.keyword a:hover{
     color: #000;
     text-decoration: none;
-}
-.specify .kereso .sort{
-    float: right;
-    margin: 10px 0px 0px 0px;
 }
 .open > .dropdown-menu-2{
     display: block;
@@ -285,10 +354,6 @@ body{
     display: block;
 }
 
-.cont-fixed{
-    margin-top: 215px;
-}
-
 .show-more{
     width: 270px;
     text-align: center;
@@ -305,6 +370,30 @@ body{
     color: #fff;
     background-color: #88B04B;
     border: 1px solid #88B04B;
+}
+
+.load-more{
+
+}
+.load-more-box{
+    background-color: #88B04B;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    font-size: 120px;
+    border-radius: 180px;
+    text-align: center;
+    max-width: 300px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.load-more .gomb{
+    margin-top: 10px;
+    color: #fff;
+}
+.load-more-box:hover{
+    background-color: #336600;
 }
 
 .product-box{
@@ -385,13 +474,13 @@ body{
     color: #000;
     padding: 5px 0px;
     letter-spacing: 1px;
-    height: 60px;
+    height: 62px;
     overflow: hidden;
     text-overflow: ellipsis;
 
-    position: relative;
+    /*position: relative;*/
 }
-.product-box .description:after {
+/*.product-box .description:after {
     content: "";
     text-align: right;
     position: absolute;
@@ -400,7 +489,7 @@ body{
     width: 70%;
     height: 1.2em;
     background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
-}
+}*/
 
 .product-box .price{
     font-family: Amatic SC;

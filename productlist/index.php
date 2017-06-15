@@ -38,98 +38,216 @@ function productPrice($price, $currency = "Ft") {
         <!-- LEFT COL -->
         <div class="row-left">
             <div class="sidebar col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <a href="#" class="sidebar-trigger">
+                <!--<a href="#" class="sidebar-trigger">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                     <span>Kategóriák</span>
-                </a>
+                </a>-->
                 <div class="sidebar-content col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
-                    <span>Állatfelszerelések</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Baba-mama-gyerek" title="Baba-mama-gyerek">
-                    <span>Baba-mama-gyerek</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Bútor" title="Bútor">
-                    <span>Bútor</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Dekoráció" title="Dekoráció">
-                    <span>Dekoráció</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Ékszer, óra" title="Ékszer, óra">
-                    <span>Ékszer, óra</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Esküvő" title="Esküvő">
-                    <span>Esküvő</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Férfiaknak" title="Férfiaknak">
-                    <span>Férfiaknak</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Játék" title="Játék">
-                    <span>Játék</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Képzőművészet" title="Képzőművészet">
-                    <span>Képzőművészet</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Konyhafelszerelés" title="Konyhafelszerelés">
-                    <span>Konyhafelszerelés</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Magyar motívumokkal" title="Magyar motívumokkal">
-                    <span>Magyar motívumokkal</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Mindenmás" title="Mindenmás">
-                    <span>Mindenmás</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Naptár, képeslap, album" title="Naptár, képeslap, album">
-                    <span>Naptár, képeslap, album</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Otthon, lakberendezés" title="Otthon, lakberendezés">
-                    <span>Otthon, lakberendezés</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Ruha, divat, cipő" title="Ruha, divat, cipő">
-                    <span>Ruha, divat, cipő</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Szépségápolás" title="Szépségápolás">
-                    <span>Szépségápolás</span>
-                </a>
-                <a href="#">
-                    <img src="/productlist/img/baba-mama-gyerek.svg" alt="Táska" title="Táska">
-                    <span>Táska</span>
-                </a>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#01">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Állatfelszerelések</span>
+                        </button>
+                        <div id="01" class="subnav collapse">
+                            <a href="">Állatfelszerelések Almenü 1</a>
+                            <a href="">Állatfelszerelések Almenü 2</a>
+                            <a href="">Állatfelszerelések Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#02">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Baba-mama-gyerek</span>
+                        </button>
+                        <div id="02" class="subnav collapse">
+                            <a href="">Baba-mama-gyerek Almenü 1</a>
+                            <a href="">Baba-mama-gyerek Almenü 2</a>
+                            <a href="">Baba-mama-gyerek Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#03">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Bútor</span>
+                        </button>
+                        <div id="03" class="subnav collapse">
+                            <a href="">Bútor Almenü 1</a>
+                            <a href="">Bútor Almenü 2</a>
+                            <a href="">Bútor Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#04">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Dekoráció</span>
+                        </button>
+                        <div id="04" class="subnav collapse">
+                            <a href="">Dekoráció Almenü 1</a>
+                            <a href="">Dekoráció Almenü 2</a>
+                            <a href="">Dekoráció Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#05">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Ékszer, óra</span>
+                        </button>
+                        <div id="05" class="subnav collapse">
+                            <a href="">Ékszer, óra Almenü 1</a>
+                            <a href="">Ékszer, óra Almenü 2</a>
+                            <a href="">Ékszer, óra Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#06">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Esküvő</span>
+                        </button>
+                        <div id="06" class="subnav collapse">
+                            <a href="">Esküvő Almenü 1</a>
+                            <a href="">Esküvő Almenü 2</a>
+                            <a href="">Esküvő Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#07">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Férfiaknak</span>
+                        </button>
+                        <div id="07" class="subnav collapse">
+                            <a href="">Férfiaknak Almenü 1</a>
+                            <a href="">Férfiaknak Almenü 2</a>
+                            <a href="">Férfiaknak Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#08">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Játék</span>
+                        </button>
+                        <div id="08" class="subnav collapse">
+                            <a href="">Játék Almenü 1</a>
+                            <a href="">Játék Almenü 2</a>
+                            <a href="">Játék Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#09">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Képzőművészet</span>
+                        </button>
+                        <div id="09" class="subnav collapse">
+                            <a href="">Képzőművészet Almenü 1</a>
+                            <a href="">Képzőművészet Almenü 2</a>
+                            <a href="">Képzőművészet Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#10">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Konyhafelszerelés</span>
+                        </button>
+                        <div id="10" class="subnav collapse">
+                            <a href="">Konyhafelszerelés Almenü 1</a>
+                            <a href="">Konyhafelszerelés Almenü 2</a>
+                            <a href="">Konyhafelszerelés Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#11">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Magyar motívumokkal</span>
+                        </button>
+                        <div id="11" class="subnav collapse">
+                            <a href="">Magyar motívumokkal Almenü 1</a>
+                            <a href="">Magyar motívumokkal Almenü 2</a>
+                            <a href="">Magyar motívumokkal Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#12">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Mindenmás</span>
+                        </button>
+                        <div id="12" class="subnav collapse">
+                            <a href="">Mindenmás Almenü 1</a>
+                            <a href="">Mindenmás Almenü 2</a>
+                            <a href="">Mindenmás Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#13">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Naptár, képeslap, album</span>
+                        </button>
+                        <div id="13" class="subnav collapse">
+                            <a href="">Naptár, képeslap, album Almenü 1</a>
+                            <a href="">Naptár, képeslap, album Almenü 2</a>
+                            <a href="">Naptár, képeslap, album Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#14">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Otthon, lakberendezés</span>
+                        </button>
+                        <div id="14" class="subnav collapse">
+                            <a href="">Otthon, lakberendezés Almenü 1</a>
+                            <a href="">Otthon, lakberendezés Almenü 2</a>
+                            <a href="">Otthon, lakberendezés Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#15">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Ruha, divat, cipő</span>
+                        </button>
+                        <div id="15" class="subnav collapse">
+                            <a href="">Ruha, divat, cipő Almenü 1</a>
+                            <a href="">Ruha, divat, cipő Almenü 2</a>
+                            <a href="">Ruha, divat, cipő Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#16">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Szépségápolás</span>
+                        </button>
+                        <div id="16" class="subnav collapse">
+                            <a href="">Szépségápolás Almenü 1</a>
+                            <a href="">Szépségápolás Almenü 2</a>
+                            <a href="">Szépségápolás Almenü 3</a>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#17">
+                            <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                            <span>Táska</span>
+                        </button>
+                        <div id="17" class="subnav collapse">
+                            <a href="">Táska Almenü 1</a>
+                            <a href="">Táska Almenü 2</a>
+                            <a href="">Táska Almenü 3</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-                <div class="clear"></div>
+            <div class="clear"></div>
             <div class="bannerhely col-xs-12 col-sm-12 col-md-12 col-lg-12">BANNERHELY</div>
             <div class="widget col-xs-12 col-sm-12 col-md-12 col-lg-12">WIDGET</div>
         </div>
         <!-- RIGHT COL -->
         <div class="row-right">
 
+            <div class="specify">
                 <ol class="breadcrumb">
                     <li><a href="https://www.meska.hu/">
                             <i class="fa fa-home" aria-hidden="true"></i>
                             <img src="https://www.meska.hu/bootstrap/svg/meska_hu.svg" style="" class="breadcrumb-meskahu"/>
                         </a>
                     </li>
-                    <li class="active"><a href="https://www.meska.hu/s/Mind"></a>Termékkategória</li>
+                    <li class="active"><a href="https://www.meska.hu/s/Mind"></a><span class="title">Termékkategória</span></li>
                 </ol>
-            <div class="specify">
-                <h1 class="title">Termékkategória</h1><br>
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Technika <span class="caret"></span>
@@ -312,31 +430,31 @@ function productPrice($price, $currency = "Ft") {
                     </button>
                     <ul class="dropdown-menu">
                         <input type="text" placeholder="Keresés..." class="button-search">
-                        <li><a href="https://www.meska.hu/s/arany/co-512">Arany <div class="color gold"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/attetszo/co-513">Áttetsző <div class="color transparent"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/barna/co-514">Barna <div class="color brown"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/beige/co-515">Beige <div class="color beige"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/bordo/co-516">Bordó <div class="color deep-red"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/bronz/co-517">Bronz <div class="color bronze"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/ezust/co-518">Ezüst <div class="color silver"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/feher/co-519">Fehér <div class="color white"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/fekete/co-520">Fekete <div class="color black"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/kek/co-521">Kék <div class="color blue"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/lila/co-522">Lila <div class="color purple"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/piros/co-523">Piros <div class="color red"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/rez/co-524">Réz <div class="color copper"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/rozsaszin/co-525">Rózsaszín <div class="color pink"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/sarga/co-526">Sárga <div class="color yellow"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/pinkmagenta/co-791">Pink/Magenta <div class="color magenta"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/szurke/co-527">Szürke <div class="color gray"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/turkiz/co-528">Türkiz <div class="color turquoise"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/zold/co-529">Zöld <div class="color green"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/csikos/co-530">Csíkos <div class="color stripe"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/kockas/co-531">Kockás <div class="color ska"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/mintas/co-532">Mintás <div class="color pattern"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/pottyos/co-533">Pöttyös <div class="color dot"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/tarka/co-534">Tarka <div class="color tarka"></div> </a></li>
-                        <li><a href="https://www.meska.hu/s/narancssarga/co-568">Narancssárga <div class="color orange"></div> </a></li>
+                        <li><a href="https://www.meska.hu/s/arany/co-512"><div class="color gold"></div>Arany</a></li>
+                        <li><a href="https://www.meska.hu/s/attetszo/co-513"><div class="color transparent"></div>Áttetsző</a></li>
+                        <li><a href="https://www.meska.hu/s/barna/co-514"><div class="color brown"></div>Barna</a></li>
+                        <li><a href="https://www.meska.hu/s/beige/co-515"><div class="color beige"></div>Beige</a></li>
+                        <li><a href="https://www.meska.hu/s/bordo/co-516"><div class="color deep-red"></div>Bordó</a></li>
+                        <li><a href="https://www.meska.hu/s/bronz/co-517"><div class="color bronze"></div>Bronz</a></li>
+                        <li><a href="https://www.meska.hu/s/ezust/co-518"><div class="color silver"></div>Ezüst</a></li>
+                        <li><a href="https://www.meska.hu/s/feher/co-519"><div class="color white"></div>Fehér</a></li>
+                        <li><a href="https://www.meska.hu/s/fekete/co-520"><div class="color black"></div>Fekete</a></li>
+                        <li><a href="https://www.meska.hu/s/kek/co-521"><div class="color blue"></div>Kék</a></li>
+                        <li><a href="https://www.meska.hu/s/lila/co-522"><div class="color purple"></div>Lila</a></li>
+                        <li><a href="https://www.meska.hu/s/piros/co-523"><div class="color red"></div>Piros</a></li>
+                        <li><a href="https://www.meska.hu/s/rez/co-524"><div class="color copper"></div>Réz</a></li>
+                        <li><a href="https://www.meska.hu/s/rozsaszin/co-525"><div class="color pink"></div>Rózsaszín</a></li>
+                        <li><a href="https://www.meska.hu/s/sarga/co-526"><div class="color yellow"></div>Sárga</a></li>
+                        <li><a href="https://www.meska.hu/s/pinkmagenta/co-791"><div class="color magenta"></div>Pink/Magenta</a></li>
+                        <li><a href="https://www.meska.hu/s/szurke/co-527"><div class="color gray"></div>Szürke</a></li>
+                        <li><a href="https://www.meska.hu/s/turkiz/co-528"><div class="color turquoise"></div>Türkiz</a></li>
+                        <li><a href="https://www.meska.hu/s/zold/co-529"><div class="color green"></div>Zöld</a></li>
+                        <li><a href="https://www.meska.hu/s/csikos/co-530"><div class="color stripe"></div>Csíkos</a></li>
+                        <li><a href="https://www.meska.hu/s/kockas/co-531"><div class="color ska"></div>Kockás</a></li>
+                        <li><a href="https://www.meska.hu/s/mintas/co-532"><div class="color pattern"></div>Mintás</a></li>
+                        <li><a href="https://www.meska.hu/s/pottyos/co-533"><div class="color dot"></div>Pöttyös</a></li>
+                        <li><a href="https://www.meska.hu/s/tarka/co-534"><div class="color tarka"></div>Tarka</a></li>
+                        <li><a href="https://www.meska.hu/s/narancssarga/co-568"><div class="color orange"></div>Narancssárga</a></li>
                     </ul>
                 </div>
                 <div class="btn-group">
@@ -360,6 +478,20 @@ function productPrice($price, $currency = "Ft") {
                         <li><a href="https://www.meska.hu/s/Mind/j">Zsűrizett</a></li>
                     </ul>
                 </div>
+                <div class="sort">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Rendezés <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu-2">
+                            <li><a href="">Ár szerint csökkenő (legdrágább elől)</a></li>
+                            <li><a href="">Ár szerint növekvő (legolcsóbb elől)</a></li>
+                            <li><a href="">Legújabbak elől</a></li>
+                            <li><a href="">Legnézettebbek elől</a></li>
+                            <li><a href="">Legnépszerűbbek elől</a></li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="search-bar">
                     <form role="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get" class="search search-full">
                         <input name="utf8" type="hidden" value="✓">
@@ -376,48 +508,29 @@ function productPrice($price, $currency = "Ft") {
                     <a href=""><div class="trashcan"></div></a>
                 </div>
                 <div class="clearfix"></div>
-
-                <div class="kereso">
-                    <div class="keywords">
-                        <b>Termékkategóriában népszerű kulcsszavak:</b>
-                        <span class="keyword"><a href="">kulcsszo1</a></span>,
-                        <span class="keyword"><a href="">kulcsszo2</a></span>,
-                        <span class="keyword"><a href="">kulcsszo3</a></span>,
-                        <span class="keyword"><a href="">kulcsszo4</a></span>,
-                        <span class="keyword"><a href="">kulcsszo5</a></span>,
-                        <span class="keyword"><a href="">kulcsszo6</a></span>,
-                        <span class="keyword"><a href="">kulcsszo7</a></span>,
-                        <span class="keyword"><a href="">kulcsszo8</a></span>,
-                        <span class="keyword"><a href="">kulcsszo9</a></span>,
-                        <span class="keyword"><a href="">kulcsszo10</a></span>,
-                        <span class="keyword"><a href="">kulcsszo11</a></span>,
-                        <span class="keyword"><a href="">kulcsszo12</a></span>,
-                        <span class="keyword"><a href="">kulcsszo13</a></span>,
-                        <span class="keyword"><a href="">kulcsszo14</a></span>,
-                        <span class="keyword"><a href="">kulcsszo15</a></span>,
-                        <span class="keyword"><a href="">kulcsszo16</a></span>,
-                        <span class="keyword"><a href="">kulcsszo17</a></span>,
-                        <span class="keyword"><a href="">kulcsszo18</a></span>,
-                        <span class="keyword"><a href="">kulcsszo19</a></span>,
-                        <span class="keyword"><a href="">kulcsszo20</a></span>,
-                    </div>
-                    <div class="sort">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Rendezés <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu-2">
-                                <li><a href="">Ár szerint csökkenő (legdrágább elől)</a></li>
-                                <li><a href="">Ár szerint növekvő (legolcsóbb elől)</a></li>
-                                <li><a href="">Legújabbak elől</a></li>
-                                <li><a href="">Legnézettebbek elől</a></li>
-                                <li><a href="">Legnépszerűbbek elől</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-
+            </div>
+            <div class="keywords">
+                <b>Termékkategóriában népszerű kulcsszavak:</b>
+                <span class="keyword"><a href="">kulcsszo1</a></span>,
+                <span class="keyword"><a href="">kulcsszo2</a></span>,
+                <span class="keyword"><a href="">kulcsszo3</a></span>,
+                <span class="keyword"><a href="">kulcsszo4</a></span>,
+                <span class="keyword"><a href="">kulcsszo5</a></span>,
+                <span class="keyword"><a href="">kulcsszo6</a></span>,
+                <span class="keyword"><a href="">kulcsszo7</a></span>,
+                <span class="keyword"><a href="">kulcsszo8</a></span>,
+                <span class="keyword"><a href="">kulcsszo9</a></span>,
+                <span class="keyword"><a href="">kulcsszo10</a></span>,
+                <span class="keyword"><a href="">kulcsszo11</a></span>,
+                <span class="keyword"><a href="">kulcsszo12</a></span>,
+                <span class="keyword"><a href="">kulcsszo13</a></span>,
+                <span class="keyword"><a href="">kulcsszo14</a></span>,
+                <span class="keyword"><a href="">kulcsszo15</a></span>,
+                <span class="keyword"><a href="">kulcsszo16</a></span>,
+                <span class="keyword"><a href="">kulcsszo17</a></span>,
+                <span class="keyword"><a href="">kulcsszo18</a></span>,
+                <span class="keyword"><a href="">kulcsszo19</a></span>,
+                <span class="keyword"><a href="">kulcsszo20</a></span>,
             </div>
                 <div class="row cont">
                     <?php
@@ -452,8 +565,14 @@ function productPrice($price, $currency = "Ft") {
                             </div>
                         </div>
                     <?php } ?>
+                    <div class="load-more col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                        <a href=""><div class="load-more-box" onclick="location.href='#';">
+                            <div class="gomb">+</div>
+                            <div class="clear"></div>
+                        </div></a>
+                    </div>
                 </div>
-                <div class="show-more">Több termék megjelenítése</div>
+                <!--<div class="show-more">Több termék megjelenítése</div>-->
                 <div class="category-desc">
                     <div class="title">Termékkategória leírása</div>
                     <div class="content">

@@ -13,7 +13,7 @@ $(document).ready(function () {
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 820) {
+    if (scroll >= 700) {
         $(".bannerhely").addClass("bannerhely-fixed col-md-2-250 col-lg-2-250 col-xl-2-250");
         $(".widget").addClass("widget-fixed col-md-2-250 col-lg-2-250 col-xl-2-250");
     }
@@ -35,34 +35,35 @@ $(document).ready(function () {
     }
 });
 
-//SPECIFY FIX
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+//SPECIFY VISIBILITY
+$('input[name=query]').keyup(function(){
+    if($(this).val().length){
+        $('.keresesi-szempontok').show();
 
-    if (scroll >= 150) {
-        $(".specify").addClass("specify-fixed"),
-        $(".cont").addClass("cont-fixed");
+        $('.cont').css('margin-top', '290px'),
+        $('.keywords').css('margin', '240px 5px 0px 5px');
     }
-    else {
-        $(".specify").removeClass("specify-fixed"),
-        $(".cont").removeClass("cont-fixed"),
+    else{
+        $('.keresesi-szempontok').hide();
 
-        $('.cont-fixed').css('margin-top', '110px');
+        $('.cont').css('margin-top', '250px')
+        $('.keywords').css('margin', '200px 5px 0px 5px');
+
     }
 });
 
-//SPECIFY VISIBILITY
-/*$('input[name=query]').keyup(function(){
-    if($(this).val().length){
-        $('.keresesi-szempontok').show(),
-        $('.kereso').show(),
+//SPECIFY FIX
+/*$(window).scroll(function() {
+ var scroll = $(window).scrollTop();
 
-        $('.cont-fixed').css('margin-top', '190px');
-    }
-    else{
-        $('.keresesi-szempontok').hide(),
-        $('.kereso').hide(),
+ if (scroll >= 150) {
+ $(".specify").addClass("specify-fixed"),
+ $(".cont").addClass("cont-fixed");
+ }
+ else {
+ $(".specify").removeClass("specify-fixed"),
+ $(".cont").removeClass("cont-fixed"),
 
-        $('.cont-fixed').css('margin-top', '110px');
-    }
-});*/
+ $('.cont-fixed').css('margin-top', '110px');
+ }
+ });*/

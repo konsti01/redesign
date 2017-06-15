@@ -115,7 +115,8 @@ a:hover{
 }
 
 .navbar-nav .button-border{
-	border:1px solid #fff;
+    background-color: #fff;
+    color: #000 !important;
 	border-radius:5px;
 	margin:9px 0 0 3px;
 	padding:5px 10px;
@@ -124,6 +125,10 @@ a:hover{
 	-o-border-radius:5px;
 	-moz-border-radius:5px;
 	text-transform:uppercase;
+}
+.navbar-nav .button-border:hover{
+    background-color: #336600 !important;
+    color: #fff !important;
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -235,12 +240,12 @@ a:hover{
 	font-size:12px;
 	padding:5px 10px;
 	margin:9px 0 0 3px;
-    color:#fff;
-	background-color:#006633;
+    color:#fff !important;
+	background-color:#88B04B;
 }
 
 .is-sticky #top-menu .button-border:hover{
-	background-color:#005533;
+	background-color:#006633;
 }
 
 .navbar-nav>li>.dropdown-menu {
@@ -322,9 +327,14 @@ a:hover{
   text-align: center;
 }
 
+.header-wrapper .welcome{
+    position: relative;
+    top: 50px;
+    width: 73vw;
+    margin: auto;
+}
 .header-wrapper .text{
 	color:#fff;
-	margin:55px 25px 25px 25px;
 	text-align:center;
 }
 .header-wrapper .text h1{
@@ -337,7 +347,7 @@ a:hover{
 
 .header-wrapper .button{
 	color: #fff;
-    background-color:#006633;
+    background-color:#88B04B;
     padding: 15px 30px;
     font-size: 20px;
     transition: all .1s ease-in-out;
@@ -347,6 +357,7 @@ a:hover{
 	width:300px;
     margin-left:auto;
 	margin-right:auto;
+    margin-top: 20px;
     font-weight: normal;
     text-align: center;
     vertical-align: middle;
@@ -357,7 +368,7 @@ a:hover{
 }
 
 .header-wrapper .button:hover{
-	background:#005533;
+	background:#006633;
 	color:#fff;
 }
 /*------------------------------------------------------------------------------------------------*/
@@ -496,6 +507,8 @@ a:hover{
   -moz-border-radius: 4px 4px 2px 2px;
   -o-border-radius: 4px 4px 2px 2px;
   z-index: 20;
+    position: relative;
+    top: 110px;
 }
 
 ul{
@@ -590,7 +603,7 @@ content: "\2014 \2009";
 }
 
 h1.section-title{
-  margin-top: 50px;
+  margin-top: 150px;
   margin-bottom: 20px;
   text-align: center;
   padding-left: 15px;
@@ -974,6 +987,7 @@ h1.section-title{
     line-height: 26px;
     margin-left: 41px;
     font-size: 1.07em;
+    text-align: justify;
 }
 
 .toggle-arrow {
