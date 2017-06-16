@@ -10,7 +10,7 @@ $(document).ready(function () {
 });
 
 //BANNERHELY ÉS WIDGET FIX
-/*$(window).scroll(function() {
+$(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 700) {
@@ -21,7 +21,7 @@ $(document).ready(function () {
         $(".bannerhely").removeClass("bannerhely-fixed col-md-2-250 col-lg-2-250 col-xl-2-250");
         $(".widget").removeClass("widget-fixed col-md-2-250 col-lg-2-250 col-xl-2-250");
     }
-});*/
+});
 
 //SELLER NAME LENGTH
 $(document).ready(function () {
@@ -74,11 +74,20 @@ $(window).scroll(function() {
 
  if (scroll >= 1) {
      $('.btn-group .btn').css('padding', '3px 6px'),
-     $('.search-bar').css('', ''),
-     $('.sort').css('', '');
+     $('.btn-group .btn').css('font-size', '12px'),
+     $('.search-bar').css('font-size', '11px'),
+     $('.search-bar').css('padding', '3px 10px'),
+     $('.search-bar img').css('width', '15px');
  }else{
      $('.btn-group .btn').css('padding', '6px 12px'),
-         $('.search-bar').css('', ''),
-         $('.sort').css('', '');
+     $('.btn-group .btn').css('font-size', '14px'),
+     $('.search-bar').css('font-size', '14px'),
+     $('.search-bar').css('padding', '5px 10px'),
+     $('.search-bar img').css('width', '20px');
  }
  });
+
+//NAV SCROLL TO TOP
+function topFunction() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+}

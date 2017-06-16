@@ -422,7 +422,7 @@ a:hover{
 }
 
 .bg-color6{
-  background-color: #006633;
+  background-color: #88B04B;
 }
 
 .bg-color7{
@@ -649,9 +649,9 @@ h1.section-title-first{
 }
 
 #reg-steps .steps > div .num{
-  border: 2px solid #006633;
+  border: 2px solid #88B04B;
     border-radius: 50%;
-    color: #006633;
+    color: #88B04B;
     display: block;
     font-size: 1.286em; /* 18px */
     font-weight: bold;
@@ -671,13 +671,13 @@ h1.section-title-first{
 }
 
 #reg-steps .steps > div:hover .num{
-  background-color: #006633;
+  background-color: #88B04B;
   color: #fff;
 }
 
-#reg-steps .steps > div h3{
-  margin-bottom: 20px;
-    font-size: 26px;
+#reg-steps .steps > div .headline{
+  margin: 20px 0 10px 0;
+    font-size: 22px;
     font-weight: 400;
 }
 
