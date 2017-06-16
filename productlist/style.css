@@ -138,6 +138,7 @@ body{
     border-bottom: 1px solid #ccc;
 }
 .nav-wrap{
+    width: 250px;
     margin: 41px 0 0 0;
 }
 
