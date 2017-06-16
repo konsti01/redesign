@@ -603,7 +603,7 @@ content: "\2014 \2009";
 }
 
 h1.section-title{
-  margin-top: 150px;
+  margin-top: 30px;
   margin-bottom: 20px;
   text-align: center;
   padding-left: 15px;
@@ -614,6 +614,19 @@ h1.section-title{
   letter-spacing: 1.5px;
   font-weight: normal;
   font-family: 'Amatic-SC', cursive;
+}
+h1.section-title-first{
+    margin-top: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    font-family: 'Amatic-SC', cursive;
 }
 
 /*
@@ -1018,7 +1031,7 @@ h1.section-title{
 /*------------------------------------------------------------------------------------------------*/
 
 #customers-say blockquote{
-  font-family: "Open Sans", serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   width: 95%;

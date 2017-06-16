@@ -594,6 +594,38 @@
 	span .line{
 		display:block;
 	}
+
+    /* MOBILE BG */
+    #wrapper_mbYTP_bgndVideo{
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .header-wrapper{
+        background-image:url(../images/static.jpg);
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .number-wrapper{
+        position: relative;
+        top: 0;
+    }
+    .header-wrapper .welcome {
+        position: relative;
+        top: 0px;
+    }
+    h1.section-title-first {
+        margin-top: 30px;
+    }
+
+    /* MOBILE FAQ */
+    .toggle-title-text{
+        position: absolute;
+        left: 40px;
+    }
+    .toggle-title{
+        padding: 35px 15px;
+    }
 }
 
 /* TABLET */

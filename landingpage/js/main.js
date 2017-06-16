@@ -253,5 +253,4 @@ $(document).ready(function() {
 
 		//Második idézettől kezdjük a sort
 		//sync1.trigger('owl.jumpTo', 1);
-
 });
