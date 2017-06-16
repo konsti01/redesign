@@ -10,7 +10,7 @@ $(document).ready(function () {
 });
 
 //BANNERHELY ÉS WIDGET FIX
-$(window).scroll(function() {
+/*$(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 700) {
@@ -21,7 +21,7 @@ $(window).scroll(function() {
         $(".bannerhely").removeClass("bannerhely-fixed col-md-2-250 col-lg-2-250 col-xl-2-250");
         $(".widget").removeClass("widget-fixed col-md-2-250 col-lg-2-250 col-xl-2-250");
     }
-});
+});*/
 
 //SELLER NAME LENGTH
 $(document).ready(function () {
@@ -40,14 +40,14 @@ $('input[name=query]').keyup(function(){
     if($(this).val().length){
         $('.keresesi-szempontok').show();
 
-        $('.cont').css('margin-top', '290px'),
-        $('.keywords').css('margin', '240px 5px 0px 5px');
+        $('.cont').css('margin-top', '270px'),
+        $('.keywords').css('margin', '220px 5px 0px 5px');
     }
     else{
         $('.keresesi-szempontok').hide();
 
-        $('.cont').css('margin-top', '250px')
-        $('.keywords').css('margin', '200px 5px 0px 5px');
+        $('.cont').css('margin-top', '230px')
+        $('.keywords').css('margin', '180px 5px 0px 5px');
 
     }
 });
@@ -67,3 +67,18 @@ $('input[name=query]').keyup(function(){
  $('.cont-fixed').css('margin-top', '110px');
  }
  });*/
+
+//SCROLL SPECIFY
+$(window).scroll(function() {
+ var scroll = $(window).scrollTop();
+
+ if (scroll >= 1) {
+     $('.btn-group .btn').css('padding', '3px 6px'),
+     $('.search-bar').css('', ''),
+     $('.sort').css('', '');
+ }else{
+     $('.btn-group .btn').css('padding', '6px 12px'),
+         $('.search-bar').css('', ''),
+         $('.sort').css('', '');
+ }
+ });
