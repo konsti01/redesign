@@ -1205,6 +1205,27 @@ h1.section-title-first{
     transition: all 300ms ease 10ms;
 }
 
+/***********************************/
+/*.slider-pics .owl-item{
+    width: 60px !important;
+}*/
+
+.slider-pics .owl-wrapper{
+    margin-top: 20px;
+}
+
+.slider-item .overlay{
+    text-align: center;
+}
+.slider-item .customer-member img{
+    border-radius: 150px;
+}
+.customer-member .comment-dot{
+    width: 20px;
+    height: 20px;
+    background-color: #88B04B;
+}
+
 /*------------------------------------------------------------------------------------------------*/
 /* "Rólunk mondták" vége */
 /*------------------------------------------------------------------------------------------------*/
