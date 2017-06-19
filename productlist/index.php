@@ -560,7 +560,11 @@ function productPrice($price, $currency = "Ft") {
                 <div class="row cont">
                     <?php
                     foreach ($products as $p){ ?>
-                        <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                        <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5"
+                            <?php if ($p === end($products)) { ?>
+                                style="display: none;"
+                            <?php } ?>
+                            >
                             <div class="product-box" onclick="location.href='#';">
                                 <div class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -590,12 +594,14 @@ function productPrice($price, $currency = "Ft") {
                             </div>
                         </div>
                     <?php } ?>
+
                     <div class="load-more col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
-                        <a href=""><div class="load-more-box" onclick="location.href='#';">
+                        <div class="load-more-box">
                             <div class="gomb">+</div>
-                            <div class="clear"></div>
-                        </div></a>
+                            <div class="text">Több termék betöltése</div>
+                        </div>
                     </div>
+
                 </div>
                 <div class="show-more">Több termék megjelenítése</div>
                 <div class="category-desc">

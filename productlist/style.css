@@ -182,7 +182,7 @@ body{
     right: 10px;
     background-color: #F8F8F8;
     border-bottom: 2px solid #F8F8F8;
-    z-index: 9999;
+    z-index: 999;
     margin: 0 5px 0 5px;
     padding: 0 0 5px 0;
 }
@@ -390,31 +390,45 @@ body{
     background-color: #88B04B;
     border: 1px solid #88B04B;
 }
-
+/***************************************************/
 .load-more{
 
 }
 .load-more-box{
-    background-color: #88B04B;
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    font-size: 120px;
-    border-radius: 180px;
+    padding: 10px;
+    background-color: #fff;
     text-align: center;
-    max-width: 300px;
-    width: 200px;
-    height: 200px;
+}
+.load-more-box .gomb{
+    background-color: #88B04B;
+    margin: auto;
+    padding: 0;
+    font-size: 48px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
     cursor: pointer;
-}
-.load-more .gomb{
-    margin-top: 10px;
     color: #fff;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
 }
-.load-more-box:hover{
+.load-more-box .gomb:hover{
     background-color: #336600;
 }
-
+.load-more-box .text{
+    font-family: "Open Sans Condensed";
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #000;
+    padding: 5px 0px;
+    letter-spacing: 1px;
+    /*height: 195px;
+    line-height: 195px;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/********************************************************/
 .product-box{
     background-color: #fff;
     padding: 9px 11px 0px 11px;
