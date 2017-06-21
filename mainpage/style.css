@@ -1,0 +1,48 @@
+body{
+    background-color: #ccc;
+}
+.row{}
+.row-wrapper{
+    padding-left: 50px;
+}
+.row-left{
+    float: left;
+    background-color: #666;
+    margin-left: -50px;
+    position: absolute;
+    left: 50px;
+    width: 50px;
+    height: 100%;
+    padding: 10px;
+}
+.row-right{
+    float: left;
+    width: 100%;
+    background-color: #ccc;
+    line-height: 150px;
+}
+.row-right .upside{
+    background-color: #fff;
+    margin: 5px;
+}
+.row-right .upside .left{
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+.row-right .upside .right{
+    background-color: #eee;
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+.row-right .downside{
+    background-color: #fff;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.clearfix{
+    clear: both;
+}

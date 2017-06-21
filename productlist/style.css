@@ -328,6 +328,13 @@ body{
     margin: 0 10px 0 0;
 }
 
+.search-row-mobile{
+    display: none;
+}
+.search-row-mobile-content{
+    display: none;
+}
+
 .open > .dropdown-menu-2{
     display: block;
 }
