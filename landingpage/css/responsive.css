@@ -588,10 +588,10 @@
 	.footer-copyright{
 		text-align:center;
 	}
-	span .separator{
+    .footer-copyright .separator{
 		display:none;
 	}
-	span .line{
+    .footer-copyright .line{
 		display:block;
 	}
 

@@ -24,6 +24,20 @@
     .product-box .price{
         font-size: 16pt;
     }
+
+    /*ProductCat Pos*/
+    .main{
+        position: fixed;
+        top: 55px;
+    }
+    .nav-wrap{
+        margin: 0;
+    }
+
+    /*Keywords*/
+    .keywords{
+        margin: 240px 5px 0 5px;
+    }
 }     /* xs */
 
 @media only screen and (min-width: 425px) and (max-width: 550px){
@@ -40,6 +54,20 @@
         float: left;
         font-size: 12px;
     }
+
+    /*ProductCat Pos*/
+    .main{
+        position: fixed;
+        top: 55px;
+    }
+    .nav-wrap{
+        margin: 0;
+    }
+
+    /*Keywords*/
+    .keywords{
+        margin: 240px 5px 0 5px;
+    }
 }     /* xs */
 
 @media only screen and (min-width: 551px) and (max-width: 767px){
@@ -48,6 +76,20 @@
     }
     .product-box .seller{
         font-size: 26px;
+    }
+
+    /*ProductCat Pos*/
+    .main{
+        position: fixed;
+        top: 55px;
+    }
+    .nav-wrap{
+        margin: 0;
+    }
+
+    /*Keywords*/
+    .keywords{
+        margin: 190px 5px 0 5px;
     }
 }     /* xs */
 
@@ -174,24 +216,25 @@
         left: 0;
         width: 100%;
     }
-    .sidebar-trigger{
-        text-align: center;
+
+    /* Mobil ProductCategory */
+    .main{
+        width: 100%;
     }
-    .sidebar-content{
+    .nav-wrap{
+        width: 100%;
         display: none;
     }
-    .sidebar a{
-
-    }
-    .sidebar a i{
-
-    }
-    /*****DropDown*****/
-    .sidebar{
-        position: relative;
-        z-index: 2;
-    }
-    .sidebar:hover .sidebar-content{
+    /* Dropdown */
+    .sidebar:hover .nav-wrap{
         display: block;
+    }
+
+    /* Specify */
+    .specify{
+        position:fixed;
+        top: 94px;
+        left: 0px;
+        right: 0px;
     }
 }       /* sm - xs */
