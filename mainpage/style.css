@@ -19,22 +19,85 @@ body{
     float: left;
     width: 100%;
     background-color: #ccc;
-    line-height: 150px;
 }
 .row-right .upside{
     background-color: #fff;
     margin: 5px;
+    padding: 10px 0px 0 0;
 }
 .row-right .upside .left{
     float: left;
+    text-align: center;
+    padding-right: 7.5px;
+}
+.row-right .upside .left .first img{
+    width: 100%;
+    padding: 0%;
+}
+.row-right .upside .left .second{
+    width: 100%;
+    padding: 0%;
+}
+.row-right .upside .left .second img{
+    width: 33%;
+}
+.row-right .upside .left .second img:nth-child(1){
+    width: 33%;
+    float: left;
+    margin-right: 0.50%;
+    margin-top: 0.50%;
+}
+.row-right .upside .left .second img:nth-child(2){
+    width: 33%;
+    float: left;
+    margin-right: 0.25%;
+    margin-top: 0.50%;
+
+}
+.row-right .upside .left .second img:nth-child(3){
+    width: 33%;
+    float: left;
+    margin-left: 0.25%;
+    margin-top: 0.50%;
+}
+.row-right .upside .left .third{
+    text-align: justify;
+}
+.row-right .upside .left .third .headline{
+    font-size: 24px;
+    margin-top: 10px;
+}
+.row-right .upside .left .third .text{}
+.row-right .upside .left .third .button{
     padding: 5px;
+    display: block;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background-color: #eee;
+    text-align: center;
+    width: 150px;
+    margin: 15px auto 15px auto;
+}
+.row-right .upside .left .fourth{
+    padding-bottom: 15px;
+}
+.row-right .upside .left .fourth .headline{
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: left;
+}
+.row-right .upside .left .fourth img{
+    width: 24.3333%;
+    margin-top: 5px;
+}
+
+.row-right .upside .right{
+    padding-left: 7.5px;
+    float: left;
     text-align: center;
 }
-.row-right .upside .right{
+.row-right .upside .right .any{
     background-color: #eee;
-    float: left;
-    padding: 5px;
-    text-align: center;
 }
 .row-right .downside{
     background-color: #fff;
