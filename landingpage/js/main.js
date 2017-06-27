@@ -253,4 +253,17 @@ $(document).ready(function() {
 
 		//Második idézettől kezdjük a sort
 		//sync1.trigger('owl.jumpTo', 1);
+
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            }
+
+
+        }
+    })
 });

@@ -677,11 +677,15 @@ h1.section-title-first{
   margin: 20px 0 10px 0;
     font-size: 22px;
     font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 #reg-steps .steps > div p{
     font-size: 16px;
     font-weight: 300;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .bg-color5 h1.section-title{
@@ -1121,7 +1125,8 @@ h1.section-title-first{
 }
 
 #customers-say .slider-pics .owl-item.synced .customer-member .photo-member .img-container{
-  border: 1px solid #9f9f9f;
+  border: 2px solid #88b048;
+    background-color: #88b048;
 }
 
 #customers-say .slider-pics .customer-member .photo-member{
@@ -1165,7 +1170,7 @@ h1.section-title-first{
 
 #customers-say .slider-pics .customer-member .photo-member .img-container{
     border-radius: 100%;
-    border: 0px none;
+    border: 2px solid #88b048;
     overflow: hidden;
     padding: 3px;
     background: #FFF;
@@ -1209,14 +1214,19 @@ h1.section-title-first{
 }*/
 
 .slider-pics .owl-wrapper{
+    width: 1846px !important;
     margin-top: 20px;
+}
+.slider-pics .owl-wrapper .owl-item{
+    width: 71px !important;
 }
 
 .slider-item .overlay{
     text-align: center;
 }
-.slider-item .customer-member img{
-    border-radius: 150px;
+.item .customer-member img{
+    width: 60px;
+    border-radius: 50%;
 }
 /*.slider-item .arrow{
     width: 2%;
@@ -1229,9 +1239,67 @@ h1.section-title-first{
 .customer-member .comment-dot{
     width: 20px;
     height: 20px;
-    background-color: #88B04B;
 }
 
+/* NEW OWL CAROUSEL */
+.owl-carousel{
+    margin-bottom: 30px;
+}
+
+.owl-theme .owl-nav .owl-next{
+    float: right;
+    position: relative;
+    bottom: 260px;
+    color: transparent;
+    background-color: transparent;
+    background-image: url(../images/arrow-next.svg);
+    background-repeat: no-repeat;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    border: 5px solid transparent;
+}
+.owl-theme .owl-nav .owl-next:hover{
+    color: transparent;
+    background-color: #88b048;
+    background-image: url(../images/arrow-next.svg);
+    background-repeat: no-repeat;
+}
+.owl-theme .owl-nav .owl-prev{
+    float: left;
+    position: relative;
+    bottom: 260px;
+    color: transparent;
+    background-color: transparent;
+    background-image: url(../images/arrow-prev.svg);
+    background-repeat: no-repeat;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    border: 5px solid transparent;
+}
+.owl-theme .owl-nav .owl-prev:hover{
+    color: transparent;
+    background-color: #88b048;
+    background-image: url(../images/arrow-prev.svg);
+    background-repeat: no-repeat;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    border: 1px solid #88b048;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    background-color: #88b048;
+}
+.owl-theme .owl-dots .owl-dot span:hover{
+    background-color: #88b048;
+}
+.owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #88b048;
+}
 /*------------------------------------------------------------------------------------------------*/
 /* "Rólunk mondták" vége */
 /*------------------------------------------------------------------------------------------------*/

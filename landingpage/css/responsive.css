@@ -36,7 +36,7 @@
 	
 	/*REG STEPS*/
 	#reg-steps .steps > div{
-		height:275px;
+		height:330px;
 	}
 	#reg-steps .steps > div .num{
 		margin:20px auto 20px;
@@ -224,7 +224,7 @@
 	
 	/*REG STEPS*/
 	#reg-steps .steps > div{
-		height:250px;
+		height:280px;
 	}
 	#reg-steps .steps > div .num{
 		margin:20px auto 20px;
@@ -255,6 +255,7 @@
 	/*BENEFITS*/
 	#benefits .col-xs-12{
 		width:50%;
+        height: 350px;
 	}
 	
 	/*PRICE COMM*/
@@ -296,7 +297,7 @@
 		width:25%;
 	}
 	#reg-steps .steps > div{
-		height:475px;
+		height:800px;
 	}
 }
 @media only screen and (min-width: 640px) and (max-width:666px){ /*Galaxy S5 FEKVŐ*/
@@ -324,6 +325,7 @@
 	/*BENEFITS*/
 	#benefits .col-xs-12{
 		width:50%;
+        height: 350px;
 	}
 	
 	/*PRICE COMM*/
@@ -364,7 +366,7 @@
 		width:25%;
 	}
 	#reg-steps .steps > div{
-		height:670px;
+		height:720px;
 	}
 }
 @media only screen and (min-width: 667px) and (max-width:735px){ /*iPhone 6 FEKVŐ*/
@@ -432,7 +434,7 @@
 		width:25%;
 	}
 	#reg-steps .steps > div{
-		height:450px;
+		height:610px;
 	}
 }
 @media only screen and (min-width: 736px) and (max-width:766px){ /*iPhone 6+ FEKVŐ*/
@@ -460,6 +462,7 @@
 	/*BENEFITS*/
 	#benefits .col-xs-12{
 		width:50%;
+        height: 300px;
 	}
 	
 	/*PRICE COMM*/
@@ -500,7 +503,7 @@
 		width:25%;
 	}
 	#reg-steps .steps > div{
-		height:430px;
+		height:570px;
 	}
 }
 
