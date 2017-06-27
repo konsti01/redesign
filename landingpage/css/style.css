@@ -601,6 +601,10 @@ article p{
 content: "\2014 \2009";
 }
 
+.flex-item img{
+    width: 300px;
+}
+
 h1.section-title{
   margin-top: 30px;
   margin-bottom: 20px;
@@ -952,11 +956,28 @@ h1.section-title-first{
   background-color: #eee;
 }
 
+.reg-button-b{
+    width: 150px;
+    border: 1px solid #88b048;
+    background-color: transparent;
+    padding: 10px 15px;
+    margin: 15px auto 15px auto;
+    color: #88b048;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.reg-button-b:hover{
+    border: 1px solid #006633;
+    background-color: #006633;
+    color: #fff;
+}
+
 .active-bg{
   background-color: #fff;
 }
 .single-toggles{
-	margin:0 0 60px 0;
+	margin:0;
 }
 .toggle {
     font-size: 1.0em;
