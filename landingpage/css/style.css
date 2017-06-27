@@ -603,6 +603,7 @@ content: "\2014 \2009";
 
 .flex-item img{
     width: 300px;
+    margin-left: 10px;
 }
 
 h1.section-title{
@@ -961,7 +962,7 @@ h1.section-title-first{
     border: 1px solid #88b048;
     background-color: transparent;
     padding: 10px 15px;
-    margin: 15px auto 15px auto;
+    margin: 15px auto 35px auto;
     color: #88b048;
     text-align: center;
     text-transform: uppercase;
