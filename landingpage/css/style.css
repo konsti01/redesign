@@ -1261,7 +1261,7 @@ h1.section-title-first{
 }
 .owl-theme .owl-nav .owl-next:hover{
     color: transparent;
-    background-color: #88b048;
+    background-color: transparent;
     background-image: url(../images/arrow-next.svg);
     background-repeat: no-repeat;
 }
@@ -1280,7 +1280,7 @@ h1.section-title-first{
 }
 .owl-theme .owl-nav .owl-prev:hover{
     color: transparent;
-    background-color: #88b048;
+    background-color: transparent;
     background-image: url(../images/arrow-prev.svg);
     background-repeat: no-repeat;
 }
