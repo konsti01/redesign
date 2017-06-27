@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landingpage/css/style.css" afterPath="$PROJECT_DIR$/landingpage/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landingpage/js/main.js" afterPath="$PROJECT_DIR$/landingpage/js/main.js" />
     </list>
     <ignored path="redesign.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,12 +67,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/landingpage/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8698011" vertical-offset="22595" max-vertical-offset="24192">
+            <state vertical-scroll-proportion="-16.033333" vertical-offset="22595" max-vertical-offset="24192">
               <caret line="1282" column="34" selection-start-line="1282" selection-start-column="34" selection-end-line="1282" selection-end-column="34" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/landingpage/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6210526" vertical-offset="3174" max-vertical-offset="3834">
+              <caret line="261" column="26" selection-start-line="261" selection-start-column="26" selection-end-line="261" selection-end-column="26" />
+              <folding>
+                <element signature="e#1498#1875#0" expanded="false" />
+                <element signature="e#1918#2679#0" expanded="false" />
+                <element signature="e#2681#2895#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,9 +146,9 @@
         <option value="$PROJECT_DIR$/mainpage/index.php" />
         <option value="$PROJECT_DIR$/mainpage/style.css" />
         <option value="$PROJECT_DIR$/landingpage/css/responsive.css" />
-        <option value="$PROJECT_DIR$/landingpage/js/main.js" />
         <option value="$PROJECT_DIR$/landingpage/index.html" />
         <option value="$PROJECT_DIR$/landingpage/css/style.css" />
+        <option value="$PROJECT_DIR$/landingpage/js/main.js" />
       </list>
     </option>
   </component>
@@ -711,18 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landingpage/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68421054" vertical-offset="3174" max-vertical-offset="3780">
-          <caret line="263" column="13" selection-start-line="263" selection-start-column="13" selection-end-line="263" selection-end-column="13" />
-          <folding>
-            <element signature="e#1498#1875#0" expanded="false" />
-            <element signature="e#1918#2679#0" expanded="false" />
-            <element signature="e#2681#2895#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/landingpage/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.777778" vertical-offset="402" max-vertical-offset="1116">
@@ -757,9 +759,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/landingpage/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8698011" vertical-offset="22595" max-vertical-offset="24192">
+        <state vertical-scroll-proportion="-16.033333" vertical-offset="22595" max-vertical-offset="24192">
           <caret line="1282" column="34" selection-start-line="1282" selection-start-column="34" selection-end-line="1282" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landingpage/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6210526" vertical-offset="3174" max-vertical-offset="3834">
+          <caret line="261" column="26" selection-start-line="261" selection-start-column="26" selection-end-line="261" selection-end-column="26" />
+          <folding>
+            <element signature="e#1498#1875#0" expanded="false" />
+            <element signature="e#1918#2679#0" expanded="false" />
+            <element signature="e#2681#2895#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
