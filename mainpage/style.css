@@ -299,3 +299,10 @@ body{
 .clearfix{
     clear: both;
 }
+
+#footer{
+    padding-top: 0;
+}
+#footer .footer-links{
+    margin-top: 0;
+}
