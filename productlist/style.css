@@ -344,7 +344,7 @@ body{
 
 }
 
-.open>.dropdown-menu {
+.btn-group #technika{
     overflow: scroll;
     height: 400px;
 }

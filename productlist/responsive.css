@@ -247,8 +247,20 @@
         display: block;
         width: 100%;
     }
+    .search-row-mobile-content .btn-group #technika{
+        overflow: scroll;
+        height: 300px;
+    }
+    .search-row-mobile-content .btn-group #szin{
+        overflow: scroll;
+        height: 300px;
+    }
     .search-row-mobile-content .color{
         width: 20px;
+        height: 20px;
+        border: 1px solid #ccc;
+        float: left;
+        margin: 0 5px 0 0;
     }
     .search-row-mobile-content .search-bar{
         float: left;

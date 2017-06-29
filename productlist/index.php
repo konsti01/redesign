@@ -262,7 +262,7 @@ function productPrice($price, $currency = "Ft") {
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Technika <span class="caret"></span>
                         </button>
-                        <ul class="dropdown-menu">
+                        <ul id="technika" class="dropdown-menu">
                             <input type="text" placeholder="Keresés..." class="button-search">
                             <li>
                                 <a href="https://www.meska.hu/s/babaes-babkeszites/t-472">
@@ -547,7 +547,7 @@ function productPrice($price, $currency = "Ft") {
                             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Technika <span class="caret"></span>
                             </button>
-                            <ul class="dropdown-menu">
+                            <ul id="technika" class="dropdown-menu">
                                 <input type="text" placeholder="Keresés..." class="button-search">
                                 <li>
                                     <a href="https://www.meska.hu/s/babaes-babkeszites/t-472">
@@ -723,7 +723,7 @@ function productPrice($price, $currency = "Ft") {
                             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Szín <span class="caret"></span>
                             </button>
-                            <ul class="dropdown-menu">
+                            <ul id="szin" class="dropdown-menu">
                                 <input type="text" placeholder="Keresés..." class="button-search">
                                 <li><a href="https://www.meska.hu/s/arany/co-512"><div class="color gold"></div>Arany</a></li>
                                 <li><a href="https://www.meska.hu/s/attetszo/co-513"><div class="color transparent"></div>Áttetsző</a></li>
@@ -756,7 +756,7 @@ function productPrice($price, $currency = "Ft") {
                             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Ár <span class="caret"></span>
                             </button>
-                            <ul class="dropdown-menu">
+                            <ul id="ar" class="dropdown-menu">
                                 <li class="price-range">
                                     <input type="text" id="range" name="range" value="">
                                 </li>
@@ -767,10 +767,24 @@ function productPrice($price, $currency = "Ft") {
                                 Fizetési és szállítási lehetőségek <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a href="https://www.meska.hu/s/Mind/cc">Bankkártya</a></li>
-                                <li><a href="https://www.meska.hu/s/Mind/gc">Ajándékkártya</a></li>
-                                <li><a href="https://www.meska.hu/s/Mind/om">Saját alapanyag</a></li>
-                                <li><a href="https://www.meska.hu/s/Mind/j">Zsűrizett</a></li>
+                                <li>
+                                    <a href="https://www.meska.hu/s/Mind/cc">
+                                        <input type="checkbox" name="creditcard" value="creditcard">
+                                        <i class="fa fa-cc-mastercard" aria-hidden="true"></i>Bankkártya
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.meska.hu/s/Mind/gc">
+                                        <input type="checkbox" name="giftcard" value="giftcard">
+                                        <i class="fa fa-credit-card-alt" aria-hidden="true"></i>Ajándékkártya
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.meska.hu/s/Mind/j">
+                                        <input type="checkbox" name="jury" value="jury">
+                                        <i class="fa fa-book fa-fw" aria-hidden="true"></i>Zsűrizett
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <div class="sort">
