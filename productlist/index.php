@@ -482,10 +482,24 @@ function productPrice($price, $currency = "Ft") {
                             Fizetési és szállítási lehetőségek <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a href="https://www.meska.hu/s/Mind/cc">Bankkártya</a></li>
-                            <li><a href="https://www.meska.hu/s/Mind/gc">Ajándékkártya</a></li>
-                            <li><a href="https://www.meska.hu/s/Mind/om">Saját alapanyag</a></li>
-                            <li><a href="https://www.meska.hu/s/Mind/j">Zsűrizett</a></li>
+                            <li>
+                                <a href="https://www.meska.hu/s/Mind/cc">
+                                    <input type="checkbox" name="creditcard" value="creditcard">
+                                    <i class="fa fa-cc-mastercard" aria-hidden="true"></i>Bankkártya
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.meska.hu/s/Mind/gc">
+                                    <input type="checkbox" name="giftcard" value="giftcard">
+                                    <i class="fa fa-credit-card-alt" aria-hidden="true"></i>Ajándékkártya
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.meska.hu/s/Mind/j">
+                                    <input type="checkbox" name="jury" value="jury">
+                                    <i class="fa fa-book fa-fw" aria-hidden="true"></i>Zsűrizett
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="sort">

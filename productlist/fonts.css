@@ -9,3 +9,9 @@
     font-family:"Open Sans Condensed";
     src:url(../assets/fonts/OpenSans-CondLight.ttf) format("truetype");
 }
+
+/* Open Sans */
+@font-face{
+    font-family:"Open Sans";
+    src:url(../assets/fonts/OpenSans-Regular.ttf) format("truetype");
+}

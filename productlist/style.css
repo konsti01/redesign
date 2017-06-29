@@ -335,6 +335,20 @@ body{
     display: none;
 }
 
+.dropdown-menu input{
+    margin: 0 10px 0 0;
+    position: relative;
+    top: 2px;
+}
+.dropdown-menu a{
+
+}
+
+.open>.dropdown-menu {
+    overflow: scroll;
+    height: 400px;
+}
+
 .open > .dropdown-menu-2{
     display: block;
 }

@@ -1,14 +1,3 @@
-//GOMBOS VERZIÓ
-$(document).ready(function () {
-    size_cont = $("#cont .products").size();        //ez most 120
-    x=60;                                           //ennyit jelenít meg először
-    $('#cont .products:lt('+x+')').show();
-    $('.show-more').click(function () {             //klikkre
-        x= (x+4 <= size_cont) ? x+4 : size_cont;    //ennyit ad hozzá a megjelenítendőkhöz
-        $('#cont .products:lt('+x+')').show();      //és megjeleníti
-    });
-});
-
 //BANNERHELY ÉS WIDGET FIX
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
@@ -24,7 +13,7 @@ $(window).scroll(function() {
 });
 
 //SELLER NAME LENGTH
-$(document).ready(function () {
+/*$(document).ready(function () {
     var name = document.getElementsByClassName('seller');
 
     for (var i = 0;i <= name.length;i++) {
@@ -33,7 +22,7 @@ $(document).ready(function () {
             name[i].innerHTML = new_name;
         }
     }
-});
+});*/
 
 //SPECIFY VISIBILITY
 $('input[name=query]').keyup(function(){
@@ -51,22 +40,6 @@ $('input[name=query]').keyup(function(){
 
     }
 });
-
-//SPECIFY FIX
-/*$(window).scroll(function() {
- var scroll = $(window).scrollTop();
-
- if (scroll >= 150) {
- $(".specify").addClass("specify-fixed"),
- $(".cont").addClass("cont-fixed");
- }
- else {
- $(".specify").removeClass("specify-fixed"),
- $(".cont").removeClass("cont-fixed"),
-
- $('.cont-fixed').css('margin-top', '110px');
- }
- });*/
 
 //SCROLL SPECIFY
 $(window).scroll(function() {
