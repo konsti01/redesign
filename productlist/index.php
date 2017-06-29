@@ -438,7 +438,7 @@ function productPrice($price, $currency = "Ft") {
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Szín <span class="caret"></span>
                         </button>
-                        <ul class="dropdown-menu">
+                        <ul id="szin" class="dropdown-menu">
                             <input type="text" placeholder="Keresés..." class="button-search">
                             <li><a href="https://www.meska.hu/s/arany/co-512"><div class="color gold"></div>Arany</a></li>
                             <li><a href="https://www.meska.hu/s/attetszo/co-513"><div class="color transparent"></div>Áttetsző</a></li>
