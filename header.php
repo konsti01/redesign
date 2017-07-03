@@ -14,6 +14,9 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.7/css/ion.rangeSlider.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.7/css/ion.rangeSlider.skinNice.css">
 
+    <!-- Select2 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+
     <!--TODO-->
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/simple-sidebar.css">
     <!-- <link rel="stylesheet" href="https://www.meska.hu/bootstrap/font-awesome.css"> -->

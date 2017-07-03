@@ -48,12 +48,18 @@ $(window).scroll(function() {
  if (scroll >= 1) {
      $('.btn-group .btn').css('padding', '3px 6px'),
      $('.btn-group .btn').css('font-size', '12px'),
+     $('.select2-container .select2-selection--single').css('height', '25px'),
+     $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('line-height', '25px'),
+     $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('font-size', '12px'),
      $('.search-bar').css('font-size', '11px'),
      $('.search-bar').css('padding', '3px 10px'),
      $('.search-bar img').css('width', '15px');
  }else{
-     $('.btn-group .btn').css('padding', '6px 12px'),
+     $('.btn-group .btn').css('padding', '3px 12px'),
      $('.btn-group .btn').css('font-size', '14px'),
+     $('.select2-container .select2-selection--single').css('height', '28px'),
+     $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('line-height', '28px'),
+     $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('font-size', '14px'),
      $('.search-bar').css('font-size', '14px'),
      $('.search-bar').css('padding', '5px 10px'),
      $('.search-bar img').css('width', '20px');
@@ -64,3 +70,9 @@ $(window).scroll(function() {
 function topFunction() {
     $('html, body').animate({ scrollTop: 0 }, 'fast');
 }
+
+//SELECT2
+$(document).ready(function() {
+    $(".technika").select2();
+    $(".szin").select2();
+});

@@ -247,7 +247,6 @@ function productPrice($price, $currency = "Ft") {
         </div>
         <!-- RIGHT COL -->
         <div class="row-right">
-
             <div class="specify">
                 <ol class="breadcrumb">
                     <li><a href="https://www.meska.hu/">
@@ -258,186 +257,84 @@ function productPrice($price, $currency = "Ft") {
                     <li class="active"><a href="https://www.meska.hu/s/Mind"></a><span class="title">Termékkategória</span></li>
                 </ol>
                 <div class="search-row">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Technika <span class="caret"></span>
-                        </button>
-                        <ul id="technika" class="dropdown-menu">
-                            <input type="text" placeholder="Keresés..." class="button-search">
-                            <li>
-                                <a href="https://www.meska.hu/s/babaes-babkeszites/t-472">
-                                    Baba-és bábkészítés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/bormuvesseg/t-473">
-                                    Bőrművesség </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/csipkekeszites/t-474">
-                                    Csipkekészítés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/csomozas/t-475">
-                                    Csomózás </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/decoupage-szalvetatechnika/t-476">
-                                    Decoupage, szalvétatechnika </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/ekszerkeszites/t-477">
-                                    Ékszerkészítés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/famegmunkalas/t-478">
-                                    Famegmunkálás </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/femmegmunkalas/t-479">
-                                    Fémmegmunkálás </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/festeszet/t-480">
-                                    Festészet </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/festett-targyak/t-481">
-                                    Festett tárgyak </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/foltberakas/t-673">
-                                    Foltberakás </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/fonas-csuhe-gyekeny-stb/t-482">
-                                    Fonás (csuhé, gyékény, stb.) </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/foto-grafika-rajz-illusztracio/t-483">
-                                    Fotó, grafika, rajz, illusztráció </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/gyertya-mecseskeszites/t-484">
-                                    Gyertya-, mécseskészítés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/gyongyfuzes/t-485">
-                                    Gyöngyfűzés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/gyurma/t-486">
-                                    Gyurma </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/himzes/t-487">
-                                    Hímzés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/horgolas/t-488">
-                                    Horgolás </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/keramia/t-489">
-                                    Kerámia </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/kovacsoltvas/t-678">
-                                    Kovácsoltvas </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/kozmetikum-keszites/t-758">
-                                    Kozmetikum készítés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/kofaragas/t-490">
-                                    Kőfaragás </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/konyvkotes/t-671">
-                                    Könyvkötés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/kotes/t-491">
-                                    Kötés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/mezeskalacssutes/t-492">
-                                    Mézeskalácssütés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/mindenmas/t-493">
-                                    Mindenmás </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/mozaik/t-750">
-                                    Mozaik </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/nemezeles/t-494">
-                                    Nemezelés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/nepi-jatek-es-hangszerkeszites/t-495">
-                                    Népi játék és hangszerkészítés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/otvos/t-496">
-                                    Ötvös </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/papirmuveszet/t-497">
-                                    Papírművészet </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/patchwork-foltvarras/t-498">
-                                    Patchwork, foltvarrás </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/selyemfestes/t-499">
-                                    Selyemfestés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/szappankeszites/t-500">
-                                    Szappankészítés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/szobraszat/t-501">
-                                    Szobrászat </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/szoves/t-502">
-                                    Szövés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/tuzzomanc/t-503">
-                                    Tűzzománc </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/ujrahasznositott-alapanyagbol-keszult-termekek/t-504">
-                                    Újrahasznosított alapanyagból készült termékek </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/uvegmuveszet/t-505">
-                                    Üvegművészet </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/varras/t-506">
-                                    Varrás </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/viragkotes/t-507">
-                                    Virágkötés </a>
-                            </li>
-                            <li>
-                                <a href="https://www.meska.hu/s/zsugorka/t-569">
-                                    Zsugorka </a>
-                            </li>
-                        </ul>
+                    <div id="technika" class="btn-group">
+                            <select class="technika">
+                                <option value="00" disabled selected>Technika</option>
+                                <option value="01">Baba-és bábkészítés</option>
+                                <option value="02">Bőrművesség</option>
+                                <option value="03">Csipkekészítés</option>
+                                <option value="04">Csomózás</option>
+                                <option value="05">Decoupage, szalvétatechnika</option>
+                                <option value="06">Ékszerkészítés</option>
+                                <option value="07">Famegmunkálás</option>
+                                <option value="08">Fémmegmunkálás</option>
+                                <option value="09">Festészet</option>
+                                <option value="10">Festett tárgyak</option>
+                                <option value="11">Foltberakás</option>
+                                <option value="12">Fonás (csuhé, gyékény, stb.)</option>
+                                <option value="13">Fotó, grafika, rajz, illusztráció</option>
+                                <option value="14">Gyertya-, mécseskészítés</option>
+                                <option value="15">Gyöngyfűzés</option>
+                                <option value="16">Gyurma</option>
+                                <option value="17">Hímzés</option>
+                                <option value="18">Horgolás</option>
+                                <option value="19">Kerámia</option>
+                                <option value="20">Kovácsoltvas</option>
+                                <option value="21">Kozmetikum készítés</option>
+                                <option value="22">Kőfaragás</option>
+                                <option value="23">Könyvkötés</option>
+                                <option value="24">Kötés</option>
+                                <option value="25">Mézeskalácssütés</option>
+                                <option value="26">Mindenmás</option>
+                                <option value="27">Mozaik</option>
+                                <option value="28">Nemezelés</option>
+                                <option value="29">Népi játék és hangszerkészítés</option>
+                                <option value="30">Ötvös</option>
+                                <option value="31">Papírművészet</option>
+                                <option value="32">Patchwork, foltvarrás</option>
+                                <option value="33">Selyemfestés</option>
+                                <option value="34">Szappankészítés</option>
+                                <option value="35">Szobrászat</option>
+                                <option value="36">Szövés</option>
+                                <option value="37">Tűzzománc</option>
+                                <option value="38">Újrahasznosított alapanyagból készült termékek</option>
+                                <option value="39">Üvegművészet</option>
+                                <option value="40">Varrás</option>
+                                <option value="41">Virágkötés</option>
+                                <option value="42">Zsugorka</option>
+                            </select>
                     </div>
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Szín <span class="caret"></span>
-                        </button>
+                    <div id="szin"class="btn-group">
+                        <select class="szin">
+                            <option value="00" disabled selected>Szín</option>
+                            <option value="01">Arany</option>
+                            <option value="02">Áttetsző</option>
+                            <option value="03">Barna</option>
+                            <option value="04">Beige</option>
+                            <option value="05">Bordó</option>
+                            <option value="06">Bronz</option>
+                            <option value="07">Ezüst</option>
+                            <option value="08">Fehér</option>
+                            <option value="09">Fekete</option>
+                            <option value="10">Kék</option>
+                            <option value="11">Lila</option>
+                            <option value="12">Piros</option>
+                            <option value="13">Réz</option>
+                            <option value="14">Rózsaszín</option>
+                            <option value="15">Sárga</option>
+                            <option value="16">Pink/Magenta</option>
+                            <option value="17">Szürke</option>
+                            <option value="18">Türkiz</option>
+                            <option value="19">Zöld</option>
+                            <option value="20">Csíkos</option>
+                            <option value="21">Kockás</option>
+                            <option value="22">Mintás</option>
+                            <option value="23">Pöttyös</option>
+                            <option value="24">Tarka</option>
+                            <option value="25">Narancssárga</option>
+                        </select>
+
+                        <!--
                         <ul id="szin" class="dropdown-menu">
                             <input type="text" placeholder="Keresés..." class="button-search">
                             <li><a href="https://www.meska.hu/s/arany/co-512"><div class="color gold"></div>Arany</a></li>
@@ -466,6 +363,7 @@ function productPrice($price, $currency = "Ft") {
                             <li><a href="https://www.meska.hu/s/tarka/co-534"><div class="color tarka"></div>Tarka</a></li>
                             <li><a href="https://www.meska.hu/s/narancssarga/co-568"><div class="color orange"></div>Narancssárga</a></li>
                         </ul>
+                        -->
                     </div>
                     <div class="btn-group">
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -473,7 +371,7 @@ function productPrice($price, $currency = "Ft") {
                         </button>
                         <ul class="dropdown-menu">
                             <li class="price-range">
-                                <input type="text" id="range" name="range" value="">
+                                <input type="text" class="range" name="range" value="">
                             </li>
                         </ul>
                     </div>
@@ -543,186 +441,84 @@ function productPrice($price, $currency = "Ft") {
                 <div class="search-row-mobile">
                     <div class="search-row-mobile-trigger">Keresési szempontok</div>
                     <div class="search-row-mobile-content">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Technika <span class="caret"></span>
-                            </button>
-                            <ul id="technika" class="dropdown-menu">
-                                <input type="text" placeholder="Keresés..." class="button-search">
-                                <li>
-                                    <a href="https://www.meska.hu/s/babaes-babkeszites/t-472">
-                                        Baba-és bábkészítés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/bormuvesseg/t-473">
-                                        Bőrművesség </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/csipkekeszites/t-474">
-                                        Csipkekészítés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/csomozas/t-475">
-                                        Csomózás </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/decoupage-szalvetatechnika/t-476">
-                                        Decoupage, szalvétatechnika </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/ekszerkeszites/t-477">
-                                        Ékszerkészítés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/famegmunkalas/t-478">
-                                        Famegmunkálás </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/femmegmunkalas/t-479">
-                                        Fémmegmunkálás </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/festeszet/t-480">
-                                        Festészet </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/festett-targyak/t-481">
-                                        Festett tárgyak </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/foltberakas/t-673">
-                                        Foltberakás </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/fonas-csuhe-gyekeny-stb/t-482">
-                                        Fonás (csuhé, gyékény, stb.) </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/foto-grafika-rajz-illusztracio/t-483">
-                                        Fotó, grafika, rajz, illusztráció </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/gyertya-mecseskeszites/t-484">
-                                        Gyertya-, mécseskészítés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/gyongyfuzes/t-485">
-                                        Gyöngyfűzés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/gyurma/t-486">
-                                        Gyurma </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/himzes/t-487">
-                                        Hímzés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/horgolas/t-488">
-                                        Horgolás </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/keramia/t-489">
-                                        Kerámia </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/kovacsoltvas/t-678">
-                                        Kovácsoltvas </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/kozmetikum-keszites/t-758">
-                                        Kozmetikum készítés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/kofaragas/t-490">
-                                        Kőfaragás </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/konyvkotes/t-671">
-                                        Könyvkötés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/kotes/t-491">
-                                        Kötés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/mezeskalacssutes/t-492">
-                                        Mézeskalácssütés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/mindenmas/t-493">
-                                        Mindenmás </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/mozaik/t-750">
-                                        Mozaik </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/nemezeles/t-494">
-                                        Nemezelés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/nepi-jatek-es-hangszerkeszites/t-495">
-                                        Népi játék és hangszerkészítés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/otvos/t-496">
-                                        Ötvös </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/papirmuveszet/t-497">
-                                        Papírművészet </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/patchwork-foltvarras/t-498">
-                                        Patchwork, foltvarrás </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/selyemfestes/t-499">
-                                        Selyemfestés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/szappankeszites/t-500">
-                                        Szappankészítés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/szobraszat/t-501">
-                                        Szobrászat </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/szoves/t-502">
-                                        Szövés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/tuzzomanc/t-503">
-                                        Tűzzománc </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/ujrahasznositott-alapanyagbol-keszult-termekek/t-504">
-                                        Újrahasznosított alapanyagból készült termékek </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/uvegmuveszet/t-505">
-                                        Üvegművészet </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/varras/t-506">
-                                        Varrás </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/viragkotes/t-507">
-                                        Virágkötés </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/zsugorka/t-569">
-                                        Zsugorka </a>
-                                </li>
-                            </ul>
+                        <div id="technika" class="btn-group">
+                            <select class="technika">
+                                <option value="00" disabled selected>Technika</option>
+                                <option value="01">Baba-és bábkészítés</option>
+                                <option value="02">Bőrművesség</option>
+                                <option value="03">Csipkekészítés</option>
+                                <option value="04">Csomózás</option>
+                                <option value="05">Decoupage, szalvétatechnika</option>
+                                <option value="06">Ékszerkészítés</option>
+                                <option value="07">Famegmunkálás</option>
+                                <option value="08">Fémmegmunkálás</option>
+                                <option value="09">Festészet</option>
+                                <option value="10">Festett tárgyak</option>
+                                <option value="11">Foltberakás</option>
+                                <option value="12">Fonás (csuhé, gyékény, stb.)</option>
+                                <option value="13">Fotó, grafika, rajz, illusztráció</option>
+                                <option value="14">Gyertya-, mécseskészítés</option>
+                                <option value="15">Gyöngyfűzés</option>
+                                <option value="16">Gyurma</option>
+                                <option value="17">Hímzés</option>
+                                <option value="18">Horgolás</option>
+                                <option value="19">Kerámia</option>
+                                <option value="20">Kovácsoltvas</option>
+                                <option value="21">Kozmetikum készítés</option>
+                                <option value="22">Kőfaragás</option>
+                                <option value="23">Könyvkötés</option>
+                                <option value="24">Kötés</option>
+                                <option value="25">Mézeskalácssütés</option>
+                                <option value="26">Mindenmás</option>
+                                <option value="27">Mozaik</option>
+                                <option value="28">Nemezelés</option>
+                                <option value="29">Népi játék és hangszerkészítés</option>
+                                <option value="30">Ötvös</option>
+                                <option value="31">Papírművészet</option>
+                                <option value="32">Patchwork, foltvarrás</option>
+                                <option value="33">Selyemfestés</option>
+                                <option value="34">Szappankészítés</option>
+                                <option value="35">Szobrászat</option>
+                                <option value="36">Szövés</option>
+                                <option value="37">Tűzzománc</option>
+                                <option value="38">Újrahasznosított alapanyagból készült termékek</option>
+                                <option value="39">Üvegművészet</option>
+                                <option value="40">Varrás</option>
+                                <option value="41">Virágkötés</option>
+                                <option value="42">Zsugorka</option>
+                            </select>
                         </div>
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Szín <span class="caret"></span>
-                            </button>
+                        <div id="szin"class="btn-group">
+                            <select class="szin">
+                                <option value="00" disabled selected>Szín</option>
+                                <option value="01">Arany</option>
+                                <option value="02">Áttetsző</option>
+                                <option value="03">Barna</option>
+                                <option value="04">Beige</option>
+                                <option value="05">Bordó</option>
+                                <option value="06">Bronz</option>
+                                <option value="07">Ezüst</option>
+                                <option value="08">Fehér</option>
+                                <option value="09">Fekete</option>
+                                <option value="10">Kék</option>
+                                <option value="11">Lila</option>
+                                <option value="12">Piros</option>
+                                <option value="13">Réz</option>
+                                <option value="14">Rózsaszín</option>
+                                <option value="15">Sárga</option>
+                                <option value="16">Pink/Magenta</option>
+                                <option value="17">Szürke</option>
+                                <option value="18">Türkiz</option>
+                                <option value="19">Zöld</option>
+                                <option value="20">Csíkos</option>
+                                <option value="21">Kockás</option>
+                                <option value="22">Mintás</option>
+                                <option value="23">Pöttyös</option>
+                                <option value="24">Tarka</option>
+                                <option value="25">Narancssárga</option>
+                            </select>
+
+                            <!--
                             <ul id="szin" class="dropdown-menu">
                                 <input type="text" placeholder="Keresés..." class="button-search">
                                 <li><a href="https://www.meska.hu/s/arany/co-512"><div class="color gold"></div>Arany</a></li>
@@ -751,6 +547,7 @@ function productPrice($price, $currency = "Ft") {
                                 <li><a href="https://www.meska.hu/s/tarka/co-534"><div class="color tarka"></div>Tarka</a></li>
                                 <li><a href="https://www.meska.hu/s/narancssarga/co-568"><div class="color orange"></div>Narancssárga</a></li>
                             </ul>
+                            -->
                         </div>
                         <div class="btn-group">
                             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -758,7 +555,7 @@ function productPrice($price, $currency = "Ft") {
                             </button>
                             <ul id="ar" class="dropdown-menu">
                                 <li class="price-range">
-                                    <input type="text" id="range" name="range" value="">
+                                    <input type="text" class="range" name="range" value="">
                                 </li>
                             </ul>
                         </div>

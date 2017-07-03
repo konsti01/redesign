@@ -1,3 +1,6 @@
+*{
+    outline: none;
+}
 body{
     background-color: #F8F8F8;
 }
@@ -202,6 +205,20 @@ body{
     padding: 5px;
     outline: none;
 }
+
+/*SELECT2*/
+.search-row #technika .select2-container{
+    width: 220px !important;
+}
+.search-row-mobile #technika .select2-container{
+    width: 100% !important;
+    text-align: center;
+}
+.search-row-mobile #szin .select2-container{
+    width: 100% !important;
+    text-align: center;
+}
+
 .color{
     width: 20px;
     height: 20px;
@@ -351,6 +368,11 @@ body{
 .btn-group #szin{
     overflow: scroll;
     height: 400px;
+}
+
+.btn-group .btn {
+    padding: 3px 12px;
+    border: 1px solid #aaa;
 }
 
 .open > .dropdown-menu-2{

@@ -89,7 +89,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.7/js/ion.rangeSlider.js"></script>
 <script>
     $(function () {
-        $("#range").ionRangeSlider({
+        $(".range").ionRangeSlider({
             hide_min_max: true,
             keyboard: true,
             min: 0,
@@ -103,6 +103,9 @@
         });
     });
 </script>
+
+<!-- Select2 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 
 <!-- localJS-->
 <script src="/productlist/scroll-load.js"></script>
