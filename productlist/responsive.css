@@ -188,10 +188,7 @@
     .row-wrapper{
         padding-left: 0;
     }
-    .bannerhely{
-        display: none;
-    }
-    .widget{
+    .bannerhely, .widget, .bannerhely-fixed, .widget-fixed, .bannerhely-fixed-bottom, .widget-fixed-bottom{
         display: none;
     }
     .row-left{
