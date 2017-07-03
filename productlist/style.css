@@ -310,8 +310,8 @@ body{
 .specify .search-bar{
     float: right;
     background-color: #fff;
-    padding: 5px 10px;
-    border: 1px solid #ccc;
+    padding: 2px 10px;
+    border: 1px solid #aaa;
     border-radius: 5px;
 
 }

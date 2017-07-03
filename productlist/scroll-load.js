@@ -55,7 +55,7 @@ $(window).scroll(function() {
      $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('line-height', '28px'),
      $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('font-size', '14px'),
      $('.search-bar').css('font-size', '14px'),
-     $('.search-bar').css('padding', '5px 10px'),
+     $('.search-bar').css('padding', '2px 10px'),
      $('.search-bar img').css('width', '20px');
  }
  });
