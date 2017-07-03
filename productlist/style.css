@@ -149,25 +149,35 @@ body{
     height: 250px;
     background-color: #ccc;
 }
-
-.widget{
-    margin: 10px 0 0 0;
-    height: 150px;
-    background-color: #ccc;
-}
-
 .bannerhely-fixed{
     margin: 48px 0 0 0;
     height: 250px;
     background-color: #ccc;
     position: fixed; top: 99px;
 }
+.bannerhely-fixed-bottom{
+    margin: 48px 0 0 0;
+    height: 250px;
+    background-color: #ccc;
+    position: fixed; bottom: 370px;
+}
 
+.widget{
+    margin: 10px 0 0 0;
+    height: 150px;
+    background-color: #ccc;
+}
 .widget-fixed{
     margin: 50px 0 0 0;
     height: 150px;
     background-color: #ccc;
     position: fixed; top: 359px;
+}
+.widget-fixed-bottom{
+    margin: 48px 0 0 0;
+    height: 150px;
+    background-color: #ccc;
+    position: fixed; bottom: 210px;
 }
 
 .breadcrumb{

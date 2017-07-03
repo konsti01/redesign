@@ -242,8 +242,8 @@ function productPrice($price, $currency = "Ft") {
                 </div>
             </div>
             <div class="clear"></div>
-            <div class="bannerhely col-xs-12 col-sm-12 col-md-12 col-lg-12">BANNERHELY</div>
-            <div class="widget col-xs-12 col-sm-12 col-md-12 col-lg-12">WIDGET</div>
+            <div class="bannerhely col-md-2-250 col-lg-2-250 col-xl-2-250">BANNERHELY</div>
+            <div class="widget col-md-2-250 col-lg-2-250 col-xl-2-250">WIDGET</div>
         </div>
         <!-- RIGHT COL -->
         <div class="row-right">

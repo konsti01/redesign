@@ -2,27 +2,21 @@
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 700) {
-        $(".bannerhely").addClass("bannerhely-fixed col-md-2-250 col-lg-2-250 col-xl-2-250");
-        $(".widget").addClass("widget-fixed col-md-2-250 col-lg-2-250 col-xl-2-250");
+    if(scroll < 700){
+        $(".bannerhely-fixed").removeClass("bannerhely-fixed").addClass("bannerhely"),
+        $(".widget-fixed").removeClass("widget-fixed").addClass("widget");
     }
-    else {
-        $(".bannerhely").removeClass("bannerhely-fixed col-md-2-250 col-lg-2-250 col-xl-2-250");
-        $(".widget").removeClass("widget-fixed col-md-2-250 col-lg-2-250 col-xl-2-250");
+    if (scroll >= 700 && scroll<= 2540) {
+        $(".bannerhely").removeClass("bannerhely").addClass("bannerhely-fixed"),
+        $(".widget").removeClass("widget").addClass("widget-fixed"),
+        $(".bannerhely-fixed-bottom").removeClass("bannerhely-fixed-bottom").addClass("bannerhely-fixed"),
+        $(".widget-fixed-bottom").removeClass("widget-fixed-bottom").addClass("widget-fixed");
+    }
+    if(scroll>2540){
+        $(".bannerhely-fixed").removeClass("bannerhely-fixed").addClass("bannerhely-fixed-bottom"),
+        $(".widget-fixed").removeClass("widget-fixed").addClass("widget-fixed-bottom");
     }
 });
-
-//SELLER NAME LENGTH
-/*$(document).ready(function () {
-    var name = document.getElementsByClassName('seller');
-
-    for (var i = 0;i <= name.length;i++) {
-        if((name[i].innerHTML.length)>13){
-            var new_name = name[i].innerHTML.slice(0, 13) + '...';
-            name[i].innerHTML = new_name;
-        }
-    }
-});*/
 
 //SPECIFY VISIBILITY
 $('input[name=query]').keyup(function(){
@@ -76,3 +70,16 @@ $(document).ready(function() {
     $(".technika").select2();
     $(".szin").select2();
 });
+
+
+//SELLER NAME LENGTH
+/*$(document).ready(function () {
+ var name = document.getElementsByClassName('seller');
+
+ for (var i = 0;i <= name.length;i++) {
+ if((name[i].innerHTML.length)>13){
+ var new_name = name[i].innerHTML.slice(0, 13) + '...';
+ name[i].innerHTML = new_name;
+ }
+ }
+ });*/
