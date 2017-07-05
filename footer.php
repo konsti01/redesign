@@ -107,6 +107,9 @@
 <!-- Select2 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 
+<!-- Mustache -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
+
 <!-- localJS-->
 <script src="/productlist/scroll-load.js"></script>
 <script src="/faq/index2_files/search.js"></script>

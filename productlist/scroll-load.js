@@ -72,21 +72,36 @@ function topFunction() {
     $('html, body').animate({ scrollTop: 0 }, 'fast');
 }
 
-//SELECT2
+//LOAD MORE PROD
+function getProductsJson() {
+    $.ajax({
+        dataType: 'json',
+        method: 'POST',
+        url: '/productlist/data.php',
+        data: {json: 1},
+        success: function(data){
+            appendProducts(data);
+        },
+        error: function(){
+            alert('error');
+        }
+    });
+}
+
+function appendProducts(products) {
+    var template = $('#productBoxTemplate').html();
+    Mustache.parse(template);
+    var rendered = Mustache.render(template, {products: products});
+    $('#product-wrapper').append(rendered);
+}
+
 $(document).ready(function() {
+    //SELECT2
     $(".technika").select2();
     $(".szin").select2();
+
+    // LOAD MORE PROD
+    $("#load-more-products").click(getProductsJson);
 });
 
 
-//SELLER NAME LENGTH
-/*$(document).ready(function () {
- var name = document.getElementsByClassName('seller');
-
- for (var i = 0;i <= name.length;i++) {
- if((name[i].innerHTML.length)>13){
- var new_name = name[i].innerHTML.slice(0, 13) + '...';
- name[i].innerHTML = new_name;
- }
- }
- });*/

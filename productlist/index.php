@@ -1,28 +1,6 @@
 <?php include_once('../header.php'); ?>
 <?php include_once('data.php'); ?>
 
-<?php
-
-function productPrice($price, $currency = "Ft") {
-    $ret = number_format($price, NULL, " ", " ");
-    if ($currency != ''){
-        if ($currency == '.'){
-            $ret .= ".- Ft";
-        } else {
-            $ret .= " ".$currency;
-        }
-    }
-    return $ret;
-}
-
-/*function cut($s, $lenght, $append) {
-    if (mb_strlen($s, 'utf8') >= $lenght) {
-        return str_replace("\\", "", mb_substr($s, 0, $lenght, 'utf8') . $append);
-    }
-    return $s;
-}*/
-
-?>
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="/productlist/style.css">
 <link rel="stylesheet" type="text/css" href="/productlist/responsive.css">
@@ -681,15 +659,15 @@ function productPrice($price, $currency = "Ft") {
                 <span class="keyword"><a href="">kulcsszo19</a></span>,
                 <span class="keyword"><a href="">kulcsszo20</a></span>,
             </div>
-                <div class="row cont">
+                <div id="product-wrapper" class="row cont">
                     <?php
                     foreach ($products as $p){ ?>
                         <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                             <div class="product-box" onclick="location.href='#';">
-                                <div class="image-wrap">
+                                <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
                                     <img src="img/plus.svg" class="icon">
-                                </div>
+                                </a>
                                 <div class="seller-pic">
                                     <?php if ($p['avatar'] != '') { ?>
                                     <a href="https://<?=$p['shop_name']?>.meska.hu">
@@ -705,10 +683,10 @@ function productPrice($price, $currency = "Ft") {
                                     <a href="https://<?=$p['shop_name']?>.meska.hu">
                                         <div class="seller"><?=$p['shop_name']?></div>
                                     </a>
-                                    <a href="https://meska.hu/t<?=$p['id']?>">
+                                    <a href="https://www.meska.hu/t<?=$p['id']?>">
                                         <div class="description"><?=$p['product_name']?></div>
                                     </a>
-                                    <div class="price"><?=productPrice($p['price'], '.')?></div>
+                                    <div class="price"><?=$p['formatted_price']?></div>
                                     <a href=""><i class="fa fa-shopping-basket" aria-hidden="true" title="Kosárba teszem!"></i></a>
                                     <div class="clear"></div>
                                 </div>
@@ -736,7 +714,7 @@ function productPrice($price, $currency = "Ft") {
                     <span class="page-num"><a href="">5</a></span>
                     <span class="next"><a href="">Következő</a></span>
                 </div>
-                <div class="show-more">Több termék megjelenítése</div>
+                <div id="load-more-products" class="show-more">Több termék megjelenítése</div>
                 <div class="category-desc">
                     <div class="title">Termékkategória leírása</div>
                     <div class="content">
@@ -749,5 +727,40 @@ function productPrice($price, $currency = "Ft") {
         </div>
     </div>
 </div>
-
+<script id="productBoxTemplate" type="text/html">
+    {{# products }}
+    <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+        <div class="product-box">
+            <a href="https://www.meska.hu/t{{ id }}" class="image-wrap">
+                <img class="product-image" alt="{{ image_alt }}" title="{{ image_title }}" src="{{ image }}">
+                <img src="img/plus.svg" class="icon">
+            </a>
+            <div class="seller-pic">
+                {{# avatar }}
+                <a href="https://{{ shop_name }}.meska.hu">
+                    <img src="https://www.meska.hu/img/avatar/thumbnail/{{ avatar }}">
+                </a>
+                {{/ avatar }}
+                {{^ avatar }}
+                <a href="https://{{ shop_name }}.meska.hu">
+                    <img src="https://www.meska.hu/images/no_avatar.jpg">
+                </a>
+                {{/ avatar }}
+            </div>
+            <div class="product-description">
+                <a href="https://{{ shop_name }}.meska.hu">
+                    <div class="seller">{{ shop_name }}</div>
+                </a>
+                <a href="https://www.meska.hu/t{{ id }}">
+                    <div class="description">{{ product_name }}</div>
+                </a>
+                <div class="price">{{ formatted_price }}</div>
+                <a href=""><i class="fa fa-shopping-basket" aria-hidden="true" title="Kosárba teszem!"></i></a>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    {{/products}}
+</script>
 <?php include_once('../footer.php'); ?>

@@ -525,6 +525,7 @@ body{
     background-color: #88B04B;
     box-shadow: inset 0 0 0px 10px #fff;
     max-width: 300px;
+    display: block;
     /*background: linear-gradient(
             to right,
             transparent,
