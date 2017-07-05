@@ -434,6 +434,29 @@ body{
     display: block;
 }
 
+.page-select{
+    text-align: center;
+    margin: 25px 0;
+    font-family: "Open Sans";
+}
+.page-select .prev a, .page-select .next a{
+    padding: 15px;
+}
+.page-select .prev a:hover, .page-select .next a:hover{
+    color: #88b048;
+}
+.page-select .page-num a{
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.page-select .page-num a:hover{
+    color: #fff;
+    background-color: #88b048;
+}
+.page-select .active a{
+    color: #88b048;
+}
+
 .show-more{
     width: 270px;
     text-align: center;
