@@ -280,6 +280,10 @@ a:hover{
   padding: 5px 10px 5px 10px;
 }
 
+.navbar-nav .dropdown{
+    display: none;
+}
+
 .header-wrapper {
   display: block;
   width: 100%;

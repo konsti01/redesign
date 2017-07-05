@@ -512,7 +512,7 @@
 	.is-sticky #top-menu{
 		width:100%;
 	}
-	
+
 	#navbar .navbar-nav{
 		background:rgba(255,255,255,1.0);
 		padding:5px;
@@ -538,7 +538,7 @@
 	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
 		background-color:#fff;
 	}
-	
+
 	/*DOPDOWN*/
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
 		position:absolute;
@@ -641,7 +641,6 @@
 }
 
 /* TABLET */
-
 @media only screen and (min-width: 768px) and (max-width:1023px){ /*iPad ÁLLÓ*/
 	/*NAV*/
 	.meska-logo{
@@ -737,7 +736,6 @@
 }
 
 /* STATS CORR */
-
 @media only screen and (min-width: 1024px) and (max-width: 1190px){
 	/*STATS*/
 	.number-wrapper{
@@ -792,4 +790,14 @@
 		width:50%;
 	}
 
+}
+
+/*TOP MENU*/
+@media only screen and (min-width: 768px) and (max-width:1200px){
+    .navbar-nav li{
+        display: none;
+    }
+    .navbar-nav .dropdown, .navbar-nav .dropdown li{
+        display: block;
+    }
 }
