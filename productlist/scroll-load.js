@@ -42,12 +42,19 @@ $(window).scroll(function() {
  if (scroll >= 1) {
      $('.btn-group .btn').css('padding', '3px 6px'),
      $('.btn-group .btn').css('font-size', '12px'),
+     $('.btn-group .btn').css('transition', 'padding 1s'),
+     $('.btn-group .btn').css('transition', 'font-size 100ms'),
      $('.select2-container .select2-selection--single').css('height', '25px'),
+     $('.select2-container .select2-selection--single').css('transition', 'height 1s'),
      $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('line-height', '25px'),
      $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('font-size', '12px'),
+     $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('transition', 'line-height 1s'),
+     $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('transition', 'font-size 100ms'),
      $('.search-bar').css('font-size', '11px'),
      $('.search-bar').css('padding', '3px 10px'),
-     $('.search-bar img').css('width', '15px');
+     $('.search-bar img').css('width', '15px'),
+     $('.search-bar').css('transition', 'padding 1s');
+     $('.search-bar img').css('transition', 'width 1s');
  }else{
      $('.btn-group .btn').css('padding', '3px 12px'),
      $('.btn-group .btn').css('font-size', '14px'),

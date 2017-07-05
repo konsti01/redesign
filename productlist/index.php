@@ -407,26 +407,51 @@ function productPrice($price, $currency = "Ft") {
                                 Rendezés <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu-2">
-                                <li><a href="">
-                                        <i class="fa fa-sort-numeric-desc" aria-hidden="true"></i>
-                                        Ár szerint csökkenő (legdrágább elől)
-                                    </a></li>
-                                <li><a href="">
-                                        <i class="fa fa-sort-numeric-asc" aria-hidden="true"></i>
-                                        Ár szerint növekvő (legolcsóbb elől)
-                                    </a></li>
-                                <li><a href="">
-                                        <i class="fa fa-refresh" aria-hidden="true"></i>
-                                        Legújabbak elől
-                                    </a></li>
-                                <li><a href="">
-                                        <i class="fa fa-eye"></i>
-                                        Legnézettebbek elől
-                                    </a></li>
-                                <li><a href="">
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-home" aria-hidden="true"></i>
+                                        Meska.hu sorrend
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
                                         <i class="fa fa-heart"></i>
-                                        Legnépszerűbbek elől
-                                    </a></li>
+                                        Legnépszerűbb
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-refresh" aria-hidden="true"></i>
+                                        Legújabb
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-eye"></i>
+                                        Legnézettebb
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        Kiemelt
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-sort-numeric-desc" aria-hidden="true"></i>
+                                        Ár szerint csökkenő
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-sort-numeric-asc" aria-hidden="true"></i>
+                                        Ár szerint növekvő
+                                    </a>
+                                </li>
+
+
+
                             </ul>
                         </div>
                     </div>
@@ -661,7 +686,7 @@ function productPrice($price, $currency = "Ft") {
                     foreach ($products as $p){ ?>
                         <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5"
                             <?php if ($p === end($products)) { ?>
-                                style="display: none;"
+
                             <?php } ?>
                             >
                             <div class="product-box" onclick="location.href='#';">
@@ -688,18 +713,22 @@ function productPrice($price, $currency = "Ft") {
                                         <div class="description"><?=$p['product_name']?></div>
                                     </a>
                                     <div class="price"><?=productPrice($p['price'], '.')?></div>
+                                    <a href=""><i class="fa fa-shopping-basket" aria-hidden="true" title="Kosárba teszem!"></i></a>
+                                    <div class="clear"></div>
                                 </div>
                                 <div class="clear"></div>
                             </div>
                         </div>
                     <?php } ?>
 
+                    <!--
                     <div class="load-more col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                         <div class="load-more-box">
                             <div class="gomb">+</div>
                             <div class="text">Több termék betöltése</div>
                         </div>
                     </div>
+                    -->
 
                 </div>
                 <div class="show-more">Több termék megjelenítése</div>

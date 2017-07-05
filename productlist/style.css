@@ -120,13 +120,18 @@ body{
     text-align: right;
     background-color: #88B04B;
     color: #fff;
-    padding: 5px;
+    padding: 5px 35px 5px 5px;
+    font-family: "Open Sans";
+    border-bottom: 1px solid #ccc;
 }
 .subnav a:hover{
     width: 100%;
     float: right;
     background-color: #336600;
     color: #fff;
+}
+.subnav a:last-child{
+    border-bottom: 0;
 }
 .hamburger-menu{
     width: 14px !important;
@@ -582,11 +587,21 @@ body{
 
 .product-box .price{
     font-family: Amatic SC;
-    font-size:20px;
-    font-weight: 900;
+    font-size: 30px;
+    font-weight: 400;
     color: #000;
     opacity: 0.5;
     padding: 5px 0px 0px 0px;
+    float: left;
+}
+.fa-shopping-basket{
+    float: right;
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+}
+.fa-shopping-basket:hover{
+    color: #000;
 }
 
 .category-desc{
