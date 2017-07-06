@@ -241,6 +241,60 @@ body{
     float: left;
     margin: 0 5px 0 0;
 }
+
+/*
+.select2-results__options li:nth-child(2){background-image: linear-gradient(to right, transparent 90%, #cccc00);}
+.select2-results__options li:nth-child(3){background-image: linear-gradient(to right, transparent 90%, #eee);}
+.select2-results__options li:nth-child(4){background-image: linear-gradient(to right, transparent 90%, #663300);}
+.select2-results__options li:nth-child(5){background-image: linear-gradient(to right, transparent 90%, #f5f5dc);}
+.select2-results__options li:nth-child(6){background-image: linear-gradient(to right, transparent 90%, #990000);}
+.select2-results__options li:nth-child(7){background-image: linear-gradient(to right, transparent 90%, #CD7F32);}
+.select2-results__options li:nth-child(8){background-image: linear-gradient(to right, transparent 90%, #aaaaaa);}
+.select2-results__options li:nth-child(9){background-image: linear-gradient(to right, transparent 90%, #ffffff);}
+.select2-results__options li:nth-child(10){background-image: linear-gradient(to right, transparent 90%, #000000);}
+.select2-results__options li:nth-child(11){background-image: linear-gradient(to right, transparent 90%, #0000ff);}
+.select2-results__options li:nth-child(12){background-image: linear-gradient(to right, transparent 90%, #906090);}
+.select2-results__options li:nth-child(13){background-image: linear-gradient(to right, transparent 90%, #ff0000);}
+.select2-results__options li:nth-child(14){background-image: linear-gradient(to right, transparent 90%, #B87333);}
+.select2-results__options li:nth-child(15){background-image: linear-gradient(to right, transparent 90%, #ff3399);}
+.select2-results__options li:nth-child(16){background-image: linear-gradient(to right, transparent 90%, #ffff00);}
+.select2-results__options li:nth-child(17){background-image: linear-gradient(to right, transparent 90%, #ff00ff);}
+.select2-results__options li:nth-child(18){background-image: linear-gradient(to right, transparent 90%, #cccccc);}
+.select2-results__options li:nth-child(19){background-image: linear-gradient(to right, transparent 90%, #7beadf);}
+.select2-results__options li:nth-child(20){background-image: linear-gradient(to right, transparent 90%, #00ff00);}
+.select2-results__options li:nth-child(21){
+    background: url(img/stripe.gif) no-repeat top right; background-size: 30px 32px;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+.select2-results__options li:nth-child(22){
+    background: url(img/ska.jpg) no-repeat top right; background-size: 30px 32px;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+.select2-results__options li:nth-child(23){
+    background: url(img/pattern.jpg) no-repeat top right; background-size: 30px 32px;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+.select2-results__options li:nth-child(24){
+    background: url(img/dot.jpg) no-repeat top right; background-size: 30px 32px;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+.select2-results__options li:nth-child(25){
+    background: url(img/tarka.jpg) no-repeat top right; background-size: 30px 32px;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+.select2-results__options li:nth-child(26){background-image: linear-gradient(to right, transparent 90%, #ff9933);}
+*/
+
 .gold{background-color: #cccc00;}
 .transparent{background-color: transparent;}
 .brown{background-color: #663300;}
@@ -383,6 +437,11 @@ body{
 .btn-group #szin{
     overflow: scroll;
     height: 400px;
+}
+
+.btn-group #szin .select2-results {
+    width: 200px;
+    background-color: #fff;
 }
 
 .btn-group .btn {

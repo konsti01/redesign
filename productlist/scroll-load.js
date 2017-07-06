@@ -1,20 +1,21 @@
 //BANNERHELY ÉS WIDGET FIX
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
+    var bottom = $(window).scrollTop() + $(window).height() == $(document).height();
 
     if(scroll < 700){
         $(".bannerhely-fixed").removeClass("bannerhely-fixed").addClass("bannerhely"),
-        $(".widget-fixed").removeClass("widget-fixed").addClass("widget");
+            $(".widget-fixed").removeClass("widget-fixed").addClass("widget");
     }
-    if (scroll >= 700 && scroll<= 2540) {
+    if (scroll >= 700 && bottom-100) {
         $(".bannerhely").removeClass("bannerhely").addClass("bannerhely-fixed"),
-        $(".widget").removeClass("widget").addClass("widget-fixed"),
-        $(".bannerhely-fixed-bottom").removeClass("bannerhely-fixed-bottom").addClass("bannerhely-fixed"),
-        $(".widget-fixed-bottom").removeClass("widget-fixed-bottom").addClass("widget-fixed");
+            $(".widget").removeClass("widget").addClass("widget-fixed"),
+            $(".bannerhely-fixed-bottom").removeClass("bannerhely-fixed-bottom").addClass("bannerhely-fixed"),
+            $(".widget-fixed-bottom").removeClass("widget-fixed-bottom").addClass("widget-fixed");
     }
-    if(scroll>2540){
+    if(bottom){
         $(".bannerhely-fixed").removeClass("bannerhely-fixed").addClass("bannerhely-fixed-bottom"),
-        $(".widget-fixed").removeClass("widget-fixed").addClass("widget-fixed-bottom");
+            $(".widget-fixed").removeClass("widget-fixed").addClass("widget-fixed-bottom");
     }
 });
 
@@ -103,5 +104,4 @@ $(document).ready(function() {
     // LOAD MORE PROD
     $("#load-more-products").click(getProductsJson);
 });
-
 

@@ -282,7 +282,7 @@
                                 <option value="42">Zsugorka</option>
                             </select>
                     </div>
-                    <div id="szin"class="btn-group">
+                    <div id="szin" class="btn-group">
                         <select class="szin">
                             <option value="00" disabled selected>Szín</option>
                             <option value="01">Arany</option>
