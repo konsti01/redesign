@@ -186,40 +186,40 @@
 
 /* ROW LEFT */
 @media only screen and (max-width: 1100px){
-    .row-wrapper{
-        padding-left: 0;
-    }
+    /*.row-wrapper{
+        padding-left: 250px;
+    }*/
     .bannerhely, .widget, .bannerhely-fixed, .widget-fixed, .bannerhely-fixed-bottom, .widget-fixed-bottom{
         display: none;
     }
-    .row-left{
+    /*.row-left{
         padding: 0;
-        margin-left: 0;
-        position: relative;
-        left: 0;
-        width: 100%;
-    }
+        margin-left: -250px;
+        position: absolute;
+        left: 250px;
+        top: 94px;
+        width: 250px;
+    }*/
 
     /* Mobil ProductCategory */
-    .main{
+    /*.main{
         width: 100%;
     }
     .nav-wrap{
         width: 100%;
-        display: none;
-    }
+    }*/
     /* Dropdown */
-    .sidebar:hover .nav-wrap{
+    /*.sidebar:hover .nav-wrap{
         display: block;
-    }
+    }*/
 
     /* Specify */
-    .specify{
+    /*.specify{
         position:fixed;
         top: 94px;
         left: 0px;
         right: 0px;
-    }
+    }*/
 
     .search-row{
         display: none;
@@ -236,6 +236,7 @@
         line-height: 24px;
         padding: 5px;
         width: 100%;
+        text-align: center;
     }
     .specify:hover .search-row-mobile-content{
         display: block;
@@ -279,9 +280,34 @@
     .main{
         position: fixed;
         top: 53px;
+
+    }
+    .row-wrapper {
+        padding-left: 35px;
+    }
+    .row-left {
+        position: absolute;
+        left: 35px;
+    }
+    .row-left:hover{
+        position: absolute;
+        left: 250px;
+        transition: left 1s;
     }
     .nav-wrap{
         margin: 0;
+    }
+    .sidebar{
+
+    }
+    .sidebar .trigger span{
+        margin-right: 5px;
+    }
+
+    .specify{
+        position: fixed;
+        top: 53px;
+        left: 35px;
     }
 
     .keywords {
@@ -309,7 +335,6 @@
 @media only screen and (min-width: 1000px) and (max-width: 1100px){
     .specify{
         position: fixed;
-        top: 130px;
     }
 
     .keywords {
