@@ -1,28 +1,25 @@
 @media only screen and (max-width: 424px){
-    /*.product-box .seller-pic{
-        padding: 11px 0px 0px 0px;
-        float: left;
-        width: 36px;
+    .breadcrumb-meskahu{
+        display: none;
     }
-    .product-box .seller-pic img{
-        width: 30px;
-        border-radius: 30px;
-    }
-    .product-box .product-description{
-        width: 55%;
-        padding: 10px 0px 10px 0px;
-        float: left;
-        font-size: 12px;
-    }*/
+
     .product-box .seller{
         font-size: 12px;
         text-transform: uppercase;
     }
     .product-box .description{
-        height: 130px;
+        height: 70px;
+        font-size: 14px;
+        height: 65px;
+    }
+    .product-box .product-description{
+        width: 100%;
     }
     .product-box .price{
         font-size: 16pt;
+    }
+    .seller-pic{
+        display: none;
     }
 
     /*ProductCat Pos*/
@@ -36,6 +33,10 @@
 }     /* xs */
 
 @media only screen and (min-width: 425px) and (max-width: 550px){
+    .breadcrumb-meskahu{
+        display: none;
+    }
+
     .product-box{
         min-height: 365px;
     }
@@ -43,11 +44,19 @@
         font-size: 17px;
         text-transform: uppercase;
     }
+    .product-box .description{
+        height: 70px;
+        font-size: 14px;
+        height: 65px;
+    }
     .product-box .product-description {
-        width: 65%;
+        width: 100%;
         padding: 10px 0px 10px 0px;
         float: left;
         font-size: 12px;
+    }
+    .seller-pic{
+        display: none;
     }
 
     /*ProductCat Pos*/
@@ -114,6 +123,7 @@
     .product-box .description{
         font-size:14px;
         padding: 5px 0px;
+        height: 65px;
     }
     .product-box .price{
 
@@ -283,11 +293,11 @@
 
     }
     .row-wrapper {
-        padding-left: 35px;
+        padding-left: 41px;
     }
     .row-left {
         position: absolute;
-        left: 35px;
+        left: 41px;
     }
     .row-left:hover{
         position: absolute;
@@ -307,7 +317,7 @@
     .specify{
         position: fixed;
         top: 53px;
-        left: 35px;
+        left: 41px;
     }
 
     .keywords {

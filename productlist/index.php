@@ -344,7 +344,7 @@
                         -->
                     </div>
                     <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button type="button" id="price" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Ár <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
@@ -377,6 +377,14 @@
                                 </a>
                             </li>
                         </ul>
+                    </div>
+
+                    <div class="search-bar">
+                        <form role="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get" class="search search-full">
+                            <input name="utf8" type="hidden" value="✓">
+                            <img src="https://image.flaticon.com/icons/svg/54/54554.svg">
+                            <input type="search" name="query" id="search-bar" placeholder="Szabadszavas kereső..." autocomplete="off" aria-label="Search">
+                        </form>
                     </div>
                     <div class="sort">
                         <div class="btn-group">
@@ -432,13 +440,6 @@
 
                             </ul>
                         </div>
-                    </div>
-                    <div class="search-bar">
-                        <form role="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get" class="search search-full">
-                            <input name="utf8" type="hidden" value="✓">
-                            <img src="https://image.flaticon.com/icons/svg/54/54554.svg">
-                            <input type="search" name="query" id="search-bar" placeholder="Szabadszavas kereső..." autocomplete="off" aria-label="Search">
-                        </form>
                     </div>
                 </div>
                 <div class="search-row-mobile">
@@ -637,27 +638,84 @@
                 <div class="clearfix"></div>
             </div>
             <div class="keywords">
-                <b>Termékkategóriában népszerű kulcsszavak:</b>
-                <span class="keyword"><a href="">kulcsszo1</a></span>,
-                <span class="keyword"><a href="">kulcsszo2</a></span>,
-                <span class="keyword"><a href="">kulcsszo3</a></span>,
-                <span class="keyword"><a href="">kulcsszo4</a></span>,
-                <span class="keyword"><a href="">kulcsszo5</a></span>,
-                <span class="keyword"><a href="">kulcsszo6</a></span>,
-                <span class="keyword"><a href="">kulcsszo7</a></span>,
-                <span class="keyword"><a href="">kulcsszo8</a></span>,
-                <span class="keyword"><a href="">kulcsszo9</a></span>,
-                <span class="keyword"><a href="">kulcsszo10</a></span>,
-                <span class="keyword"><a href="">kulcsszo11</a></span>,
-                <span class="keyword"><a href="">kulcsszo12</a></span>,
-                <span class="keyword"><a href="">kulcsszo13</a></span>,
-                <span class="keyword"><a href="">kulcsszo14</a></span>,
-                <span class="keyword"><a href="">kulcsszo15</a></span>,
-                <span class="keyword"><a href="">kulcsszo16</a></span>,
-                <span class="keyword"><a href="">kulcsszo17</a></span>,
-                <span class="keyword"><a href="">kulcsszo18</a></span>,
-                <span class="keyword"><a href="">kulcsszo19</a></span>,
-                <span class="keyword"><a href="">kulcsszo20</a></span>,
+                <div class="keywords-box">
+                    <b>Termékkategóriában népszerű kulcsszavak:</b>
+                    <span class="keyword"><a href="">kulcsszo1</a></span>,
+                    <span class="keyword"><a href="">kulcsszo2</a></span>,
+                    <span class="keyword"><a href="">kulcsszo3</a></span>,
+                    <span class="keyword"><a href="">kulcsszo4</a></span>,
+                    <span class="keyword"><a href="">kulcsszo5</a></span>,
+                    <span class="keyword"><a href="">kulcsszo6</a></span>,
+                    <span class="keyword"><a href="">kulcsszo7</a></span>,
+                    <span class="keyword"><a href="">kulcsszo8</a></span>,
+                    <span class="keyword"><a href="">kulcsszo9</a></span>,
+                    <span class="keyword"><a href="">kulcsszo10</a></span>,
+                    <span class="keyword"><a href="">kulcsszo11</a></span>,
+                    <span class="keyword"><a href="">kulcsszo12</a></span>,
+                    <span class="keyword"><a href="">kulcsszo13</a></span>,
+                    <span class="keyword"><a href="">kulcsszo14</a></span>,
+                    <span class="keyword"><a href="">kulcsszo15</a></span>,
+                    <span class="keyword"><a href="">kulcsszo16</a></span>,
+                    <span class="keyword"><a href="">kulcsszo17</a></span>,
+                    <span class="keyword"><a href="">kulcsszo18</a></span>,
+                    <span class="keyword"><a href="">kulcsszo19</a></span>,
+                    <span class="keyword"><a href="">kulcsszo20</a></span>,
+                </div>
+                <div class="sort">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-sort-amount-desc" aria-hidden="true"></i>
+                            Rendezés <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu-2">
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                    Meska.hu sorrend
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-heart"></i>
+                                    Legnépszerűbb
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                                    Legújabb
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-eye"></i>
+                                    Legnézettebb
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    Kiemelt
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-sort-numeric-desc" aria-hidden="true"></i>
+                                    Ár szerint csökkenő
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-sort-numeric-asc" aria-hidden="true"></i>
+                                    Ár szerint növekvő
+                                </a>
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+                </div>
             </div>
                 <div id="product-wrapper" class="row cont">
                     <?php
@@ -687,7 +745,7 @@
                                         <div class="description"><?=$p['product_name']?></div>
                                     </a>
                                     <div class="price"><?=$p['formatted_price']?></div>
-                                    <a href=""><i class="fa fa-shopping-basket" aria-hidden="true" title="Kosárba teszem!"></i></a>
+                                    <div class="basket">Kosárba »</div>
                                     <div class="clear"></div>
                                 </div>
                                 <div class="clear"></div>
