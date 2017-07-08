@@ -196,83 +196,8 @@
 
 /* ROW LEFT */
 @media only screen and (max-width: 1100px){
-    /*.row-wrapper{
-        padding-left: 250px;
-    }*/
     .bannerhely, .widget, .bannerhely-fixed, .widget-fixed, .bannerhely-fixed-bottom, .widget-fixed-bottom{
         display: none;
-    }
-    /*.row-left{
-        padding: 0;
-        margin-left: -250px;
-        position: absolute;
-        left: 250px;
-        top: 94px;
-        width: 250px;
-    }*/
-
-    /* Mobil ProductCategory */
-    /*.main{
-        width: 100%;
-    }
-    .nav-wrap{
-        width: 100%;
-    }*/
-    /* Dropdown */
-    /*.sidebar:hover .nav-wrap{
-        display: block;
-    }*/
-
-    /* Specify */
-    /*.specify{
-        position:fixed;
-        top: 94px;
-        left: 0px;
-        right: 0px;
-    }*/
-
-    .search-row{
-        display: none;
-    }
-    .search-row-mobile{
-        display: block;
-    }
-    .search-row-mobile-trigger{
-        height: 34px;
-        border: 1px solid #ccc;
-        color: #333;
-        background-color: #fff;
-        border-radius: 4px;
-        line-height: 24px;
-        padding: 5px;
-        width: 100%;
-        text-align: center;
-    }
-    .specify:hover .search-row-mobile-content{
-        display: block;
-    }
-    .search-row-mobile-content div, .search-row-mobile-content .btn{
-        margin: 5px 0px;
-        display: block;
-        width: 100%;
-    }
-    .search-row-mobile-content .btn-group #technika{
-        overflow: scroll;
-        height: 300px;
-    }
-    .search-row-mobile-content .btn-group #szin{
-        overflow: scroll;
-        height: 300px;
-    }
-    .search-row-mobile-content .color{
-        width: 20px;
-        height: 20px;
-        border: 1px solid #ccc;
-        float: left;
-        margin: 0 5px 0 0;
-    }
-    .search-row-mobile-content .search-bar{
-        float: left;
     }
 
     .keywords {
@@ -349,5 +274,42 @@
 
     .keywords {
         margin: 221px 5px 0 5px;
+    }
+}
+
+/* SEARCH ROW RESP */
+@media only screen and (min-width: 1000px) and (max-width: 1179px){
+    .specify .search-bar{
+        display: none;
+    }
+}
+@media (max-width: 959px){
+    .specify .search-bar{
+        display: none;
+    }
+}
+@media only screen and (min-width: 712px) and (max-width: 768px){
+    .search-row .sort{
+        display: none !important;
+    }
+}
+@media (max-width: 712px){
+    .specify #payment{
+        display: none;
+    }
+}
+@media (max-width: 564px){
+    .search-row .sort{
+        display: none !important;
+    }
+}
+@media (max-width: 466px){
+    .specify #price{
+        display: none;
+    }
+}
+@media (max-width: 410px){
+    .specify #szin{
+        display: none;
     }
 }

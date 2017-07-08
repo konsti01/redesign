@@ -106,6 +106,14 @@ $(document).ready(function() {
     $(".szin").select2();
 
     // LOAD MORE PROD
-    $("#load-more-products").click(getProductsJson);
+    $(".next").click(getProductsJson);
+
+    var current = 0;
+
+    $(".next").click(function(){
+        current = current+1;
+    });
+
+
 });
 

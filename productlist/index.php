@@ -343,7 +343,7 @@
                         </ul>
                         -->
                     </div>
-                    <div class="btn-group">
+                    <div id="price" class="btn-group">
                         <button type="button" id="price" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Ár <span class="caret"></span>
                         </button>
@@ -353,7 +353,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="btn-group">
+                    <div id="payment" class="btn-group">
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Fizetési és szállítási lehetőségek <span class="caret"></span>
                         </button>
@@ -378,7 +378,6 @@
                             </li>
                         </ul>
                     </div>
-
                     <div class="search-bar">
                         <form role="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get" class="search search-full">
                             <input name="utf8" type="hidden" value="✓">
@@ -439,191 +438,6 @@
 
 
                             </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="search-row-mobile">
-                    <div class="search-row-mobile-trigger">Keresési szempontok</div>
-                    <div class="search-row-mobile-content">
-                        <div id="technika" class="btn-group">
-                            <select class="technika">
-                                <option value="00" disabled selected>Technika</option>
-                                <option value="01">Baba-és bábkészítés</option>
-                                <option value="02">Bőrművesség</option>
-                                <option value="03">Csipkekészítés</option>
-                                <option value="04">Csomózás</option>
-                                <option value="05">Decoupage, szalvétatechnika</option>
-                                <option value="06">Ékszerkészítés</option>
-                                <option value="07">Famegmunkálás</option>
-                                <option value="08">Fémmegmunkálás</option>
-                                <option value="09">Festészet</option>
-                                <option value="10">Festett tárgyak</option>
-                                <option value="11">Foltberakás</option>
-                                <option value="12">Fonás (csuhé, gyékény, stb.)</option>
-                                <option value="13">Fotó, grafika, rajz, illusztráció</option>
-                                <option value="14">Gyertya-, mécseskészítés</option>
-                                <option value="15">Gyöngyfűzés</option>
-                                <option value="16">Gyurma</option>
-                                <option value="17">Hímzés</option>
-                                <option value="18">Horgolás</option>
-                                <option value="19">Kerámia</option>
-                                <option value="20">Kovácsoltvas</option>
-                                <option value="21">Kozmetikum készítés</option>
-                                <option value="22">Kőfaragás</option>
-                                <option value="23">Könyvkötés</option>
-                                <option value="24">Kötés</option>
-                                <option value="25">Mézeskalácssütés</option>
-                                <option value="26">Mindenmás</option>
-                                <option value="27">Mozaik</option>
-                                <option value="28">Nemezelés</option>
-                                <option value="29">Népi játék és hangszerkészítés</option>
-                                <option value="30">Ötvös</option>
-                                <option value="31">Papírművészet</option>
-                                <option value="32">Patchwork, foltvarrás</option>
-                                <option value="33">Selyemfestés</option>
-                                <option value="34">Szappankészítés</option>
-                                <option value="35">Szobrászat</option>
-                                <option value="36">Szövés</option>
-                                <option value="37">Tűzzománc</option>
-                                <option value="38">Újrahasznosított alapanyagból készült termékek</option>
-                                <option value="39">Üvegművészet</option>
-                                <option value="40">Varrás</option>
-                                <option value="41">Virágkötés</option>
-                                <option value="42">Zsugorka</option>
-                            </select>
-                        </div>
-                        <div id="szin"class="btn-group">
-                            <select class="szin">
-                                <option value="00" disabled selected>Szín</option>
-                                <option value="01">Arany</option>
-                                <option value="02">Áttetsző</option>
-                                <option value="03">Barna</option>
-                                <option value="04">Beige</option>
-                                <option value="05">Bordó</option>
-                                <option value="06">Bronz</option>
-                                <option value="07">Ezüst</option>
-                                <option value="08">Fehér</option>
-                                <option value="09">Fekete</option>
-                                <option value="10">Kék</option>
-                                <option value="11">Lila</option>
-                                <option value="12">Piros</option>
-                                <option value="13">Réz</option>
-                                <option value="14">Rózsaszín</option>
-                                <option value="15">Sárga</option>
-                                <option value="16">Pink/Magenta</option>
-                                <option value="17">Szürke</option>
-                                <option value="18">Türkiz</option>
-                                <option value="19">Zöld</option>
-                                <option value="20">Csíkos</option>
-                                <option value="21">Kockás</option>
-                                <option value="22">Mintás</option>
-                                <option value="23">Pöttyös</option>
-                                <option value="24">Tarka</option>
-                                <option value="25">Narancssárga</option>
-                            </select>
-
-                            <!--
-                            <ul id="szin" class="dropdown-menu">
-                                <input type="text" placeholder="Keresés..." class="button-search">
-                                <li><a href="https://www.meska.hu/s/arany/co-512"><div class="color gold"></div>Arany</a></li>
-                                <li><a href="https://www.meska.hu/s/attetszo/co-513"><div class="color transparent"></div>Áttetsző</a></li>
-                                <li><a href="https://www.meska.hu/s/barna/co-514"><div class="color brown"></div>Barna</a></li>
-                                <li><a href="https://www.meska.hu/s/beige/co-515"><div class="color beige"></div>Beige</a></li>
-                                <li><a href="https://www.meska.hu/s/bordo/co-516"><div class="color deep-red"></div>Bordó</a></li>
-                                <li><a href="https://www.meska.hu/s/bronz/co-517"><div class="color bronze"></div>Bronz</a></li>
-                                <li><a href="https://www.meska.hu/s/ezust/co-518"><div class="color silver"></div>Ezüst</a></li>
-                                <li><a href="https://www.meska.hu/s/feher/co-519"><div class="color white"></div>Fehér</a></li>
-                                <li><a href="https://www.meska.hu/s/fekete/co-520"><div class="color black"></div>Fekete</a></li>
-                                <li><a href="https://www.meska.hu/s/kek/co-521"><div class="color blue"></div>Kék</a></li>
-                                <li><a href="https://www.meska.hu/s/lila/co-522"><div class="color purple"></div>Lila</a></li>
-                                <li><a href="https://www.meska.hu/s/piros/co-523"><div class="color red"></div>Piros</a></li>
-                                <li><a href="https://www.meska.hu/s/rez/co-524"><div class="color copper"></div>Réz</a></li>
-                                <li><a href="https://www.meska.hu/s/rozsaszin/co-525"><div class="color pink"></div>Rózsaszín</a></li>
-                                <li><a href="https://www.meska.hu/s/sarga/co-526"><div class="color yellow"></div>Sárga</a></li>
-                                <li><a href="https://www.meska.hu/s/pinkmagenta/co-791"><div class="color magenta"></div>Pink/Magenta</a></li>
-                                <li><a href="https://www.meska.hu/s/szurke/co-527"><div class="color gray"></div>Szürke</a></li>
-                                <li><a href="https://www.meska.hu/s/turkiz/co-528"><div class="color turquoise"></div>Türkiz</a></li>
-                                <li><a href="https://www.meska.hu/s/zold/co-529"><div class="color green"></div>Zöld</a></li>
-                                <li><a href="https://www.meska.hu/s/csikos/co-530"><div class="color stripe"></div>Csíkos</a></li>
-                                <li><a href="https://www.meska.hu/s/kockas/co-531"><div class="color ska"></div>Kockás</a></li>
-                                <li><a href="https://www.meska.hu/s/mintas/co-532"><div class="color pattern"></div>Mintás</a></li>
-                                <li><a href="https://www.meska.hu/s/pottyos/co-533"><div class="color dot"></div>Pöttyös</a></li>
-                                <li><a href="https://www.meska.hu/s/tarka/co-534"><div class="color tarka"></div>Tarka</a></li>
-                                <li><a href="https://www.meska.hu/s/narancssarga/co-568"><div class="color orange"></div>Narancssárga</a></li>
-                            </ul>
-                            -->
-                        </div>
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Ár <span class="caret"></span>
-                            </button>
-                            <ul id="ar" class="dropdown-menu">
-                                <li class="price-range">
-                                    <input type="text" class="range" name="range" value="">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Fizetési és szállítási lehetőségek <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="https://www.meska.hu/s/Mind/cc">
-                                        <input type="checkbox" name="creditcard" value="creditcard">
-                                        <i class="fa fa-cc-mastercard" aria-hidden="true"></i>Bankkártya
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/Mind/gc">
-                                        <input type="checkbox" name="giftcard" value="giftcard">
-                                        <i class="fa fa-credit-card-alt" aria-hidden="true"></i>Ajándékkártya
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.meska.hu/s/Mind/j">
-                                        <input type="checkbox" name="jury" value="jury">
-                                        <i class="fa fa-book fa-fw" aria-hidden="true"></i>Zsűrizett
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="sort">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fa fa-sort-amount-desc" aria-hidden="true"></i>
-                                    Rendezés <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu-2">
-                                    <li><a href="">
-                                            <i class="fa fa-sort-numeric-desc" aria-hidden="true"></i>
-                                            Ár szerint csökkenő (legdrágább elől)
-                                        </a></li>
-                                    <li><a href="">
-                                            <i class="fa fa-sort-numeric-asc" aria-hidden="true"></i>
-                                            Ár szerint növekvő (legolcsóbb elől)
-                                        </a></li>
-                                    <li><a href="">
-                                            <i class="fa fa-refresh" aria-hidden="true"></i>
-                                            Legújabbak elől
-                                        </a></li>
-                                    <li><a href="">
-                                            <i class="fa fa-eye"></i>
-                                            Legnézettebbek elől
-                                        </a></li>
-                                    <li><a href="">
-                                            <i class="fa fa-heart"></i>
-                                            Legnépszerűbbek elől
-                                        </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="search-bar">
-                            <form role="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get" class="search search-full">
-                                <input name="utf8" type="hidden" value="✓">
-                                <img src="https://image.flaticon.com/icons/svg/54/54554.svg">
-                                <input type="search" name="query" id="search-bar" placeholder="Szabadszavas kereső..." autocomplete="off" aria-label="Search">
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -764,15 +578,14 @@
 
                 </div>
                 <div class="page-select">
-                    <span class="prev"><a href="">Előző</a></span>
-                    <span class="page-num active"><a href="">1</a></span>
-                    <span class="page-num"><a href="">2</a></span>
-                    <span class="page-num"><a href="">3</a></span>
-                    <span class="page-num"><a href="">4</a></span>
-                    <span class="page-num"><a href="">5</a></span>
-                    <span class="next"><a href="">Következő</a></span>
+                    <span class="page-num" id="pn1">1</span>
+                    <span class="page-num" id="pn2">2</span>
+                    <span class="page-num" id="pn3">3</span>
+                    <span class="page-num" id="pn4">4</span>
+                    <span class="page-num" id="pn5">5</span>
+                    <span class="next">Következő</span>
                 </div>
-                <div id="load-more-products" class="show-more">Több termék megjelenítése</div>
+                <!--<div id="load-more-products" class="show-more">Több termék megjelenítése</div>-->
                 <div class="category-desc">
                     <div class="title">Termékkategória leírása</div>
                     <div class="content">

@@ -505,24 +505,31 @@ body{
 
 .page-select{
     text-align: center;
-    margin: 25px 0;
+    margin: 25px auto 0 auto;
     font-family: "Open Sans";
-}
-.page-select .prev a, .page-select .next a{
-    padding: 15px;
-}
-.page-select .prev a:hover, .page-select .next a:hover{
-    color: #88b048;
-}
-.page-select .page-num a{
-    padding: 10px 15px;
+    background-color: #fff;
+    padding: 10px;
+    width: 330px;
     border-radius: 5px;
 }
-.page-select .page-num a:hover{
+.page-select .next{
+    padding: 15px;
+    cursor: pointer;
+}
+.page-select .next:hover{
+    color: #88b048;
+}
+.page-select .page-num{
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.page-select .page-num:hover{
     color: #fff;
     background-color: #88b048;
 }
-.page-select .active a{
+
+.page-select .active{
     color: #88b048;
 }
 
