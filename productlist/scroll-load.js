@@ -103,7 +103,10 @@ function appendProducts(products) {
 $(document).ready(function() {
     //SELECT2
     $(".technika").select2();
-    $(".szin").select2();
+    $('.szin').select2({
+        containerCssClass : "colors-wrap",
+        dropdownCssClass: 'colors'
+    });
 
     // LOAD MORE PROD
     var current = 1;

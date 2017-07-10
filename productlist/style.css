@@ -529,10 +529,6 @@ body{
     background-color: #88b048;
 }
 
-.page-select .active{
-    color: #88b048;
-}
-
 .show-more{
     width: 270px;
     text-align: center;
@@ -675,19 +671,7 @@ body{
     height: 73px;
     overflow: hidden;
     text-overflow: ellipsis;
-
-    /*position: relative;*/
 }
-/*.product-box .description:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 70%;
-    height: 1.2em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
-}*/
 
 .product-box .price{
     font-family: Amatic SC;
@@ -698,6 +682,41 @@ body{
     padding: 5px 0px 0px 0px;
     float: left;
 }
+
+.colors{
+    width: 150px!important;
+}
+.colors li{
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.colors li:nth-child(2){background-image: url(img/colors/gold.png);}
+.colors li:nth-child(3){background-image: url(img/colors/attatszo.png);}
+.colors li:nth-child(4){background-image: url(img/colors/barna.png);}
+.colors li:nth-child(5){background-image: url(img/colors/bezs.png);}
+.colors li:nth-child(6){background-image: url(img/colors/deepred.png);}
+.colors li:nth-child(7){background-image: url(img/colors/bronze.png);}
+.colors li:nth-child(8){background-image: url(img/colors/silver.png);}
+.colors li:nth-child(9){background-image: url(img/colors/white.png);}
+.colors li:nth-child(10){background-image: url(img/colors/black.png);}
+.colors li:nth-child(11){background-image: url(img/colors/blue.png);}
+.colors li:nth-child(12){background-image: url(img/colors/purple.png);}
+.colors li:nth-child(13){background-image: url(img/colors/red.png);}
+.colors li:nth-child(14){background-image: url(img/colors/copper.png);}
+.colors li:nth-child(15){background-image: url(img/colors/pink.png);}
+.colors li:nth-child(16){background-image: url(img/colors/yellow.png);}
+.colors li:nth-child(17){background-image: url(img/colors/magenta.png);}
+.colors li:nth-child(18){background-image: url(img/colors/gray.png);}
+.colors li:nth-child(19){background-image: url(img/colors/turkiz.png);}
+.colors li:nth-child(20){background-image: url(img/colors/green.png);}
+.colors li:nth-child(21){background-image: url(img/colors/stripe.gif);}
+.colors li:nth-child(22){background-image: url(img/colors/ska.jpg);}
+.colors li:nth-child(23){background-image: url(img/colors/pattern.jpg);}
+.colors li:nth-child(24){background-image: url(img/colors/dot.jpg);}
+.colors li:nth-child(25){background-image: url(img/colors/tarka.jpg);}
+.colors li:nth-child(26){background-image: url(img/colors/orange.png);}
+
 .basket{
     float: right;
     position: relative;
