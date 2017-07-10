@@ -531,70 +531,70 @@
                     </div>
                 </div>
             </div>
-                <div id="product-wrapper" class="row cont">
-                    <?php
-                    foreach ($products as $p){ ?>
-                        <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
-                            <div class="product-box" onclick="location.href='#';">
-                                <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
-                                    <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
-                                    <img src="img/plus.svg" class="icon">
+            <div id="product-wrapper" class="row cont">
+                <?php
+                foreach ($products as $p){ ?>
+                    <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                        <div class="product-box" onclick="location.href='#';">
+                            <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
+                                <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
+                                <img src="img/plus.svg" class="icon">
+                            </a>
+                            <div class="seller-pic">
+                                <?php if ($p['avatar'] != '') { ?>
+                                <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                    <img src="https://www.meska.hu/img/avatar/thumbnail/<?=$p['avatar']?>">
                                 </a>
-                                <div class="seller-pic">
-                                    <?php if ($p['avatar'] != '') { ?>
-                                    <a href="https://<?=$p['shop_name']?>.meska.hu">
-                                        <img src="https://www.meska.hu/img/avatar/thumbnail/<?=$p['avatar']?>">
-                                    </a>
-                                    <?php } else {?>
-                                    <a href="https://<?=$p['shop_name']?>.meska.hu">
-                                        <img src="https://www.meska.hu/images/no_avatar.jpg">
-                                    </a>
-                                    <?php } ?>
-                                </div>
-                                <div class="product-description">
-                                    <a href="https://<?=$p['shop_name']?>.meska.hu">
-                                        <div class="seller"><?=$p['shop_name']?></div>
-                                    </a>
-                                    <a href="https://www.meska.hu/t<?=$p['id']?>">
-                                        <div class="description"><?=$p['product_name']?></div>
-                                    </a>
-                                    <div class="price"><?=$p['formatted_price']?></div>
-                                    <div class="basket">Kosárba »</div>
-                                    <div class="clear"></div>
-                                </div>
+                                <?php } else {?>
+                                <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                    <img src="https://www.meska.hu/images/no_avatar.jpg">
+                                </a>
+                                <?php } ?>
+                            </div>
+                            <div class="product-description">
+                                <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                    <div class="seller"><?=$p['shop_name']?></div>
+                                </a>
+                                <a href="https://www.meska.hu/t<?=$p['id']?>">
+                                    <div class="description"><?=$p['product_name']?></div>
+                                </a>
+                                <div class="price"><?=$p['formatted_price']?></div>
+                                <div class="basket">Kosárba »</div>
                                 <div class="clear"></div>
                             </div>
-                        </div>
-                    <?php } ?>
-
-                    <!--
-                    <div class="load-more col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
-                        <div class="load-more-box">
-                            <div class="gomb">+</div>
-                            <div class="text">Több termék betöltése</div>
+                            <div class="clear"></div>
                         </div>
                     </div>
-                    -->
+                <?php } ?>
 
-                </div>
-                <div class="page-select">
-                    <span class="page-num" id="pn1">1</span>
-                    <span class="page-num" id="pn2">2</span>
-                    <span class="page-num" id="pn3">3</span>
-                    <span class="page-num" id="pn4">4</span>
-                    <span class="page-num" id="pn5">5</span>
-                    <span class="next">Következő</span>
-                </div>
-                <!--<div id="load-more-products" class="show-more">Több termék megjelenítése</div>-->
-                <div class="category-desc">
-                    <div class="title">Termékkategória leírása</div>
-                    <div class="content">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <!--
+                <div class="load-more col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                    <div class="load-more-box">
+                        <div class="gomb">+</div>
+                        <div class="text">Több termék betöltése</div>
                     </div>
                 </div>
+                -->
+
+            </div>
+            <div class="page-select">
+                <span class="page-num" id="pn1">1</span>
+                <span class="page-num" id="pn2">2</span>
+                <span class="page-num" id="pn3">3</span>
+                <span class="page-num" id="pn4">4</span>
+                <span class="page-num" id="pn5">5</span>
+                <span class="next">Következő</span>
+            </div>
+            <!--<div id="load-more-products" class="show-more">Több termék megjelenítése</div>-->
+            <div class="category-desc">
+                <div class="title">Termékkategória leírása</div>
+                <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -626,7 +626,7 @@
                     <div class="description">{{ product_name }}</div>
                 </a>
                 <div class="price">{{ formatted_price }}</div>
-                <a href=""><i class="fa fa-shopping-basket" aria-hidden="true" title="Kosárba teszem!"></i></a>
+                <div class="basket">Kosárba »</div>
                 <div class="clear"></div>
             </div>
             <div class="clear"></div>

@@ -106,14 +106,124 @@ $(document).ready(function() {
     $(".szin").select2();
 
     // LOAD MORE PROD
-    $(".next").click(getProductsJson);
+    var current = 1;
 
-    var current = 0;
+    //pn1
+    $('#pn1').css('color', '#ccc'),
+    $('#pn1').css('background-color', 'transparent'),
+    $('#pn1').css('cursor', 'auto');
 
+    //pn2
+    $("#pn2").click(function(){
+        $('#pn2').css('color', '#ccc'),
+        $('#pn2').css('background-color', 'transparent'),
+        $('#pn2').css('cursor', 'auto');
+
+        current = 2;
+    });
+        $('#pn2').one('click', getProductsJson);
+
+    //pn3
+    $("#pn3").click(function(){
+        $('#pn2').css('color', '#ccc'),
+        $('#pn2').css('background-color', 'transparent'),
+        $('#pn2').css('cursor', 'auto'),
+        $('#pn2').click(),
+
+        $('#pn3').css('color', '#ccc'),
+        $('#pn3').css('background-color', 'transparent'),
+        $('#pn3').css('cursor', 'auto');
+
+        current = 3;
+    });
+        $('#pn3').one('click', getProductsJson);
+
+    //pn4
+    $("#pn4").click(function(){
+        $('#pn2').css('color', '#ccc'),
+        $('#pn2').css('background-color', 'transparent'),
+        $('#pn2').css('cursor', 'auto'),
+        $('#pn2').click(),
+
+        $('#pn3').css('color', '#ccc'),
+        $('#pn3').css('background-color', 'transparent'),
+        $('#pn3').css('cursor', 'auto'),
+        $('#pn3').click(),
+
+        $('#pn4').css('color', '#ccc'),
+        $('#pn4').css('background-color', 'transparent'),
+        $('#pn4').css('cursor', 'auto');
+
+        current = 4;
+    });
+        $('#pn4').one('click', getProductsJson);
+
+    //pn5
+    $("#pn5").click(function(){
+        $('#pn2').css('color', '#ccc'),
+        $('#pn2').css('background-color', 'transparent'),
+        $('#pn2').css('cursor', 'auto'),
+        $('#pn2').click(),
+
+        $('#pn3').css('color', '#ccc'),
+        $('#pn3').css('background-color', 'transparent'),
+        $('#pn3').css('cursor', 'auto'),
+        $('#pn3').click(),
+
+        $('#pn4').css('color', '#ccc'),
+        $('#pn4').css('background-color', 'transparent'),
+        $('#pn4').css('cursor', 'auto'),
+        $('#pn4').click(),
+
+        $('#pn5').css('color', '#ccc'),
+        $('#pn5').css('background-color', 'transparent'),
+        $('#pn5').css('cursor', 'auto'),
+
+        $('.next').css('display', 'none');
+
+        current = 5;
+    });
+            $('#pn5').one('click', getProductsJson);
+
+    //next
     $(".next").click(function(){
         current = current+1;
+
+        if(current==2){
+            $('#pn2').css('color', '#ccc'),
+                $('#pn2').css('background-color', 'transparent'),
+                $('#pn2').css('cursor', 'auto'),
+
+                $('#pn2').click();
+        }
+        if(current==3){
+            $('#pn3').css('color', '#ccc'),
+                $('#pn3').css('background-color', 'transparent'),
+                $('#pn3').css('cursor', 'auto'),
+
+                $('#pn2').click(),
+                $('#pn3').click();
+        }
+        if(current==4){
+            $('#pn4').css('color', '#ccc'),
+                $('#pn4').css('background-color', 'transparent'),
+                $('#pn4').css('cursor', 'auto'),
+
+                $('#pn2').click(),
+                $('#pn3').click(),
+                $('#pn4').click();
+        }
+        if(current==5){
+            $('#pn5').css('color', '#ccc'),
+                $('#pn5').css('background-color', 'transparent'),
+                $('#pn5').css('cursor', 'auto'),
+
+                $('#pn2').click(),
+                $('#pn3').click(),
+                $('#pn4').click(),
+                $('#pn5').click();
+        }
     });
-
-
+    $('.next').click(getProductsJson);
 });
 
