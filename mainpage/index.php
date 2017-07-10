@@ -5,6 +5,10 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="responsive.css">
 
+<!-- Owl Carousel -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css" rel="stylesheet">
+
 <!-- FONTS -->
 <link rel="stylesheet" type="text/css" href="fonts.css">
 

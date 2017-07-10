@@ -258,6 +258,7 @@ body{
     float: left;
     width: 100%;
     display: none;
+    display: none;
 }
 .keresesi-szempontok .trashcan{
     width: 15px;
@@ -641,13 +642,16 @@ body{
 .basket{
     float: right;
     position: relative;
-    font-family: "Open Sans", cursive;
-    font-size: 14px;
+    font-family: Open Sans Condensed;
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     background-color: transparent;
     color: #88b048;
     border: 1px solid #88b048;
     padding: 5px;
-    margin: 5px 0 0 0;
+    margin: 11px 0 0 0;
     border-radius: 5px;
 }
 .basket:hover{
