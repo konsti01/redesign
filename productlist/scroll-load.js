@@ -1,21 +1,21 @@
 //BANNERHELY ÉS WIDGET FIX
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    var bottom = $(window).scrollTop() + $(window).height() == $(document).height();
+    var bottom = $(window).scrollTop() + $(window).height() > $(document).height() - 110;
 
     if(scroll < 700){
         $(".bannerhely-fixed").removeClass("bannerhely-fixed").addClass("bannerhely"),
-            $(".widget-fixed").removeClass("widget-fixed").addClass("widget");
+        $(".widget-fixed").removeClass("widget-fixed").addClass("widget");
     }
-    if (scroll >= 700 && bottom-100) {
+    if (scroll >= 700) {
         $(".bannerhely").removeClass("bannerhely").addClass("bannerhely-fixed"),
-            $(".widget").removeClass("widget").addClass("widget-fixed"),
-            $(".bannerhely-fixed-bottom").removeClass("bannerhely-fixed-bottom").addClass("bannerhely-fixed"),
-            $(".widget-fixed-bottom").removeClass("widget-fixed-bottom").addClass("widget-fixed");
+        $(".widget").removeClass("widget").addClass("widget-fixed"),
+        $(".bannerhely-fixed-bottom").removeClass("bannerhely-fixed-bottom").addClass("bannerhely-fixed"),
+        $(".widget-fixed-bottom").removeClass("widget-fixed-bottom").addClass("widget-fixed");
     }
     if(bottom){
-        $(".bannerhely-fixed").removeClass("bannerhely-fixed").addClass("bannerhely-fixed-bottom"),
-            $(".widget-fixed").removeClass("widget-fixed").addClass("widget-fixed-bottom");
+        $(".bannerhely-fixed").removeClass("bannerhely-fixed", 1000).addClass("bannerhely-fixed-bottom", 1000),
+        $(".widget-fixed").removeClass("widget-fixed", 1000).addClass("widget-fixed-bottom", 1000);
     }
 });
 
