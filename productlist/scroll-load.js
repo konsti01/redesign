@@ -216,10 +216,12 @@ $(document).ready(function() {
                 $('#pn3').click(),
                 $('#pn4').click();
         }
-        if(current==5){
+        if(current>=5){
             $('#pn5').css('color', '#ccc'),
                 $('#pn5').css('background-color', 'transparent'),
                 $('#pn5').css('cursor', 'auto'),
+
+                $('.next').css('display', 'none'),
 
                 $('#pn2').click(),
                 $('#pn3').click(),
@@ -227,6 +229,6 @@ $(document).ready(function() {
                 $('#pn5').click();
         }
     });
-    $('.next').click(getProductsJson);
+    //$('.next').unbind().click(getProductsJson);
 });
 
