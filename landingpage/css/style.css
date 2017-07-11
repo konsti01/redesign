@@ -8,14 +8,14 @@ src:url(../fonts/AmaticSC-Regular.ttf) format("truetype");
 }
 
 html,
-body {
-  height: 100%;
+body{
+    height: 100%;
     background-image: url(../images/static.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-  font-size: 14px;
-  color: #333;
-  line-height: 1.42857143;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.42857143;
 }
 
 body {
@@ -302,6 +302,7 @@ a:hover{
     padding-top: 3px;
     position: relative;
     top: 3px;
+    transition: all 0.2s linear;
 }
 .hamburger:hover{
     background-color: #fff;
@@ -417,6 +418,7 @@ a:hover{
     background-image: none;
     white-space: nowrap;
 	text-decoration: none;
+    transition: all 0.2s linear;
 }
 
 .header-wrapper .button:hover{
@@ -990,9 +992,10 @@ h1.section-title-first{
 }
 
 #call-to-action .cta-inner > *{
-  display: inline-block;
-  margin: 10px 20px 10px 20px;
-  vertical-align:middle;
+    display: inline-block;
+    margin: 10px 20px 10px 20px;
+    vertical-align:middle;
+    transition: all 0.2s linear;
 }
 
 .reg-button{
@@ -1023,6 +1026,7 @@ h1.section-title-first{
     text-align: center;
     text-transform: uppercase;
     border-radius: 5px;
+    transition: all 0.2s linear;
 }
 .reg-button-b:hover{
     border: 1px solid #006633;
@@ -1411,6 +1415,13 @@ h1.section-title-first{
 	background:rgba(0,0,0,0.1);
 	padding:25px 0 25px 0;
 	margin:25px 0 0 0;
+}
+
+/*JUMPS*/
+#price-com-jump, #reg-steps-jump, #gyik-jump{
+    position: relative;
+    top: -30px;
+    visibility: hidden;
 }
 
 .clearfix{

@@ -523,6 +523,8 @@
 	#navbar .navbar-nav .button-border{
 		color: #fff;
 		background-color: #006633;
+        margin: 5px 10px;
+        text-align: center;
 	}
 	.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
 		text-shadow: none;
