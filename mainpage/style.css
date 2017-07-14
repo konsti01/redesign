@@ -192,16 +192,26 @@ body{
     text-align: center;
 }
 .benefits-box{
-    border: 1px solid #333;
+    border: 2px solid #006633;
     border-radius: 50%;
     width: 70px;
     height: 70px;
     margin: 0 auto 10px auto;
+    padding: 15px 0 0 0;
+}
+.benefits-box img{
+    width: 35px;
+}
+.benefits-box .fa{
+    font-size: 26px;
+    color: #006633;
+    margin: 7px 0 0 0;
 }
 .benefits-text{
     text-transform: uppercase;
     font-family: "Open Sans", cursive;
     font-size: 18px;
+    color: #006633;
 }
 
 /*highlighted, browser, recently bought, recently uploaded*/
