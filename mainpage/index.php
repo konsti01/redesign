@@ -237,18 +237,49 @@
             <div class="highlight-row">
                 <div class="headline">Kiemelt termékek</div>
                 <div class="content">
-                    <div class="highlighted-product col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="highlighted-product-box">1</div>
-                    </div>
-                    <div class="highlighted-product col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="highlighted-product-box">2</div>
-                    </div>
-                    <div class="highlighted-product col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="highlighted-product-box">3</div>
-                    </div>
-                    <div class="highlighted-product col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="highlighted-product-box">4</div>
-                    </div>
+                    <?php
+                        $count = 0;
+                        foreach($products as $p){ ?>
+
+                            <div class="products col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 padding5">
+                                <div class="product-box" onclick="location.href='#';">
+                                    <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
+                                        <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
+                                        <img src="img/plus.svg" class="icon">
+                                    </a>
+                                    <div class="seller-pic">
+                                        <?php if ($p['avatar'] != '') { ?>
+                                            <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                                <img src="https://www.meska.hu/img/avatar/thumbnail/<?=$p['avatar']?>">
+                                            </a>
+                                        <?php } else {?>
+                                            <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                                <img src="https://www.meska.hu/images/no_avatar.jpg">
+                                            </a>
+                                        <?php } ?>
+                                    </div>
+                                    <div class="product-description">
+                                        <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                            <div class="seller"><?=$p['shop_name']?></div>
+                                        </a>
+                                        <a href="https://www.meska.hu/t<?=$p['id']?>">
+                                            <div class="description"><?=$p['product_name']?></div>
+                                        </a>
+                                        <div class="price"><?=$p['formatted_price']?></div>
+                                        <div class="basket">Kosárba »</div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <?php
+                            $count++;
+                            if ($count == 4){
+                                break; //negyedik loop után megáll
+                            }
+                        }
+                    ?>
                     <div class="clear"></div>
                 </div>
             </div>
@@ -277,30 +308,49 @@
             <div class="browser-row">
                 <div class="headline">Szemezgető</div>
                 <div class="content">
-                    <div class="browser col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="browser-box">1</div>
-                    </div>
-                    <div class="browser col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="browser-box">2</div>
-                    </div>
-                    <div class="browser col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="browser-box">3</div>
-                    </div>
-                    <div class="browser col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="browser-box">4</div>
-                    </div>
-                    <div class="browser col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="browser-box">5</div>
-                    </div>
-                    <div class="browser col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="browser-box">6</div>
-                    </div>
-                    <div class="browser col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="browser-box">7</div>
-                    </div>
-                    <div class="browser col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="browser-box">8</div>
-                    </div>
+                    <?php
+                    $count = 0;
+                    foreach($products as $p){ ?>
+
+                        <div class="products col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 padding5">
+                            <div class="product-box" onclick="location.href='#';">
+                                <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
+                                    <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
+                                    <img src="img/plus.svg" class="icon">
+                                </a>
+                                <div class="seller-pic">
+                                    <?php if ($p['avatar'] != '') { ?>
+                                        <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                            <img src="https://www.meska.hu/img/avatar/thumbnail/<?=$p['avatar']?>">
+                                        </a>
+                                    <?php } else {?>
+                                        <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                            <img src="https://www.meska.hu/images/no_avatar.jpg">
+                                        </a>
+                                    <?php } ?>
+                                </div>
+                                <div class="product-description">
+                                    <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                        <div class="seller"><?=$p['shop_name']?></div>
+                                    </a>
+                                    <a href="https://www.meska.hu/t<?=$p['id']?>">
+                                        <div class="description"><?=$p['product_name']?></div>
+                                    </a>
+                                    <div class="price"><?=$p['formatted_price']?></div>
+                                    <div class="basket">Kosárba »</div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                        <?php
+                        $count++;
+                        if ($count == 8){
+                            break; //negyedik loop után megáll
+                        }
+                    }
+                    ?>
                     <div class="clear"></div>
                 </div>
             </div>
@@ -329,18 +379,49 @@
             <div class="recently-bought-row">
                 <div class="headline">Épp most vették meg</div>
                 <div class="content">
-                    <div class="recently-bought col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="recently-bought-box">1</div>
-                    </div>
-                    <div class="recently-bought col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="recently-bought-box">2</div>
-                    </div>
-                    <div class="recently-bought col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="recently-bought-box">3</div>
-                    </div>
-                    <div class="recently-bought col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="recently-bought-box">4</div>
-                    </div>
+                    <?php
+                    $count = 0;
+                    foreach($products as $p){ ?>
+
+                        <div class="products col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 padding5">
+                            <div class="product-box" onclick="location.href='#';">
+                                <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
+                                    <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
+                                    <img src="img/plus.svg" class="icon">
+                                </a>
+                                <div class="seller-pic">
+                                    <?php if ($p['avatar'] != '') { ?>
+                                        <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                            <img src="https://www.meska.hu/img/avatar/thumbnail/<?=$p['avatar']?>">
+                                        </a>
+                                    <?php } else {?>
+                                        <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                            <img src="https://www.meska.hu/images/no_avatar.jpg">
+                                        </a>
+                                    <?php } ?>
+                                </div>
+                                <div class="product-description">
+                                    <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                        <div class="seller"><?=$p['shop_name']?></div>
+                                    </a>
+                                    <a href="https://www.meska.hu/t<?=$p['id']?>">
+                                        <div class="description"><?=$p['product_name']?></div>
+                                    </a>
+                                    <div class="price"><?=$p['formatted_price']?></div>
+                                    <div class="basket">Kosárba »</div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                        <?php
+                        $count++;
+                        if ($count == 4){
+                            break; //negyedik loop után megáll
+                        }
+                    }
+                    ?>
                     <div class="clear"></div>
                 </div>
             </div>
@@ -358,18 +439,49 @@
             <div class="recently-uploaded-row">
                 <div class="headline">Épp most töltötték fel (Friss, még ropogós! :)</div>
                 <div class="content">
-                    <div class="recently-uploaded col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="recently-uploaded-box">1</div>
-                    </div>
-                    <div class="recently-uploaded col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="recently-uploaded-box">2</div>
-                    </div>
-                    <div class="recently-uploaded col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="recently-uploaded-box">3</div>
-                    </div>
-                    <div class="recently-uploaded col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="recently-uploaded-box">4</div>
-                    </div>
+                    <?php
+                    $count = 0;
+                    foreach($products as $p){ ?>
+
+                        <div class="products col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 padding5">
+                            <div class="product-box" onclick="location.href='#';">
+                                <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
+                                    <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
+                                    <img src="img/plus.svg" class="icon">
+                                </a>
+                                <div class="seller-pic">
+                                    <?php if ($p['avatar'] != '') { ?>
+                                        <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                            <img src="https://www.meska.hu/img/avatar/thumbnail/<?=$p['avatar']?>">
+                                        </a>
+                                    <?php } else {?>
+                                        <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                            <img src="https://www.meska.hu/images/no_avatar.jpg">
+                                        </a>
+                                    <?php } ?>
+                                </div>
+                                <div class="product-description">
+                                    <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                        <div class="seller"><?=$p['shop_name']?></div>
+                                    </a>
+                                    <a href="https://www.meska.hu/t<?=$p['id']?>">
+                                        <div class="description"><?=$p['product_name']?></div>
+                                    </a>
+                                    <div class="price"><?=$p['formatted_price']?></div>
+                                    <div class="basket">Kosárba »</div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                        <?php
+                        $count++;
+                        if ($count == 4){
+                            break; //negyedik loop után megáll
+                        }
+                    }
+                    ?>
                     <div class="clear"></div>
                 </div>
             </div>

@@ -155,21 +155,6 @@
     .col-xl-2-custom{
         width: 16.66666667%
     }
-    /*.product-box .seller-pic{
-        padding: 11px 0px 0px 0px;
-        float: left;
-        width: 46px;
-    }
-    .product-box .seller-pic img{
-        width: 40px;
-        border-radius: 30px;
-    }
-    .product-box .product-description{
-        width: 75%;
-        padding: 10px 0px 10px 0px;
-        float: left;
-        font-size: 12px;
-    }*/
     .product-box .seller{
         font-size: 14px;
         text-transform: uppercase;
@@ -181,6 +166,20 @@
     }
     .product-box .price{
         padding: 5px 0px;
+    }
+
+    /*BANNER/WIDGET*/
+    .widget-fixed-bottom{
+        margin: 48px 0 0 0;
+        height: 150px;
+        background-color: #ccc;
+        position: fixed; top: 359px;
+    }
+    .bannerhely-fixed-bottom{
+        margin: 48px 0 0 0;
+        height: 250px;
+        background-color: #ccc;
+        position: fixed; top: 99px;
     }
 }        /* xl */
 
