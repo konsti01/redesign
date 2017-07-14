@@ -365,21 +365,34 @@
             <div class="numbers-row">
                 <div class="headline">Meska számokban</div>
                 <div class="content">
-                    <div class="numbers col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="numbers-number">8</div>
-                        <div class="numbers-title">Éve</div>
-                    </div>
-                    <div class="numbers col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="numbers-number">3, 254</div>
-                        <div class="numbers-title">Alkotó</div>
-                    </div>
-                    <div class="numbers col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="numbers-number">110, 226</div>
-                        <div class="numbers-title">Kézműves termék</div>
-                    </div>
-                    <div class="numbers col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="numbers-number">224, 578</div>
-                        <div class="numbers-title">Felhasználó</div>
+                    <div class="number-wrapper">
+                        <ul>
+                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+                                <div class="number-container">
+                                    <div class="number" data-count="8">0</div>
+                                    <h6 class="number-details">Éve</h6>
+                                </div>
+                            </li>
+                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+                                <div class="number-container">
+                                    <div class="number" data-count="3254">0</div>
+                                    <h6 class="number-details">Alkotó</h6>
+                                </div>
+                            </li>
+                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+                                <div class="number-container">
+                                    <div class="number" data-count="110226">0</div>
+                                    <h6 class="number-details">Kézműves termék</h6>
+                                </div>
+                            </li>
+                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+                                <div class="number-container">
+                                    <div class="number" data-count="224578">0</div>
+                                    <h6 class="number-details">Felhasználó</h6>
+                                </div>
+                            </li>
+                            <div class="clear"></div>
+                        </ul>
                     </div>
                     <div class="clear"></div>
                 </div>
