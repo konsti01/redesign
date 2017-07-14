@@ -585,6 +585,9 @@ ul{
   padding: 0px;
   margin: 0;
 }
+.number-wrapper ul > li.column:last-of-type{
+    border-right: 0;
+}
 
 .number-wrapper ul > li.column:last-child{
   border: 0px none;
