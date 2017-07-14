@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/header-theme.css">
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/menu-dropdown-hover.css">
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/simple-sidebar-theme.css">
-    <link rel="stylesheet" href="https://www.meska.hu/bootstrap/carousel-theme.css">
+    <!--<link rel="stylesheet" href="https://www.meska.hu/bootstrap/carousel-theme.css">-->
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/tab-theme.css">
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/lightbox-theme.css">
     <script src="https://www.meska.hu/js/stat.js" type="text/javascript"></script>

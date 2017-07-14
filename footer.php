@@ -84,8 +84,10 @@
     </div>
 </div>
 
-<!--RangeSlider -->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!--RangeSlider -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.7/js/ion.rangeSlider.js"></script>
 <script>
     $(function () {
@@ -104,6 +106,9 @@
     });
 </script>
 
+<!-- owc carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+
 <!-- Select2 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.js"></script>
 
@@ -113,6 +118,7 @@
 <!-- localJS-->
 <script src="/productlist/scroll-load.js"></script>
 <script src="/faq/index2_files/search.js"></script>
+<script src="/mainpage/mainpage.js"></script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->

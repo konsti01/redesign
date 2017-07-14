@@ -6,8 +6,8 @@
 <link rel="stylesheet" type="text/css" href="responsive.css">
 
 <!-- Owl Carousel -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
 
 <!-- FONTS -->
 <link rel="stylesheet" type="text/css" href="fonts.css">
@@ -428,12 +428,207 @@
             <div class="customers-say-row">
                 <div class="headline">Meskáról mondták</div>
                 <div class="content">
-                    <div class="customers-say col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                        <div class="customers-say-pic"></div>
-                        <div class="customers-say-quote">"A Meska egy jó dolog!"</div>
-                        <div class="customers-say-name">Kiss Kázmér, Gyékényes</div>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <h4>
+                                <blockquote>Az az egyik legjobb a Meskában, hogy azonnali visszajelzést kapok, ami hatalmas segítség abban, hogy tudjam, merre menjek tovább, min érdemes változtatni, hogyan tovább.
+                                    <cite>estikristoneszter</cite>
+                                </blockquote>
+
+                                <div class="customer-member">
+                                    <div class="photo-member">
+                                        <div class="img-container">
+                                            <div class="overlay">
+                                                <img src="https://www.meska.hu/img/avatar/medium/estikristoneszter_avatar_163340.JPG">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4>
+                                <blockquote>Nekem a Meskában az tetszik a legjobban, hogy az itteni eladásainkkal egyből egy reklámozási lehetőséget is kapunk, mert egy látogatott felületen megjelennek a termékeink, fotóval.
+                                    <cite>gabigobre</cite>
+                                </blockquote>
+                                <div class="customer-member">
+                                    <div class="photo-member">
+                                        <div class="img-container">
+                                            <div class="overlay">
+                                                <img src="https://www.meska.hu/img/avatar/medium/gabigobre_avatar_3437.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4>
+                                <blockquote>Nekem a Meska segített, nagyszerű összekötő kapocs a kézművesek és vásárlók közt. Kényelmesen, könnyen használható felületen, többféle fizetési lehetőséggel vehetik meg a nekik tetsző terméket, én pedig egyszerűen tudom nyilvántartani és kezelni a megrendeléseket
+                                    <cite>Amuletta</cite>
+                                </blockquote>
+                                <div class="customer-member">
+                                    <div class="photo-member">
+                                        <div class="img-container">
+                                            <div class="overlay">
+                                                <img src="https://www.meska.hu/img/avatar/medium/amuletta_avatar_57073.JPG">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4>
+                                <blockquote>Ha nem lenne a Meska felülete, sokkal több időm menne el azzal, hogy a potenciális vevőket megkeressem, és nem jutna elég kapacitás a munkára, azaz az alkotásra.
+                                    <cite>Nina</cite>
+                                </blockquote>
+                                <div class="customer-member">
+                                    <div class="photo-member">
+                                        <div class="img-container">
+                                            <div class="overlay">
+                                                <img src="https://www.meska.hu/img/avatar/medium/nina_avatar_4998.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4>
+                                <blockquote>Aminek különösen örülök, az az, hogy a vidéken élő embereket is segít elérni ez az elektronikus piactér.
+                                    <cite>designbyrothaniko</cite>
+                                </blockquote>
+                                <div class="customer-member">
+                                    <div class="photo-member">
+                                        <div class="img-container">
+                                            <div class="overlay">
+                                                <img src="https://www.meska.hu/img/avatar/medium/designbyrothaniko_avatar_131326.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4>
+                                <blockquote>Mindent online, a Meskán értékesítünk, így tudunk a legtöbb potenciális érdeklődőhöz eljutni.
+                                    <cite>sanyikovacs</cite>
+                                </blockquote>
+                                <div class="customer-member">
+                                    <div class="photo-member">
+                                        <div class="img-container">
+                                            <div class="overlay">
+                                                <img src="https://www.meska.hu/img/avatar/medium/sanyikovacs_avatar_2500.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4>
+                                <blockquote>A tárgyaim intimek, finom, nőies, légies darabok. Azt gondolná az ember, hogy ezeket mindenképp kézbe kell venni ahhoz, hogy szerelembe essünk velük. De ez nem minden esetben igaz. Van, aki ajándékba veszi, van, aki magának. Sok a visszatérő vevőm is: aki már egyet vett, előfordul, hogy még vesz hozzá újabb kiegészítő darabokat. Jól működik az online értékesítés.
+                                    <cite>DiosGabiKeramia</cite>
+                                </blockquote>
+                                <div class="customer-member">
+                                    <div class="photo-member">
+                                        <div class="img-container">
+                                            <div class="overlay">
+                                                <img src="https://www.meska.hu/img/avatar/medium/fb_avatar_25688.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4>
+                                <blockquote>A Meskán sikerült megtalálnom a vevőkörömet. 2012 decemberében regisztráltam a kézműves portálra, és azóta több mint száz ruhát, sapkát, kalapot, táskát vásároltak tőlem. El tudod ezt képzelni, milyen érzés? Előtte már jó hosszú ideje szinte semmit nem adtam el. Úgy érzem, itt elfogadják és szeretik a stílusomat, és a megfelelő emberekhez jut el a hírem. Olyanokhoz, akik kedvelik és értékelik a tapasztalatomat, a ruháimat, az egyediséget, hogy kézzel dolgozom. Előtte tíz évig próbáltam egy saját vásárlókört kiépíteni.
+                                    <cite>brokat</cite>
+                                </blockquote>
+                                <div class="customer-member">
+                                    <div class="photo-member">
+                                        <div class="img-container">
+                                            <div class="overlay">
+                                                <img src="https://www.meska.hu/img/avatar/medium/brokat_avatar_82864.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4>
+                                <blockquote>Hittem abban, hogy lesz, akit megérintenek az ékszereim. Ebben a Meska.hu sokat segített, mivel a kis műhelyem híre nem tudna sok emberhez eljutni, de az interneten könnyebben megismerhetnek. Nekem ezzel a lehetőséggel kinyílt a világ..
+                                    <cite>egszeresz</cite>
+                                </blockquote>
+                                <div class="customer-member">
+                                    <div class="photo-member">
+                                        <div class="img-container">
+                                            <div class="overlay">
+                                                <img src="https://www.meska.hu/img/avatar/medium/egszeresz_avatar_4085.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4>
+                                <blockquote>Annyi minden szépséget készítünk kézzel, hogy talán külföldön van erre kereslet, és el is lehet adni, mert az emberek kedvelik, ha egyedi tárgyaik vannak, ha kézzel készült ruhákat hordanak, ha olyan ajándékkal lephetik meg a szeretteiket, ami nem fog szembejönni velük az utcán. A Meskán egymásra találtak a kézművesek és a kézzel készült, egyedi tárgyak rajongói.
+                                    <cite>Gemma</cite>
+                                </blockquote>
+                                <div class="customer-member">
+                                    <div class="photo-member">
+                                        <div class="img-container">
+                                            <div class="overlay">
+                                                <img src="https://www.meska.hu/img/avatar/medium/gemma_avatar_18843.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4>
+                                <blockquote>Amikor a Meskán a vásárlóim kedves, meleg hangulatú leveleket küldenek, illetve édesebbnél édesebb fényképeket, amelyeken boldogan szorítják magukhoz a Kincseik az általam készített figurákat. Na olyankor szárnyalni tudnék a boldogságtól! És csodálatos élmény az is, amikor a vásárlóimmal együtt aprólékos részletességgel tervezgetünk meg valamit, amikor valóra válthatom valakinek az álmát és elkészíthetek egy régen áhított kívánságot.
+                                    <cite>Jam81</cite>
+                                </blockquote>
+                                <div class="customer-member">
+                                    <div class="photo-member">
+                                        <div class="img-container">
+                                            <div class="overlay">
+                                                <img src="https://www.meska.hu/img/avatar/medium/Jam81_avatar_50759.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4>
+                                <blockquote>Gyesen voltam a lányommal, így maradt egy kis szabadidőm. Nekiálltam újra drótozni, amivel először 16 éves koromban kezdtem foglalkozni. Blogot írtam, feltöltöttem az ékszerek képeit, és meglepődtem, hogy tetszik másoknak. Akkoriban indult a Meska, gondoltam, megpróbálom. Újra meglepődtem, mert megvették az ékszereim. Amikor letelt a gyes, nem is mentem vissza dolgozni, maradt az ékszerkészítés.
+                                    <cite>kricsar</cite>
+                                </blockquote>
+                                <div class="customer-member">
+                                    <div class="photo-member">
+                                        <div class="img-container">
+                                            <div class="overlay">
+                                                <img src="https://www.meska.hu/img/avatar/medium/kricsar_avatar_363.JPG">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </h4>
+                        </div>
+                        <!--
+                        <div class="owl-nav" style="display: none; visibility: hidden">
+                            <div class="owl-prev">prev</div>
+                            <div class="owl-next">next</div>
+                        </div>
+                        -->
                     </div>
-                    <div class="clear"></div>
                 </div>
             </div>
             <div class="recently-uploaded-row">
