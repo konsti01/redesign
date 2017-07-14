@@ -241,7 +241,7 @@
                         $count = 0;
                         foreach($products as $p){ ?>
 
-                            <div class="products col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 padding5">
+                            <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                                 <div class="product-box" onclick="location.href='#';">
                                     <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                         <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -275,8 +275,8 @@
 
                             <?php
                             $count++;
-                            if ($count == 4){
-                                break; //negyedik loop után megáll
+                            if ($count == 5){
+                                break; //$count. loop után megáll
                             }
                         }
                     ?>
@@ -320,7 +320,7 @@
                     $count = 0;
                     foreach($products as $p){ ?>
 
-                        <div class="products col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 padding5">
+                        <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                             <div class="product-box" onclick="location.href='#';">
                                 <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -354,8 +354,8 @@
 
                         <?php
                         $count++;
-                        if ($count == 8){
-                            break; //negyedik loop után megáll
+                        if ($count == 10){
+                            break; //$count. loop után megáll
                         }
                     }
                     ?>
@@ -404,7 +404,7 @@
                     $count = 0;
                     foreach($products as $p){ ?>
 
-                        <div class="products col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 padding5">
+                        <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                             <div class="product-box" onclick="location.href='#';">
                                 <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -438,8 +438,8 @@
 
                         <?php
                         $count++;
-                        if ($count == 4){
-                            break; //negyedik loop után megáll
+                        if ($count == 5){
+                            break; //$count. loop után megáll
                         }
                     }
                     ?>
@@ -659,7 +659,7 @@
                     $count = 0;
                     foreach($products as $p){ ?>
 
-                        <div class="products col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 padding5">
+                        <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                             <div class="product-box" onclick="location.href='#';">
                                 <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -693,8 +693,8 @@
 
                         <?php
                         $count++;
-                        if ($count == 4){
-                            break; //negyedik loop után megáll
+                        if($count == 5){
+                            break; //$count. loop után megáll
                         }
                     }
                     ?>

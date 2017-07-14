@@ -1,25 +1,10 @@
 @media only screen and (max-width: 424px){
-    /*.product-box .seller-pic{
-        padding: 11px 0px 0px 0px;
-        float: left;
-        width: 36px;
-    }
-    .product-box .seller-pic img{
-        width: 30px;
-        border-radius: 30px;
-    }
-    .product-box .product-description{
-        width: 55%;
-        padding: 10px 0px 10px 0px;
-        float: left;
-        font-size: 12px;
-    }*/
     .product-box .seller{
         font-size: 12px;
         text-transform: uppercase;
     }
     .product-box .description{
-        height: 130px;
+        height: 90px;
     }
     .product-box .price{
         font-size: 16pt;
@@ -32,6 +17,21 @@
     }
     .nav-wrap{
         margin: 0;
+    }
+
+    /*Numbers*/
+    .numbers-row ul > li.column{
+        border-right: 0;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    .numbers-row ul > li.column:last-of-type{
+        border-bottom: 0;
+    }
+
+    /*Benefits*/
+    .benefits{
+        width: 100% !important;
+        margin: 0 0 50px 0;
     }
 }     /* xs */
 
@@ -58,6 +58,21 @@
     .nav-wrap{
         margin: 0;
     }
+
+    /*Numbers*/
+    .numbers-row ul > li.column{
+        border-right: 0;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    .numbers-row ul > li.column:last-of-type{
+        border-bottom: 0;
+    }
+
+    /*Benefits*/
+    .benefits{
+        width: 100% !important;
+        margin: 0 0 50px 0;
+    }
 }     /* xs */
 
 @media only screen and (min-width: 551px) and (max-width: 767px){
@@ -75,6 +90,21 @@
     }
     .nav-wrap{
         margin: 0;
+    }
+
+    /*Numbers*/
+    .numbers-row ul > li.column{
+        border-right: 0;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    .numbers-row ul > li.column:last-of-type{
+        border-bottom: 0;
+    }
+
+    /*Benefits*/
+    .benefits{
+        width: 100% !important;
+        margin: 0 0 50px 0;
     }
 }     /* xs */
 
@@ -114,6 +144,7 @@
     .product-box .description{
         font-size:14px;
         padding: 5px 0px;
+        height: 65px;
     }
     .product-box .price{
 
@@ -125,21 +156,7 @@
     .col-lg-2-custom{
         width: 20%;
     }
-    /*.product-box .seller-pic{
-        padding: 11px 0px 0px 0px;
-        float: left;
-        width: 36px;
-    }
-    .product-box .seller-pic img{
-        width: 30px;
-        border-radius: 30px;
-    }
-    .product-box .product-description{
-        width: 75%;
-        padding: 10px 0px 10px 0px;
-        float: left;
-        font-size: 12px;
-    }*/
+
     .product-box .seller{
         font-size: 18px;
         text-transform: uppercase;
@@ -153,7 +170,7 @@
 
 @media only screen and (min-width: 1651px){
     .col-xl-2-custom{
-        width: 16.66666667%
+        width: 20%
     }
     .product-box .seller{
         font-size: 14px;
@@ -338,5 +355,13 @@
 
     .keywords {
         margin: 221px 5px 0 5px;
+    }
+}
+
+/* NUMBERS */
+
+@media only screen and (min-width: 768px) and (max-width: 848px){
+    .number-container .number-details{
+        height: 32px;
     }
 }
