@@ -196,7 +196,7 @@ body{
 .vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
 .vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
 @media (min-aspect-ratio: 16/9) {
-    .video-foreground { height: 480%; top: -300%; }
+    .video-foreground { height: 480%; top: -380%; }
 }
 @media (max-aspect-ratio: 16/9) {
     .video-foreground { width: 300%; left: -100%; }
