@@ -230,6 +230,11 @@
         <!-- RIGHT COL -->
         <div class="row-right">
             <div class="search col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="video-background">
+                    <div class="video-foreground">
+                        <iframe src="https://www.youtube.com/embed/gAx99kwsMxk?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=gAx99kwsMxk" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
                 <input type="text" id="search-bar">
                 <img src="https://image.flaticon.com/icons/svg/54/54554.svg">
             </div>
