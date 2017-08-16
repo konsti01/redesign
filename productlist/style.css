@@ -507,6 +507,34 @@ body{
     text-overflow: ellipsis;
 }
 /********************************************************/
+.product-box-overlay{
+    display: none;
+}
+.products:last-child .product-box .product-box-overlay{
+    display: block;
+    background-color: #333;
+    opacity: 0.9;
+    width: 96%;
+    max-width: 322px;
+    height: 97%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 5px;
+    text-align: center;
+}
+.products:last-child .product-box .product-box-overlay span{
+    color: #eee;
+    line-height: 200px;
+}
+
+.products:last-child .product-box:hover .product-image{
+    opacity: 1;
+}
+.products:last-child .product-box:hover .image-wrap .icon{
+    display: none;
+}
+
 .product-box{
     background-color: #fff;
     padding: 9px 11px 0px 11px;

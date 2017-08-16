@@ -353,9 +353,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div id="payment" class="btn-group">
+                    <div id="misc" class="btn-group">
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Fizetési és szállítási lehetőségek <span class="caret"></span>
+                            Egyéb <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
                             <li>
@@ -536,6 +536,9 @@
                 foreach ($products as $p){ ?>
                     <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                         <div class="product-box" onclick="location.href='#';">
+                            <div class="product-box-overlay">
+                                <span>További termékek betöltése</span>
+                            </div>
                             <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                 <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
                                 <img src="img/plus.svg" class="icon">
@@ -566,16 +569,6 @@
                         </div>
                     </div>
                 <?php } ?>
-
-                <!--
-                <div class="load-more col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
-                    <div class="load-more-box">
-                        <div class="gomb">+</div>
-                        <div class="text">Több termék betöltése</div>
-                    </div>
-                </div>
-                -->
-
             </div>
             <div class="page-select">
                 <span class="page-num" id="pn1">1</span>
@@ -602,6 +595,9 @@
     {{# products }}
     <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
         <div class="product-box">
+            <div class="product-box-overlay">
+                <span>További termékek betöltése</span>
+            </div>
             <a href="https://www.meska.hu/t{{ id }}" class="image-wrap">
                 <img class="product-image" alt="{{ image_alt }}" title="{{ image_title }}" src="{{ image }}">
                 <img src="img/plus.svg" class="icon">
