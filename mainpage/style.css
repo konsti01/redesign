@@ -131,7 +131,7 @@ body{
     margin: 48px 0 0 0;
     height: 250px;
     background-color: #ccc;
-    position: fixed; bottom: 370px;
+    position: fixed; bottom: 520px;
 }
 
 .widget{
@@ -149,7 +149,7 @@ body{
     margin: 48px 0 0 0;
     height: 150px;
     background-color: #ccc;
-    position: fixed; bottom: 210px;
+    position: fixed; bottom: 360px;
 }
 
 /* Termékkategória nav */
@@ -213,45 +213,54 @@ body{
 
 /*search*/
 .search{
-    padding: 50px;
+    padding: 100px;
     margin-bottom: 20px;
     text-align: center;
 }
 .search-bar-wrap{
     margin: 50px;
     padding: 5px;
-    background-color: rgba(255,255,255, .5);
-    border-radius: 5px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.search-bar-wrap img{
+    width: 35px;
+    position: absolute;
+    left: 160px;
+    top: 162px;
+    opacity: 0.3;
 }
 .search-bar-wrap #search-bar{
     float: left;
-    width: 85%;
+    width: 80%;
     height: 47px;
-    border: 1px solid rgba(0,0,0,0.5);
-    border-radius: 3px 0px 0px 3px;
+    border-radius: 3px;
+    border: 0;
     color: #a7a7a7;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 22px;
-    padding: 11px 20px 12px;
+    padding: 11px 60px 12px;
     background: #fff;
-
 }
 .search-bar-wrap button{
     float: right;
     width: 15%;
     height: 47px;
-    background-color: #2363C3;
-    border-radius: 0px 3px 3px 0px;
+    background-color: #88B04B;
+    border-radius: 3px;
     border: none;
     cursor: pointer;
+}
+.search-bar-wrap button:hover{
+    background-color: #336600;
 }
 .search-bar-wrap button span{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     color: #fff;
     text-shadow: 0 1px 0 rgba(0,0,0,0.3);
-    padding: 0 4px 0 21px;
-    background: url(img/sprite.png) no-repeat 0 3px;
+    padding: 0 4px 0 4px;
 }
 
 /*benefits*/
@@ -639,17 +648,37 @@ ul{
 
 /*NEWSLETTER*/
 .newsletter{
-    margin: 45px 5px 5px 5px;
+    width: 120%;
+    margin: 0 0 0 -10%;
     padding: 25px;
     background-color: #8bc34a;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     color: #fff;
-    cursor: pointer;
 }
-.newsletter:hover{
-    background-color: #689633;
+.newsletter form{
+    margin: 15px 0 0 0;
+}
+.newsletter form .input-text{
+    color: #333;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.newsletter form .input-button{
+    color: #fff;
+    padding: 6px;
+    background-color: #88B04B;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+.newsletter form .input-button:hover{
+    color: #fff;
+    background-color: #336600;
 }
 
 .button {
@@ -665,8 +694,8 @@ ul{
     transition: all 0.2s linear;
 }
 .button:hover {
-    border: 1px solid #006633;
-    background-color: #006633;
+    border: 1px solid #88b048;
+    background-color: #88b048;
     color: #fff;
 }
 
@@ -686,7 +715,7 @@ ul{
     font-weight: normal;
     font-family: 'Amatic SC', cursive;
     color: #777;
-    margin: 100px 0 10px 0;
+    margin: 50px 0 10px 0;
     padding: 0 0 0 5px;
 }
 .subtext{

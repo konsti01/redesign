@@ -235,9 +235,8 @@
                         <iframe src="https://www.youtube.com/embed/gAx99kwsMxk?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=gAx99kwsMxk" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
-                <!--<input type="text" id="search-bar">
-                <img src="https://image.flaticon.com/icons/svg/54/54554.svg">-->
                 <div class="search-bar-wrap">
+                    <img src="https://image.flaticon.com/icons/svg/54/54554.svg">
                     <input type="text" id="search-bar">
                     <button>
                         <span>Keresés</span>
@@ -666,7 +665,6 @@
             </div>
             <div class="recently-uploaded-row">
                 <div class="headline">Épp most töltötték fel (Friss, még ropogós! :)</div>
-                <div class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                 <div class="content">
                     <?php
                     $count = 0;
@@ -715,9 +713,16 @@
                 </div>
                 <a href=""><div class="button">Nézd meg a legújabb termékeket »</div></a>
             </div>
-            <div class="newsletter">Feliratkozok a hírlevélre!</div>
+            <div class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
         </div>
     </div>
 </div>
-
+<div class="newsletter">
+    <span>Feliratkozás a hírlevélre</span>
+    <form>
+        <input type="text" name="name" placeholder="Név" class="input-text">
+        <input type="text" name="email" placeholder="E-mail cím" class="input-text">
+        <input type="submit" name="submit" value="Feliratkozok!" class="input-button">
+    </form>
+</div>
 <?php include_once('../footer.php'); ?>

@@ -1,7 +1,7 @@
 //BANNERHELY ÉS WIDGET FIX
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    var bottom = $(window).scrollTop() + $(window).height() > $(document).height() - 110;
+    var bottom = $(window).scrollTop() + $(window).height() > $(document).height() - 220;
 
     if(scroll < 700){
         $(".bannerhely-fixed").removeClass("bannerhely-fixed").addClass("bannerhely"),
