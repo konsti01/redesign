@@ -245,6 +245,41 @@
                     <div class="clear"></div>
                 </div>
             </div>
+            <div class="numbers-row">
+                <div class="headline">Meska számokban</div>
+                <div class="content">
+                    <div class="number-wrapper">
+                        <ul>
+                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+                                <div class="number-container">
+                                    <div class="number" data-count="8">0</div>
+                                    <h6 class="number-details">Éve</h6>
+                                </div>
+                            </li>
+                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+                                <div class="number-container">
+                                    <div class="number" data-count="3254">0</div>
+                                    <h6 class="number-details">Alkotó</h6>
+                                </div>
+                            </li>
+                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+                                <div class="number-container">
+                                    <div class="number" data-count="110226">0</div>
+                                    <h6 class="number-details">Kézműves termék</h6>
+                                </div>
+                            </li>
+                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+                                <div class="number-container">
+                                    <div class="number" data-count="224578">0</div>
+                                    <h6 class="number-details">Felhasználó</h6>
+                                </div>
+                            </li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
             <div class="clear"></div>
             <div class="highlight-row">
                 <div class="headline">Kiemelt termékek</div>
@@ -287,7 +322,7 @@
 
                             <?php
                             $count++;
-                            if ($count == 5){
+                            if ($count == 8){
                                 break; //$count. loop után megáll
                             }
                         }
@@ -366,46 +401,11 @@
 
                         <?php
                         $count++;
-                        if ($count == 10){
+                        if ($count == 12){
                             break; //$count. loop után megáll
                         }
                     }
                     ?>
-                    <div class="clear"></div>
-                </div>
-            </div>
-            <div class="numbers-row">
-                <div class="headline">Meska számokban</div>
-                <div class="content">
-                    <div class="number-wrapper">
-                        <ul>
-                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
-                                <div class="number-container">
-                                    <div class="number" data-count="8">0</div>
-                                    <h6 class="number-details">Éve</h6>
-                                </div>
-                            </li>
-                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
-                                <div class="number-container">
-                                    <div class="number" data-count="3254">0</div>
-                                    <h6 class="number-details">Alkotó</h6>
-                                </div>
-                            </li>
-                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
-                                <div class="number-container">
-                                    <div class="number" data-count="110226">0</div>
-                                    <h6 class="number-details">Kézműves termék</h6>
-                                </div>
-                            </li>
-                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
-                                <div class="number-container">
-                                    <div class="number" data-count="224578">0</div>
-                                    <h6 class="number-details">Felhasználó</h6>
-                                </div>
-                            </li>
-                            <div class="clear"></div>
-                        </ul>
-                    </div>
                     <div class="clear"></div>
                 </div>
             </div>
@@ -450,7 +450,7 @@
 
                         <?php
                         $count++;
-                        if ($count == 5){
+                        if ($count == 8){
                             break; //$count. loop után megáll
                         }
                     }
@@ -666,6 +666,7 @@
             </div>
             <div class="recently-uploaded-row">
                 <div class="headline">Épp most töltötték fel (Friss, még ropogós! :)</div>
+                <div class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                 <div class="content">
                     <?php
                     $count = 0;
@@ -705,14 +706,16 @@
 
                         <?php
                         $count++;
-                        if($count == 5){
+                        if($count == 8){
                             break; //$count. loop után megáll
                         }
                     }
                     ?>
                     <div class="clear"></div>
                 </div>
+                <a href=""><div class="button">Nézd meg a legújabb termékeket »</div></a>
             </div>
+            <div class="newsletter">Feliratkozok a hírlevélre!</div>
         </div>
     </div>
 </div>
