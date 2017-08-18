@@ -533,6 +533,29 @@ body{
 .products:last-child .product-box:hover .image-wrap .icon{
     display: none;
 }
+.products:last-child .product-box:hover .product-image{
+    transform: none;
+}
+.products:last-child .basket{
+    float: right;
+    position: relative;
+    font-family: Open Sans Condensed;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    padding: 5px;
+    margin: 11px 0 0 0;
+    border-radius: 3px;
+}
+.basket:hover{
+    color: #333;
+    background-color: #ccc;
+    border: 1px solid #333;
+}
 
 .product-box{
     background-color: #fff;
