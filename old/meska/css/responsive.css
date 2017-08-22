@@ -1,0 +1,182 @@
+@media only screen and  (max-width: 1920px) {
+
+}
+
+@media only screen and  (max-width: 1490px) {
+
+}
+
+@media only screen and  (max-width: 1380px) {
+
+}
+
+@media only screen and  (max-width: 1240px) {
+
+}
+/*  and (orientation:portrait) */
+@media only screen and  (max-width: 1140px) {
+
+}
+
+@media only screen and  (max-width: 1080px) {
+
+}
+
+@media only screen and (max-width: 991px) {
+
+
+}
+
+@media only screen and  (max-width: 950px) {
+
+}
+
+@media only screen and  (max-width: 767px) {
+	
+	.navbar-default .navbar-brand{
+		padding: 15px 15px;
+	}
+
+	h1.section-title{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.number-wrapper{
+		max-width: 94%;
+	} 
+
+	.about-wrapper{
+		max-width: 98%;
+	}
+
+	#about article p{
+		text-align: justify;
+	}
+
+	.number-wrapper ul > li.column{
+	  border-right: 0px none;
+	  border-bottom: 1px solid #D9D9D9;
+	}
+
+	#price-com .icon-cont, #price-com .price-details{
+		margin-left: 50px;
+	}
+
+	#price-com .creator .icon-cont:after{
+	  position: absolute;
+	  left: 0%; /*112px;*/
+	  top: 0px;
+	  content:""; 
+	  font-size: 0px;
+	  line-height: 0px;
+	  display: none;
+	}
+
+	#price-com .creator .icon-cont:before{
+	  position: absolute;
+	  left: 9vw; /*112px;*/
+	  top: 32px;
+	  content:"\00b7"; 
+	  font-size: 63px;
+	  line-height: 0px;
+	}
+
+	#price-com .company .icon-cont:before{
+	  position: absolute;
+	  left: 9vw; /*112px;*/
+	  top: 32px;
+	  content:"\00b7"; 
+	  font-size: 63px;
+	  line-height: 0px;
+	}
+
+	#price-com .company .icon-cont:after{
+	  position: absolute;
+	  right: 0%;
+	  top: 0px;
+	  content:""; 
+	  font-size: 0px;
+	  line-height: 0px;
+	  display: none;
+	}
+
+	#price-com .customer .icon-cont:before{
+	  position: absolute;
+	  left: 9vw;
+	  top: 32px;
+	  content:"\00b7"; 
+	  font-size: 63px;
+	  line-height: 0px;
+	}
+
+	#price-com .creator:after{
+	  position: absolute;
+	  width: 2px;
+	  height: 317px; /*50vh;*/
+	  display: block;
+	  z-index: 10;
+	  left: 10vw;
+	  top: 33px;
+	  content: '';
+	  background: #F4823B;
+	  background: -webkit-linear-gradient(#F4823B , #FEC31F);
+	  background: -o-linear-gradient(#F4823B, #FEC31F);
+	  background: -moz-linear-gradient(#F4823B, #FEC31F);
+	  background: linear-gradient(#F4823B , #FEC31F);
+	}
+
+	#price-com .company:after{
+	  position: absolute;
+	  width: 2px; /*18%;*/
+	  height: 317px; /*50vh;*/
+	  display: block;
+	  z-index: 10;
+	  left: 10vw;
+	  top: 33px;
+	  content: '';
+	  background: #FEC31F;
+	  background: -webkit-linear-gradient(#FEC31F , #47C7EC);
+	  background: -o-linear-gradient(#FEC31F, #47C7EC);
+	  background: -moz-linear-gradient(#FEC31F, #47C7EC);
+	  background: linear-gradient(#FEC31F , #47C7EC);
+	}
+
+	.price-details > p{
+		height: 155px;
+	}
+
+}
+
+@media only screen and  (max-width: 640px) {
+	#price-com .creator:after,
+	#price-com .company:after{
+		left: 10.225vw;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#price-com .creator:after,
+	#price-com .company:after{
+		left: 10.3vw;
+	}
+}
+
+@media only screen and (max-width: 440px) {
+	#price-com .creator:after,
+	#price-com .company:after{
+		left: 11.25vw;
+	}
+}
+
+/*Portrait and landscape*/
+@media only screen and (min-width: 240px) and (max-width: 767px) {
+
+	
+}
+
+@media only screen and (max-width: 320px) and (orientation:landscape) {
+	
+
+
+}
