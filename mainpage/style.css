@@ -442,6 +442,9 @@ ul{
 }
 
 /*CUSTOMERS SAY*/
+.customers-say-row .content{
+    background-image: url(img/quote-bg.jpg);
+}
 .customers-say-row blockquote{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
@@ -599,7 +602,7 @@ ul{
 .owl-theme .owl-nav .owl-next{
     float: right;
     position: relative;
-    bottom: 260px;
+    bottom: 190px;
     color: transparent !important;
     background-color: transparent !important;
     background-image: url(img/arrow-next.svg) !important;
@@ -618,7 +621,7 @@ ul{
 .owl-theme .owl-nav .owl-prev{
     float: left;
     position: relative;
-    bottom: 260px;
+    bottom: 190px;
     color: transparent !important;
     background-color: transparent !important;
     background-image: url(img/arrow-prev.svg) !important;
