@@ -216,13 +216,15 @@ body{
     padding: 100px;
     margin-bottom: 20px;
     text-align: center;
+    background-image: url(../landingpage/images/static.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .search-bar-wrap{
     margin: 50px;
     padding: 5px;
     border-radius: 3px;
     background-color: #fff;
-    border: 1px solid #ccc;
 }
 .search-bar-wrap img{
     width: 35px;
@@ -343,7 +345,6 @@ body{
     padding: 10px 0px 10px 0px;
     float: left;
     font-size: 12px;
-
     overflow: hidden;
     text-overflow: ellipsis;
 
@@ -367,20 +368,24 @@ body{
     text-overflow: ellipsis;
 }
 
+.product-box .product-price{
+
+}
+
 .product-box .price{
     font-family: Amatic SC;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
     color: #000;
     opacity: 0.5;
-    padding: 5px 0px 0px 0px;
+    padding: 3px 0px 0px 0px;
     float: left;
 }
 .basket{
     float: right;
     position: relative;
     font-family: Open Sans Condensed;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -388,7 +393,7 @@ body{
     color: #88b048;
     border: 1px solid #88b048;
     padding: 5px;
-    margin: 11px 0 0 0;
+    margin: 11px 0 11px 0;
     border-radius: 3px;
 }
 .basket:hover{

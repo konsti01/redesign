@@ -561,6 +561,8 @@
                                 <a href="https://www.meska.hu/t<?=$p['id']?>">
                                     <div class="description"><?=$p['product_name']?></div>
                                 </a>
+                            </div>
+                            <div class="product-price">
                                 <div class="price"><?=$p['formatted_price']?></div>
                                 <div class="basket">Kosárba »</div>
                                 <div class="clear"></div>
@@ -621,6 +623,8 @@
                 <a href="https://www.meska.hu/t{{ id }}">
                     <div class="description">{{ product_name }}</div>
                 </a>
+            </div>
+            <div class="product-price">
                 <div class="price">{{ formatted_price }}</div>
                 <div class="basket">Kosárba »</div>
                 <div class="clear"></div>

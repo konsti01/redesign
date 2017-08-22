@@ -230,11 +230,6 @@
         <!-- RIGHT COL -->
         <div class="row-right">
             <div class="search col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <div class="video-background">
-                    <div class="video-foreground">
-                        <iframe src="https://www.youtube.com/embed/gAx99kwsMxk?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=gAx99kwsMxk" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
                 <div class="search-bar-wrap">
                     <img src="https://image.flaticon.com/icons/svg/54/54554.svg">
                     <input type="text" id="search-bar">
@@ -311,6 +306,9 @@
                                         <a href="https://www.meska.hu/t<?=$p['id']?>">
                                             <div class="description"><?=$p['product_name']?></div>
                                         </a>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="product-price">
                                         <div class="price"><?=$p['formatted_price']?></div>
                                         <div class="basket">Kosárba »</div>
                                         <div class="clear"></div>
@@ -390,6 +388,8 @@
                                     <a href="https://www.meska.hu/t<?=$p['id']?>">
                                         <div class="description"><?=$p['product_name']?></div>
                                     </a>
+                                </div>
+                                <div class="product-price">
                                     <div class="price"><?=$p['formatted_price']?></div>
                                     <div class="basket">Kosárba »</div>
                                     <div class="clear"></div>
@@ -439,6 +439,8 @@
                                     <a href="https://www.meska.hu/t<?=$p['id']?>">
                                         <div class="description"><?=$p['product_name']?></div>
                                     </a>
+                                </div>
+                                <div class="product-price">
                                     <div class="price"><?=$p['formatted_price']?></div>
                                     <div class="basket">Kosárba »</div>
                                     <div class="clear"></div>
@@ -694,6 +696,8 @@
                                     <a href="https://www.meska.hu/t<?=$p['id']?>">
                                         <div class="description"><?=$p['product_name']?></div>
                                     </a>
+                                </div>
+                                <div class="product-price">
                                     <div class="price"><?=$p['formatted_price']?></div>
                                     <div class="basket">Kosárba »</div>
                                     <div class="clear"></div>
