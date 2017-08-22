@@ -707,6 +707,23 @@ ul{
     color: #fff;
 }
 
+/*MEDIA REF*/
+.media-ref{
+    margin: 25px 0 0 0;
+}
+.media-ref blockquote{
+    text-align: center;
+    border-left: 0;
+}
+.media-ref .owl-theme .owl-nav .owl-next{
+    position: relative;
+    bottom: 140px;
+}
+.media-ref .owl-theme .owl-nav .owl-prev{
+    position: relative;
+    bottom: 140px;
+}
+
 /*FOOTER*/
 #footer{
     position: relative;
