@@ -7,7 +7,8 @@
         height: 90px;
     }
     .product-box .price{
-        font-size: 16pt;
+        font-size: 30px;
+        float: right;
     }
 
     /*ProductCat Pos*/
@@ -32,6 +33,13 @@
     .benefits{
         width: 100% !important;
         margin: 0 0 50px 0;
+    }
+}     /* xs */
+
+@media only screen and (min-width: 425px) and (max-width: 485px){
+    .product-box .price{
+        font-size: 30px;
+        float: right;
     }
 }     /* xs */
 
@@ -122,21 +130,6 @@
     .col-md-3-custom{
         width: 25%;
     }
-    /*.product-box .seller-pic{
-        padding: 11px 0px 0px 0px;
-        float: left;
-        width: 46px;
-    }
-    .product-box .seller-pic img{
-        width: 40px;
-        border-radius: 30px;
-    }
-    .product-box .product-description{
-        width: 65%;
-        padding: 10px 0px 10px 0px;
-        float: left;
-        font-size: 12px;
-    }*/
     .product-box .seller{
         font-size: 18px;
         text-transform: uppercase;
@@ -147,8 +140,10 @@
         height: 65px;
     }
     .product-box .price{
-
         padding: 5px 0px;
+    }
+    .product-box .basket{
+        margin: 14px 0 11px 0;
     }
 }     /* md */
 
