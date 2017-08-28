@@ -1,4 +1,13 @@
 @media only screen and (max-width: 424px){
+    /*Search*/
+    .search{
+        display: none;
+    }
+    /*numbers*/
+    .numbers-row .headline{
+        margin: 0px 0 10px 0;
+    }
+    /*product-box*/
     .product-box .seller{
         font-size: 12px;
         text-transform: uppercase;
@@ -23,7 +32,7 @@
     /*Numbers*/
     .numbers-row ul > li.column{
         border-right: 0;
-        border-bottom: 1px solid #d9d9d9;
+        border-bottom: 0;
     }
     .numbers-row ul > li.column:last-of-type{
         border-bottom: 0;
@@ -34,16 +43,46 @@
         width: 100% !important;
         margin: 0 0 50px 0;
     }
+
+    .button {
+        width: 250px;
+    }
+    /*newsletter*/
+    .newsletter form .input-text {
+        margin: 0 0 15px 0;
+    }
 }     /* xs */
 
 @media only screen and (min-width: 425px) and (max-width: 485px){
+    /*Search*/
+    .search{
+        display: none;
+    }
+    /*numbers*/
+    .numbers-row .headline{
+        margin: 0px 0 10px 0;
+    }
+    /*product-box*/
     .product-box .price{
         font-size: 30px;
         float: right;
     }
+    /*newsletter*/
+    .newsletter form .input-text {
+        margin: 0 0 15px 0;
+    }
 }     /* xs */
 
 @media only screen and (min-width: 425px) and (max-width: 550px){
+    /*Search*/
+    .search{
+        display: none;
+    }
+    /*numbers*/
+    .numbers-row .headline{
+        margin: 0px 0 10px 0;
+    }
+    /*product-box*/
     .product-box{
         min-height: 365px;
     }
@@ -70,7 +109,7 @@
     /*Numbers*/
     .numbers-row ul > li.column{
         border-right: 0;
-        border-bottom: 1px solid #d9d9d9;
+        border-bottom: 0;
     }
     .numbers-row ul > li.column:last-of-type{
         border-bottom: 0;
@@ -84,6 +123,15 @@
 }     /* xs */
 
 @media only screen and (min-width: 551px) and (max-width: 767px){
+    /*Search*/
+    .search{
+        display: none;
+    }
+    /*numbers*/
+    .numbers-row .headline{
+        margin: 0px 0 10px 0;
+    }
+    /*product-box*/
     .product-box{
         min-height: 365px;
     }
@@ -103,7 +151,7 @@
     /*Numbers*/
     .numbers-row ul > li.column{
         border-right: 0;
-        border-bottom: 1px solid #d9d9d9;
+        border-bottom: 0;
     }
     .numbers-row ul > li.column:last-of-type{
         border-bottom: 0;
