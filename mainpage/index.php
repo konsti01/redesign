@@ -231,13 +231,11 @@
         <div class="row-right">
             <div class="search col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div class="search-bar-wrap">
+                    <input type="text" id="search-bar" placeholder="Keresés">
                     <img src="https://image.flaticon.com/icons/svg/54/54554.svg">
-                    <input type="text" id="search-bar">
-                    <button>
-                        <span>Keresés</span>
-                    </button>
                     <div class="clear"></div>
                 </div>
+                <p>Keresés 8 245 alkotó 102 341 terméke között.</p>
             </div>
             <div class="numbers-row">
                 <div class="headline">Meska számokban</div>

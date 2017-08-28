@@ -220,18 +220,18 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.search p{
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+    color: #eee;
+    font-size: 24px;
+    margin: 20px;
+    text-align: center;
+}
 .search-bar-wrap{
-    margin: 50px;
+    margin: 50px 150px 0px 150px;
     padding: 5px;
     border-radius: 3px;
     background-color: #fff;
-}
-.search-bar-wrap img{
-    width: 35px;
-    position: absolute;
-    left: 160px;
-    top: 162px;
-    opacity: 0.3;
 }
 .search-bar-wrap #search-bar{
     float: left;
@@ -242,27 +242,16 @@ body{
     color: #a7a7a7;
     font-size: 22px;
     line-height: 22px;
-    padding: 11px 60px 12px;
+    padding: 11px 11px 12px;
     background: #fff;
 }
-.search-bar-wrap button{
+.search-bar-wrap img{
     float: right;
-    width: 15%;
-    height: 47px;
-    background-color: #88B04B;
-    border-radius: 3px;
-    border: none;
-    cursor: pointer;
-}
-.search-bar-wrap button:hover{
-    background-color: #336600;
-}
-.search-bar-wrap button span{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    color: #fff;
-    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
-    padding: 0 4px 0 4px;
+    width: 35px;
+    position: absolute;
+    right: 260px;
+    top: 162px;
+    opacity: 0.3;
 }
 
 /*benefits*/
