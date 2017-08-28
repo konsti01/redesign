@@ -256,30 +256,35 @@ body{
 
 /*benefits*/
 .benefits-row{}
-.benefits{
-    text-align: center;
+.benefits-row .headline{
+    margin: 50px 0 20px 0;
 }
+.benefits{}
 .benefits-box{
-    border: 2px solid #006633;
+    background-color: #88B04B;
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     margin: 0 auto 10px auto;
     padding: 15px 0 0 0;
-}
-.benefits-box img{
-    width: 35px;
+    text-align: center;
 }
 .benefits-box .fa{
-    font-size: 26px;
-    color: #006633;
+    font-size: 42px;
+    color: #333;
     margin: 7px 0 0 0;
+    position: relative;
+    left: -30px;
+    top: -25px;
 }
 .benefits-text{
     text-transform: uppercase;
     font-family: "Open Sans", cursive;
     font-size: 18px;
-    color: #006633;
+    color: #333;
+    position: relative;
+    top: -105px;
+    left: 130px;
 }
 
 /*highlighted, browser, recently bought, recently uploaded*/
