@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+
+}
+
+.nav{}
+.nav ul{
+    text-align: center;
+    margin: 0;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 33px;
+}
+.nav ul li:first-child{
+    margin: 33px 33px 33px 0px;
+}
+.nav ul li:last-child{
+    margin: 33px 0px 33px 33px;
+}
+.nav ul li a{
+    font-family: OpenSans-Semibold, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.67px;
+    color: #3B3C45;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+.nav ul li a:hover{
+    opacity: 0.6;
+}
+
+.col-1{
+    background: #555E6B url(img/Bgpic.jpg) top center no-repeat;
+    background-size: cover;
+}
+.col-1 .content{
+    background: url(img/retusalt_DSC5160.png) bottom right 12% no-repeat;
+}
+.col-1 h1{
+    font-family: AbrilDisplay-Bold, Georgia, serif;
+    font-weight: bold;
+    font-size: 68px;
+    color: #A78F68;
+}
+.col-1 h2{
+    font-family: AbrilText-SemiBold, Georgia, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #A78F68;
+    letter-spacing: 4.25px;
+    text-transform: uppercase;
+}
+.col-1 .separator{
+    height: 5px;
+    width: 65px;
+    background-color: #A78F68;
+    margin: 34px 0px;
+}
+.col-1 p{
+    font-family: OpenSans, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.2px;
+    line-height: 32px;
+    max-width: 520px;
+}
+.col-1 .text{
+    padding: 210px 0 150px 0;
+}
+.col-1:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-2{
+    background-color: #fff;
+    text-align: center;
+}
+.col-2 h2{
+    font-family: AbrilText-Regular, Times, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 38px;
+    color: #A78F68;
+    letter-spacing: 0.4px;
+    line-height: 47px;
+    margin: 60px 0 50px 0;
+}
+.col-2 p{
+    font-family: OpenSans, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: #5F606A;
+    letter-spacing: 0.2px;
+    line-height: 32px;
+    max-width: 770px;
+    margin: 0px auto 30px auto;
+}
+.col-2 .founders{
+    background: #FFFFFF;
+    box-shadow: 0 0 60px 0 rgba(0,0,0,0.07);
+    z-index: 999;
+    position: relative;
+    top: 110px;
+    margin: -60px 0 0 0;
+}
+.col-2 .founders .image{
+    float: left;
+    width: 50%;
+    height: 640px;
+    background: #555E6B url(img/backgroundImage.jpg) top center no-repeat;
+    background-size: cover;
+}
+.col-2 .founders .info{
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 60px;
+}
+.col-2 .founders .info h2{
+    font-family: AvenirNext-Medium, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 21px;
+    color: #5F606A;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.col-2 .founders .info .separator{
+    height: 5px;
+    width: 65px;
+    background-color: #A78F68;
+    margin: 34px 0px;
+}
+.col-2 .founders .info h3{
+    font-family: AbrilText-SemiBold, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    color: #A78F68;
+    letter-spacing: 2px;
+}
+.col-2 .founders .info p{
+    font-family: OpenSans, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: #5F606A;
+    letter-spacing: 0.2px;
+    line-height: 32px;
+}
+
+.col-2 .founders:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-3{
+    background: #555E6B url(img/Hatekony-bg.jpg) top center no-repeat;
+    background-size: cover;
+    padding: 230px 0 160px 0;
+}
+.col-3 .content{
+    max-width: 795px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+.col-3 h2{
+    font-family: AbrilText-Regular, Times, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 39px;
+    color: #A78F68;
+    letter-spacing: 0.4px;
+    line-height: 47px;
+}
+.col-3 p{
+    font-family: OpenSans, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.2px;
+    line-height: 32px;
+    margin: 35px 0 0 0;
+    max-width: 770px;
+}
+
+.footer{}
+.footer ul{
+    text-align: center;
+    margin: 0;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 33px;
+}
+.footer ul li:first-child{
+    margin: 33px 33px 33px 0px;
+}
+.footer ul li:last-child{
+    margin: 33px 0px 33px 33px;
+}
+.footer ul li a{
+    font-family: OpenSans-Semibold, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.67px;
+    color: #3B3C45;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+.footer ul li a:hover{
+    opacity: 0.6;
+}
+.footer p{
+    font-family: OpenSans, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #5F606A;
+    letter-spacing: 0.2px;
+    line-height: 25.2px;
+    text-align: center;
+    margin: 0px 0px 58px 0px;
+}
+
+/* GLOBAL */
+.content{
+    padding: 0 10% 0 10%;
+}
+.clear{
+    clear: both;
+}

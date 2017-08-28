@@ -2,76 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/fonts/OpenSans-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/fonts/OpenSans-BoldItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/fonts/OpenSans-ExtraBold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/fonts/OpenSans-ExtraBoldItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/fonts/OpenSans-Italic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/fonts/OpenSans-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/fonts/OpenSans-LightItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/fonts/OpenSans-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/fonts/OpenSans-Semibold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/fonts/OpenSans-SemiboldItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/img/0_banner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/img/3_teglalap_gear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/img/4_teglalap_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/img/5_teglalap_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/img/6_teglalap_info.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/img/7_teglalap_footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/img/border.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/img/info.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/img/partner1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/img/partner2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/img/partner3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/img/wawona.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/mab/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/css/animate.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/css/owl.carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/css/owl.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/css/owl.transitions.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/css/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/images/AjaxLoader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/images/bg1_fhd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/images/bg2_fhd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/images/bg3_1920.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/images/bg4_fhd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/images/bg5a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/images/customer1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/images/customer2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/images/grabbing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/js/jquery.appear.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/js/jquery.sticky.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/js/jquery.timer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/meska/js/owl.carousel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/fonts/MyriadPro-Bold.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/fonts/MyriadPro-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/galeria.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/kiemelt1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/kiemelt2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/logo_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/naptar_nyil_bal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/naptar_nyil_jobb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/naptar_vonal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/slide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/tamogatok1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/tamogatok2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/tamogatok3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/tamogatok4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/tamogatok5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/tamogatok6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/tamogatok7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/img/tamogatok8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/pvsk/style.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redesign.iws" />
@@ -191,6 +121,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,19 +130,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,11 +192,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1360" height="738" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="30" width="1360" height="738" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27701673" sideWeight="0.88087773" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28614917" sideWeight="0.88087773" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -600,13 +520,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/faq/index2_files/css">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/faq/index2_files/style.css">
