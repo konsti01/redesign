@@ -131,7 +131,7 @@ body{
     margin: 48px 0 0 0;
     height: 250px;
     background-color: #ccc;
-    position: fixed; bottom: 520px;
+    position: fixed; bottom: 580px;
 }
 
 .widget{
@@ -149,7 +149,7 @@ body{
     margin: 48px 0 0 0;
     height: 150px;
     background-color: #ccc;
-    position: fixed; bottom: 360px;
+    position: fixed; bottom: 420px;
 }
 
 /* Termékkategória nav */
@@ -431,8 +431,30 @@ ul{
 }
 
 /*CUSTOMERS SAY*/
+.customers-say-row .headline{
+    color: #333;
+    position: relative;
+    top: 100px;
+    margin: 0 0 5px 0;
+}
 .customers-say-row .content{
     background-image: url(img/quote-bg.jpg);
+    padding: 25px;
+}
+.customers-say-row .quote-circle{
+    text-align: center;
+    background-color: #88B04B;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.customers-say-row .quote-circle:before{
+    font-family: "FontAwesome";
+    content: '\f10d';
+    font-size: 50px;
+    position: relative;
+    top: 60px;
 }
 .customers-say-row blockquote{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -442,7 +464,7 @@ ul{
     width: 95%;
     max-width: 95%;
     box-sizing: border-box;
-    margin: 0.25em auto 10px;
+    margin: 1.5em auto 20px;
     line-height: 1.45;
     position: relative;
     color: #383838; /*#373D4B*/
@@ -628,19 +650,19 @@ ul{
 }
 
 .owl-theme .owl-dots .owl-dot span{
-    border: 1px solid #88b048;
+    border: 1px solid #fff;
     background-color: transparent !important;
     width: 12px !important;
     height: 12px !important;
 }
 .owl-theme .owl-dots .owl-dot.active span{
-    background-color: #88b048 !important;
+    background-color: #fff !important;
 }
 .owl-theme .owl-dots .owl-dot span:hover{
-    background-color: #88b048 !important;
+    background-color: #fff !important;
 }
 .owl-theme .owl-dots .owl-dot:hover span{
-    background-color: #88b048 !important;
+    background-color: #fff !important;
 }
 
 /*NEWSLETTER*/
@@ -648,7 +670,7 @@ ul{
     width: 120%;
     margin: 0 0 0 -10%;
     padding: 25px;
-    background-color: #8bc34a;
+    background: linear-gradient(to right, #336600 , #8bc34a);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -659,19 +681,23 @@ ul{
 }
 .newsletter form .input-text{
     color: #333;
-    padding: 5px;
+    padding: 9px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
+.newsletter form .input-text::placeholder{
+    color: #ccc;
+}
 .newsletter form .input-button{
-    color: #fff;
-    padding: 6px;
-    background-color: #88B04B;
-    border-radius: 3px;
-    border: 1px solid #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    border: 1px solid #88b048;
+    background-color: #fff;
+    padding: 10px 15px;
+    margin: 15px auto 35px auto;
+    color: #88b048;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.2s linear;
 }
 .newsletter form .input-button:hover{
     color: #fff;
@@ -699,18 +725,17 @@ ul{
 /*MEDIA REF*/
 .media-ref{
     margin: 25px 0 0 0;
-}
-.media-ref blockquote{
     text-align: center;
-    border-left: 0;
 }
-.media-ref .owl-theme .owl-nav .owl-next{
-    position: relative;
-    bottom: 140px;
+.media-ref:after{
+    content: "";
+    display: table;
+    clear: both;
 }
-.media-ref .owl-theme .owl-nav .owl-prev{
-    position: relative;
-    bottom: 140px;
+.media-ref img{
+    height: 50px;
+    display: inline;
+    margin: 25px;
 }
 
 /*FOOTER*/

@@ -460,6 +460,7 @@
             <div class="customers-say-row">
                 <div class="headline">Meskáról mondták</div>
                 <div class="content">
+                    <div class="quote-circle"><span></span></div>
                     <div class="owl-carousel owl-theme">
                         <div class="item">
                             <h4>
@@ -718,64 +719,13 @@
             <div class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
             <div class="media-ref">
                 <div class="headline">Meska a médiában</div>
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <h4>
-                            <blockquote>Blikk</blockquote>
-                            <div class="customer-member">
-                                <div class="photo-member">
-                                    <div class="img-container">
-                                        <div class="overlay">
-                                            <img src="img/mref1.jpg">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </h4>
+                    <div class="m-ref">
+                        <img src="img/mref1.jpg">
+                        <img src="img/mref2.jpg">
+                        <img src="img/mref3.jpg">
+                        <img src="img/mref4.jpg">
+                        <img src="img/mref5.svg">
                     </div>
-                    <div class="item">
-                        <h4>
-                            <blockquote>Kempo</blockquote>
-                            <div class="customer-member">
-                                <div class="photo-member">
-                                    <div class="img-container">
-                                        <div class="overlay">
-                                            <img src="img/mref2.jpg">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </h4>
-                    </div>
-                    <div class="item">
-                        <h4>
-                            <blockquote>Bors</blockquote>
-                            <div class="customer-member">
-                                <div class="photo-member">
-                                    <div class="img-container">
-                                        <div class="overlay">
-                                            <img src="img/mref3.jpg">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </h4>
-                    </div>
-                    <div class="item">
-                        <h4>
-                            <blockquote>ESP</blockquote>
-                            <div class="customer-member">
-                                <div class="photo-member">
-                                    <div class="img-container">
-                                        <div class="overlay">
-                                            <img src="img/mref4.jpg">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </h4>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
