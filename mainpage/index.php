@@ -281,6 +281,7 @@
                             <i class="fa fa-lock" aria-hidden="true"></i>
                         </div>
                         <span class="benefits-text">Biztonságos</span>
+                        <div class="clear"></div>
                     </div>
                     <div class="benefits col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
                         <div class="benefits-box">
