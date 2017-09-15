@@ -524,7 +524,8 @@ body{
 }
 .products:last-child .product-box .product-box-overlay span{
     color: #eee;
-    line-height: 200px;
+    position: relative;
+    top: 50%;
 }
 
 .products:last-child .product-box:hover .product-image{
