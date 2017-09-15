@@ -1,0 +1,815 @@
+/* PHONE */
+
+@media only screen and (min-width: 320px) and (max-width:359px){ /*iPhone 5 ÁLLÓ*/
+	/*.is-sticky #top-menu{
+		width:320px;
+	}*/
+	
+	/* HEADER */
+	.header-wrapper{
+		padding-bottom: 200px;
+	}
+	
+	/*STATS*/
+	.number-wrapper{
+		max-width:90vw;
+		margin-top:-170px;
+	}
+	.number-wrapper ul > li.column{
+		width:50%;
+		float:left;
+		border-top:1px solid #d9d9d9;
+	}
+	.number-container{
+		height:175px;
+	}
+	
+	/*VONALAK*/
+	#price-com .creator .icon-cont:after,
+	#price-com .creator:after,
+	#price-com .company .icon-cont:before,
+	#price-com .company:after,
+	#price-com .company .icon-cont:after,
+	#price-com .customer .icon-cont:before{
+		display:none;
+	}
+	
+	/*REG STEPS*/
+	#reg-steps .steps > div{
+		height:330px;
+	}
+	#reg-steps .steps > div .num{
+		margin:20px auto 20px;
+	}
+}
+@media only screen and (min-width: 360px) and (max-width:374px){ /*Galaxy S5 ÁLLÓ*/
+	/*.is-sticky #top-menu{
+		width:360px;
+	}*/
+	
+	/* HEADER */
+	.header-wrapper{
+		padding-bottom: 200px;
+	}
+	
+	/*STATS*/
+	.number-wrapper{
+		max-width:90vw;
+		margin-top:-170px;
+	}
+	.number-wrapper ul > li.column{
+		width:50%;
+		float:left;
+		border-top:1px solid #d9d9d9;
+	}
+	.number-container{
+		height:175px;
+	}
+	
+	/*VONALAK*/
+	#price-com .creator .icon-cont:after,
+	#price-com .creator:after,
+	#price-com .company .icon-cont:before,
+	#price-com .company:after,
+	#price-com .company .icon-cont:after,
+	#price-com .customer .icon-cont:before{
+		display:none;
+	}
+	
+	/*REG STEPS*/
+	#reg-steps .steps > div{
+		height:310px;
+	}
+	#reg-steps .steps > div .num{
+		margin:20px auto 20px;
+	}
+}
+@media only screen and (min-width: 375px) and (max-width:411px){ /*iPhone 6 ÁLLÓ*/
+	/*NAV*/
+	/*.is-sticky #top-menu{
+		width:375px;
+	}*/
+	
+	/* HEADER */
+	.header-wrapper{
+		padding-bottom: 200px;
+	}
+	
+	/*BENEFIT*/
+	.column {
+		margin-bottom: 10px;
+	}
+	#benefits .icon-cont-chat{
+		margin-bottom:0;
+	}
+	#benefits .icon-cont-user{
+		margin-bottom:0;
+	}
+	#benefits .icon-cont-shield{
+		margin-bottom:0;
+	}
+	#benefits .icon-cont-lock{
+		margin-bottom:0;
+	}
+	
+	/*STATS*/
+	.number-wrapper{
+		max-width:90vw;
+		margin-top:-170px;
+	}
+	.number-wrapper ul > li.column{
+		width:50%;
+		float:left;
+		border-top:1px solid #d9d9d9;
+	}
+	.number-container{
+		height:175px;
+	}
+	
+	/*VONALAK*/
+	#price-com .creator .icon-cont:after,
+	#price-com .creator:after,
+	#price-com .company .icon-cont:before,
+	#price-com .company:after,
+	#price-com .company .icon-cont:after,
+	#price-com .customer .icon-cont:before{
+		display:none;
+	}
+	
+	/*REG STEPS*/
+	#reg-steps .steps > div{
+		height:320px;
+	}
+	#reg-steps .steps > div .num{
+		margin:20px auto 20px;
+	}
+	
+	
+}
+@media only screen and (min-width: 412px) and (max-width:413px){ /*NEXUS ÁLLÓ*/
+	/*.is-sticky #top-menu{
+		width:412px;
+	}*/
+	
+	/* HEADER */
+	.header-wrapper{
+		padding-bottom: 200px;
+	}
+	
+	/*STATS*/
+	.number-wrapper{
+		max-width:90vw;
+		margin-top:-170px;
+	}
+	.number-wrapper ul > li.column{
+		width:50%;
+		float:left;
+		border-top:1px solid #d9d9d9;
+	}
+	.number-container{
+		height:175px;
+	}
+	
+	/*VONALAK*/
+	#price-com .creator .icon-cont:after,
+	#price-com .creator:after,
+	#price-com .company .icon-cont:before,
+	#price-com .company:after,
+	#price-com .company .icon-cont:after,
+	#price-com .customer .icon-cont:before{
+		display:none;
+	}
+	
+	/*REG STEPS*/
+	#reg-steps .steps > div{
+		height:250px;
+	}
+	#reg-steps .steps > div .num{
+		margin:20px auto 20px;
+	}
+}
+@media only screen and (min-width: 414px) and (max-width:567px){ /*iPhone 6+ ÁLLÓ*/
+	/*.is-sticky #top-menu{
+		width:414px;
+	}*/
+	
+	/* HEADER */
+	.header-wrapper{
+		padding-bottom: 200px;
+	}
+	
+	/*STATS*/
+	.number-wrapper{
+		max-width:90vw;
+		margin-top:-170px;
+	}
+	.number-wrapper ul > li.column{
+		width:50%;
+		float:left;
+		border-top:1px solid #d9d9d9;
+	}
+	.number-container{
+		height:175px;
+	}
+	
+	/*VONALAK*/
+	#price-com .creator .icon-cont:after,
+	#price-com .creator:after,
+	#price-com .company .icon-cont:before,
+	#price-com .company:after,
+	#price-com .company .icon-cont:after,
+	#price-com .customer .icon-cont:before{
+		display:none;
+	}
+	
+	/*REG STEPS*/
+	#reg-steps .steps > div{
+		height:280px;
+	}
+	#reg-steps .steps > div .num{
+		margin:20px auto 20px;
+	}
+}
+@media only screen and (min-width: 568px) and (max-width:639px){ /*iPhone 5 FEKVŐ*/
+	/*.is-sticky #top-menu{
+		width:568px;
+	}*/
+	
+	/*STATS*/
+	.number-wrapper{
+		max-width:95vw;
+		margin-top:-80px;
+	}
+	.number-wrapper ul > li.column{
+		width:25%;
+		float:left;
+	}
+	.number-container{
+		height:175px;
+		padding-top:50px;
+	}
+	.number-container .number{
+		font-size:25px;
+	}
+	
+	/*BENEFITS*/
+	#benefits .col-xs-12{
+		width:50%;
+        height: 350px;
+	}
+	
+	/*PRICE COMM*/
+	#price-com .col-xs-12{
+		width:33%;
+	}
+	/*VONALAK*/
+	#price-com .creator .icon-cont:after{
+	  position: absolute;
+	  right: 20%;
+	}
+	#price-com .creator:after{
+	  position: absolute;
+	  left:76%;
+	  width: 55%;
+	}
+	#price-com .company .icon-cont:before{
+	  position: absolute;
+	  left: 28%;
+	}
+	
+	#price-com .company .icon-cont:after{
+	  position: absolute;
+	  right: 20%;
+	}
+	#price-com .company:after{
+	  position: absolute;
+	  left: 77%;
+	  width: 50%;
+	}
+	#price-com .customer .icon-cont:before{
+	  position: absolute;
+	  left: 24%;
+	}
+	
+	
+	/*REG STEPS*/
+	#reg-steps .col-xs-12{
+		width:25%;
+	}
+	#reg-steps .steps > div{
+		height:800px;
+	}
+}
+@media only screen and (min-width: 640px) and (max-width:666px){ /*Galaxy S5 FEKVŐ*/
+	/*.is-sticky #top-menu{
+		width:640px;
+	}*/
+	
+	/*STATS*/
+	.number-wrapper{
+		max-width:95vw;
+		margin-top:-80px;
+	}
+	.number-wrapper ul > li.column{
+		width:25%;
+		float:left;
+	}
+	.number-container{
+		height:175px;
+		padding-top:50px;
+	}
+	.number-container .number{
+		font-size:25px;
+	}
+	
+	/*BENEFITS*/
+	#benefits .col-xs-12{
+		width:50%;
+        height: 350px;
+	}
+	
+	/*PRICE COMM*/
+	#price-com .col-xs-12{
+		width:33%;
+	}
+	/*VONALAK*/
+	#price-com .creator .icon-cont:after{
+	  position: absolute;
+	  right: 20%;
+	}
+	#price-com .creator:after{
+	  position: absolute;
+	  left:76%;
+	  width: 55%;
+	}
+	#price-com .company .icon-cont:before{
+	  position: absolute;
+	  left: 28%;
+	}
+	
+	#price-com .company .icon-cont:after{
+	  position: absolute;
+	  right: 20%;
+	}
+	#price-com .company:after{
+	  position: absolute;
+	  left: 77%;
+	  width: 50%;
+	}
+	#price-com .customer .icon-cont:before{
+	  position: absolute;
+	  left: 24%;
+	}
+	
+	/*REG STEPS*/
+	#reg-steps .col-xs-12{
+		width:25%;
+	}
+	#reg-steps .steps > div{
+		height:720px;
+	}
+}
+@media only screen and (min-width: 667px) and (max-width:735px){ /*iPhone 6 FEKVŐ*/
+	/*.is-sticky #top-menu{
+		width:667px;
+	}*/
+	
+	/*STATS*/
+	.number-wrapper{
+		max-width:95vw;
+		margin-top:-80px;
+	}
+	.number-wrapper ul > li.column{
+		width:25%;
+		float:left;
+	}
+	.number-container{
+		height:175px;
+		padding-top:50px;
+	}
+	.number-container .number{
+		font-size:25px;
+	}
+	
+	/*BENEFITS*/
+	#benefits .col-xs-12{
+		width:50%;
+	}
+	
+	/*PRICE COMM*/
+	#price-com .col-xs-12{
+		width:33%;
+	}
+	/*VONALAK*/
+	#price-com .creator .icon-cont:after{
+	  position: absolute;
+	  right: 20%;
+	}
+	#price-com .creator:after{
+	  position: absolute;
+	  left:76%;
+	  width: 55%;
+	}
+	#price-com .company .icon-cont:before{
+	  position: absolute;
+	  left: 28%;
+	}
+	
+	#price-com .company .icon-cont:after{
+	  position: absolute;
+	  right: 20%;
+	}
+	#price-com .company:after{
+	  position: absolute;
+	  left: 77%;
+	  width: 50%;
+	}
+	#price-com .customer .icon-cont:before{
+	  position: absolute;
+	  left: 24%;
+	}
+	
+	/*REG STEPS*/
+	#reg-steps .col-xs-12{
+		width:25%;
+	}
+	#reg-steps .steps > div{
+		height:610px;
+	}
+}
+@media only screen and (min-width: 736px) and (max-width:766px){ /*iPhone 6+ FEKVŐ*/
+	/*.is-sticky #top-menu{
+		width:736px;
+	}*/
+	
+	/*STATS*/
+	.number-wrapper{
+		max-width:95vw;
+		margin-top:-80px;
+	}
+	.number-wrapper ul > li.column{
+		width:25%;
+		float:left;
+	}
+	.number-container{
+		height:175px;
+		padding-top:50px;
+	}
+	.number-container .number{
+		font-size:25px;
+	}
+	
+	/*BENEFITS*/
+	#benefits .col-xs-12{
+		width:50%;
+        height: 300px;
+	}
+	
+	/*PRICE COMM*/
+	#price-com .col-xs-12{
+		width:33%;
+	}
+	/*VONALAK*/
+	#price-com .creator .icon-cont:after{
+	  position: absolute;
+	  right: 20%;
+	}
+	#price-com .creator:after{
+	  position: absolute;
+	  left:76%;
+	  width: 55%;
+	}
+	#price-com .company .icon-cont:before{
+	  position: absolute;
+	  left: 28%;
+	}
+	
+	#price-com .company .icon-cont:after{
+	  position: absolute;
+	  right: 20%;
+	}
+	#price-com .company:after{
+	  position: absolute;
+	  left: 77%;
+	  width: 50%;
+	}
+	#price-com .customer .icon-cont:before{
+	  position: absolute;
+	  left: 24%;
+	}
+	
+	/*REG STEPS*/
+	#reg-steps .col-xs-12{
+		width:25%;
+	}
+	#reg-steps .steps > div{
+		height:570px;
+	}
+}
+
+@media only screen and (max-width:767px){ /* All 320px-767px*/
+	/*NAVBAR*/
+	.is-sticky #top-menu{
+		width:100%;
+	}
+
+	#navbar .navbar-nav{
+		background:rgba(255,255,255,1.0);
+		padding:5px;
+		border-left: 1px solid #999;
+		border-right: 1px solid #999;
+		border-bottom: 1px solid #999;
+	}
+	#navbar .navbar-nav .button-border{
+		color: #fff;
+		background-color: #006633;
+        margin: 5px 10px;
+        text-align: center;
+	}
+	.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+		text-shadow: none;
+		color: #000;
+	}
+	.is-sticky #navbar .navbar-nav{
+		background:rgba(255,255,255,1.0);
+		padding:5px;
+		border-left: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+		background-color:#fff;
+	}
+
+	/*DOPDOWN*/
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		position:absolute;
+		right:10px;
+	}
+
+    .header-wrapper .button{
+        width: auto;
+    }
+
+    .flex-item img{
+        margin: 0;
+    }
+	
+	/*HEADLINE*/
+	h1.section-title{
+		font-family: 'Amatic-SC', cursive;
+	}
+	
+	/* ABOUT - IDÉZET KERÜL FELÜLRE */
+	#about-flex{
+		-ms-box-orient: horizontal;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: flex;  
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+	}
+	.flex-item:nth-of-type(1) { order: 3; }
+	.flex-item:nth-of-type(2) { order: 1; }
+    .flex-item:nth-of-type(3) { order: 2; }
+	
+	/*STATS*/
+	.number-container .number{
+		
+	}
+	
+	/* PRICE COM */
+	/*#price-com .creator .icon-cont:after,
+	#price-com .creator:after,
+	#price-com .company .icon-cont:before,
+	#price-com .company:after,
+	#price-com .company .icon-cont:after,
+	#price-com .customer .icon-cont:before{
+		display:none;
+	}*/
+	
+	/*REG STEPS*/
+	#reg-steps .row{
+		width:95%;
+		margin:0 auto;
+		
+	}
+	
+	/*FOOTER*/
+	.footer-copyright{
+		text-align:center;
+	}
+    .footer-copyright .separator{
+		display:none;
+	}
+    .footer-copyright .line{
+		display:block;
+	}
+
+    /* MOBILE BG */
+    #wrapper_mbYTP_bgndVideo{
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .header-wrapper{
+        background-image:url(../images/static.jpg);
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .number-wrapper{
+        position: relative;
+        top: 0;
+    }
+    .header-wrapper .welcome {
+        position: relative;
+        top: 0px;
+    }
+    h1.section-title-first {
+        margin-top: 30px;
+    }
+
+    /* MOBILE FAQ */
+    .toggle-title-text{
+        position: absolute;
+        left: 40px;
+    }
+    .toggle-title{
+        padding: 35px 15px;
+    }
+}
+
+/* TABLET */
+@media only screen and (min-width: 768px) and (max-width:1023px){ /*iPad ÁLLÓ*/
+	/*NAV*/
+	.meska-logo{
+		width:150px;
+	}
+	.navbar-default .navbar-brand{
+		padding: 15px 15px;
+	}
+	/*HEADLINE*/
+	h1.section-title{
+		font-family: 'Amatic-SC', cursive;
+	}
+	/*ABOUT*/
+	.about-wrapper{
+		max-width: 95%;
+	}
+	#about article p{
+		text-align: justify;
+	}
+	/* ABOUT - IDÉZET KERÜL FELÜLRE */
+	#about-flex{
+		-ms-box-orient: horizontal;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: flex;  
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+	}
+	.flex-item:nth-of-type(1) { order: 2; }
+	.flex-item:nth-of-type(2) { order: 1; }
+	
+	/*STATS*/
+	.number-wrapper{
+		max-width:95vw;
+		margin-top:-80px;
+	}
+	.number-wrapper ul > li.column{
+		width:25%;
+		float:left;
+	}
+	.number-container{
+		height:175px;
+		padding-top:50px;
+	}
+	.number-container .number{
+		font-size:25px;
+	}
+	
+	/*PRICE COMM*/
+	#price-com .icon-cont, #price-com .price-details{
+		margin-left: 50px;
+	}
+	.price-details > p{
+		/*height: 155px;*/
+	}
+	/*VONALAK*/
+	#price-com .creator .icon-cont:after{
+	  position: absolute;
+	  right: 20%;
+	}
+	#price-com .creator:after{
+	  position: absolute;
+	  left:76%;
+	  width: 71%;
+	}
+	#price-com .company .icon-cont:before{
+	  position: absolute;
+	  left: 43%;
+	}
+	
+	#price-com .company .icon-cont:after{
+	  position: absolute;
+	  right: 20%;
+	}
+	#price-com .company:after{
+	  position: absolute;
+	  left: 77%;
+	  width: 62%;
+	}
+	#price-com .customer .icon-cont:before{
+	  position: absolute;
+	  left: 36%;
+	}
+	
+	/*REG STEPS */
+	#reg-steps .steps > div{
+		height:570px;
+		width:25%;
+	}
+}
+
+/* STATS CORR */
+@media only screen and (min-width: 1024px) and (max-width: 1190px){
+	/*STATS*/
+	.number-wrapper{
+		max-width:95vw;
+		margin-top:-80px;
+	}
+	.number-wrapper ul > li.column{
+		width:25%;
+		float:left;
+	}
+	.number-container{
+		padding-top:50px;
+		height:175px;
+	}
+	.number-container .number{
+		font-size:25px;
+	}
+	
+	/*ABOUT*/
+	.about-wrapper{
+		max-width: 95vw;
+		width: 100%;
+		margin: -90px auto 0 auto;
+		display: block;
+	}
+	#about article{
+	width:48%;
+	float:left;
+	margin-right:2%;
+	}
+	#about blockquote{
+		float:left;
+		width:50%;
+	}
+
+	/*REG STEPS*/
+	#reg-steps .steps > div{
+		height:450px;
+	}
+}
+
+/*ABOUT*/
+@media only screen and (min-width:1191px){
+	#about article{
+	width:48%;
+	float:left;
+	margin-right:2%;
+		padding-left: 15px;
+	}
+	#about blockquote{
+		float:left;
+		width:50%;
+	}
+
+}
+
+/*TOP MENU*/
+@media only screen and (min-width: 768px) and (max-width:1200px){
+    .navbar-nav li{
+        display: none;
+    }
+    .navbar-nav .dropdown, .navbar-nav .dropdown li, .navbar-nav .reg{
+        display: block !important;
+    }
+    .navbar-default .navbar-nav>li>a:focus,
+    .navbar-default .navbar-nav>li>a:hover{
+        color: #111;
+        background-color: transparent;
+    }
+    .dropdown-menu {
+        position: absolute;
+        top: 114%;
+        left: -111px;
+    }
+}
