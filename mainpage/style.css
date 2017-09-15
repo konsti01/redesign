@@ -220,12 +220,14 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.search p{
+.search span{
     font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
     color: #eee;
-    font-size: 24px;
-    margin: 20px;
+    font-size: 12px;
+    margin: 5px;
     text-align: center;
+    background: rgba(0,0,0,.7);
+    padding: 1px;
 }
 .search-bar-wrap{
     margin: 50px 150px 0px 150px;
@@ -255,7 +257,10 @@ body{
 }
 
 /*benefits*/
-.benefits-row{}
+.benefits-row .content{
+    background-color: #fff;
+    padding: 35px 0 0 0;
+}
 .benefits-row .headline{
     margin: 50px 0 20px 0;
 }
@@ -328,14 +333,14 @@ body{
     padding: 11px 0px 0px 0px;
     float: left;
     width: 20%;
-    margin: 0 2% 0 0;
+    margin: 0 11px 0 0;
 }
 .product-box .seller-pic img{
     width: 100%;
     border-radius: 30px;
 }
 .product-box .product-description{
-    width: 78%;
+    width: 74%;
     padding: 10px 0px 10px 0px;
     float: left;
     font-size: 12px;
@@ -372,7 +377,6 @@ body{
     font-weight: 400;
     color: #000;
     opacity: 0.5;
-    padding: 3px 0px 0px 0px;
     float: left;
 }
 .basket{
@@ -389,6 +393,8 @@ body{
     padding: 8px;
     margin: 11px 0 11px 0;
     border-radius: 3px;
+    position: relative;
+    top: -3px;
 }
 .basket:hover{
     color: #fff;
@@ -444,6 +450,10 @@ ul{
 }
 .customers-say-row .content{
     background-image: url(img/quote-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 25px;
 }
 .customers-say-row .quote-circle{
@@ -512,7 +522,7 @@ ul{
     -o-transform: translateX(-50%);
     bottom: 45px; /*Ha van span, akkor: 88px; */
     width: 40px;
-    background-color: #E4E3E1;
+    background-color: #fff;
     height: 2px;
     color: #adadad;
 }
@@ -607,6 +617,8 @@ ul{
 .item .customer-member img{
     width: 60px!important;
     border-radius: 50%;
+    position: relative;
+    top: -20px;
 }
 .customer-member .comment-dot{
     width: 20px;
@@ -655,19 +667,19 @@ ul{
 }
 
 .owl-theme .owl-dots .owl-dot span{
-    border: 1px solid #fff;
+    border: 1px solid #869791;
     background-color: transparent !important;
     width: 12px !important;
     height: 12px !important;
 }
 .owl-theme .owl-dots .owl-dot.active span{
-    background-color: #fff !important;
+    background-color: #869791 !important;
 }
 .owl-theme .owl-dots .owl-dot span:hover{
-    background-color: #fff !important;
+    background-color: #869791 !important;
 }
 .owl-theme .owl-dots .owl-dot:hover span{
-    background-color: #fff !important;
+    background-color: #869791 !important;
 }
 
 /*NEWSLETTER*/

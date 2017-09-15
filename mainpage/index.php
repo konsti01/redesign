@@ -235,7 +235,7 @@
                     <img src="https://image.flaticon.com/icons/svg/54/54554.svg">
                     <div class="clear"></div>
                 </div>
-                <p>Keresés 8 245 alkotó 102 341 terméke között.</p>
+                <span>Keresés 8 245 alkotó 102 341 terméke között.</span>
             </div>
             <div class="numbers-row">
                 <div class="headline">Meska számokban</div>
@@ -273,6 +273,36 @@
                 </div>
             </div>
             <div class="clear"></div>
+            <div class="benefits-row">
+                <div class="headline">Meska előnyei</div>
+                <div class="content">
+                    <div class="benefits col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="benefits-box">
+                            <i class="fa fa-lock" aria-hidden="true"></i>
+                        </div>
+                        <span class="benefits-text">Biztonságos</span>
+                    </div>
+                    <div class="benefits col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="benefits-box">
+                            <i class="fa fa-credit-card" aria-hidden="true"></i>
+                        </div>
+                        <span class="benefits-text">Bankkártya</span>
+                    </div>
+                    <div class="benefits col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="benefits-box">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </div>
+                        <span class="benefits-text">Kézműves</span>
+                    </div>
+                    <div class="benefits col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="benefits-box">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <span class="benefits-text">Egyedi</span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
             <div class="highlight-row">
                 <div class="headline">Kiemelt termékek</div>
                 <div class="content">
@@ -322,36 +352,6 @@
                             }
                         }
                     ?>
-                    <div class="clear"></div>
-                </div>
-            </div>
-            <div class="benefits-row">
-                <div class="headline">Meska előnyei</div>
-                <div class="content">
-                    <div class="benefits col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="benefits-box">
-                            <i class="fa fa-lock" aria-hidden="true"></i>
-                        </div>
-                        <span class="benefits-text">Biztonságos</span>
-                    </div>
-                    <div class="benefits col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="benefits-box">
-                            <i class="fa fa-credit-card" aria-hidden="true"></i>
-                        </div>
-                        <span class="benefits-text">Bankkártya</span>
-                    </div>
-                    <div class="benefits col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="benefits-box">
-                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                        </div>
-                        <span class="benefits-text">Kézműves</span>
-                    </div>
-                    <div class="benefits col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <div class="benefits-box">
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                        </div>
-                        <span class="benefits-text">Egyedi</span>
-                    </div>
                     <div class="clear"></div>
                 </div>
             </div>
