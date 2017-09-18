@@ -1134,274 +1134,88 @@ h1.section-title-first{
 /*------------------------------------------------------------------------------------------------*/
 /* "Rólunk mondták" rész */
 /*------------------------------------------------------------------------------------------------*/
-
-#customers-say blockquote{
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-    font-weight: 300;
-  width: 95%;
-  max-width: 95%;
-  box-sizing: border-box;
-  margin: 0.25em auto 10px;
-  line-height: 1.45;
-  position: relative;
-  color: #383838; /*#373D4B*/
-  border-left: 0px none;
-  text-align: center;
-}
-
-#customers-say blockquote:before{
-  font-family: Georgia, serif;
-  display: block;
-
-  font-size: 60px;
-  position: absolute;
-  left: 50%; /*-20px;*/
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  top: -21px;
-  color: #adadad; /*#E4E3E1;*/ /*#7a7a7a;*/
-}
-
-#customers-say blockquote cite {
-  font-size: 14px;
-  display: block;
-  margin-top: 35px;
-  font-style: normal;
-  font-weight: bold;
-  color: inherit;
-  /*padding-top:10px;*/
-}
-
-#customers-say blockquote cite span{
-  display: block;
-  font-weight: normal;
-  color: #999999;
-}
-
-#customers-say blockquote cite:before {
-  content: ''; /*"\2014 \2009";*/
-  position: absolute;
-  left: 50%; /*-20px;*/
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  bottom: 45px; /*Ha van span, akkor: 88px; */
-  width: 40px;
-  background-color: #E4E3E1;
-  height: 2px;
-  color: #adadad;
-}
-
-#customers-say .slider-pics{
-  max-width: 850px; /*400px */
-  width: 100%;
-  margin: -20px auto 50px auto;
-}
-
-/*
-#customers-say .slider-quotations .owl-item{
-  display: table;
-}
-
-#customers-say .slider-quotations .owl-item .slider-item{
-  display: table-cell;
-  vertical-align: bottom;
-}
-*/
-
-#customers-say .slider-pics .customer-member {
+#carouselExampleControls{
+    width: 100%;
     padding: 10px;
+    margin: 25px;
 }
+.carousel-control-next-icon, .carousel-control-prev-icon{
 
-#customers-say .slider-pics .owl-item.synced .customer-member .photo-member{
-  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=1);
-  opacity: 1;
-  -moz-opacity: 1;
-  -khtml-opacity: 1;
-  -webkit-opacity: 1;
+    height: 100px;
 }
-
-#customers-say .slider-pics .owl-item.synced .customer-member .photo-member .img-container{
-  border: 2px solid #88b048;
+.carousel-control-prev-icon{
+    background-image: url(../images/arrow-prev.svg);
+}
+.carousel-control-next-icon{
+    background-image: url(../images/arrow-next.svg);
+}
+.carousel-inner{
+    width: 70%;
+    margin: auto;
+}
+.carousel-indicators{
+    position: relative;
+    bottom: 0;
+}
+.carousel-indicators li{
+    border: 1px solid #88b048;
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
     background-color: #88b048;
 }
-
-#customers-say .slider-pics .customer-member .photo-member{
-    text-align: center;
-    overflow: hidden;
+#carouselExampleControls ol{
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+}
+.carousel-item blockquote{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.45;
     position: relative;
-    padding: 7px;
-
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=35)";
-    filter: alpha(opacity=0.35);
-    opacity: 0.35;
-    -moz-opacity: 0.35;
-    -khtml-opacity: 0.35;
-    -webkit-opacity: 0.35;
-    -webkit-transition: all 0.25s ease;
-    -moz-transition: all 0.25s ease;
-    -o-transition: all 0.25s ease;
-    -ms-transition: all 0.25s ease;
-    transition: all 0.25s ease;
-
-
+    text-align: center;
+    margin: 0.25em auto 10px;
 }
-
-#customers-say .slider-pics .customer-member .photo-member:hover{
-  cursor: pointer;
-/*
-  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=1);
-  opacity: 1;
-  -moz-opacity: 1;
-  -khtml-opacity: 1;
-  -webkit-opacity: 1;
-  */
+.carousel-item blockquote cite {
+    font-size: 14px;
+    display: block;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: bold;
+    color: inherit;
 }
-
-/*
-#customers-say .slider-pics .customer-member .photo-member:hover .img-container{
-    border: 1px solid #9f9f9f;
+.carousel-item blockquote cite:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    bottom: 45px;
+    width: 40px;
+    background-color: #E4E3E1;
+    height: 2px;
+    color: #adadad;
 }
-*/
-
-#customers-say .slider-pics .customer-member .photo-member .img-container{
-    border-radius: 100%;
-    border: 2px solid #88b048;
-    overflow: hidden;
-    padding: 3px;
-    background: #FFF;
-    display: inline-block;
-    vertical-align: top;
-    line-height: 0;
-    transition: all .2s ease-in-out;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    box-shadow: none;
-}
-
-#customers-say .slider-pics .customer-member .photo-member .img-container .overlay {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 100%;
-    overflow: hidden;
-    display: inline-block;
-}
-
 .photo-member img {
-    width: 100px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
     height: auto;
     max-width: 100%;
-
     border: 1px solid #9f9f9f;
-
     vertical-align: top;
-    margin: auto;
+    margin: 20px auto;
     -webkit-transition: all 300ms ease 10ms;
     -moz-transition: all 300ms ease 10ms;
     -o-transition: all 300ms ease 10ms;
     transition: all 300ms ease 10ms;
-}
-
-/***********************************/
-/*.slider-pics .owl-item{
-    width: 60px !important;
-}*/
-
-.slider-pics .owl-wrapper{
-    width: 1846px !important;
-    margin-top: 20px;
-}
-.slider-pics .owl-wrapper .owl-item{
-    width: 71px !important;
-}
-
-.slider-item .overlay{
-    text-align: center;
-}
-.item .customer-member img{
-    width: 60px;
-    border-radius: 50%;
-}
-/*.slider-item .arrow{
-    width: 2%;
-    float:left;
-}
-/*.fadeInDown .my-animation{
-    float: left;
-    width: 90%;
-}*/
-.customer-member .comment-dot{
-    width: 20px;
-    height: 20px;
-}
-
-/* NEW OWL CAROUSEL */
-.owl-carousel{
-    margin-bottom: 30px;
-}
-
-.owl-theme .owl-nav .owl-next{
-    float: right;
-    position: relative;
-    bottom: 260px;
-    color: transparent;
-    background-color: transparent;
-    background-image: url(../images/arrow-next.svg);
-    background-repeat: no-repeat;
-    height: 100px;
-    margin: 0;
-    padding: 0;
-    border: 5px solid transparent;
-}
-.owl-theme .owl-nav .owl-next:hover{
-    color: transparent;
-    background-color: transparent;
-    background-image: url(../images/arrow-next.svg);
-    background-repeat: no-repeat;
-}
-.owl-theme .owl-nav .owl-prev{
-    float: left;
-    position: relative;
-    bottom: 260px;
-    color: transparent;
-    background-color: transparent;
-    background-image: url(../images/arrow-prev.svg);
-    background-repeat: no-repeat;
-    height: 100px;
-    margin: 0;
-    padding: 0;
-    border: 5px solid transparent;
-}
-.owl-theme .owl-nav .owl-prev:hover{
-    color: transparent;
-    background-color: transparent;
-    background-image: url(../images/arrow-prev.svg);
-    background-repeat: no-repeat;
-}
-
-.owl-theme .owl-dots .owl-dot span{
-    border: 1px solid #88b048;
-    background-color: transparent;
-    width: 12px;
-    height: 12px;
-}
-.owl-theme .owl-dots .owl-dot.active span{
-    background-color: #88b048;
-}
-.owl-theme .owl-dots .owl-dot span:hover{
-    background-color: #88b048;
-}
-.owl-theme .owl-dots .owl-dot:hover span{
-    background-color: #88b048;
 }
 /*------------------------------------------------------------------------------------------------*/
 /* "Rólunk mondták" vége */

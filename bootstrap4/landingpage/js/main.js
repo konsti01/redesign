@@ -265,8 +265,6 @@ $(document).ready(function() {
             0:{
                 items:1
             }
-
-
         }
     })
 });
