@@ -43,44 +43,15 @@
                 opacity:1
                 }"></a>
 
-            <nav id="top-menu" class="navbar navbar-default fadeInDown my-animation"> <!-- navbar-fixed-top -->
+            <nav id="top-menu" class="navbar fadeInDown my-animation animated">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <a class="navbar-brand" href="index.html"><div class="meska-logo"></div></a>
-                            </div>
-                            <div id="navbar" class="navbar-collapse collapse">
-                                <ul class="nav navbar-nav">
-                                    <li><a href="#about-jump">Meska bemutatása</a></li> <!-- class="active" -->
-                                    <li><a href="#price-com-jump">Meska díjszabása</a></li>
-                                    <li><a href="#reg-steps-jump">Regisztráció lépései</a></li>
-                                    <li><a href="#gyik-jump">Gyakori Kérdések</a></li>
-                                    <li class="reg"><a href="https://www.meska.hu/ModAcc/" class="button-border">Regisztráció</a></li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                            <div class="hamburger">
-                                                <div class="hamburger-bar"></div>
-                                                <div class="hamburger-bar"></div>
-                                                <div class="hamburger-bar"></div>
-                                            </div>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#about-jump">Meska bemutatása</a></li>
-                                            <li><a href="#price-com-jump">Meska díjszabása</a></li>
-                                            <li><a href="#reg-steps-jump">Regisztráció lépései</a></li>
-                                            <li><a href="#gyik-jump">Gyakori Kérdések</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div><!--/.nav-collapse -->
-                        </div>
+                    <div class="meska-logo"></div>
+                    <div class="nav">
+                        <a href="#about-jump">Meska bemutatása</a>
+                        <a href="#price-com-jump">Meska díjszabása</a>
+                        <a href="#reg-steps-jump">Regisztráció lépései</a>
+                        <a href="#gyik-jump">Gyakori Kérdések</a>
+                        <a href="https://www.meska.hu/ModAcc/" class="button-border">Regisztráció</a>
                     </div>
                 </div>
             </nav>
@@ -98,27 +69,26 @@
 		<!-- NUMBERS START -->
 		<section id="numbers" class="number-wrapper">
 			<div class="container-fluid">
-				<div class="row">
-					<ul>
-						<li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+					<ul class="row">
+						<li class="col  fadeInUp my-animation">
 							<div class="number-container" data-perc="2342350">
 								<div class="number">2342350</div>
 								<h6 class="number-details">Látogató évente</h6>
 							</div>
 						</li>
-						<li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+						<li class="col  fadeInUp my-animation">
 							<div class="number-container" data-perc="248">
 								<div class="number">248</div>
 								<h6 class="number-details">Regisztrált felhasználó</h6>
 							</div>
 						</li>
-						<li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+						<li class="col fadeInUp my-animation">
 							<div class="number-container" data-perc="418">
 								<div class="number">418</div>
 								<h6 class="number-details">Aktív termék</h6>
 							</div>
 						</li>
-						<li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+						<li class="col fadeInUp my-animation">
 							<div class="number-container" data-perc="8">
 								<div class="number">8</div>
 								<h6 class="number-details">Éves múlt</h6>
@@ -126,7 +96,6 @@
 						</li>
 						<div class="clear"></div>
 					</ul>
-				</div>
 			</div>    
 		</section>
 		<!-- ABOUT START -->
@@ -135,7 +104,7 @@
 			<div class="about-wrapper">
 				<div class="container-fluid">
 					<h1 class="section-title-first">Meska Bemutatása</h1>
-					<div id="about-flex" class="row">
+					<div id="about-flex" >
 						<div class="flex-item" class="col-md-6 col-xs-12 fadeInLeft my-animation m-bot-30">
 							<article>
 								<p>A Meska célkitűzése az igényes kézműves alkotások, illetve - az Alkotók boltján az előállításukhoz szükséges alapanyagok internetes adásvételi lehetőségének megteremtése a méltányos kereskedelem szellemében.</p>
@@ -161,12 +130,9 @@
 		<!-- BENEFITS START -->
 		<section id="benefits" class="section-main gap-main-2 bg-color3">
 			<div class="container">
-				<!-- <h1 class="section-title">Eladó Benefit</h1> -->
 				<div class="row">
-					<div class="col-md-3 col-sm-3 col-xs-12 fadeInLeft my-animation column">
+					<div class="col">
 						<div class="icon-cont-lock text-green">
-							<!-- <i class="fa fa-laptop" aria-hidden="true"></i> -->
-							<!-- <object type="image/svg+xml" data="icons/lock-locked.svg" width="30px" class="icon-locked"></object> -->
 							<img src="icons/svg/lock-locked.svg" class="icon-benefits">
 						</div>
 						<article class="price-details">
@@ -174,9 +140,8 @@
 							<p>A Meska.hu oldalait biztonságos (SSL / https) kapcsolaton keresztül böngészed » erre utal a böngésző címsorában megjelenő kis zöld lakat is. Adataidat 3. fél nem láthatja, nálunk biztonságban vagy!</p>
 						</article>
 					</div>
-					<div class="col-md-3 col-sm-3 col-xs-12 fadeInLeft my-animation column">
+					<div class="col">
 						<div class="icon-cont-shield">
-							<!-- <i class="fa fa-laptop" aria-hidden="true"></i> -->
 							<img src="icons/svg/shield-cross.svg" class="icon-benefits">
 						</div>
 						<article class="price-details">
@@ -184,9 +149,8 @@
 							<p>Bankkártyás fizetéskor a vevő a vásárlás pillanatában ki is fizeti a terméket, így a termék elkészültekor és postázásakor garantáljuk, hogy a vételár megérkezik hozzád.</p>
 						</article>
 					</div>
-					<div class="col-md-3 col-sm-3 col-xs-12 fadeInRight my-animation column">
+					<div class="col">
 						<div class="icon-cont-user">
-							<!-- <i class="fa fa-briefcase" aria-hidden="true"></i> -->
 							<img src="icons/svg/user9.svg" class="icon-benefits">
 						</div>
 						<article class="price-details">
@@ -194,9 +158,8 @@
 							<p>A Meska oldalát havonta kb. 200.000 érdeklődő böngészi, akik kimondottan kézműves termékeket keresnek. Termékeid feltöltésével és számtalan ingyenes megjelenési lehetőséggel azonnal fókuszba kerülhetsz.</p>
 						</article>
 					</div>
-					<div class="col-md-3 col-sm-3 col-xs-12 fadeInRight my-animation column">
+					<div class="col">
 						<div class="icon-cont-chat">
-							<!-- <i class="fa fa-globe" aria-hidden="true"></i> -->
 							<img src="icons/svg/bubble-chat.svg" class="icon-benefits">
 						</div>
 						<article class="price-details">
@@ -213,10 +176,6 @@
 			<div class="container">
 				<h1 class="section-title">Meska.hu díjszabása</h1>
 				<div class="row">
-				<!--
-					<div class="creator-company-line fadeInLeft my-animation"></div>
-					<div class="company-customer-line fadeInRight my-animation"></div>
-				-->
 					<div class="creator col-md-4 col-sm-4 col-xs-12 fadeInLeft my-animation column">
 						<div class="icon-cont text-red">
 							<!-- <i class="fa fa-user fa-5x" aria-hidden="true"></i> -->
@@ -479,12 +438,6 @@
                                 </div>
                             </h4>
                         </div>
-                        <!--
-                        <div class="owl-nav" style="display: none; visibility: hidden">
-                            <div class="owl-prev">prev</div>
-                            <div class="owl-next">next</div>
-                        </div>
-                        -->
                     </div>
                 </div>
 			</div>
