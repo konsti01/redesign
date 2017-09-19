@@ -27,15 +27,9 @@
 	<body>
 		<!-- HEADER START -->
 		<header class="header-wrapper">
-            <a id="bgndVideo" class="player" data-property="{
-                videoURL:'https://www.youtube.com/watch?v=gAx99kwsMxk',
-                containment:'body',
-                poster: 'images/static.jpg',
-                autoPlay:true,
-                mute:true,
-                startAt:0,
-                opacity:1
-                }"></a>
+            <video autoplay loop muted poster="images/static.jpg" id="background">
+                <source src="images/landing-vbg.mp4" type="video/mp4">
+            </video>
 
             <nav id="top-menu" class="navbar fadeInDown my-animation animated">
                 <div class="container">

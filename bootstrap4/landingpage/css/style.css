@@ -10,10 +10,6 @@ src:url(../fonts/AmaticSC-Regular.ttf) format("truetype");
 html,
 body{
     height: 100%;
-    background-image: url(../images/static.jpg);
-    background-color: #F4F3F1;
-    background-size: cover;
-    background-repeat: no-repeat;
     font-size: 14px;
     color: #333;
     line-height: 1.42857143;
@@ -58,9 +54,7 @@ section{
     height: 100%;
 }
 .meska-logo{
-	background-image:url(../images/Meska-logo-feher.svg);
-	background-position:top center;
-	background-repeat:no-repeat;
+	background:url(../images/Meska-logo-feher.svg) no-repeat top center;
 	background-size:100% 100%;
 	width:200px;
 	height:35px;
@@ -213,6 +207,21 @@ section{
   top: 0;
 }
 
+/* VIDEO BACKGROUND */
+#background{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../images/landing-vbg.mp4) no-repeat;
+    background-size: cover;
+}
 
 .header-wrapper-inner {
   position: absolute;
@@ -272,7 +281,6 @@ section{
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
-    background-image: none;
     white-space: nowrap;
 	text-decoration: none;
     transition: all 0.2s linear;
@@ -289,12 +297,11 @@ section{
 .number-wrapper{
   width: 100%;
   max-width: 73vw; /*800px;*/
-  margin: 0px auto;
+  margin: -70px auto 0px auto;
   display: block;
   padding: 0px;
   background-color: #F4F3F1;
   border: 1px solid #D9D9D9;
-  margin-top: -70px;
   border-radius: 4px 4px 2px 2px;
   -webkit-border-radius: 4px 4px 2px 2px;
   -moz-border-radius: 4px 4px 2px 2px;
@@ -485,7 +492,7 @@ article p{
 }
 #benefits .icon-cont-lock{
   text-align: center;
-  margin: 0px auto;
+  margin: 0px auto 40px auto;
   display: block;
   position: relative;
   width: 100px;
@@ -498,12 +505,11 @@ article p{
   padding-top: 30.5px;
   font-size: 32px;
   line-height: 0;
-  margin-bottom: 40px;
   border:2px solid #006633;
 }
 #benefits .icon-cont-shield{
   text-align: center;
-  margin: 0px auto;
+  margin: 0px auto 40px auto;
   display: block;
   position: relative;
   width: 100px;
@@ -516,12 +522,11 @@ article p{
   padding-top: 31px;
   font-size: 33px;
   line-height: 0;
-  margin-bottom: 40px;
   border:2px solid #006633;
 }
 #benefits .icon-cont-user{
   text-align: center;
-  margin: 0px auto;
+  margin: 0px auto 40px auto;
   display: block;
   position: relative;
   width: 100px;
@@ -534,12 +539,11 @@ article p{
   padding-top: 29px;
   font-size: 33px;
   line-height: 0;
-  margin-bottom: 40px;
   border:2px solid #006633;
 }
 #benefits .icon-cont-chat{
   text-align: center;
-  margin: 0px auto;
+  margin: 0px auto 40px auto;
   display: block;
   position: relative;
   width: 100px;
@@ -552,7 +556,6 @@ article p{
   padding-top: 32px;
   font-size: 33px;
   line-height: 0;
-  margin-bottom: 40px;
   border:2px solid #006633;
 }
 .icon-cont{
@@ -912,6 +915,8 @@ article p{
 	background-color:#8bc34a;
 	color:#fff;
 	font-size:12px;
+    margin-top: -35px;
+    padding-top: 35px;
 }
 .page-footer h5{
     font-size: 14px;
@@ -966,13 +971,14 @@ h1.section-title{
 }
 
 .gap-main{
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 1px;
+    padding-bottom: 35px;
+    margin-top: -35px;
 }
 
 .gap-main-2{
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
 }
 
 .gap-small{
