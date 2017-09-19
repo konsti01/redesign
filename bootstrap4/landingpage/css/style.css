@@ -193,11 +193,11 @@ section{
 	text-align:center;
 }
 .header-wrapper .text h1{
-	font-size:36px;
+	font-size: 36px;
 }
 .header-wrapper .text p{
-	font-size:21px;
-	font-weight:200;
+	font-size: 21px;
+	font-weight: 300;
 }
 
 .header-wrapper .button{
@@ -422,6 +422,9 @@ article p{
 /*------------------------------------------------------------------------------------------------*/
 /* BENEFITS */
 /*------------------------------------------------------------------------------------------------*/
+#benefits .col{
+    margin-bottom: 30px;
+}
 #benefits .row{
     width: 100%;
 }
@@ -710,6 +713,11 @@ article p{
 /*------------------------------------------------------------------------------------------------*/
 /* CUSTOMERS SAY */
 /*------------------------------------------------------------------------------------------------*/
+#customers-say .section-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
 #carouselExampleControls{
     width: 100%;
     padding: 10px;
@@ -832,7 +840,8 @@ article p{
     margin-right: 30px;
 }
 .card-block{
-    padding: 15px 35px;
+    padding: 15px 35px 30px 62px;
+    text-align: justify;
 }
 
 /*------------------------------------------------------------------------------------------------*/
@@ -843,8 +852,15 @@ article p{
 	color:#fff;
 	font-size:12px;
 }
+.page-footer h5{
+    font-size: 14px;
+    margin: 10px 0;
+}
 .page-footer a{
 	color:#eee;
+}
+.page-footer img{
+    width: 100%;
 }
 .footer-copyright{
 	background:rgba(0,0,0,0.1);
@@ -899,7 +915,7 @@ h1.section-title{
 
 .gap-small{
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
 
 .my-offset-1{
