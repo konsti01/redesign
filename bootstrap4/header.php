@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -8,7 +7,7 @@
     <title>Mind</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
     <!-- RangeSlider -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.7/css/ion.rangeSlider.css">
@@ -19,17 +18,15 @@
 
     <!--TODO-->
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/simple-sidebar.css">
-    <!-- <link rel="stylesheet" href="https://www.meska.hu/bootstrap/font-awesome.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/lightbox/css/lightbox.min.css">
-
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/meska-theme.css?v=201705121128">
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/header-theme.css">
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/menu-dropdown-hover.css">
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/simple-sidebar-theme.css">
-    <!--<link rel="stylesheet" href="https://www.meska.hu/bootstrap/carousel-theme.css">-->
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/tab-theme.css">
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/lightbox-theme.css">
+    
     <script src="https://www.meska.hu/js/stat.js" type="text/javascript"></script>
 
     <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
