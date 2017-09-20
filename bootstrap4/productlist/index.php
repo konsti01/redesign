@@ -4,6 +4,7 @@
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="/productlist/style.css">
 <link rel="stylesheet" type="text/css" href="/productlist/responsive.css">
+<link rel="stylesheet" type="text/css" href="../topnav.css">
 
 <!-- FONTS -->
 <link rel="stylesheet" type="text/css" href="/productlist/fonts.css">
@@ -536,9 +537,6 @@
                 foreach ($products as $p){ ?>
                     <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                         <div class="product-box" onclick="location.href='#';">
-                            <div class="product-box-overlay">
-                                <span>További termékek betöltése</span>
-                            </div>
                             <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                 <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
                                 <img src="img/plus.svg" class="icon">
