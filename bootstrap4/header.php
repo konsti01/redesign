@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/simple-sidebar-theme.css">
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/tab-theme.css">
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/lightbox-theme.css">
-    
+
     <script src="https://www.meska.hu/js/stat.js" type="text/javascript"></script>
 
     <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>

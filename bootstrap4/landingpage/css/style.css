@@ -489,6 +489,8 @@ article p{
 }
 #benefits .row{
     width: 100%;
+    margin-right: 0;
+    margin-left: 0;
 }
 #benefits .icon-cont-lock{
   text-align: center;
