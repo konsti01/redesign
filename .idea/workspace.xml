@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap4/footer.php" afterPath="$PROJECT_DIR$/bootstrap4/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap4/productlist/index.php" afterPath="$PROJECT_DIR$/bootstrap4/productlist/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap4/productlist/responsive.css" afterPath="$PROJECT_DIR$/bootstrap4/productlist/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap4/productlist/scroll-load.js" afterPath="$PROJECT_DIR$/bootstrap4/productlist/scroll-load.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap4/productlist/style.css" afterPath="$PROJECT_DIR$/bootstrap4/productlist/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -40,9 +39,29 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap4/productlist/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.740741" vertical-offset="10393" max-vertical-offset="11412">
-              <caret line="592" column="33" selection-start-line="592" selection-start-column="33" selection-end-line="592" selection-end-column="33" />
-              <folding />
+            <state vertical-scroll-proportion="-20.481482" vertical-offset="239" max-vertical-offset="900">
+              <caret line="623" column="0" selection-start-line="623" selection-start-column="0" selection-end-line="623" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#ol#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#button#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +69,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootstrap4/productlist/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5993432" vertical-offset="2767" max-vertical-offset="12006">
-              <caret line="174" column="1" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.9408867" vertical-offset="5907" max-vertical-offset="12366">
+              <caret line="360" column="1" selection-start-line="360" selection-start-column="1" selection-end-line="360" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -120,11 +139,11 @@
         <option value="$PROJECT_DIR$/bootstrap4/header.php" />
         <option value="$PROJECT_DIR$/bootstrap4/productlist/topnav.css" />
         <option value="$PROJECT_DIR$/bootstrap4/topnav.css" />
-        <option value="$PROJECT_DIR$/bootstrap4/footer.php" />
         <option value="$PROJECT_DIR$/bootstrap4/footer.css" />
         <option value="$PROJECT_DIR$/bootstrap4/productlist/scroll-load.js" />
-        <option value="$PROJECT_DIR$/bootstrap4/productlist/index.php" />
         <option value="$PROJECT_DIR$/bootstrap4/productlist/responsive.css" />
+        <option value="$PROJECT_DIR$/bootstrap4/footer.php" />
+        <option value="$PROJECT_DIR$/bootstrap4/productlist/index.php" />
         <option value="$PROJECT_DIR$/bootstrap4/productlist/style.css" />
       </list>
     </option>
@@ -205,24 +224,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bootstrap4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="productlist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -698,32 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap4/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43057996" vertical-offset="1519" max-vertical-offset="9576">
-          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#script#2;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productlist/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3320965" vertical-offset="9505" max-vertical-offset="11574">
-          <caret line="538" column="28" selection-start-line="538" selection-start-column="28" selection-end-line="540" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap4/productlist/scroll-load.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27348992" vertical-offset="2591" max-vertical-offset="3546">
@@ -739,14 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap4/productlist/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.740741" vertical-offset="10393" max-vertical-offset="11412">
-          <caret line="592" column="33" selection-start-line="592" selection-start-column="33" selection-end-line="592" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap4/productlist/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2383" max-vertical-offset="5400">
@@ -755,10 +722,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap4/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33040422" vertical-offset="2620" max-vertical-offset="9846">
+          <caret line="156" column="19" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productlist/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7713755" vertical-offset="6085" max-vertical-offset="11574">
+          <caret line="315" column="58" selection-start-line="315" selection-start-column="45" selection-end-line="315" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap4/productlist/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.481482" vertical-offset="239" max-vertical-offset="900">
+          <caret line="623" column="0" selection-start-line="623" selection-start-column="0" selection-end-line="623" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#ol#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap4/productlist/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5993432" vertical-offset="2767" max-vertical-offset="12006">
-          <caret line="174" column="1" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.9408867" vertical-offset="5907" max-vertical-offset="12366">
+          <caret line="360" column="1" selection-start-line="360" selection-start-column="1" selection-end-line="360" selection-end-column="1" />
           <folding />
         </state>
       </provider>
