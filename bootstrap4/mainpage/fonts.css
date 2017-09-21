@@ -1,7 +1,7 @@
 /* Dosis */
 @font-face{
     font-family:"Dosis";
-    src:url(../assets/fonts/Dosis-Regular.otf) format("truetype");
+    src:url(/bootstrap4/assets/fonts/Dosis-Regular.otf) format("truetype");
 }
 
 /* Open Sans Condensed */
