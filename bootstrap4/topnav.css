@@ -314,12 +314,15 @@
     display: block;
 }
 /* RESPONSIVE */
-@media only screen and (min-width: 600px) and (max-width: 900px){
+@media only screen and (min-width: 600px) and (max-width: 1000px){
     .topnav .header .right{
         display: none;
     }
     .topnav .header .burgernav{
         display: block;
+    }
+    .topnav .cat{
+        display: none !important;
     }
 } /*kereső+burger*/
 @media only screen and (max-width: 599px){
@@ -331,6 +334,9 @@
     }
     .topnav .header .burgernav{
         display: block;
+    }
+    .topnav .cat{
+        display: none !important;
     }
 } /*burger*/
 

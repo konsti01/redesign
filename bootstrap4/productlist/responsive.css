@@ -1,4 +1,7 @@
 @media only screen and (max-width: 424px){
+    .col-xs-6-custom{
+        width: 50%;
+    }
     .breadcrumb-meskahu{
         display: none;
     }
@@ -34,6 +37,9 @@
 }     /* xs */
 
 @media only screen and (min-width: 425px) and (max-width: 485px){
+    .col-xs-6-custom{
+        width: 50%;
+    }
     .product-box .price{
         font-size: 30px;
         float: right;
@@ -41,6 +47,9 @@
 }     /* xs */
 
 @media only screen and (min-width: 425px) and (max-width: 550px){
+    .col-xs-6-custom{
+        width: 50%;
+    }
     .breadcrumb-meskahu{
         display: none;
     }
@@ -78,6 +87,9 @@
 }     /* xs */
 
 @media only screen and (min-width: 551px) and (max-width: 767px){
+    .col-xs-6-custom{
+        width: 50%;
+    }
     .product-box{
         min-height: 365px;
     }
@@ -194,7 +206,7 @@
     /*ProductCat Pos*/
     .main{
         position: fixed;
-        top: 53px;
+        top: 50px;
 
     }
     .row-wrapper {
@@ -210,7 +222,7 @@
         transition: left 1s;
     }
     .nav-wrap{
-        margin: 0;
+        margin: 90px 0 0 0;
     }
     .sidebar{
 
@@ -221,7 +233,7 @@
 
     .specify{
         position: fixed;
-        top: 53px;
+        top: 50px;
         left: 41px;
     }
 
@@ -235,10 +247,10 @@
     /*ProductCat Pos*/
     .main{
         position: fixed;
-        top: 53px;
+        top: 50px;
     }
     .nav-wrap{
-        margin: 0;
+        margin: 90px 0 0 0;
     }
 
     .navbar{
