@@ -2,9 +2,10 @@
 <?php include_once('data.php'); ?>
 
 <!-- CSS -->
-<link rel="stylesheet" type="text/css" href="/productlist/style.css">
-<link rel="stylesheet" type="text/css" href="/productlist/responsive.css">
+<link rel="stylesheet" type="text/css" href="/bootstrap4/productlist/style.css">
+<link rel="stylesheet" type="text/css" href="/bootstrap4/productlist/responsive.css">
 <link rel="stylesheet" type="text/css" href="../topnav.css">
+<link rel="stylesheet" type="text/css" href="../footer.css">
 
 <!-- FONTS -->
 <link rel="stylesheet" type="text/css" href="/productlist/fonts.css">
@@ -17,15 +18,11 @@
         <!-- LEFT COL -->
         <div class="row-left">
             <div class="sidebar col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <!--<a href="#" class="sidebar-trigger">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-                    <span>Kategóriák</span>
-                </a>-->
                 <div class="sidebar-content col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="main">
                         <button type="button" onclick="topFunction()" class="trigger btn btn-info" data-toggle="collapse" data-target="#00">
                             <span>Kategóriák</span>
-                            <div class="glyphicon glyphicon-menu-hamburger" style="padding-right: 7px; top: 2px;"></div>
+                            <i class="fa fa-bars" aria-hidden="true"></i>
                         </button>
                         <div id="00" class="subnav collapse"></div>
                     </div>

@@ -1,6 +1,9 @@
 .topnav{
     background-color: #fff;
     border-bottom: 1px solid #eee;
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
 }
 .topnav .header{
     border-bottom: 1px solid #eee;

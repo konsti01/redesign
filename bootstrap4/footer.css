@@ -1,0 +1,34 @@
+/*------------------------------------------------------------------------------------------------*/
+/* FOOTER */
+/*------------------------------------------------------------------------------------------------*/
+#footer{
+    position: relative;
+    z-index: 9999;
+}
+.page-footer{
+    background-color:#8bc34a;
+    color:#fff;
+    font-size:12px;
+}
+.page-footer ul{
+    padding: 0;
+}
+.page-footer ul li{
+    list-style-type: none;
+}
+.page-footer h5{
+    font-size: 14px;
+    margin: 10px 0;
+    font-family: "Open Sans", sans-serif;
+}
+.page-footer a{
+    color:#eee;
+}
+.page-footer img{
+    width: 100%;
+    max-width: 200px;
+}
+.footer-copyright{
+    background:rgba(0,0,0,0.1);
+    padding:25px 0 25px 0;
+}
