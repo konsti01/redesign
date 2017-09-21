@@ -130,13 +130,13 @@ body{
     margin: 48px 0 0 0;
     height: 250px;
     background-color: #ccc;
-    position: fixed; top: 90px;
+    position: fixed; top: 99px;
 }
 .bannerhely-fixed-bottom{
     margin: 48px 0 0 0;
     height: 250px;
     background-color: #ccc;
-    position: fixed; bottom: 410px;
+    position: fixed; bottom: 610px;
 }
 
 .widget{
@@ -148,13 +148,13 @@ body{
     margin: 50px 0 0 0;
     height: 150px;
     background-color: #ccc;
-    position: fixed; top: 350px;
+    position: fixed; top: 359px;
 }
 .widget-fixed-bottom{
     margin: 48px 0 0 0;
     height: 150px;
     background-color: #ccc;
-    position: fixed; bottom: 250px;
+    position: fixed; bottom: 450px;
 }
 
 /* Termékkategória nav */
@@ -269,7 +269,9 @@ body{
 .benefits-row .headline{
     margin: 50px 0 20px 0;
 }
-.benefits{}
+.benefits{
+    float: left;
+}
 .benefits-box{
     background-color: #88B04B;
     border-radius: 50%;
@@ -427,6 +429,7 @@ ul{
 .numbers-row ul > li.column{
     padding: 0px;
     margin: 0;
+    float: left;
 }
 .numbers-row ul > li.column:last-of-type{
     border-right: 0;
@@ -476,221 +479,98 @@ ul{
     position: relative;
     top: 60px;
 }
-.customers-say-row blockquote{
+
+#carouselExampleControls{
+    width: 100%;
+    padding: 10px;
+    margin: 25px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+
+    height: 100px;
+}
+.carousel-control-prev-icon{
+    background-image: url(img/arrow-prev.svg);
+}
+.carousel-control-next-icon{
+    background-image: url(img/arrow-next.svg);
+}
+.carousel-inner{
+    width: 70%;
+    margin: auto;
+}
+.carousel-indicators{
+    position: relative;
+    bottom: 0;
+}
+.carousel-indicators li{
+    border: 1px solid #88b048;
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    background-color: #88b048;
+}
+#carouselExampleControls ol{
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+}
+.carousel-item blockquote{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    width: 95%;
-    max-width: 95%;
-    box-sizing: border-box;
-    margin: 1.5em auto 20px;
     line-height: 1.45;
     position: relative;
-    color: #383838; /*#373D4B*/
-    border-left: 0px none;
     text-align: center;
+    margin: 0.25em auto 10px;
 }
-.customers-say-row blockquote:before{
-    font-family: Georgia, serif;
-    display: block;
-    font-size: 60px;
-    position: absolute;
-    left: 50%; /*-20px;*/
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    top: -21px;
-    color: #adadad; /*#E4E3E1;*/ /*#7a7a7a;*/
+.carousel-item blockquote p{
+    height: 170px;
 }
-.customers-say-row blockquote cite {
+.carousel-item blockquote cite {
     font-size: 14px;
     display: block;
-    margin-top: 35px;
+    margin-top: 50px;
     font-style: normal;
     font-weight: bold;
     color: inherit;
 }
-.customers-say-row blockquote cite span{
-    display: block;
-    font-weight: normal;
-    color: #999999;
-}
-.customers-say-row blockquote cite:before {
-    content: ''; /*"\2014 \2009";*/
+.carousel-item blockquote cite:before {
+    content: '';
     position: absolute;
-    left: 50%; /*-20px;*/
+    left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-    bottom: 45px; /*Ha van span, akkor: 88px; */
+    bottom: 45px;
     width: 40px;
-    background-color: #fff;
+    background-color: #E4E3E1;
     height: 2px;
     color: #adadad;
 }
-.customers-say-row .slider-pics{
-    max-width: 850px; /*400px */
-    width: 100%;
-    margin: -20px auto 50px auto;
-}
-.customers-say-row .slider-pics .customer-member {
-    padding: 10px;
-}
-.customers-say-row .slider-pics .owl-item.synced .customer-member .photo-member{
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=1);
-    opacity: 1;
-    -moz-opacity: 1;
-    -khtml-opacity: 1;
-    -webkit-opacity: 1;
-}
-.customers-say-row .slider-pics .owl-item.synced .customer-member .photo-member .img-container{
-    border: 2px solid #88b048;
-    background-color: #88b048;
-}
-.customers-say-row .slider-pics .customer-member .photo-member{
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-    padding: 7px;
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=35)";
-    filter: alpha(opacity=0.35);
-    opacity: 0.35;
-    -moz-opacity: 0.35;
-    -khtml-opacity: 0.35;
-    -webkit-opacity: 0.35;
-    -webkit-transition: all 0.25s ease;
-    -moz-transition: all 0.25s ease;
-    -o-transition: all 0.25s ease;
-    -ms-transition: all 0.25s ease;
-    transition: all 0.25s ease;
-}
-.customers-say-row .slider-pics .customer-member .photo-member:hover{
-    cursor: pointer;
-}
-
-.customers-say-row .slider-pics .customer-member .photo-member .img-container{
-    border-radius: 100%;
-    border: 2px solid #88b048;
-    overflow: hidden;
-    padding: 3px;
-    background: #FFF;
-    display: inline-block;
-    vertical-align: top;
-    line-height: 0;
-    transition: all .2s ease-in-out;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    box-shadow: none;
-}
-.customers-say-row .slider-pics .customer-member .photo-member .img-container .overlay {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 100%;
-    overflow: hidden;
-    display: inline-block;
-}
 .photo-member img {
-    width: 100px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
     height: auto;
     max-width: 100%;
     border: 1px solid #9f9f9f;
     vertical-align: top;
-    margin: auto;
+    margin: 20px auto;
     -webkit-transition: all 300ms ease 10ms;
     -moz-transition: all 300ms ease 10ms;
     -o-transition: all 300ms ease 10ms;
     transition: all 300ms ease 10ms;
 }
 
-.slider-pics .owl-wrapper{
-    width: 1846px !important;
-    margin-top: 20px;
-}
-.slider-pics .owl-wrapper .owl-item{
-    width: 71px !important;
-}
-
-.slider-item .overlay{
-    text-align: center;
-}
-.item .customer-member img{
-    width: 60px!important;
-    border-radius: 50%;
-    position: relative;
-    top: -20px;
-}
-.customer-member .comment-dot{
-    width: 20px;
-    height: 20px;
-}
-
-/* NEW OWL CAROUSEL */
-.owl-carousel{}
-.owl-theme .owl-nav .owl-next{
-    float: right;
-    position: relative;
-    bottom: 190px;
-    color: transparent !important;
-    background-color: transparent !important;
-    background-image: url(img/arrow-next.svg) !important;
-    background-repeat: no-repeat !important;
-    height: 100px;
-    margin: 0 auto !important;
-    padding: 0px !important;
-    border: 5px solid transparent;
-}
-.owl-theme .owl-nav .owl-next:hover{
-    color: transparent;
-    background-color: transparent;
-    background-image: url(img/arrow-next.svg);
-    background-repeat: no-repeat;
-}
-.owl-theme .owl-nav .owl-prev{
-    float: left;
-    position: relative;
-    bottom: 190px;
-    color: transparent !important;
-    background-color: transparent !important;
-    background-image: url(img/arrow-prev.svg) !important;
-    background-repeat: no-repeat !important;
-    height: 100px;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: 5px solid transparent;
-}
-.owl-theme .owl-nav .owl-prev:hover{
-    color: transparent;
-    background-color: transparent;
-    background-image: url(img/arrow-prev.svg);
-    background-repeat: no-repeat;
-}
-
-.owl-theme .owl-dots .owl-dot span{
-    border: 1px solid #869791;
-    background-color: transparent !important;
-    width: 12px !important;
-    height: 12px !important;
-}
-.owl-theme .owl-dots .owl-dot.active span{
-    background-color: #869791 !important;
-}
-.owl-theme .owl-dots .owl-dot span:hover{
-    background-color: #869791 !important;
-}
-.owl-theme .owl-dots .owl-dot:hover span{
-    background-color: #869791 !important;
-}
-
 /*NEWSLETTER*/
 .newsletter{
     width: 120%;
-    margin: 0 0 0 -10%;
+    margin: 0 0 30px -10%;
     padding: 25px;
     background: linear-gradient(to right, #336600 , #8bc34a);
     text-align: center;
@@ -797,4 +677,9 @@ ul{
 }
 .fa {
     margin: 0 10px 0 0;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, .25);
 }

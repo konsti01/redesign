@@ -1,4 +1,7 @@
 @media only screen and (max-width: 424px){
+    .col-xs-6-custom {
+        width: 50%;
+    }
     /*Search*/
     .search{
         display: none;
@@ -60,6 +63,9 @@
 }     /* xs */
 
 @media only screen and (min-width: 425px) and (max-width: 485px){
+    .col-xs-6-custom {
+        width: 50%;
+    }
     /*Search*/
     .search{
         display: none;
@@ -85,6 +91,9 @@
 }     /* xs */
 
 @media only screen and (min-width: 425px) and (max-width: 550px){
+    .col-xs-6-custom {
+        width: 50%;
+    }
     /*Search*/
     .search{
         display: none;
@@ -139,6 +148,9 @@
 }     /* xs */
 
 @media only screen and (min-width: 551px) and (max-width: 767px){
+    .col-xs-6-custom {
+        width: 50%;
+    }
     /*Search*/
     .search{
         display: none;
@@ -372,7 +384,7 @@
     /*ProductCat Pos*/
     .main{
         position: fixed;
-        top: 53px;
+        top: 50px;
 
     }
     .row-wrapper {
@@ -380,7 +392,8 @@
     }
     .row-left {
         position: absolute;
-        left: 35px;
+        left: 41px;
+        top: 90px;
     }
     .row-left:hover{
         position: absolute;
