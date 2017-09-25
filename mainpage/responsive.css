@@ -419,6 +419,17 @@
     .keywords {
         margin: 180px 5px 0 5px;
     }
+
+    .row-right{
+        margin: 40px 0 0 0;
+    }
+}
+
+/* SEARCH DISPLAY */
+@media (max-width: 767px){
+    .top-search{
+        display: none;
+    }
 }
 
 /* NAVBAR FIX */
