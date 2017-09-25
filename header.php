@@ -107,9 +107,9 @@
 <div class="topnav">
     <div class="header">
         <div class="left">
-            <div class="logo"><a href="https://www.meska.hu/"><img src="/bootstrap4/assets/img/logo.svg"></a></div>
+            <div class="logo"><a href="https://www.meska.hu/"><img src="/assets/img/logo.svg"></a></div>
             <div class="dropdown">
-                <img src="/bootstrap4/assets/img/arrow_drop_down_grey_192x192.png">
+                <img src="/assets/img/arrow_drop_down_grey_192x192.png">
                 <ul class="dropdown-menu">
                     <li><a href="https://www.meska.hu/ChangeDomain/alkotokboltja">Alkotók boltja</a></li>
                     <li><a href="https://www.meska.hu/ChangeDomain/izporta">Ízporta</a></li>
@@ -137,7 +137,7 @@
                     <div class="dropdown">
                         <i class="fa fa-user" aria-hidden="true"></i>
                         <span style="font-size: 15.5px;">Fiókom: milanteszt&nbsp;</span>
-                        <img style="width: 20px;" src="/bootstrap4/assets/img/arrow_drop_down_grey_192x192.png">
+                        <img style="width: 20px;" src="/assets/img/arrow_drop_down_grey_192x192.png">
                         <span style="position: relative; top: -2px; background-color: #f0ad4e; " class="badge">100 </span>
                         <ul class="dropdown-menu-b">
                             <li><a href="https://www.meska.hu/Naplom/index/osszes">Fiókom menüpont</a></li>
@@ -175,7 +175,7 @@
             <div class="dropdown">
                 <i class="fa fa-user" aria-hidden="true"></i>
                 <span style="font-size: 15.5px;">Fiókom: milanteszt&nbsp;</span>
-                <img style="width: 20px;" src="/bootstrap4/assets/img/arrow_drop_down_grey_192x192.png">
+                <img style="width: 20px;" src="/assets/img/arrow_drop_down_grey_192x192.png">
                 <span style="position: relative; top: -2px; background-color: #f0ad4e; " class="badge">100 </span>
                 <ul class="dropdown-menu">
                     <li><a href="https://www.meska.hu/Naplom/index/osszes">Fiókom menüpont</a></li>

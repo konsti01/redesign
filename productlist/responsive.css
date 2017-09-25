@@ -1,8 +1,14 @@
 @media only screen and (max-width: 424px){
+    .cont{
+        width: 85%;
+    }
     .col-xs-6-custom{
         width: 50%;
     }
     .breadcrumb-meskahu{
+        display: none;
+    }
+    .sort button{
         display: none;
     }
 
@@ -235,6 +241,7 @@
         position: fixed;
         top: 50px;
         left: 41px;
+        width: 90%;
     }
 
     .keywords {

@@ -94,7 +94,7 @@
                     <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/CMS?cp=1">Eladás</a></li>
                     <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Blog?p=dHlwZT1wcm9m">Szakmai blog</a>
                     <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/ModAcc/index/shop#shopopen">Boltot nyitok</a>
-                    <li><img src="/bootstrap4/assets/img/barion-card-payment-mark-2017-200px.png">
+                    <li><img src="/assets/img/barion-card-payment-mark-2017-200px.png">
 
                 </ul>
             </div>

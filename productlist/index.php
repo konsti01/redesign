@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="../footer.css">
 
 <!-- FONTS -->
-<link rel="stylesheet" type="text/css" href="/productlist/fonts.css">
+<link rel="stylesheet" type="text/css" href="/fonts.css">
 
 <!-- BOOTSTRAP -->
 <link rel="stylesheet" type="text/css" href="/productlist/BootstrapXL.css">
