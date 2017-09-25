@@ -2,355 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/Dosis-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/OpenSans-CondLight.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/OpenSans-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/assets/img/arrow_drop_down_grey_192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/assets/img/barion-card-payment-mark-2017-200px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/assets/img/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/deploy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/footer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/css/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/fonts/AmaticSC-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/fonts/Lato-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/backpack.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/bomb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/book.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/briefcase.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/bubble-chat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/bubble-heart.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/camera-photo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/camera-polaroid.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/camera-video.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/cassette-player.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/charlie-chaplin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/chef-hat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/clock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/coffee-machine.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/cog.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/computer-imac.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/computer-network.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/computer-pc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/computer-screen-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/computer-screen-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/contact-book.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/content-download.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/cooking-pot.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/crop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/crown.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/designer-cup.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/diving-gear.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/drink-cocktail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/drink-coffee.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/e-mail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/envelope.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/eyedropper.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/fork-knife.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/forklift.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/fountain-pen-head-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/fountain-pen-head-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/gauge.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/globe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/grid.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/griller.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/handbag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/headphone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/heart.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/home.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/hotdog.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/icecream.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/image.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/iphone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/ipod.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/layers-image.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/layers.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/link.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/location-pin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/location-user.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/lock-locked.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/lock-unlocked.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/magic-wand.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/magnet.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/microphone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/monocle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/mp3-player.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/music-note.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/notebook-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/notebook-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/paint-brush.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/paint-bucket.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/paint-palette.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/paint-roller.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/pen-fountain.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/pen-point-tip.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/pencil-ruler.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/picture-frame.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/quill-ink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/refresh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/remote-control-hand.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/remote-control-screen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/script.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/server.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/settings.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/shield-cross.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/shopping-cart-add.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/shopping-cart-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/skull.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/smart-device.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/smiley.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/sneakers.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/sofa.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/stamp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/sub-woofer.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/syringe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/target.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/teapot.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/trash-can.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/umbrella.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/user-chat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/user.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/user8.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/user9.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/vector.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/windows.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/wrenches.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/icons/svg/write.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/AjaxLoader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/Meska-logo-feher.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/Meska-logo-zold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/OIZZQX0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/arrow-next.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/arrow-prev.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/barion-card-payment-mark-2017-200px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/bg5a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/grabbing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/header-1280.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/header-1920.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/landing-vbg.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/meska-logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/meska-madar-draft_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/meska_hu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/meska_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/images/static.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/js/device.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/js/jquery.appear.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/js/jquery.mb.YTPlayer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/js/jquery.sticky.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/js/jquery.timer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/landingpage/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/BootstrapXL.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/IMG_0217.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/arrow-next.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/arrow-prev.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/baba-mama-gyerek.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/dot.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/glyphicon-menu-hamburger.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/hamburger.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/backpack.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/bomb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/book.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/briefcase.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/bubble-chat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/bubble-heart.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/camera-photo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/camera-polaroid.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/camera-video.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/cassette-player.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/charlie-chaplin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/chef-hat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/clock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/coffee-machine.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/cog.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/computer-imac.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/computer-network.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/computer-pc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/computer-screen-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/computer-screen-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/contact-book.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/content-download.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/cooking-pot.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/crop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/crown.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/designer-cup.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/diving-gear.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/drink-cocktail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/drink-coffee.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/e-mail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/envelope.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/eyedropper.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/fork-knife.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/forklift.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/fountain-pen-head-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/fountain-pen-head-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/gauge.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/globe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/grid.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/griller.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/handbag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/headphone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/heart.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/home.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/hotdog.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/icecream.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/image.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/iphone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/ipod.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/layers-image.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/layers.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/link.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/location-pin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/location-user.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/lock-locked.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/lock-unlocked.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/magic-wand.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/magnet.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/microphone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/monocle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/mp3-player.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/music-note.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/notebook-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/notebook-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/paint-brush.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/paint-bucket.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/paint-palette.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/paint-roller.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/pen-fountain.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/pen-point-tip.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/pencil-ruler.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/picture-frame.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/quill-ink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/refresh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/remote-control-hand.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/remote-control-screen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/script.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/server.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/settings.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/shield-cross.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/shopping-cart-add.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/shopping-cart-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/skull.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/smart-device.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/smiley.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/sneakers.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/sofa.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/stamp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/sub-woofer.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/syringe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/target.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/teapot.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/trash-can.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/umbrella.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/user-chat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/user.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/user8.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/user9.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/vector.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/windows.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/wrenches.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/icons/svg/write.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/lista_v2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/menu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/meska_hu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/mref1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/mref2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/mref3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/mref4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/mref5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/pattern.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/quote-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/ska.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/stripe.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/tarka.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/trash.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/img/trash_hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/mainpage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/mainpage/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/notes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/BootstrapXL.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/ajaxtest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/IMG_0217.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/baba-mama-gyerek.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/attatszo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/barna.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/bezs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/bronze.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/copper.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/deepred.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/dot.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/gold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/gray.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/magenta.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/pattern.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/silver.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/ska.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/stripe.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/tarka.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/turkiz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/colors/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/glyphicon-menu-hamburger.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/hamburger.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/lista_v2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/menu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/meska_hu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/trash.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/img/trash_hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/scroll-load.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/productlist/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/topnav.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap4/vhost" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/landingpage/css/animate.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/landingpage/css/dynamic-bg.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/landingpage/css/owl.carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/landingpage/css/owl.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/landingpage/css/owl.transitions.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/landingpage/js/owl.carousel.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainpage/fonts.css" afterPath="$PROJECT_DIR$/mainpage/fonts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq/index.html" afterPath="$PROJECT_DIR$/faq/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landingpage/index.html" afterPath="$PROJECT_DIR$/landingpage/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainpage/index.php" afterPath="$PROJECT_DIR$/mainpage/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/index.php" afterPath="$PROJECT_DIR$/productlist/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landingpage/js/main.js" afterPath="$PROJECT_DIR$/landingpage/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes" afterPath="$PROJECT_DIR$/notes" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landingpage/css/responsive.css" afterPath="$PROJECT_DIR$/landingpage/css/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainpage/responsive.css" afterPath="$PROJECT_DIR$/mainpage/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/responsive.css" afterPath="$PROJECT_DIR$/productlist/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/scroll-load.js" afterPath="$PROJECT_DIR$/productlist/scroll-load.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landingpage/css/style.css" afterPath="$PROJECT_DIR$/landingpage/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainpage/style.css" afterPath="$PROJECT_DIR$/mainpage/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/style.css" afterPath="$PROJECT_DIR$/productlist/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redesign.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -380,7 +34,28 @@
     <favorites_list name="redesign" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="notes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/landingpage/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3546798" vertical-offset="2304" max-vertical-offset="19728">
+              <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -401,11 +76,8 @@
         <option value="$PROJECT_DIR$/landingpage/images/arrow-prev.svg" />
         <option value="$PROJECT_DIR$/productlist/fonts.css" />
         <option value="$PROJECT_DIR$/productlist/ajaxtest.php" />
-        <option value="$PROJECT_DIR$/notes" />
-        <option value="$PROJECT_DIR$/landingpage/css/responsive.css" />
         <option value="$PROJECT_DIR$/landingpage/js/main.js" />
         <option value="$PROJECT_DIR$/mainpage/mainpage.js" />
-        <option value="$PROJECT_DIR$/landingpage/css/style.css" />
         <option value="$PROJECT_DIR$/productlist/scroll-load.js" />
         <option value="$PROJECT_DIR$/productlist/responsive.css" />
         <option value="$PROJECT_DIR$/mainpage/img/icons/svg/lock-locked.svg" />
@@ -439,6 +111,9 @@
         <option value="$PROJECT_DIR$/productlist/index.php" />
         <option value="$PROJECT_DIR$/mainpage/index.php" />
         <option value="$PROJECT_DIR$/faq/index.html" />
+        <option value="$PROJECT_DIR$/landingpage/css/responsive.css" />
+        <option value="$PROJECT_DIR$/notes" />
+        <option value="$PROJECT_DIR$/landingpage/css/style.css" />
       </list>
     </option>
   </component>
@@ -490,6 +165,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="redesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landingpage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landingpage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -557,11 +264,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1360" height="738" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="30" width="1360" height="738" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28538814" sideWeight="0.88087773" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28538814" sideWeight="0.88087773" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -657,20 +364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5532646" vertical-offset="128" max-vertical-offset="1062">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2364532" vertical-offset="0" max-vertical-offset="609">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landingpage/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8555008" vertical-offset="8929" max-vertical-offset="11880">
-          <caret line="525" column="25" selection-start-line="525" selection-start-column="25" selection-end-line="525" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -782,21 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landingpage/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5233161" vertical-offset="19749" max-vertical-offset="25866">
-          <caret line="1114" column="1" selection-start-line="1042" selection-start-column="0" selection-end-line="1114" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainpage/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74558306" vertical-offset="2314" max-vertical-offset="14274">
-          <caret line="152" column="1" selection-start-line="118" selection-start-column="0" selection-end-line="152" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15463917" vertical-offset="0" max-vertical-offset="582">
@@ -846,6 +524,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.37961337" vertical-offset="216" max-vertical-offset="19656">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainpage/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56543624" vertical-offset="4289" max-vertical-offset="12420">
+          <caret line="257" column="23" selection-start-line="257" selection-start-column="23" selection-end-line="257" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landingpage/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding>
+            <element signature="e#12#793#0" expanded="false" />
+            <element signature="e#794#1576#0" expanded="false" />
+            <element signature="e#1577#2556#0" expanded="false" />
+            <element signature="e#2557#3275#0" expanded="false" />
+            <element signature="e#3276#3998#0" expanded="false" />
+            <element signature="e#3999#5066#0" expanded="false" />
+            <element signature="e#5067#6133#0" expanded="false" />
+            <element signature="e#6134#7176#0" expanded="false" />
+            <element signature="e#7177#8243#0" expanded="false" />
+            <element signature="e#8245#10865#0" expanded="false" />
+            <element signature="e#10866#11031#0" expanded="false" />
+            <element signature="e#11046#12670#0" expanded="false" />
+            <element signature="e#12671#12832#0" expanded="false" />
+            <element signature="e#12833#12995#0" expanded="false" />
+            <element signature="e#13014#13612#0" expanded="false" />
+            <element signature="e#13624#13804#0" expanded="false" />
+            <element signature="e#13819#13977#0" expanded="false" />
+            <element signature="e#14000#14189#0" expanded="false" />
+            <element signature="e#14220#14638#0" expanded="false" />
+            <element signature="e#14639#14895#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landingpage/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3546798" vertical-offset="2304" max-vertical-offset="19728">
+          <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
           <folding />
         </state>
       </provider>

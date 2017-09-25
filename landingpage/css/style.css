@@ -150,6 +150,12 @@ section{
     margin: 5px 10px;
     background-color: #fff;
 }
+.is-sticky #top-menu .hamburger{
+    border: 1px solid #336600;
+}
+.is-sticky #top-menu .hamburger-bar{
+    background-color:  #336600;
+}
 .dropdown-menu > li{
     border-bottom: 1px solid rgba(0,0,0,.15);
 }

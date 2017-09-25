@@ -1,9 +1,16 @@
+//BT3
+
 xl  -   6 product   1651    -       ->
 lg  -   5 product   1301    -       1650
 md  -   4 product   1101     -      1300
 sm  -   3 product   768     -       1100
 xs  -   2 product   0       -       767
 
+//BT4
+
 TODO:
 
 NOTES:
+header - topnav hover dropdown nem lesz jó
+landingpage - rólunk mondták fix magasság nem lesz jó
+productlist / mainpage - mobil hover nav nem lesz jó
