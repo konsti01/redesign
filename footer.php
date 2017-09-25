@@ -88,7 +88,7 @@
 <footer class="page-footer green light-green footer" style="white-space: nowrap;">
     <div class="container" style="width:90%">
         <div class="row">
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6" style="margin-top: 10px;">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-top: 10px;">
                 <h5 class="white-text">Nyiss boltot a Meskán</h5>
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/CMS?cp=1">Eladás</a></li>
@@ -98,7 +98,7 @@
 
                 </ul>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6" style="margin-top: 10px;">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-top: 10px;">
                 <h5 class="white-text">Fedezd fel és vásárolj</h5>
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Ajandekkartya">Meska Ajándékkártya</a></li>
@@ -108,7 +108,7 @@
                     <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/find?q=*">Keresés</a>
                 </ul>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6" style="margin-top: 10px;">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-top: 10px;">
                 <h5 class="white-text">Kövesd a Meskát</h5>
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/meska.hu" rel="nofollow" target="_blank">Facebook</a></li>
@@ -117,7 +117,7 @@
                     <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/user/MeskaVideo" rel="nofollow" target="_blank">YouTube</a></li>
                 </ul>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6" style="margin-top: 10px;">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-top: 10px;">
                 <h5 class="white-text">Tudj meg többet</h5>
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/static/aff" rel="nofollow">Felhasználási feltételek</a></li>
@@ -127,7 +127,7 @@
                     <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/contact" rel="nofollow">Írj nekünk!<br>Kapcsolat a Meskával</a></li>
                 </ul>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6" style="margin-top: 10px;">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-top: 10px;">
                 <h5 class="white-text">Aktuális</h5>
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Termekek/Kategoria:Ekszerora/legujabb/1?q=b3Blbl9jYXRzPTEmY2F0X2lkPTMyNyZvcmRlcm5hbWU9bGVndWphYmI=">Egyedi design ékszer</a>
@@ -137,7 +137,7 @@
                     <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Termekek/Kategoria:Szepsegapolas/legujabb/1?q=b3Blbl9jYXRzPTEmY2F0X2lkPTQ1NCZvcmRlcm5hbWU9bGVndWphYmI=">Kézműves kozmetikum</a>
                 </ul>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6" style="margin-top: 10px;">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-top: 10px;">
                 <ul>
                 </ul>
             </div>
