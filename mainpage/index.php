@@ -236,25 +236,25 @@
                 <div class="content">
                     <div class="number-wrapper">
                         <ul>
-                            <li class="col-3 padding0 margin0 column fadeInUp my-animation">
+                            <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6 padding0 margin0 column fadeInUp my-animation">
                                 <div class="number-container">
                                     <div class="number" data-count="8">0</div>
                                     <h6 class="number-details">Éve</h6>
                                 </div>
                             </li>
-                            <li class="col-3 padding0 margin0 column fadeInUp my-animation">
+                            <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6 padding0 margin0 column fadeInUp my-animation">
                                 <div class="number-container">
                                     <div class="number" data-count="3254">0</div>
                                     <h6 class="number-details">Alkotó</h6>
                                 </div>
                             </li>
-                            <li class="col-3 padding0 margin0 column fadeInUp my-animation">
+                            <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6 padding0 margin0 column fadeInUp my-animation">
                                 <div class="number-container">
                                     <div class="number" data-count="110226">0</div>
                                     <h6 class="number-details">Kézműves termék</h6>
                                 </div>
                             </li>
-                            <li class="col-3 padding0 margin0 column fadeInUp my-animation">
+                            <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6 padding0 margin0 column fadeInUp my-animation">
                                 <div class="number-container">
                                     <div class="number" data-count="224578">0</div>
                                     <h6 class="number-details">Felhasználó</h6>
@@ -270,26 +270,26 @@
             <div class="benefits-row">
                 <div class="headline">Meska előnyei</div>
                 <div class="content">
-                    <div class="benefits col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class="benefits col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="benefits-box">
                             <i class="fa fa-lock" aria-hidden="true"></i>
                         </div>
                         <span class="benefits-text">Biztonságos</span>
                         <div class="clear"></div>
                     </div>
-                    <div class="benefits col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class="benefits col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="benefits-box">
                             <i class="fa fa-credit-card" aria-hidden="true"></i>
                         </div>
                         <span class="benefits-text">Bankkártya</span>
                     </div>
-                    <div class="benefits col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class="benefits col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="benefits-box">
                             <i class="fa fa-heart-o" aria-hidden="true"></i>
                         </div>
                         <span class="benefits-text">Kézműves</span>
                     </div>
-                    <div class="benefits col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class="benefits col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="benefits-box">
                             <i class="fa fa-star-o" aria-hidden="true"></i>
                         </div>
