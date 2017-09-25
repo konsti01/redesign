@@ -4,6 +4,8 @@
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="/productlist/style.css">
 <link rel="stylesheet" type="text/css" href="/productlist/responsive.css">
+<link rel="stylesheet" type="text/css" href="../topnav.css">
+<link rel="stylesheet" type="text/css" href="../footer.css">
 
 <!-- FONTS -->
 <link rel="stylesheet" type="text/css" href="/productlist/fonts.css">
@@ -16,15 +18,11 @@
         <!-- LEFT COL -->
         <div class="row-left">
             <div class="sidebar col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <!--<a href="#" class="sidebar-trigger">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-                    <span>Kategóriák</span>
-                </a>-->
                 <div class="sidebar-content col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="main">
                         <button type="button" onclick="topFunction()" class="trigger btn btn-info" data-toggle="collapse" data-target="#00">
                             <span>Kategóriák</span>
-                            <div class="glyphicon glyphicon-menu-hamburger" style="padding-right: 7px; top: 2px;"></div>
+                            <i class="fa fa-bars" aria-hidden="true"></i>
                         </button>
                         <div id="00" class="subnav collapse"></div>
                     </div>
@@ -311,37 +309,6 @@
                             <option value="24">Tarka</option>
                             <option value="25">Narancssárga</option>
                         </select>
-
-                        <!--
-                        <ul id="szin" class="dropdown-menu">
-                            <input type="text" placeholder="Keresés..." class="button-search">
-                            <li><a href="https://www.meska.hu/s/arany/co-512"><div class="color gold"></div>Arany</a></li>
-                            <li><a href="https://www.meska.hu/s/attetszo/co-513"><div class="color transparent"></div>Áttetsző</a></li>
-                            <li><a href="https://www.meska.hu/s/barna/co-514"><div class="color brown"></div>Barna</a></li>
-                            <li><a href="https://www.meska.hu/s/beige/co-515"><div class="color beige"></div>Beige</a></li>
-                            <li><a href="https://www.meska.hu/s/bordo/co-516"><div class="color deep-red"></div>Bordó</a></li>
-                            <li><a href="https://www.meska.hu/s/bronz/co-517"><div class="color bronze"></div>Bronz</a></li>
-                            <li><a href="https://www.meska.hu/s/ezust/co-518"><div class="color silver"></div>Ezüst</a></li>
-                            <li><a href="https://www.meska.hu/s/feher/co-519"><div class="color white"></div>Fehér</a></li>
-                            <li><a href="https://www.meska.hu/s/fekete/co-520"><div class="color black"></div>Fekete</a></li>
-                            <li><a href="https://www.meska.hu/s/kek/co-521"><div class="color blue"></div>Kék</a></li>
-                            <li><a href="https://www.meska.hu/s/lila/co-522"><div class="color purple"></div>Lila</a></li>
-                            <li><a href="https://www.meska.hu/s/piros/co-523"><div class="color red"></div>Piros</a></li>
-                            <li><a href="https://www.meska.hu/s/rez/co-524"><div class="color copper"></div>Réz</a></li>
-                            <li><a href="https://www.meska.hu/s/rozsaszin/co-525"><div class="color pink"></div>Rózsaszín</a></li>
-                            <li><a href="https://www.meska.hu/s/sarga/co-526"><div class="color yellow"></div>Sárga</a></li>
-                            <li><a href="https://www.meska.hu/s/pinkmagenta/co-791"><div class="color magenta"></div>Pink/Magenta</a></li>
-                            <li><a href="https://www.meska.hu/s/szurke/co-527"><div class="color gray"></div>Szürke</a></li>
-                            <li><a href="https://www.meska.hu/s/turkiz/co-528"><div class="color turquoise"></div>Türkiz</a></li>
-                            <li><a href="https://www.meska.hu/s/zold/co-529"><div class="color green"></div>Zöld</a></li>
-                            <li><a href="https://www.meska.hu/s/csikos/co-530"><div class="color stripe"></div>Csíkos</a></li>
-                            <li><a href="https://www.meska.hu/s/kockas/co-531"><div class="color ska"></div>Kockás</a></li>
-                            <li><a href="https://www.meska.hu/s/mintas/co-532"><div class="color pattern"></div>Mintás</a></li>
-                            <li><a href="https://www.meska.hu/s/pottyos/co-533"><div class="color dot"></div>Pöttyös</a></li>
-                            <li><a href="https://www.meska.hu/s/tarka/co-534"><div class="color tarka"></div>Tarka</a></li>
-                            <li><a href="https://www.meska.hu/s/narancssarga/co-568"><div class="color orange"></div>Narancssárga</a></li>
-                        </ul>
-                        -->
                     </div>
                     <div id="price" class="btn-group">
                         <button type="button" id="price" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -391,7 +358,7 @@
                                 <i class="fa fa-sort-amount-desc" aria-hidden="true"></i>
                                 Rendezés <span class="caret"></span>
                             </button>
-                            <ul class="dropdown-menu-2">
+                            <ul class="dropdown-menu">
                                 <li>
                                     <a href="">
                                         <i class="fa fa-home" aria-hidden="true"></i>
@@ -476,72 +443,63 @@
                     <span class="keyword"><a href="">kulcsszo20</a></span>,
                 </div>
                 <div class="sort">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-sort-amount-desc" aria-hidden="true"></i>
-                            Rendezés <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu-2">
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-home" aria-hidden="true"></i>
-                                    Meska.hu sorrend
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-heart"></i>
-                                    Legnépszerűbb
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-refresh" aria-hidden="true"></i>
-                                    Legújabb
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-eye"></i>
-                                    Legnézettebb
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    Kiemelt
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-sort-numeric-desc" aria-hidden="true"></i>
-                                    Ár szerint csökkenő
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-sort-numeric-asc" aria-hidden="true"></i>
-                                    Ár szerint növekvő
-                                </a>
-                            </li>
-
-
-
-                        </ul>
-                    </div>
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-sort-amount-desc" aria-hidden="true"></i>
+                        Rendezés <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="">
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                                Meska.hu sorrend
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-heart"></i>
+                                Legnépszerűbb
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                                Legújabb
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-eye"></i>
+                                Legnézettebb
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                Kiemelt
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-sort-numeric-desc" aria-hidden="true"></i>
+                                Ár szerint csökkenő
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-sort-numeric-asc" aria-hidden="true"></i>
+                                Ár szerint növekvő
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div id="product-wrapper" class="row cont">
                 <?php
                 foreach ($products as $p){ ?>
-                    <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                    <div class="products col-xs-6-custom col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                         <div class="product-box" onclick="location.href='#';">
-                            <div class="product-box-overlay">
-                                <span>További termékek betöltése</span>
-                            </div>
                             <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                 <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
-                                <img src="img/plus.svg" class="icon">
                             </a>
                             <div class="seller-pic">
                                 <?php if ($p['avatar'] != '') { ?>
@@ -597,9 +555,6 @@
     {{# products }}
     <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
         <div class="product-box">
-            <div class="product-box-overlay">
-                <span>További termékek betöltése</span>
-            </div>
             <a href="https://www.meska.hu/t{{ id }}" class="image-wrap">
                 <img class="product-image" alt="{{ image_alt }}" title="{{ image_title }}" src="{{ image }}">
                 <img src="img/plus.svg" class="icon">

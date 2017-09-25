@@ -22,7 +22,7 @@
 
 </div>
 <!-- /#wrapper -->
-
+<!--
 <div id="footer" class="paddingt15">
     <div class="container-fluid">
 
@@ -83,7 +83,92 @@
         </div>
     </div>
 </div>
+-->
 
+<footer class="page-footer green light-green footer" style="white-space: nowrap;">
+    <div class="container" style="width:90%">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6" style="margin-top: 10px;">
+                <h5 class="white-text">Nyiss boltot a Meskán</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/CMS?cp=1">Eladás</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Blog?p=dHlwZT1wcm9m">Szakmai blog</a>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/ModAcc/index/shop#shopopen">Boltot nyitok</a>
+                    <li><img src="/bootstrap4/assets/img/barion-card-payment-mark-2017-200px.png">
+
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6" style="margin-top: 10px;">
+                <h5 class="white-text">Fedezd fel és vásárolj</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Ajandekkartya">Meska Ajándékkártya</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Ajandek/mind/legujabb/1?pf=1&fm=1">Ajándékkereső</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/CMS?cp=2">Vásárlás</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Blog?p=dHlwZT1tZXNrYQ==">Blog</a>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/find?q=*">Keresés</a>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6" style="margin-top: 10px;">
+                <h5 class="white-text">Kövesd a Meskát</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/meska.hu" rel="nofollow" target="_blank">Facebook</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://plus.google.com/+K%C3%A9zm%C5%B1vesMeskacsapat/posts" rel="nofollow" target="_blank">Google+</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.pinterest.com/meskahu/" rel="nofollow" target="_blank">Pinterest</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/user/MeskaVideo" rel="nofollow" target="_blank">YouTube</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6" style="margin-top: 10px;">
+                <h5 class="white-text">Tudj meg többet</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/static/aff" rel="nofollow">Felhasználási feltételek</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/static/elallasifeltetelek" rel="nofollow">Elállási feltételek</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/help" rel="nofollow">Segítség</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/aboutus" rel="nofollow">Rólunk</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/contact" rel="nofollow">Írj nekünk!<br>Kapcsolat a Meskával</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6" style="margin-top: 10px;">
+                <h5 class="white-text">Aktuális</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Termekek/Kategoria:Ekszerora/legujabb/1?q=b3Blbl9jYXRzPTEmY2F0X2lkPTMyNyZvcmRlcm5hbWU9bGVndWphYmI=">Egyedi design ékszer</a>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Termekek/Kategoria:Taska/legujabb/1?q=b3Blbl9jYXRzPTEmY2F0X2lkPTQ2NCZvcmRlcm5hbWU9bGVndWphYmI=">Egyedi design táska</a>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Termekek/Kategoria:Jatek/legujabb/1?q=b3Blbl9jYXRzPTEmY2F0X2lkPTM0MCZvcmRlcm5hbWU9bGVndWphYmI=">Egyedi kézműves játék</a>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Termekek/Kategoria:Eskuvo/legujabb/1?q=b3Blbl9jYXRzPTEmY2F0X2lkPTMxNyZvcmRlcm5hbWU9bGVndWphYmI=">Vintage esküvő</a>
+                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Termekek/Kategoria:Szepsegapolas/legujabb/1?q=b3Blbl9jYXRzPTEmY2F0X2lkPTQ1NCZvcmRlcm5hbWU9bGVndWphYmI=">Kézműves kozmetikum</a>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6" style="margin-top: 10px;">
+                <ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <span class="line">© 2008-2017 Meska.hu Kft. - Minden jog fenntartva!</span><span class="separator"> | </span>
+            <span class="line">Adószám: 14260960-2-43</span><span class="separator"> | </span>
+            <span class="line">Cégjegyzékszám: 01-09-896027</span>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- Bootstrap 4 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!-- Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/jquery.timer.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- DynamicBG -->
+    <script src="js/device.min.js"></script> <!--OPTIONAL JQUERY PLUGIN-->
+    <script src="js/jquery.mb.YTPlayer.js"></script>
+    <script src="js/custom.js"></script>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -122,8 +207,7 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 <script src="https://www.meska.hu/bootstrap/js/jquery.base64.min.js" type="text/javascript"></script>
 <script src="https://www.meska.hu/bootstrap/js/echo.min.js" type="text/javascript"></script>
 <script src="https://www.meska.hu/js/ajax_loadable.js" type="text/javascript"></script>

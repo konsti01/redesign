@@ -2,15 +2,13 @@
 <?php include_once('data.php'); ?>
 
 <!-- CSS -->
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="responsive.css">
-
-<!-- Owl Carousel -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+<link rel="stylesheet" type="text/css" href="/mainpage/style.css">
+<link rel="stylesheet" type="text/css" href="/mainpage/responsive.css">
+<link rel="stylesheet" type="text/css" href="../topnav.css">
+<link rel="stylesheet" type="text/css" href="../footer.css">
 
 <!-- FONTS -->
-<link rel="stylesheet" type="text/css" href="fonts.css">
+<link rel="stylesheet" type="text/css" href="/mainpage/fonts.css">
 
 <!-- BOOTSTRAP -->
 <link rel="stylesheet" type="text/css" href="BootstrapXL.css">
@@ -20,15 +18,11 @@
         <!-- LEFT COL -->
         <div class="row-left">
             <div class="sidebar col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <!--<a href="#" class="sidebar-trigger">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-                    <span>Kategóriák</span>
-                </a>-->
                 <div class="sidebar-content col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="main">
                         <button type="button" onclick="topFunction()" class="trigger btn btn-info" data-toggle="collapse" data-target="#00">
                             <span>Kategóriák</span>
-                            <div class="glyphicon glyphicon-menu-hamburger" style="padding-right: 7px; top: 2px;"></div>
+                            <i class="fa fa-bars" aria-hidden="true"></i>
                         </button>
                         <div id="00" class="subnav collapse"></div>
                     </div>
@@ -229,7 +223,7 @@
         </div>
         <!-- RIGHT COL -->
         <div class="row-right">
-            <div class="search col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="top-search col">
                 <div class="search-bar-wrap">
                     <input type="text" id="search-bar" placeholder="Keresés">
                     <img src="https://image.flaticon.com/icons/svg/54/54554.svg">
@@ -242,25 +236,25 @@
                 <div class="content">
                     <div class="number-wrapper">
                         <ul>
-                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+                            <li class="col-3 padding0 margin0 column fadeInUp my-animation">
                                 <div class="number-container">
                                     <div class="number" data-count="8">0</div>
                                     <h6 class="number-details">Éve</h6>
                                 </div>
                             </li>
-                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+                            <li class="col-3 padding0 margin0 column fadeInUp my-animation">
                                 <div class="number-container">
                                     <div class="number" data-count="3254">0</div>
                                     <h6 class="number-details">Alkotó</h6>
                                 </div>
                             </li>
-                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+                            <li class="col-3 padding0 margin0 column fadeInUp my-animation">
                                 <div class="number-container">
                                     <div class="number" data-count="110226">0</div>
                                     <h6 class="number-details">Kézműves termék</h6>
                                 </div>
                             </li>
-                            <li class="col-sm-3 col-lg-3 column fadeInUp my-animation">
+                            <li class="col-3 padding0 margin0 column fadeInUp my-animation">
                                 <div class="number-container">
                                     <div class="number" data-count="224578">0</div>
                                     <h6 class="number-details">Felhasználó</h6>
@@ -306,12 +300,12 @@
             </div>
             <div class="highlight-row">
                 <div class="headline">Kiemelt termékek</div>
-                <div class="content">
+                <div class="row content">
                     <?php
                         $count = 0;
                         foreach($products as $p){ ?>
 
-                            <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                            <div class="products col-xs-6-custom col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                                 <div class="product-box" onclick="location.href='#';">
                                     <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                         <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -358,12 +352,12 @@
             </div>
             <div class="browser-row">
                 <div class="headline">Szemezgető</div>
-                <div class="content">
+                <div class="row content">
                     <?php
                     $count = 0;
                     foreach($products as $p){ ?>
 
-                        <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                        <div class="products col-xs-6-custom col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                             <div class="product-box" onclick="location.href='#';">
                                 <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -409,12 +403,12 @@
             </div>
             <div class="recently-bought-row">
                 <div class="headline">Épp most vették meg</div>
-                <div class="content">
+                <div class="row content">
                     <?php
                     $count = 0;
                     foreach($products as $p){ ?>
 
-                        <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                        <div class="products col-xs-6-custom col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                             <div class="product-box" onclick="location.href='#';">
                                 <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -462,217 +456,247 @@
                 <div class="headline">Meskáról mondták</div>
                 <div class="content">
                     <div class="quote-circle"><span></span></div>
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <h4>
-                                <blockquote>Az az egyik legjobb a Meskában, hogy azonnali visszajelzést kapok, ami hatalmas segítség abban, hogy tudjam, merre menjek tovább, min érdemes változtatni, hogyan tovább.
-                                    <cite>estikristoneszter</cite>
-                                </blockquote>
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item">
+                                <h4>
+                                    <blockquote>
+                                        <p>Az az egyik legjobb a Meskában, hogy azonnali visszajelzést kapok, ami hatalmas segítség abban, hogy tudjam, merre menjek tovább, min érdemes változtatni, hogyan tovább.</p>
+                                        <cite>estikristoneszter</cite>
+                                    </blockquote>
 
-                                <div class="customer-member">
-                                    <div class="photo-member">
-                                        <div class="img-container">
-                                            <div class="overlay">
-                                                <img src="https://www.meska.hu/img/avatar/medium/estikristoneszter_avatar_163340.JPG">
+                                    <div class="customer-member">
+                                        <div class="photo-member">
+                                            <div class="img-container">
+                                                <div class="overlay">
+                                                    <img src="https://www.meska.hu/img/avatar/medium/estikristoneszter_avatar_163340.JPG">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </h4>
-                        </div>
-                        <div class="item">
-                            <h4>
-                                <blockquote>Nekem a Meskában az tetszik a legjobban, hogy az itteni eladásainkkal egyből egy reklámozási lehetőséget is kapunk, mert egy látogatott felületen megjelennek a termékeink, fotóval.
-                                    <cite>gabigobre</cite>
-                                </blockquote>
-                                <div class="customer-member">
-                                    <div class="photo-member">
-                                        <div class="img-container">
-                                            <div class="overlay">
-                                                <img src="https://www.meska.hu/img/avatar/medium/gabigobre_avatar_3437.jpg">
+                                </h4>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>
+                                    <blockquote>
+                                        <p>Nekem a Meskában az tetszik a legjobban, hogy az itteni eladásainkkal egyből egy reklámozási lehetőséget is kapunk, mert egy látogatott felületen megjelennek a termékeink, fotóval.</p>
+                                        <cite>gabigobre</cite>
+                                    </blockquote>
+                                    <div class="customer-member">
+                                        <div class="photo-member">
+                                            <div class="img-container">
+                                                <div class="overlay">
+                                                    <img src="https://www.meska.hu/img/avatar/medium/gabigobre_avatar_3437.jpg">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </h4>
-                        </div>
-                        <div class="item">
-                            <h4>
-                                <blockquote>Nekem a Meska segített, nagyszerű összekötő kapocs a kézművesek és vásárlók közt. Kényelmesen, könnyen használható felületen, többféle fizetési lehetőséggel vehetik meg a nekik tetsző terméket, én pedig egyszerűen tudom nyilvántartani és kezelni a megrendeléseket
-                                    <cite>Amuletta</cite>
-                                </blockquote>
-                                <div class="customer-member">
-                                    <div class="photo-member">
-                                        <div class="img-container">
-                                            <div class="overlay">
-                                                <img src="https://www.meska.hu/img/avatar/medium/amuletta_avatar_57073.JPG">
+                                </h4>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>
+                                    <blockquote>
+                                        <p>Nekem a Meska segített, nagyszerű összekötő kapocs a kézművesek és vásárlók közt. Kényelmesen, könnyen használható felületen, többféle fizetési lehetőséggel vehetik meg a nekik tetsző terméket, én pedig egyszerűen tudom nyilvántartani és kezelni a megrendeléseket.</p>
+                                        <cite>Amuletta</cite>
+                                    </blockquote>
+                                    <div class="customer-member">
+                                        <div class="photo-member">
+                                            <div class="img-container">
+                                                <div class="overlay">
+                                                    <img src="https://www.meska.hu/img/avatar/medium/amuletta_avatar_57073.JPG">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </h4>
-                        </div>
-                        <div class="item">
-                            <h4>
-                                <blockquote>Ha nem lenne a Meska felülete, sokkal több időm menne el azzal, hogy a potenciális vevőket megkeressem, és nem jutna elég kapacitás a munkára, azaz az alkotásra.
-                                    <cite>Nina</cite>
-                                </blockquote>
-                                <div class="customer-member">
-                                    <div class="photo-member">
-                                        <div class="img-container">
-                                            <div class="overlay">
-                                                <img src="https://www.meska.hu/img/avatar/medium/nina_avatar_4998.jpg">
+                                </h4>
+                            </div>
+                            <div class="carousel-item active">
+                                <h4>
+                                    <blockquote>
+                                        <p>Ha nem lenne a Meska felülete, sokkal több időm menne el azzal, hogy a potenciális vevőket megkeressem, és nem jutna elég kapacitás a munkára, azaz az alkotásra.</p>
+                                        <cite>Nina</cite>
+                                    </blockquote>
+                                    <div class="customer-member">
+                                        <div class="photo-member">
+                                            <div class="img-container">
+                                                <div class="overlay">
+                                                    <img src="https://www.meska.hu/img/avatar/medium/nina_avatar_4998.jpg">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </h4>
-                        </div>
-                        <div class="item">
-                            <h4>
-                                <blockquote>Aminek különösen örülök, az az, hogy a vidéken élő embereket is segít elérni ez az elektronikus piactér.
-                                    <cite>designbyrothaniko</cite>
-                                </blockquote>
-                                <div class="customer-member">
-                                    <div class="photo-member">
-                                        <div class="img-container">
-                                            <div class="overlay">
-                                                <img src="https://www.meska.hu/img/avatar/medium/designbyrothaniko_avatar_131326.jpg">
+                                </h4>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>
+                                    <blockquote>
+                                        <p>Aminek különösen örülök, az az, hogy a vidéken élő embereket is segít elérni ez az elektronikus piactér.</p>
+                                        <cite>designbyrothaniko</cite>
+                                    </blockquote>
+                                    <div class="customer-member">
+                                        <div class="photo-member">
+                                            <div class="img-container">
+                                                <div class="overlay">
+                                                    <img src="https://www.meska.hu/img/avatar/medium/designbyrothaniko_avatar_131326.jpg">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </h4>
-                        </div>
-                        <div class="item">
-                            <h4>
-                                <blockquote>Mindent online, a Meskán értékesítünk, így tudunk a legtöbb potenciális érdeklődőhöz eljutni.
-                                    <cite>sanyikovacs</cite>
-                                </blockquote>
-                                <div class="customer-member">
-                                    <div class="photo-member">
-                                        <div class="img-container">
-                                            <div class="overlay">
-                                                <img src="https://www.meska.hu/img/avatar/medium/sanyikovacs_avatar_2500.jpg">
+                                </h4>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>
+                                    <blockquote>
+                                        <p>Mindent online, a Meskán értékesítünk, így tudunk a legtöbb potenciális érdeklődőhöz eljutni.</p>
+                                        <cite>sanyikovacs</cite>
+                                    </blockquote>
+                                    <div class="customer-member">
+                                        <div class="photo-member">
+                                            <div class="img-container">
+                                                <div class="overlay">
+                                                    <img src="https://www.meska.hu/img/avatar/medium/sanyikovacs_avatar_2500.jpg">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </h4>
-                        </div>
-                        <div class="item">
-                            <h4>
-                                <blockquote>A tárgyaim intimek, finom, nőies, légies darabok. Azt gondolná az ember, hogy ezeket mindenképp kézbe kell venni ahhoz, hogy szerelembe essünk velük. De ez nem minden esetben igaz. Van, aki ajándékba veszi, van, aki magának. Sok a visszatérő vevőm is: aki már egyet vett, előfordul, hogy még vesz hozzá újabb kiegészítő darabokat. Jól működik az online értékesítés.
-                                    <cite>DiosGabiKeramia</cite>
-                                </blockquote>
-                                <div class="customer-member">
-                                    <div class="photo-member">
-                                        <div class="img-container">
-                                            <div class="overlay">
-                                                <img src="https://www.meska.hu/img/avatar/medium/fb_avatar_25688.jpg">
+                                </h4>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>
+                                    <blockquote>
+                                        <p>A tárgyaim intimek, finom, nőies, légies darabok. Azt gondolná az ember, hogy ezeket mindenképp kézbe kell venni ahhoz, hogy szerelembe essünk velük. De ez nem minden esetben igaz. Van, aki ajándékba veszi, van, aki magának. Sok a visszatérő vevőm is: aki már egyet vett, előfordul, hogy még vesz hozzá újabb kiegészítő darabokat. Jól működik az online értékesítés.</p>
+                                        <cite>DiosGabiKeramia</cite>
+                                    </blockquote>
+                                    <div class="customer-member">
+                                        <div class="photo-member">
+                                            <div class="img-container">
+                                                <div class="overlay">
+                                                    <img src="https://www.meska.hu/img/avatar/medium/fb_avatar_25688.jpg">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </h4>
-                        </div>
-                        <div class="item">
-                            <h4>
-                                <blockquote>A Meskán sikerült megtalálnom a vevőkörömet. 2012 decemberében regisztráltam a kézműves portálra, és azóta több mint száz ruhát, sapkát, kalapot, táskát vásároltak tőlem. El tudod ezt képzelni, milyen érzés? Előtte már jó hosszú ideje szinte semmit nem adtam el. Úgy érzem, itt elfogadják és szeretik a stílusomat, és a megfelelő emberekhez jut el a hírem. Olyanokhoz, akik kedvelik és értékelik a tapasztalatomat, a ruháimat, az egyediséget, hogy kézzel dolgozom. Előtte tíz évig próbáltam egy saját vásárlókört kiépíteni.
-                                    <cite>brokat</cite>
-                                </blockquote>
-                                <div class="customer-member">
-                                    <div class="photo-member">
-                                        <div class="img-container">
-                                            <div class="overlay">
-                                                <img src="https://www.meska.hu/img/avatar/medium/brokat_avatar_82864.jpg">
+                                </h4>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>
+                                    <blockquote>
+                                        <p>A Meskán sikerült megtalálnom a vevőkörömet. 2012 decemberében regisztráltam a kézműves portálra, és azóta több mint száz ruhát, sapkát, kalapot, táskát vásároltak tőlem. El tudod ezt képzelni, milyen érzés? Előtte már jó hosszú ideje szinte semmit nem adtam el. Úgy érzem, itt elfogadják és szeretik a stílusomat, és a megfelelő emberekhez jut el a hírem. Olyanokhoz, akik kedvelik és értékelik a tapasztalatomat, a ruháimat, az egyediséget, hogy kézzel dolgozom. Előtte tíz évig próbáltam egy saját vásárlókört kiépíteni.</p>
+                                        <cite>brokat</cite>
+                                    </blockquote>
+                                    <div class="customer-member">
+                                        <div class="photo-member">
+                                            <div class="img-container">
+                                                <div class="overlay">
+                                                    <img src="https://www.meska.hu/img/avatar/medium/brokat_avatar_82864.jpg">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </h4>
-                        </div>
-                        <div class="item">
-                            <h4>
-                                <blockquote>Hittem abban, hogy lesz, akit megérintenek az ékszereim. Ebben a Meska.hu sokat segített, mivel a kis műhelyem híre nem tudna sok emberhez eljutni, de az interneten könnyebben megismerhetnek. Nekem ezzel a lehetőséggel kinyílt a világ..
-                                    <cite>egszeresz</cite>
-                                </blockquote>
-                                <div class="customer-member">
-                                    <div class="photo-member">
-                                        <div class="img-container">
-                                            <div class="overlay">
-                                                <img src="https://www.meska.hu/img/avatar/medium/egszeresz_avatar_4085.jpg">
+                                </h4>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>
+                                    <blockquote>
+                                        <p>Hittem abban, hogy lesz, akit megérintenek az ékszereim. Ebben a Meska.hu sokat segített, mivel a kis műhelyem híre nem tudna sok emberhez eljutni, de az interneten könnyebben megismerhetnek. Nekem ezzel a lehetőséggel kinyílt a világ.</p>
+                                        <cite>egszeresz</cite>
+                                    </blockquote>
+                                    <div class="customer-member">
+                                        <div class="photo-member">
+                                            <div class="img-container">
+                                                <div class="overlay">
+                                                    <img src="https://www.meska.hu/img/avatar/medium/egszeresz_avatar_4085.jpg">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </h4>
-                        </div>
-                        <div class="item">
-                            <h4>
-                                <blockquote>Annyi minden szépséget készítünk kézzel, hogy talán külföldön van erre kereslet, és el is lehet adni, mert az emberek kedvelik, ha egyedi tárgyaik vannak, ha kézzel készült ruhákat hordanak, ha olyan ajándékkal lephetik meg a szeretteiket, ami nem fog szembejönni velük az utcán. A Meskán egymásra találtak a kézművesek és a kézzel készült, egyedi tárgyak rajongói.
-                                    <cite>Gemma</cite>
-                                </blockquote>
-                                <div class="customer-member">
-                                    <div class="photo-member">
-                                        <div class="img-container">
-                                            <div class="overlay">
-                                                <img src="https://www.meska.hu/img/avatar/medium/gemma_avatar_18843.jpg">
+                                </h4>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>
+                                    <blockquote>
+                                        <p>Annyi minden szépséget készítünk kézzel, hogy talán külföldön van erre kereslet, és el is lehet adni, mert az emberek kedvelik, ha egyedi tárgyaik vannak, ha kézzel készült ruhákat hordanak, ha olyan ajándékkal lephetik meg a szeretteiket, ami nem fog szembejönni velük az utcán. A Meskán egymásra találtak a kézművesek és a kézzel készült, egyedi tárgyak rajongói.</p>
+                                        <cite>Gemma</cite>
+                                    </blockquote>
+                                    <div class="customer-member">
+                                        <div class="photo-member">
+                                            <div class="img-container">
+                                                <div class="overlay">
+                                                    <img src="https://www.meska.hu/img/avatar/medium/gemma_avatar_18843.jpg">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </h4>
-                        </div>
-                        <div class="item">
-                            <h4>
-                                <blockquote>Amikor a Meskán a vásárlóim kedves, meleg hangulatú leveleket küldenek, illetve édesebbnél édesebb fényképeket, amelyeken boldogan szorítják magukhoz a Kincseik az általam készített figurákat. Na olyankor szárnyalni tudnék a boldogságtól! És csodálatos élmény az is, amikor a vásárlóimmal együtt aprólékos részletességgel tervezgetünk meg valamit, amikor valóra válthatom valakinek az álmát és elkészíthetek egy régen áhított kívánságot.
-                                    <cite>Jam81</cite>
-                                </blockquote>
-                                <div class="customer-member">
-                                    <div class="photo-member">
-                                        <div class="img-container">
-                                            <div class="overlay">
-                                                <img src="https://www.meska.hu/img/avatar/medium/Jam81_avatar_50759.jpg">
+                                </h4>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>
+                                    <blockquote>
+                                        <p>Amikor a Meskán a vásárlóim kedves, meleg hangulatú leveleket küldenek, illetve édesebbnél édesebb fényképeket, amelyeken boldogan szorítják magukhoz a Kincseik az általam készített figurákat. Na olyankor szárnyalni tudnék a boldogságtól! És csodálatos élmény az is, amikor a vásárlóimmal együtt aprólékos részletességgel tervezgetünk meg valamit, amikor valóra válthatom valakinek az álmát és elkészíthetek egy régen áhított kívánságot.</p>
+                                        <cite>Jam81</cite>
+                                    </blockquote>
+                                    <div class="customer-member">
+                                        <div class="photo-member">
+                                            <div class="img-container">
+                                                <div class="overlay">
+                                                    <img src="https://www.meska.hu/img/avatar/medium/Jam81_avatar_50759.jpg">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </h4>
-                        </div>
-                        <div class="item">
-                            <h4>
-                                <blockquote>Gyesen voltam a lányommal, így maradt egy kis szabadidőm. Nekiálltam újra drótozni, amivel először 16 éves koromban kezdtem foglalkozni. Blogot írtam, feltöltöttem az ékszerek képeit, és meglepődtem, hogy tetszik másoknak. Akkoriban indult a Meska, gondoltam, megpróbálom. Újra meglepődtem, mert megvették az ékszereim. Amikor letelt a gyes, nem is mentem vissza dolgozni, maradt az ékszerkészítés.
-                                    <cite>kricsar</cite>
-                                </blockquote>
-                                <div class="customer-member">
-                                    <div class="photo-member">
-                                        <div class="img-container">
-                                            <div class="overlay">
-                                                <img src="https://www.meska.hu/img/avatar/medium/kricsar_avatar_363.JPG">
+                                </h4>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>
+                                    <blockquote>
+                                        <p>Gyesen voltam a lányommal, így maradt egy kis szabadidőm. Nekiálltam újra drótozni, amivel először 16 éves koromban kezdtem foglalkozni. Blogot írtam, feltöltöttem az ékszerek képeit, és meglepődtem, hogy tetszik másoknak. Akkoriban indult a Meska, gondoltam, megpróbálom. Újra meglepődtem, mert megvették az ékszereim. Amikor letelt a gyes, nem is mentem vissza dolgozni, maradt az ékszerkészítés.</p>
+                                        <cite>kricsar</cite>
+                                    </blockquote>
+                                    <div class="customer-member">
+                                        <div class="photo-member">
+                                            <div class="img-container">
+                                                <div class="overlay">
+                                                    <img src="https://www.meska.hu/img/avatar/medium/kricsar_avatar_363.JPG">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </h4>
+                                </h4>
+                            </div>
                         </div>
-                        <!--
-                        <div class="owl-nav" style="display: none; visibility: hidden">
-                            <div class="owl-prev">prev</div>
-                            <div class="owl-next">next</div>
-                        </div>
-                        -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+                        </ol>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="recently-uploaded-row">
                 <div class="headline">Épp most töltötték fel (Friss, még ropogós! :)</div>
-                <div class="content">
+                <div class="row content">
                     <?php
                     $count = 0;
                     foreach($products as $p){ ?>
 
-                        <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                        <div class="products col-xs-6-custom col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                             <div class="product-box" onclick="location.href='#';">
                                 <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -739,4 +763,5 @@
         <input type="submit" name="submit" value="Feliratkozok!" class="input-button">
     </form>
 </div>
+
 <?php include_once('../footer.php'); ?>

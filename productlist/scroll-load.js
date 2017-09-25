@@ -232,7 +232,7 @@ $(document).ready(function() {
     //$('.next').unbind().click(getProductsJson);
 
     //next by last prod
-    $(".product-box-overlay").click(function(){
+    $(".products:last-child .product-box").click(function(){
         current = current+1;
 
         if(current==2){

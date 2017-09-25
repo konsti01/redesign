@@ -1,10 +1,6 @@
 /* PHONE */
 
 @media only screen and (min-width: 320px) and (max-width:359px){ /*iPhone 5 ÁLLÓ*/
-	/*.is-sticky #top-menu{
-		width:320px;
-	}*/
-	
 	/* HEADER */
 	.header-wrapper{
 		padding-bottom: 200px;
@@ -43,10 +39,6 @@
 	}
 }
 @media only screen and (min-width: 360px) and (max-width:374px){ /*Galaxy S5 ÁLLÓ*/
-	/*.is-sticky #top-menu{
-		width:360px;
-	}*/
-	
 	/* HEADER */
 	.header-wrapper{
 		padding-bottom: 200px;
@@ -85,11 +77,6 @@
 	}
 }
 @media only screen and (min-width: 375px) and (max-width:411px){ /*iPhone 6 ÁLLÓ*/
-	/*NAV*/
-	/*.is-sticky #top-menu{
-		width:375px;
-	}*/
-	
 	/* HEADER */
 	.header-wrapper{
 		padding-bottom: 200px;
@@ -147,10 +134,6 @@
 	
 }
 @media only screen and (min-width: 412px) and (max-width:413px){ /*NEXUS ÁLLÓ*/
-	/*.is-sticky #top-menu{
-		width:412px;
-	}*/
-	
 	/* HEADER */
 	.header-wrapper{
 		padding-bottom: 200px;
@@ -189,10 +172,6 @@
 	}
 }
 @media only screen and (min-width: 414px) and (max-width:567px){ /*iPhone 6+ ÁLLÓ*/
-	/*.is-sticky #top-menu{
-		width:414px;
-	}*/
-	
 	/* HEADER */
 	.header-wrapper{
 		padding-bottom: 200px;
@@ -231,10 +210,6 @@
 	}
 }
 @media only screen and (min-width: 568px) and (max-width:639px){ /*iPhone 5 FEKVŐ*/
-	/*.is-sticky #top-menu{
-		width:568px;
-	}*/
-	
 	/*STATS*/
 	.number-wrapper{
 		max-width:95vw;
@@ -301,10 +276,6 @@
 	}
 }
 @media only screen and (min-width: 640px) and (max-width:666px){ /*Galaxy S5 FEKVŐ*/
-	/*.is-sticky #top-menu{
-		width:640px;
-	}*/
-	
 	/*STATS*/
 	.number-wrapper{
 		max-width:95vw;
@@ -370,10 +341,6 @@
 	}
 }
 @media only screen and (min-width: 667px) and (max-width:735px){ /*iPhone 6 FEKVŐ*/
-	/*.is-sticky #top-menu{
-		width:667px;
-	}*/
-	
 	/*STATS*/
 	.number-wrapper{
 		max-width:95vw;
@@ -438,10 +405,6 @@
 	}
 }
 @media only screen and (min-width: 736px) and (max-width:766px){ /*iPhone 6+ FEKVŐ*/
-	/*.is-sticky #top-menu{
-		width:736px;
-	}*/
-	
 	/*STATS*/
 	.number-wrapper{
 		max-width:95vw;
@@ -552,13 +515,21 @@
     }
 
     .flex-item img{
-        margin: 0;
+        margin: 0 0 0 -20px;
     }
-	
+
+    .header-wrapper .text h1 {
+        margin-top: 50px;
+    }
+
 	/*HEADLINE*/
 	h1.section-title{
 		font-family: 'Amatic-SC', cursive;
 	}
+
+    .carousel-item blockquote p {
+        height: 370px;
+    }
 	
 	/* ABOUT - IDÉZET KERÜL FELÜLRE */
 	#about-flex{
@@ -566,7 +537,6 @@
 		display: -webkit-box;
 		display: -moz-box;
 		display: -ms-flexbox;
-		display: -moz-flex;
 		display: -webkit-flex;
 		display: flex;  
 		-webkit-flex-flow: row wrap;
@@ -580,16 +550,6 @@
 	.number-container .number{
 		
 	}
-	
-	/* PRICE COM */
-	/*#price-com .creator .icon-cont:after,
-	#price-com .creator:after,
-	#price-com .company .icon-cont:before,
-	#price-com .company:after,
-	#price-com .company .icon-cont:after,
-	#price-com .customer .icon-cont:before{
-		display:none;
-	}*/
 	
 	/*REG STEPS*/
 	#reg-steps .row{
@@ -615,10 +575,8 @@
         visibility: hidden !important;
     }
     .header-wrapper{
-        background-image:url(../images/static.jpg);
-        background-position: top center;
+        background:url(../images/static.jpg) no-repeat top center;
         background-size: cover;
-        background-repeat: no-repeat;
     }
     .number-wrapper{
         position: relative;
@@ -630,6 +588,7 @@
     }
     h1.section-title-first {
         margin-top: 30px;
+        padding-top: 30px;
     }
 
     /* MOBILE FAQ */
@@ -639,6 +598,18 @@
     }
     .toggle-title{
         padding: 35px 15px;
+    }
+
+    #reg-steps .steps > div {
+        height: 800px;
+    }
+}
+@media only screen and (max-width:567px){
+    #reg-steps .steps > div {
+        height: 250px;
+    }
+    .carousel-item blockquote p {
+        height: 780px;
     }
 }
 
@@ -668,7 +639,6 @@
 		display: -webkit-box;
 		display: -moz-box;
 		display: -ms-flexbox;
-		display: -moz-flex;
 		display: -webkit-flex;
 		display: flex;  
 		-webkit-flex-flow: row wrap;
@@ -729,13 +699,27 @@
 	  position: absolute;
 	  left: 36%;
 	}
-	
-	/*REG STEPS */
-	#reg-steps .steps > div{
-		height:570px;
-		width:25%;
-	}
+
+    .carousel-item blockquote p {
+        height: 370px;
+    }
 }
+@media only screen and (min-width: 768px) and (max-width:991px){
+    /*REG STEPS */
+    #reg-steps .steps > div{
+        height:560px;
+        width:25%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width:1023px){
+    /*REG STEPS */
+    #reg-steps .steps > div{
+        height:450px;
+        width:25%;
+    }
+}
+
+
 
 /* STATS CORR */
 @media only screen and (min-width: 1024px) and (max-width: 1190px){
@@ -796,20 +780,50 @@
 
 /*TOP MENU*/
 @media only screen and (min-width: 768px) and (max-width:1200px){
-    .navbar-nav li{
+    .nav .jump{
         display: none;
     }
-    .navbar-nav .dropdown, .navbar-nav .dropdown li, .navbar-nav .reg{
-        display: block !important;
+    .hamburger{
+        display: block;
     }
-    .navbar-default .navbar-nav>li>a:focus,
-    .navbar-default .navbar-nav>li>a:hover{
-        color: #111;
-        background-color: transparent;
+} /* hamburger + reg */
+@media only screen and (max-width: 768px){
+    .nav .jump{
+        display: none;
     }
-    .dropdown-menu {
-        position: absolute;
-        top: 114%;
-        left: -111px;
+    .hamburger{
+        display: block;
+    }
+    .nav .button-border{
+        display: none;
+    }
+} /* hamburger */
+
+/* NUBERS */
+@media only screen and (max-width: 706px){
+    #numbers .col{
+        flex-basis: 50%;
+    }
+    .number-wrapper li{
+        border-right: 1px solid #D9D9D9;
+        border-bottom: 1px solid #D9D9D9;
+    }
+    .number-wrapper li:nth-of-type(3), .number-wrapper li:nth-of-type(4){
+        border-bottom: 0;
+    }
+    .number-wrapper li:nth-of-type(2), .number-wrapper li:nth-of-type(4){
+        border-right: 0;
+    }
+}
+@media only screen and (max-width: 511px){
+    #numbers .col{
+        flex-basis: 50%;
+    }
+    .number-wrapper li{
+        border-right: 1px solid #D9D9D9;
+        border-bottom: 1px solid #D9D9D9;
+    }
+    .number-wrapper li{
+        border: 0;
     }
 }
