@@ -355,7 +355,7 @@
                     <div class="sort">
                         <div class="btn-group">
                             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-sort-amount-desc" aria-hidden="true"></i>
+                                <i class="fa fa-sort-amount-down" aria-hidden="true"></i>
                                 Rendezés <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu">
@@ -373,7 +373,7 @@
                                 </li>
                                 <li>
                                     <a href="">
-                                        <i class="fa fa-refresh" aria-hidden="true"></i>
+                                        <i class="fa fa-recycle" aria-hidden="true"></i>
                                         Legújabb
                                     </a>
                                 </li>
@@ -401,9 +401,6 @@
                                         Ár szerint növekvő
                                     </a>
                                 </li>
-
-
-
                             </ul>
                         </div>
                     </div>
@@ -474,19 +471,19 @@
                         </li>
                         <li>
                             <a href="">
-                                <i class="fa fa-star-exclamation" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
                                 Kiemelt
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <i class="fa fa-sort-numeric-down" aria-hidden="true"></i>
+                                <i class="fa fa-arrow-to-bottom" aria-hidden="true"></i>
                                 Ár szerint csökkenő
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <i class="fa fa-sort-numeric-up" aria-hidden="true"></i>
+                                <i class="fa fa-arrow-to-top" aria-hidden="true"></i>
                                 Ár szerint növekvő
                             </a>
                         </li>
@@ -499,6 +496,9 @@
                     <div class="products col-xs-6-custom col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
                         <div class="product-box" onclick="location.href='#';">
                             <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
+                                <!--
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                -->
                                 <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
                             </a>
                             <div class="seller-pic">
