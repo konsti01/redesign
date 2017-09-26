@@ -9,6 +9,14 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+    <!-- FontAwesome5 -->
+    <link rel="stylesheet" href="/assets/fontawesome-5.0.0-beta7-linux/css/fontawesome-pro-brands.css">
+    <link rel="stylesheet" href="/assets/fontawesome-5.0.0-beta7-linux/css/fontawesome-pro-core.css">
+    <link rel="stylesheet" href="/assets/fontawesome-5.0.0-beta7-linux/css/fontawesome-pro-light.css">
+    <link rel="stylesheet" href="/assets/fontawesome-5.0.0-beta7-linux/css/fontawesome-pro-regular.css">
+    <link rel="stylesheet" href="/assets/fontawesome-5.0.0-beta7-linux/css/fontawesome-pro-solid.css">
+    <link rel="stylesheet" href="/assets/fontawesome-5.0.0-beta7-linux/css/fontawesome-pro-svg-framework.css">
+
     <!-- RangeSlider -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.7/css/ion.rangeSlider.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.7/css/ion.rangeSlider.skinNice.css">
@@ -18,7 +26,6 @@
 
     <!--TODO-->
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/simple-sidebar.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/lightbox/css/lightbox.min.css">
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/meska-theme.css?v=201705121128">
     <link rel="stylesheet" href="https://www.meska.hu/bootstrap/header-theme.css">
@@ -122,7 +129,7 @@
             </form>
         </div>
         <div class="burgernav">
-            <i class="fa fa-bars" aria-hidden="true"></i>
+            <i class="fa fa-bars"></i>
             <ul class="dropdown-menu">
                 <li>
                     <form id="search-form" class="navbar-search" role="search" action="https://www.meska.hu/find" method="get" accept-charset="utf-8">
@@ -196,7 +203,7 @@
     <div class="cat">
         <ul>
             <li class="dropdown-hover main-cat">
-                <a href="/Termekek/mind/legujabb/1?lsrc=tm"><i class="fa fa-bars" aria-hidden="true"></i>Kategóriák</a>
+                <a href="/Termekek/mind/legujabb/1?lsrc=tm"><i class="fa fa-bars"></i>Kategóriák</a>
                 <div class="dropdown-hover-menu" style="display: none;">
                     <div class="no-sub">
                         <a href="/Termekek/Kategoria:Allatfelszerelesek/legujabb/1?q=Y2F0X2lkPTMwNA==&amp;lsrc=tm" class="" style="margin-left: 0px">Állatfelszerelések</a><a href="/Termekek/Kategoria:Babamamagyerek/legujabb/1?q=Y2F0X2lkPTMwNQ==&amp;lsrc=tm" class="" style="margin-left: 0px">Baba-mama-gyerek</a><a href="/Termekek/Kategoria:Butor/legujabb/1?q=Y2F0X2lkPTMxMw==&amp;lsrc=tm" class="" style="margin-left: 0px">Bútor</a><a href="/Termekek/Kategoria:Dekoracio/legujabb/1?q=Y2F0X2lkPTMxNA==&amp;lsrc=tm" class="" style="margin-left: 0px">Dekoráció</a><a href="/Termekek/Kategoria:Ekszerora/legujabb/1?q=Y2F0X2lkPTMyNw==&amp;lsrc=tm" class="" style="margin-left: 0px">Ékszer, óra</a><a href="/Termekek/Kategoria:Eskuvo/legujabb/1?q=Y2F0X2lkPTMxNw==&amp;lsrc=tm" class="" style="margin-left: 0px">Esküvő</a><a href="/Termekek/Kategoria:Ferfiaknak/legujabb/1?q=Y2F0X2lkPTMzOQ==&amp;lsrc=tm" class="" style="margin-left: 0px">Férfiaknak</a><a href="/Termekek/Kategoria:GyerekJatek/legujabb/1?q=Y2F0X2lkPTc4NA==&amp;lsrc=tm" class="" style="margin-left: 0px">Gyerek &amp; Játék</a><a href="/Termekek/Kategoria:Jatek/legujabb/1?q=Y2F0X2lkPTM0MA==&amp;lsrc=tm" class="" style="margin-left: 0px">Játék</a><a href="/Termekek/Kategoria:Kepzomuveszet/legujabb/1?q=Y2F0X2lkPTM1Nw==&amp;lsrc=tm" class="" style="margin-left: 0px">Képzőművészet</a><a href="/Termekek/Kategoria:Konyhafelszereles/legujabb/1?q=Y2F0X2lkPTM5Mw==&amp;lsrc=tm" class="" style="margin-left: 0px">Konyhafelszerelés</a><a href="/Termekek/Kategoria:Magyarmotivumokkal/legujabb/1?q=Y2F0X2lkPTU3Mg==&amp;lsrc=tm" class="" style="margin-left: 0px">Magyar motívumokkal</a><a href="/Termekek/Kategoria:Mindenmas/legujabb/1?q=Y2F0X2lkPTQwMQ==&amp;lsrc=tm" class="" style="margin-left: 0px">Mindenmás</a><a href="/Termekek/Kategoria:Naptarkepeslapalbum/legujabb/1?q=Y2F0X2lkPTM1MQ==&amp;lsrc=tm" class="" style="margin-left: 0px">Naptár, képeslap, album</a><a href="/Termekek/Kategoria:OtthonLakas/legujabb/1?q=Y2F0X2lkPTc4NQ==&amp;lsrc=tm" class="" style="margin-left: 0px">Otthon &amp; Lakás</a><a href="/Termekek/Kategoria:Otthonlakberendezes/legujabb/1?q=Y2F0X2lkPTQwNg==&amp;lsrc=tm" class="" style="margin-left: 0px">Otthon, lakberendezés</a><a href="/Termekek/Kategoria:Ruhadivatcipo/legujabb/1?q=Y2F0X2lkPTQzMg==&amp;lsrc=tm" class="" style="margin-left: 0px">Ruha, divat, cipő</a><a href="/Termekek/Kategoria:Szepsegapolas/legujabb/1?q=Y2F0X2lkPTQ1NA==&amp;lsrc=tm" class="" style="margin-left: 0px">Szépségápolás</a><a href="/Termekek/Kategoria:Taska/legujabb/1?q=Y2F0X2lkPTQ2NA==&amp;lsrc=tm" class="" style="margin-left: 0px">Táska</a><a href="/Termekek/Kategoria:TaskaDivat/legujabb/1?q=Y2F0X2lkPTc4Mw==&amp;lsrc=tm" class="" style="margin-left: 0px">Táska &amp; Divat</a>				</div>

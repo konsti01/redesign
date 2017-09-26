@@ -328,13 +328,13 @@
                             <li>
                                 <a href="https://www.meska.hu/s/Mind/cc">
                                     <input type="checkbox" name="creditcard" value="creditcard">
-                                    <i class="fa fa-cc-mastercard" aria-hidden="true"></i>Bankkártya
+                                    <i class="fa fa-credit-card"></i>Bankkártya
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.meska.hu/s/Mind/gc">
                                     <input type="checkbox" name="giftcard" value="giftcard">
-                                    <i class="fa fa-credit-card-alt" aria-hidden="true"></i>Ajándékkártya
+                                    <i class="fa fa-credit-card-blank" aria-hidden="true"></i>Ajándékkártya
                                 </a>
                             </li>
                             <li>
@@ -391,13 +391,13 @@
                                 </li>
                                 <li>
                                     <a href="">
-                                        <i class="fa fa-sort-numeric-desc" aria-hidden="true"></i>
+                                        <i class="fa fa-arrow-to-bottom" aria-hidden="true"></i>
                                         Ár szerint csökkenő
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <i class="fa fa-sort-numeric-asc" aria-hidden="true"></i>
+                                        <i class="fa fa-arrow-to-top" aria-hidden="true"></i>
                                         Ár szerint növekvő
                                     </a>
                                 </li>
@@ -444,7 +444,7 @@
                 </div>
                 <div class="sort">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-sort-amount-desc" aria-hidden="true"></i>
+                        <i class="fa fa-sort-amount-down" aria-hidden="true"></i>
                         Rendezés <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu">
@@ -462,7 +462,7 @@
                         </li>
                         <li>
                             <a href="">
-                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                                <i class="fa fa-recycle" aria-hidden="true"></i>
                                 Legújabb
                             </a>
                         </li>
@@ -474,19 +474,19 @@
                         </li>
                         <li>
                             <a href="">
-                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-exclamation" aria-hidden="true"></i>
                                 Kiemelt
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <i class="fa fa-sort-numeric-desc" aria-hidden="true"></i>
+                                <i class="fa fa-sort-numeric-down" aria-hidden="true"></i>
                                 Ár szerint csökkenő
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <i class="fa fa-sort-numeric-asc" aria-hidden="true"></i>
+                                <i class="fa fa-sort-numeric-up" aria-hidden="true"></i>
                                 Ár szerint növekvő
                             </a>
                         </li>

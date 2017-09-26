@@ -472,12 +472,11 @@ ul{
     height: 100px;
     margin: auto;
 }
-.customers-say-row .quote-circle:before{
-    font-family: "FontAwesome";
-    content: '\f10d';
-    font-size: 50px;
+.customers-say-row .quote-circle i{
     position: relative;
-    top: 60px;
+    top: 70px;
+    left: 5px;
+    font-size: 50px;
 }
 
 #carouselExampleControls{

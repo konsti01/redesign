@@ -455,7 +455,9 @@
             <div class="customers-say-row">
                 <div class="headline">Meskáról mondták</div>
                 <div class="content">
-                    <div class="quote-circle"><span></span></div>
+                    <div class="quote-circle">
+                        <i class="fa fa-quote-right"></i>
+                    </div>
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item">
