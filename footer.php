@@ -22,68 +22,6 @@
 
 </div>
 <!-- /#wrapper -->
-<!--
-<div id="footer" class="paddingt15">
-    <div class="container-fluid">
-
-        <div class="row footer-links">
-            <div class="col-md-2 col-md-offset-1 col-sm-2 col-xs-4">
-                <h5 class="white-text">Nyiss boltot a Meskán</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/CMS?cp=1">Eladás</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Blog?p=dHlwZT1wcm9m">Szakmai blog</a>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/ModAcc/index/shop#shopopen">Boltot nyitok</a>
-                </ul>
-            </div>
-            <div class="col-md-2 col-sm-2 col-xs-4">
-                <h5>Fedezd fel és vásárolj</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Ajandekkartya">Meska Ajándékkártya</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Ajandek/mind/legujabb/1?pf=1&fm=1">Ajándékkereső</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/CMS?cp=2">Vásárlás</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Blog?p=dHlwZT1tZXNrYQ==">Blog</a>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/find?q=*">Keresés</a>
-                </ul>
-            </div>
-            <div class="col-md-2 col-sm-2 col-xs-4">
-                <h5 class="white-text">Kövesd a Meskát</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/meska.hu" rel="nofollow" target="_blank">Facebook</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://plus.google.com/+K%C3%A9zm%C5%B1vesMeskacsapat/posts" rel="nofollow" target="_blank">Google+</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.pinterest.com/meskahu/" rel="nofollow" target="_blank">Pinterest</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/user/MeskaVideo" rel="nofollow" target="_blank">YouTube</a></li>
-                </ul>
-            </div>
-            <div class="clearfix visible-xs"></div>
-            <div class="col-md-2 col-sm-3 col-xs-4">
-                <h5 class="white-text">Tudj meg többet</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Static/aff" rel="nofollow">Felhasználási feltételek</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Static/elallasifeltetelek" rel="nofollow">Elállási feltételek</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/help" rel="nofollow">Segítség</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/aboutus" rel="nofollow">Rólunk</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/contact" rel="nofollow">Írj nekünk!<br>Kapcsolat a Meskával</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2 col-sm-3 col-xs-4">
-                <h5 class="white-text">Aktuális</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Termekek/Kategoria:Ekszerora/legujabb/1?q=b3Blbl9jYXRzPTEmY2F0X2lkPTMyNyZvcmRlcm5hbWU9bGVndWphYmI=">Egyedi design ékszer</a>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Termekek/Kategoria:Taska/legujabb/1?q=b3Blbl9jYXRzPTEmY2F0X2lkPTQ2NCZvcmRlcm5hbWU9bGVndWphYmI=">Egyedi design táska</a>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Termekek/Kategoria:Jatek/legujabb/1?q=b3Blbl9jYXRzPTEmY2F0X2lkPTM0MCZvcmRlcm5hbWU9bGVndWphYmI=">Egyedi kézműves játék</a>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Termekek/Kategoria:Eskuvo/legujabb/1?q=b3Blbl9jYXRzPTEmY2F0X2lkPTMxNyZvcmRlcm5hbWU9bGVndWphYmI=">Vintage esküvő</a>
-                    <li><a class="grey-text text-lighten-3" href="https://www.meska.hu/Termekek/Kategoria:Szepsegapolas/legujabb/1?q=b3Blbl9jYXRzPTEmY2F0X2lkPTQ1NCZvcmRlcm5hbWU9bGVndWphYmI=">Kézműves kozmetikum</a>
-                </ul>
-            </div>
-        </div>
-        <div class="row copyright">
-            <div class="col-md-11 col-md-offset-1 col-sm-11">
-                © 2008-2017 Meska.hu Kft. - Minden jog fenntartva! | Adószám: 14260960-2-43 | Cégjegyzékszám: 01-09-896027
-            </div>
-        </div>
-    </div>
-</div>
--->
 
 <footer class="page-footer green light-green footer" style="white-space: nowrap;">
     <div class="container" style="width:90%">
@@ -190,9 +128,6 @@
         });
     });
 </script>
-
-<!-- Owl Carousel -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
 
 <!-- Select2 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.js"></script>

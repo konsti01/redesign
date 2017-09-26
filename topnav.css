@@ -164,6 +164,7 @@
     list-style-type: none;
     padding: 9px 15px 7px 15px;
     font-size: 14px;
+    color: #ccc !important;
 }
 .topnav .cat .main-cat:first-of-type{
     margin-left: -50px;
