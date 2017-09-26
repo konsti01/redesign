@@ -4,7 +4,7 @@ body{
 }
 
 a, a:hover, a:visited, a:active, a:focus {
-
+	color: #777777;
 	text-decoration: none;
 }
 
@@ -888,16 +888,16 @@ input:invalid {
     width:82.33333333%;
     margin-bottom: 10px;
 }
-.col-md-10 .btn{
+.col-md-12 .btn{
     color:#006633;
     border:1px solid #006633;
     font-size:13px;
     letter-spacing:0.75px;
 }
-.col-md-10 .btn:hover{
+.col-md-12 .btn:hover{
     color:#fff;
 }
-.col-md-10 .fa{
+.col-md-12 .fa{
     margin-right:20px;
 }
 

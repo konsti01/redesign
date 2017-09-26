@@ -71,7 +71,6 @@
 
     <meta name="p:domain_verify" content="558a6ae954e9b86e3d27c7c036f1e147"/>
 
-    <!-- <base href="https://www.meska.hu/" /> -->
 </head>
 <body>
 <script type="text/javascript">

@@ -1,9 +1,9 @@
-.searchbar {
+.search {
     position: relative;
     width:610px;
 }
 
-.searchbar input[type="search"] {
+.search input[type="search"] {
     border: 1px solid #ddd;
     border-radius: 30px;
     box-sizing: border-box;
@@ -15,17 +15,17 @@
     width: 100%;
 }
 
-[dir=rtl] .searchbar input[type="search"] {
+[dir=rtl] .search input[type="search"] {
     padding-right: 40px;
     padding-left: 20px;
 }
 
-.searchbar input[type="search"]:focus {
+.search input[type="search"]:focus {
     border: 1px solid #0072ef;
     color: #555;
 }
 
-.searchbar:before {
+.search:before {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -37,7 +37,7 @@
     left: 15px;
 }
 
-[dir=rtl] .searchbar:before {
+[dir=rtl] .search:before {
     right: 15px;
     left: auto;
 }
