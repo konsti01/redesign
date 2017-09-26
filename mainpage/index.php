@@ -285,13 +285,13 @@
                     </div>
                     <div class="benefits col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="benefits-box">
-                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <i class="fa fa-heart" aria-hidden="true"></i>
                         </div>
                         <span class="benefits-text">Kézműves</span>
                     </div>
                     <div class="benefits col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="benefits-box">
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
                         </div>
                         <span class="benefits-text">Egyedi</span>
                     </div>

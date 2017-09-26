@@ -137,7 +137,6 @@
 
 <!-- localJS-->
 <script src="/productlist/scroll-load.js"></script>
-<script src="/faq/index2_files/search.js"></script>
 <script src="/mainpage/mainpage.js"></script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
