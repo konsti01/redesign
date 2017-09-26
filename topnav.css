@@ -5,6 +5,9 @@
     z-index: 99999;
     width: 100%;
 }
+.topnav a{
+    color: #777;
+}
 .topnav .header{
     border-bottom: 1px solid #eee;
     height: 50px;
@@ -164,7 +167,10 @@
     list-style-type: none;
     padding: 9px 15px 7px 15px;
     font-size: 14px;
-    color: #ccc !important;
+    color: #777 !important;
+}
+.topnav .cat .main-cat a{
+    color: #777;
 }
 .topnav .cat .main-cat:first-of-type{
     margin-left: -50px;

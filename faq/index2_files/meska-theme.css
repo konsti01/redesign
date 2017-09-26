@@ -4,7 +4,6 @@ body{
 }
 
 a, a:hover, a:visited, a:active, a:focus {
-	color: #777777;
 	text-decoration: none;
 }
 
@@ -917,7 +916,11 @@ input:invalid {
 
 }
 #search-button:hover{
-    color: #33600;
+    color: #336600;
     background-color: rgb(139, 195, 74);
     border: 1px solid rgb(139, 195, 74);
+}
+
+.fa {
+    margin: 0 10px 0 0;
 }
