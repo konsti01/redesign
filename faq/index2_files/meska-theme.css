@@ -735,8 +735,8 @@ input:invalid {
 
 .searchbar {
     position: relative;
-    top:20px;
     width:610px;
+    margin: 50px auto;
 }
 @media only screen and (max-width:650px){
     .searchbar{
@@ -746,13 +746,12 @@ input:invalid {
         width:20px;
         position:relative;
         top:35px;
-        left:-125px;
         opacity:0.3;
     }
     #search-button{
         position: relative;
         top: -40px;
-        left: 110px !important;
+        left: 219px !important;
     }
 }
 
@@ -794,7 +793,7 @@ input:invalid {
     width:20px;
     position:relative;
     top:35px;
-    right:280px;
+    right:-10px;
     opacity:0.3;
 }
 
@@ -805,6 +804,10 @@ input:invalid {
 
 .search-full input[type="search"] {
     border: 1px solid #fff;
+}
+
+#app .col-xs-12{
+    width: 100% !important;
 }
 
 /*CONTAINER*/
@@ -873,7 +876,14 @@ input:invalid {
     padding: 15px;
     margin:0;
     border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
     border-radius: 0;
+}
+.alert button{
+    opacity: 1;
+}
+.alert .fa{
+    color: #84b848;
 }
 .close{
     float:left;
@@ -905,22 +915,31 @@ input:invalid {
 }
 
 #search-button{
-    border: 1px solid rgb(139, 195, 74);
-    color: #336600;
+    border: 0;
+    color: #fff;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: rgb(139, 195, 74);
     height: 30px;
     position:relative;
     top: -40px;
-    left: 260px;
+    left: 525px;
+
+    cursor: pointer;
 
 }
 #search-button:hover{
-    color: #336600;
-    background-color: rgb(139, 195, 74);
-    border: 1px solid rgb(139, 195, 74);
+    color: #fff;
+    background-color: #336600;
+    border: 0;
 }
 
 .fa {
     margin: 0 10px 0 0;
+}
+.fa:focus{
+    outline: none;
+}
+
+button:focus{
+    outline: none;
 }

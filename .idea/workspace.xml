@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes" afterPath="$PROJECT_DIR$/notes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landingpage/css/style.css" afterPath="$PROJECT_DIR$/landingpage/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq/index.html" afterPath="$PROJECT_DIR$/faq/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq/index2_files/meska-theme.css" afterPath="$PROJECT_DIR$/faq/index2_files/meska-theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redesign.iws" />
@@ -36,22 +36,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/landingpage/index.html">
+        <entry file="file://$PROJECT_DIR$/faq/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1403508" vertical-offset="1423" max-vertical-offset="14454">
-              <caret line="89" column="87" selection-start-line="89" selection-start-column="87" selection-end-line="89" selection-end-column="87" />
+            <state vertical-scroll-proportion="-10.407408" vertical-offset="2005" max-vertical-offset="13770">
+              <caret line="506" column="39" selection-start-line="506" selection-start-column="39" selection-end-line="506" selection-end-column="39" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/landingpage/css/style.css">
+      <file leaf-file-name="meska-theme.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/faq/index2_files/meska-theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76683086" vertical-offset="15751" max-vertical-offset="19710">
-              <caret line="901" column="20" selection-start-line="901" selection-start-column="20" selection-end-line="901" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.93782383" vertical-offset="16431" max-vertical-offset="17100">
+              <caret line="943" column="18" selection-start-line="943" selection-start-column="18" selection-end-line="943" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -65,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/landingpage/images/baba-mama-gyerek.svg" />
         <option value="$PROJECT_DIR$/landingpage/images/arrow-next.svg" />
         <option value="$PROJECT_DIR$/landingpage/images/arrow-prev.svg" />
         <option value="$PROJECT_DIR$/productlist/ajaxtest.php" />
@@ -101,7 +106,6 @@
         <option value="$PROJECT_DIR$/faq_b/responsive.css" />
         <option value="$PROJECT_DIR$/faq_b/index.html" />
         <option value="$PROJECT_DIR$/faq/index2_files/style.css" />
-        <option value="$PROJECT_DIR$/faq/index2_files/meska-theme.css" />
         <option value="$PROJECT_DIR$/topnav.css" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/mainpage/style.css" />
@@ -109,13 +113,15 @@
         <option value="$PROJECT_DIR$/resp_email.html" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/mainpage/index.php" />
-        <option value="$PROJECT_DIR$/faq/index.html" />
         <option value="$PROJECT_DIR$/productlist/style.css" />
         <option value="$PROJECT_DIR$/productlist/index.php" />
         <option value="$PROJECT_DIR$/notes" />
         <option value="$PROJECT_DIR$/landingpage/js/main.js" />
         <option value="$PROJECT_DIR$/landingpage/index.html" />
         <option value="$PROJECT_DIR$/landingpage/css/style.css" />
+        <option value="$PROJECT_DIR$/faq/index2_files/responsive.css" />
+        <option value="$PROJECT_DIR$/faq/index.html" />
+        <option value="$PROJECT_DIR$/faq/index2_files/meska-theme.css" />
       </list>
     </option>
   </component>
@@ -167,38 +173,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="landingpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="landingpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,10 +242,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1360" height="738" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29908675" sideWeight="0.88087773" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29908675" sideWeight="0.88087773" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -445,31 +419,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landingpage/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9408867" vertical-offset="57" max-vertical-offset="756">
-          <caret line="835" column="0" selection-start-line="835" selection-start-column="0" selection-end-line="835" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainpage/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.60402685" vertical-offset="0" max-vertical-offset="864">
           <caret line="378" column="0" selection-start-line="378" selection-start-column="0" selection-end-line="378" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/index2_files/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8817734" vertical-offset="291" max-vertical-offset="936">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/index2_files/meska-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9408867" vertical-offset="16077" max-vertical-offset="16758">
-          <caret line="925" column="1" selection-start-line="925" selection-start-column="1" selection-end-line="925" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -529,13 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faq/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4112478" vertical-offset="1944" max-vertical-offset="14562">
-          <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/productlist/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2394">
@@ -579,16 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landingpage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1403508" vertical-offset="1423" max-vertical-offset="14454">
-          <caret line="89" column="87" selection-start-line="89" selection-start-column="87" selection-end-line="89" selection-end-column="87" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/topnav.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.1182266" vertical-offset="216" max-vertical-offset="6480">
@@ -601,6 +537,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.76683086" vertical-offset="15751" max-vertical-offset="19710">
           <caret line="901" column="20" selection-start-line="901" selection-start-column="20" selection-end-line="901" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landingpage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3320965" vertical-offset="1423" max-vertical-offset="14454">
+          <caret line="89" column="87" selection-start-line="89" selection-start-column="87" selection-end-line="89" selection-end-column="87" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/index2_files/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3596059" vertical-offset="0" max-vertical-offset="936">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landingpage/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.054187194" vertical-offset="14457" max-vertical-offset="15156">
+          <caret line="805" column="0" selection-start-line="805" selection-start-column="0" selection-end-line="805" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.407408" vertical-offset="2005" max-vertical-offset="13770">
+          <caret line="506" column="39" selection-start-line="506" selection-start-column="39" selection-end-line="506" selection-end-column="39" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/index2_files/meska-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93782383" vertical-offset="16431" max-vertical-offset="17100">
+          <caret line="943" column="18" selection-start-line="943" selection-start-column="18" selection-end-line="943" selection-end-column="18" />
           <folding />
         </state>
       </provider>
