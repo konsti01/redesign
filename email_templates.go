@@ -1,0 +1,344 @@
+package main
+
+var BasketNotificationEmailTemplate = `
+<!DOCTYPE html>
+<html style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #555555; font-size: 1vw;">
+<head>
+    <title>Kosárban felejtett termékek</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #555555; font-size: 1em; margin-top: 0.5%;">
+<div class="wrapper" style="background-color: #ffffff; border: 1px solid #dddddd; border-radius: 0.5vw; width: 99%; margin: 0 auto 0 auto;">
+    <img src="http://www.meska.hu/images/meska_logo1.png" class="logo" style="width: 20%; margin: 2% auto 0 auto; display: block;"><div class="breaker thick green" style="width: 100%; height: 0px; border-color: #006600; border-style: solid; border-top-width: 1px; border-left: none; border-right: none; border-bottom: none; margin: 2% 0 2% 0; border-width: 0.3vw;"> </div>
+    <div class="container" style="margin: 0 2% 0 2%;">
+        <h1 style="font-weight: normal; font-size: 3.5em; color: #555555;">{{.Name}}, ezek a kosaradban maradtak</h1>
+        <p class="big" style="text-align: justify; color: #555555; line-height: 1.5em; font-size: 1.1em;">
+            Legutóbbi látogatásod során ({{.BasketStoredAtAsString}}) a Meskán az alábbi termékek maradtak a kosaradban (ne feledkezz meg róluk, nagyon hiányolnak Téged)
+        </p>
+        <table style="width: 100%; border-spacing: 0; border-collapse: collapse; color: #555555;">
+            <tr>
+                <td class="picto-container" style="width: 13%; vertical-align: top; text-align: center;">
+                    <img src="http://www.meska.hu/images/email/meska-email-cart-icon.png" class="picto" style="width: 70%;">
+                </td>
+                <td>
+                    <table class="product-table" style="width: 100%; border-spacing: 0; border-collapse: collapse; color: #555555;">
+                        <tr>
+                            <th class="name" style="border: 1px solid #dddddd; background-color: #eeeeee; text-align: left; padding: 1.5%; font-size: 1em; font-weight: normal; width: 40%;">Kosár tartalma</th>
+                            <th class="unit-price" style="border: 1px solid #dddddd; background-color: #eeeeee; text-align: left; padding: 1.5%; font-size: 1em; font-weight: normal; width: 15%;">Egységár</th>
+                            <th class="quantity" style="border: 1px solid #dddddd; background-color: #eeeeee; text-align: left; padding: 1.5%; font-size: 1em; font-weight: normal; width: 9%;">Mennyiség</th>
+                            <th class="sum" style="border: 1px solid #dddddd; background-color: #eeeeee; text-align: left; padding: 1.5%; font-size: 1em; font-weight: normal; width: 15%;">Összesen</th>
+                        </tr>
+                        {{range .Products}}
+                        <tr>
+                            <td class="name" style="border: 1px solid #dddddd; margin: 0; padding: 1.5%; font-size: 1.2em;">
+                                {{.product_name}}<br><span style="font-size: 0.8em; color: #777777;">Alkotó: {{.shop_name}}</span>
+                            </td>
+                            <td class="unit-price" style="border: 1px solid #dddddd; margin: 0; padding: 1.5%; font-size: 1.2em;">
+                                {{.price}}.- Ft
+                            </td>
+                            <td class="quantity" style="border: 1px solid #dddddd; margin: 0; padding: 1.5%; font-size: 1.2em;">
+                                <table style="width: 100%; border-spacing: 0; border-collapse: separate; color: #555555;">
+                                    <tr>
+                                        <td class="qty" style="border: 1px solid #dddddd; margin: 0; padding: 10%; font-size: 0.8em; text-align: center; color: #999999; width: 33.33%; border-radius: 10% 10% 10% 10%;">{{.db}}</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class="sum" style="border: 1px solid #dddddd; margin: 0; padding: 1.5%; font-size: 1.2em; font-weight: bold; color: #006600;">
+                                {{.price}}.- Ft
+                            </td>
+                        </tr>
+                        {{end}}
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <center>
+            <a href="http://www.meska.hu/Basket" class="btn" style="text-decoration: none; cursor: pointer; color: #ffffff !important; display: block; padding: 1%; margin: 1% 0 1% auto; width: 20%; background-color: #88B04B; border-radius: 0.3vw; text-align: center; font-size: 1.2em;">Vásárlás&nbsp;folytatása&nbsp;»</a>
+        </center>
+    </div>
+
+    <div class="breaker" style="width: 100%; height: 0px; border-color: #dddddd; border-style: solid; border-top-width: 1px; border-left: none; border-right: none; border-bottom: none; margin: 2% 0 2% 0;"> </div>
+
+    <div class="container" style="margin: 0 2% 0 2%;">
+        <table style="width: 100%; border-spacing: 0; border-collapse: collapse; color: #555555;">
+            <tr>
+                <td class="picto-container" style="width: 13%; vertical-align: top; text-align: center;">
+                    <img src="http://www.meska.hu/images/email/meska-email-lock-icon.png" class="picto" style="width: 70%;">
+                </td>
+                <td>
+                    <h2 class="no-top-margin" style="font-weight: normal; font-size: 2em; color: #555555; margin-top: 0; margin-bottom:0;">Biztonságos tranzakciók</h2>
+                    <p style="text-align: justify; color: #555555; margin-top:0.1em;">A Meska.hu oldalait biztonságos (SSL / https) kapcsolaton keresztül böngészed » erre utal a böngésző címsorában megjelenő kis zöld lakat is. Vásárlási adataidat 3. fél nem láthatja, nálunk biztonságban vagy!</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="breaker" style="width: 100%; height: 0px; border-color: #dddddd; border-style: solid; border-top-width: 1px; border-left: none; border-right: none; border-bottom: none; margin: 2% 0 2% 0;"> </div>
+
+    <div class="container" style="margin: 0 2% 0 2%;">
+        <table style="width: 100%; border-spacing: 0; border-collapse: collapse; color: #555555;">
+            <tr>
+                <td class="picto-container" style="width: 13%; vertical-align: top; text-align: center;">
+                    <img src="http://www.meska.hu/images/email/meska-email-shield-icon.png" class="picto" style="width: 70%;">
+                </td>
+                <td>
+                    <h2 class="no-top-margin" style="font-weight: normal; font-size: 2em; color: #555555; margin-top: 0;  margin-bottom:0;">Meska garancia</h2>
+                    <p style="text-align: justify; color: #555555; margin-top:0.1em;">Amennyiben bankkártyával egyenlíted ki vásárlásod ellenértékét, az átutalt összeg a postázás után 8 nappal kerül az eladó számlájára, így addig jelezheted nekünk, ha a termék valamilyen okból nem felel meg a leírtaknak; a pénzed és a vásárlásod ez időszak alatt extra biztonságban van, garantáljuk. </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="breaker" style="width: 100%; height: 0px; border-color: #dddddd; border-style: solid; border-top-width: 1px; border-left: none; border-right: none; border-bottom: none; margin: 2% 0 2% 0;"> </div>
+
+    <div class="container" style="margin: 0 2% 0 2%;">
+        <table style="width: 100%; border-spacing: 0; border-collapse: collapse; color: #555555;">
+            <tr>
+                <td class="picto-container" style="width: 13%; vertical-align: top; text-align: center;">
+                    <img src="http://www.meska.hu/images/email/meska-email-oneclick-icon.png" class="picto" style="width: 70%;">
+                </td>
+                <td>
+                    <h2 class="no-top-margin" style="font-weight: normal; font-size: 2em; color: #555555; margin-top: 0;  margin-bottom:0;">Belépés egy kattintással</h2>
+                    <p style="text-align: justify; color: #555555; margin-top:0.1em;">
+                        Amennyiben összekötöd Facebook fiókodat Meska fiókoddal (Fiókom / Alapadatok / Adatmódosítás » <a href="https://www.meska.hu/ModAcc">https://www.meska.hu/ModAcc</a>) egyetlen kattintással be tudsz lépni Meska fiókodba. Ennek számos előnye van:
+                    <ul>
+                        <li>Belépésnél nem kell beírni az e-mail címet és a jelszót</li>
+                        <li>Elég a Facebook jelszavadat megjegyezni (sőt, ha be vagy lépve, akkor ez sem kell és tényleg csak egy kattintás)</li>
+                        <li>Különböző mobileszközön is egyszerűbb a belépés, hiszen nem kell hosszú karaktersorokat bepötyögni a telefonodon, tableteden.</li>
+                    </ul>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="breaker" style="width: 100%; height: 0px; border-color: #dddddd; border-style: solid; border-top-width: 1px; border-left: none; border-right: none; border-bottom: none; margin: 2% 0 2% 0;"> </div>
+
+    <div class="container" style="margin: 0 2% 0 2%;">
+        <table style="width: 100%; border-spacing: 0; border-collapse: collapse; color: #555555;">
+            <tr>
+                <td class="picto-container" style="width: 13%; vertical-align: top; text-align: center;">
+                    <img src="http://www.meska.hu/images/email/meska-email-card-icon.png" class="picto" style="width: 70%;">
+                </td>
+                <td>
+                    <h2 class="no-top-margin" style="font-weight: normal; font-size: 2em; color: #555555; margin-top: 0;  margin-bottom:0;">Fizetés gyorsan, kényelmesen, bankkártyával</h2>
+                    <p style="text-align: justify; color: #555555; margin-top:0.1em;">
+                        Egyre több eladó boltjában lehet bankkártyával fizetni a Meskán is! Nem kell a termék átvételekor a pénzzel foglalkozni, plusz bankkártyás fizetés esetén a Meska garanciát vállal arra, hogy nem lesz probléma a vásárlással (részleteket lásd a következő pontban).
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="breaker" style="width: 100%; height: 0px; border-color: #dddddd; border-style: solid; border-top-width: 1px; border-left: none; border-right: none; border-bottom: none; margin: 2% 0 2% 0;"> </div>
+
+    <p class="huge center" style="text-align: center; color: #555555; margin-top:0.1em;">
+        Reméljük, hogy minél hamarabb viszont látunk az oldalunkon!
+    </p>
+
+    <div>
+        <a href="http://www.meska.hu/Basket" class="btn" style="text-decoration: none;cursor: pointer;color: #ffffff !important;display: block;padding: 1.5%;margin: 1% auto 1% auto;width: 30%;background-color: #88B04B;border-radius: 0.3vw;text-align: center;font-size: 2em;">Vásárlás&nbsp;folytatása&nbsp;»</a>    </div>
+    <img src="http://www.meska.hu/images/meska_logo1.png" class="logo" style="width: 20%; margin: 2% auto 0 auto; display: block;">
+    <p class="center" style="text-align: center; color: #555555; line-height: 1.5em; font-size: 1.3em;">
+        <img src="http://www.meska.hu/images/email/meska-email-social-facebook-icon.png" class="picto mini" style="width: 4%; margin: 1%;"><img src="http://www.meska.hu/images/email/meska-email-social-twitter-icon.png" class="picto mini" style="width: 4%; margin: 1%;"><img src="http://www.meska.hu/images/email/meska-email-social-instagram-icon.png" class="picto mini" style="width: 4%; margin: 1%;"><img src="http://www.meska.hu/images/email/meska-email-social-youtube-icon.png" class="picto mini" style="width: 4%; margin: 1%;"><img src="http://www.meska.hu/images/email/meska-email-social-google-icon.png" class="picto mini" style="width: 4%; margin: 1%;"><img src="http://www.meska.hu/images/email/meska-email-social-pinterest-icon.png" class="picto mini" style="width: 4%; margin: 1%;">
+    </p>
+</div>
+
+<div class="container links" style="margin: 0 2% 0 2%; font-size: 1em; margin-top: 2%;">
+    <a href="http://www.meska.hu/help" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">FAQ</a>
+    <a href="http://www.meska.hu/Static/adatkezeles" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">Adatvédelmi szabályzat</a>
+    <a href="http://www.meska.hu/Static/aff" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">Általános Felhasználási Feltételek</a>
+    <a href="http://www.meska.hu/contact" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">Kapcsoalt</a>
+</div>
+
+<div class="grey-bg" style="background-color: #eeeeee;">
+    <div class="breaker" style="width: 100%; height: 0px; border-color: #dddddd; border-style: solid; border-top-width: 1px; border-left: none; border-right: none; border-bottom: none; margin: 2% 0 2% 0;"> </div>
+
+    <div class="container footer" style="margin: 0 2% 0 2%; color: #888888; font-size: 0.75em; line-height: 1.5em;">
+        <p style="text-align: center; color: #555555; line-height: 1.5em; font-size: 1.3em;">
+            Ezt az e-mailt az {{.Email}} címre küldtük ki, mert a vásárlási folyamat félbeszakadt és erre figyelmeztetni szerettünk volna.
+        </p>
+        <p style="text-align: center; color: #555555; line-height: 1.5em; font-size: 1.3em;">
+            2008-201y &copy Meska.hu Kft - Minden jog fenntartva.
+        </p>
+    </div>
+    <br><br>
+</div>
+
+<!-- Responsive Style -->
+<style scoped>
+    .btn:hover{
+        background-color: #006633 !important;
+    }
+    @media (max-width: 424px){
+        .wrapper{
+            width: 100%;
+        }
+        .wrapper .container{
+            font-size: 12px !important;
+        }
+        .wrapper .container h1{
+            font-size: 24px !important;
+        }
+        .wrapper .container .picto-container img{
+            width: 50px !important;
+        }
+        .wrapper .container .product-table .name, .unit-price, .quantity, .sum{
+            font-size: 10px !important;
+        }
+        .wrapper .container .product-table .name{
+            width: 40% !important;
+        }
+        .wrapper .btn{
+            width: 130px !important;
+            font-size: 12px !important;
+            padding: 5px !important;
+            border-radius: 5px !important;
+        }
+        .wrapper .logo{
+            width: 200px !important;
+        }
+        .wrapper .center{
+            font-size: 12px;
+        }
+        .wrapper .center img{
+            width: 40px !important;
+        }
+        .links a{
+            font-size: 12px !important;
+            width: 100% !important;
+        }
+        .grey-bg .footer p{
+            font-size: 12px !important;
+        }
+    } /*XXS*/
+    @media (min-width: 425px) and (max-width: 767px){
+        .wrapper{
+            width: 100%;
+        }
+        .wrapper .container{
+            font-size: 14px !important;
+        }
+        .wrapper .container h1{
+            font-size: 32px !important;
+        }
+        .wrapper .container .picto-container img{
+            width: 50px !important;
+        }
+        .wrapper .container .product-table .name, .unit-price, .quantity, .sum{
+            font-size: 10px !important;
+        }
+        .wrapper .container .product-table .name{
+            width: 40% !important;
+        }
+        .wrapper .btn{
+            width: 140px !important;
+            font-size: 14px !important;
+            padding: 1% !important;
+            border-radius: 5px !important;
+        }
+        .wrapper .logo{
+            width: 250px !important;
+        }
+        .wrapper .center{
+            font-size: 14px;
+        }
+        .wrapper .center img{
+            width: 50px !important;
+        }
+        .links a{
+            font-size: 14px !important;
+            width: 100% !important;
+        }
+        .grey-bg .footer p{
+            font-size: 14px !important;
+        }
+    } /*XS*/
+    @media (min-width: 768px) and (max-width: 1100px){
+        .wrapper{
+            width: 100%;
+        }
+        .wrapper .container{
+            font-size: 16px !important;
+        }
+        .wrapper .container h1{
+            font-size: 48px !important;
+        }
+        .wrapper .container .picto-container img{
+            width: 80px !important;
+        }
+        .wrapper .container .product-table .name, .unit-price, .quantity, .sum{
+            font-size: 12px !important;
+        }
+        .wrapper .container .product-table .name{
+            width: 40% !important;
+        }
+        .wrapper .btn{
+            width: 160px !important;
+            font-size: 16px !important;
+            padding: 1% !important;
+            border-radius: 5px !important;
+        }
+        .wrapper .logo{
+            width: 300px !important;
+        }
+        .wrapper .center{
+            font-size: 16px;
+        }
+        .wrapper .center img{
+            width: 60px !important;
+        }
+        .links a{
+            font-size: 16px !important;
+            width: 100% !important;
+        }
+        .grey-bg .footer p{
+            font-size: 16px !important;
+        }
+    } /*SM*/
+    @media (min-width: 1101px) and (max-width: 1300px){
+        .wrapper{
+            width: 100%;
+        }
+        .wrapper .container{
+            font-size: 16px !important;
+        }
+        .wrapper .container .picto-container img{
+            width: 80% !important;
+        }
+        .wrapper .container .product-table .name, .unit-price, .quantity, .sum{
+            font-size: 14px !important;
+        }
+        .wrapper .container .product-table .name{
+            width: 40% !important;
+        }
+        .wrapper .btn{
+            width: 160px !important;
+            font-size: 16px !important;
+            padding: 1% !important;
+            border-radius: 5px !important;
+        }
+        .wrapper .logo{
+            width: 300px !important;
+        }
+        .wrapper .center{
+            font-size: 16px;
+        }
+        .wrapper .center img{
+            width: 60px !important;
+        }
+        .links a{
+            font-size: 16px !important;
+            width: 100% !important;
+        }
+        .grey-bg .footer p{
+            font-size: 16px !important;
+        }
+    } /*MD*/
+</style>
+
+</body>
+</html>
+`
