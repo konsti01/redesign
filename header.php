@@ -77,7 +77,6 @@
     <!-- End Google Tag Manager -->
 
     <meta name="p:domain_verify" content="558a6ae954e9b86e3d27c7c036f1e147"/>
-
 </head>
 <body>
 <script type="text/javascript">
@@ -104,10 +103,12 @@
     }(document, 'script', 'facebook-jssdk'));</script>
 <!-- Social things end -->
 
-
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PX4R3B"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PX4R3B"
+            height="0" width="0" style="display:none; visibility:hidden">
+    </iframe>
+</noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <div class="topnav">
@@ -420,11 +421,8 @@
     </div>
 </div>
 
-
 <div id="wrapper" class="disabled">
-
     <!-- Page Content -->
     <div id="page-content-wrapper">
-
         <div class="container-fluid">
 
