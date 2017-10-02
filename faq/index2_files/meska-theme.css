@@ -943,3 +943,7 @@ input:invalid {
 button:focus{
     outline: none;
 }
+
+.btn-secondary.focus, .btn-secondary:focus {
+    box-shadow: 0 0 0 0;
+}

@@ -3,22 +3,6 @@
 <div class="clearfix"></div>
 </div>
 <!-- /#page-content-wrapper -->
-
-<!-- Sidebar -->
-<div id="sidebar-wrapper">
-    <ul class="sidebar-nav sticky">
-        <li>
-            <a id="menu-toggle" class="cursor-pointer"><i class="fa fa-bars big" aria-hidden="true"></i></a>
-        </li>
-        <li>
-            <a href="#">
-                <i class="fa fa-shopping-bag big" aria-hidden="true"></i>
-                <span class="hidden-on-toggle">Táska</span>
-            </a>
-        </li>
-    </ul>
-</div>
-<!-- /#sidebar-wrapper -->
 </div>
 <!-- /#wrapper -->
 
