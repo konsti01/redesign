@@ -96,10 +96,12 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.appear.js"></script>
-    <script src="js/jquery.timer.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/landingpage/js/jquery.appear.js"></script>
+    <script src="/landingpage/js/jquery.timer.js"></script>
+    <script src="/landingpage/js/jquery.sticky.js"></script>
+    <script src="/landingpage/js/main.js"></script>
+    <script src="/landingpage/js/number-divider.js"></script>
+    <script src="/productlist/scroll-load.js"></script>
 
     <!-- DynamicBG -->
     <script src="js/device.min.js"></script> <!--OPTIONAL JQUERY PLUGIN-->
@@ -133,10 +135,6 @@
 
 <!-- Mustache -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
-
-<!-- localJS-->
-<script src="/productlist/scroll-load.js"></script>
-<script src="/mainpage/mainpage.js"></script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->

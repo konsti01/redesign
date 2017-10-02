@@ -235,32 +235,31 @@
                 <div class="headline">Meska számokban</div>
                 <div class="content">
                     <div class="number-wrapper">
-                        <ul>
-                            <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6 padding0 margin0 column fadeInUp my-animation">
-                                <div class="number-container">
-                                    <div class="number" data-count="8">0</div>
+                        <ul class="row">
+                            <li class="col  fadeInUp my-animation">
+                                <div class="number-container" data-perc="8">
+                                    <div class="number">8</div>
                                     <h6 class="number-details">Éve</h6>
                                 </div>
                             </li>
-                            <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6 padding0 margin0 column fadeInUp my-animation">
-                                <div class="number-container">
-                                    <div class="number" data-count="3254">0</div>
+                            <li class="col  fadeInUp my-animation">
+                                <div class="number-container" data-perc="3254">
+                                    <div class="number">3254</div>
                                     <h6 class="number-details">Alkotó</h6>
                                 </div>
                             </li>
-                            <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6 padding0 margin0 column fadeInUp my-animation">
-                                <div class="number-container">
-                                    <div class="number" data-count="110226">0</div>
+                            <li class="col fadeInUp my-animation">
+                                <div class="number-container" data-perc="110226">
+                                    <div class="number">110226</div>
                                     <h6 class="number-details">Kézműves termék</h6>
                                 </div>
                             </li>
-                            <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6 padding0 margin0 column fadeInUp my-animation">
-                                <div class="number-container">
-                                    <div class="number" data-count="224578">0</div>
+                            <li class="col fadeInUp my-animation">
+                                <div class="number-container" data-perc="224578">
+                                    <div class="number">224578</div>
                                     <h6 class="number-details">Felhasználó</h6>
                                 </div>
                             </li>
-                            <div class="clear"></div>
                         </ul>
                     </div>
                     <div class="clear"></div>
@@ -767,3 +766,10 @@
 </div>
 
 <?php include_once('../footer.php'); ?>
+
+<!-- LocalJS -->
+<script src="/landingpage/js/jquery.appear.js"></script>
+<script src="/landingpage/js/jquery.timer.js"></script>
+<script src="/landingpage/js/jquery.sticky.js"></script>
+<script src="/landingpage/js/main.js"></script>
+<script src="/landingpage/js/number-divider.js"></script>
