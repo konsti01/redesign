@@ -765,8 +765,13 @@
 <?php include_once('../footer.php'); ?>
 
 <!-- LocalJS -->
+
+<!-- numbers -->
 <script src="/landingpage/js/jquery.appear.js"></script>
 <script src="/landingpage/js/jquery.timer.js"></script>
 <script src="/landingpage/js/jquery.sticky.js"></script>
 <script src="/landingpage/js/script.js"></script>
 <script src="/landingpage/js/number-divider.js"></script>
+
+<!-- scrolltotop -->
+<script src="/productlist/script.js"></script>

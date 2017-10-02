@@ -116,11 +116,11 @@
         <div class="left">
             <div class="logo"><a href="https://www.meska.hu/"><img src="/assets/img/logo.svg"></a></div>
             <div class="dropdown">
-                <img src="/assets/img/arrow_drop_down_grey_192x192.png">
-                <ul class="dropdown-menu">
-                    <li><a href="https://www.meska.hu/ChangeDomain/alkotokboltja">Alkotók boltja</a></li>
-                    <li><a href="https://www.meska.hu/ChangeDomain/izporta">Ízporta</a></li>
-                </ul>
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="https://www.meska.hu/ChangeDomain/alkotokboltja">Alkotók boltja</a>
+                        <a class="dropdown-item" href="https://www.meska.hu/ChangeDomain/izporta">Ízporta</a>
+                    </div>
             </div>
             <form id="search-form" class="navbar-search" role="search" action="https://www.meska.hu/find" method="get" accept-charset="utf-8">
                 <div class="search">
@@ -129,48 +129,44 @@
                 </div>
             </form>
         </div>
-        <div class="burgernav">
-            <i class="fa fa-bars"></i>
-            <ul class="dropdown-menu">
-                <li>
-                    <form id="search-form" class="navbar-search" role="search" action="https://www.meska.hu/find" method="get" accept-charset="utf-8">
-                        <div class="search">
-                            <input class="input-txt" name="q" type="text" placeholder="Keresés..." value="" autocomplete="off">
-                            <button type="submit" class="input-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+        <div class="dropdown burger">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="subdrop-menu" aria-labelledby="dropdownMenuButton">
+                    <li class="dropdown-item">
+                        <div class="kosar">
+                            <a href="https://www.meska.hu/Basket">
+                                <span class="visible-xs-inline-block">Kosár</span>&nbsp;<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                &nbsp;<span style="position: relative; top: -2px; background-color: #f0ad4e;" class="badge">1</span> <span style="position: relative; top: -2px; font-size: 12px; font-weight: bold;">db termék</span>
+                            </a>
                         </div>
-                    </form>
-                </li>
-                <li>
-                    <div class="dropdown">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        <span style="font-size: 15.5px;">Fiókom: milanteszt&nbsp;</span>
-                        <img style="width: 20px;" src="/assets/img/arrow_drop_down_grey_192x192.png">
-                        <span style="position: relative; top: -2px; background-color: #f0ad4e; " class="badge">100 </span>
-                        <ul class="dropdown-menu-b">
-                            <li><a href="https://www.meska.hu/Naplom/index/osszes">Fiókom menüpont</a></li>
-                            <div class="dropdown-divider"></div>
-                            <li><a href="https://www.meska.hu/Conversations/messageList"><i class="fa fa-envelope"></i> Üzenetek <span class="badge" style="background-color: #f0ad4e; ">100 </span></a></li>
-                            <li><a href="https://www.meska.hu/Favourite/products/1780">Kedvenceim</a></li>
-                            <li><a href="https://www.meska.hu/Purchases">Vásárolt termékeim</a></li>
-                            <li><a href="https://www.meska.hu/Feedback/all">Értékelések</a></li>
-                            <li><a href="https://www.meska.hu/ProductUpload">Új termék felvitele</a></li>
-                            <li><a href="https://www.meska.hu/MyProd">Saját termékeim</a></li>
-                            <li><a href="https://www.meska.hu/Naplom/index/osszes">Naplóm</a></li>
-                            <li><a href="https://www.meska.hu/Sold">Eladott termékeim</a></li>
-                            <div class="dropdown-divider"></div>
-                            <li><a href="https://www.meska.hu/meska/logoutIndex">Kijelentkezés&nbsp;<i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <div class="kosar">
-                        <a href="https://www.meska.hu/Basket">
-                            <span class="visible-xs-inline-block">Kosár</span>&nbsp;<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                            &nbsp;<span style="position: relative; top: -2px; background-color: #f0ad4e;" class="badge">1</span> <span style="position: relative; top: -2px; font-size: 12px; font-weight: bold;">db termék</span>
-                        </a>
-                    </div>
-                </li>
-            </ul>
+                    </li>
+                    <div class="dropdown-divider"></div>
+                    <li class="dropdown-item">
+                        <form id="search-form" class="navbar-search" role="search" action="https://www.meska.hu/find" method="get" accept-charset="utf-8">
+                            <div class="search">
+                                <input class="input-txt" name="q" type="text" placeholder="Keresés..." value="" autocomplete="off">
+                                <button type="submit" class="input-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </div>
+                        </form>
+                    </li>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://www.meska.hu/Naplom/index/osszes">Fiókom menüpont</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://www.meska.hu/Conversations/messageList"><i class="fa fa-envelope"></i> Üzenetek <span class="badge" style="background-color: #f0ad4e; ">100 </span></a>
+                    <a class="dropdown-item" href="https://www.meska.hu/Favourite/products/1780">Kedvenceim</a>
+                    <a class="dropdown-item" href="https://www.meska.hu/Purchases">Vásárolt termékeim</a>
+                    <a class="dropdown-item" href="https://www.meska.hu/Feedback/all">Értékelések</a>
+                    <a class="dropdown-item" href="https://www.meska.hu/ProductUpload">Új termék felvitele</a>
+                    <a class="dropdown-item" href="https://www.meska.hu/MyProd">Saját termékeim</a>
+                    <a class="dropdown-item" href="https://www.meska.hu/Naplom/index/osszes">Naplóm</a>
+                    <a class="dropdown-item" href="https://www.meska.hu/Sold">Eladott termékeim</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://www.meska.hu/meska/logoutIndex">Kijelentkezés&nbsp;<i class="fa fa-sign-out" aria-hidden="true"></i></a>
+                </div>
+            </div>
         </div>
         <div class="right">
             <div class="kosar">
@@ -180,24 +176,25 @@
                 </a>
             </div>
             <div class="dropdown">
-                <i class="fa fa-user" aria-hidden="true"></i>
-                <span style="font-size: 15.5px;">Fiókom: milanteszt&nbsp;</span>
-                <img style="width: 20px;" src="/assets/img/arrow_drop_down_grey_192x192.png">
-                <span style="position: relative; top: -2px; background-color: #f0ad4e; " class="badge">100 </span>
-                <ul class="dropdown-menu">
-                    <li><a href="https://www.meska.hu/Naplom/index/osszes">Fiókom menüpont</a></li>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <span style="font-size: 15.5px;">Fiókom: milanteszt&nbsp;</span>
+                    <span style="position: relative; top: -2px; background-color: #f0ad4e; " class="badge">100 </span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="https://www.meska.hu/Naplom/index/osszes">Fiókom menüpont</a>
                     <div class="dropdown-divider"></div>
-                    <li><a href="https://www.meska.hu/Conversations/messageList"><i class="fa fa-envelope"></i> Üzenetek <span class="badge" style="background-color: #f0ad4e; ">100 </span></a></li>
-                    <li><a href="https://www.meska.hu/Favourite/products/1780">Kedvenceim</a></li>
-                    <li><a href="https://www.meska.hu/Purchases">Vásárolt termékeim</a></li>
-                    <li><a href="https://www.meska.hu/Feedback/all">Értékelések</a></li>
-                    <li><a href="https://www.meska.hu/ProductUpload">Új termék felvitele</a></li>
-                    <li><a href="https://www.meska.hu/MyProd">Saját termékeim</a></li>
-                    <li><a href="https://www.meska.hu/Naplom/index/osszes">Naplóm</a></li>
-                    <li><a href="https://www.meska.hu/Sold">Eladott termékeim</a></li>
+                    <a class="dropdown-item" href="https://www.meska.hu/Conversations/messageList"><i class="fa fa-envelope"></i> Üzenetek <span class="badge" style="background-color: #f0ad4e; ">100 </span></a>
+                    <a class="dropdown-item" href="https://www.meska.hu/Favourite/products/1780">Kedvenceim</a>
+                    <a class="dropdown-item" href="https://www.meska.hu/Purchases">Vásárolt termékeim</a>
+                    <a class="dropdown-item" href="https://www.meska.hu/Feedback/all">Értékelések</a>
+                    <a class="dropdown-item" href="https://www.meska.hu/ProductUpload">Új termék felvitele</a>
+                    <a class="dropdown-item" href="https://www.meska.hu/MyProd">Saját termékeim</a>
+                    <a class="dropdown-item" href="https://www.meska.hu/Naplom/index/osszes">Naplóm</a>
+                    <a class="dropdown-item" href="https://www.meska.hu/Sold">Eladott termékeim</a>
                     <div class="dropdown-divider"></div>
-                    <li><a href="https://www.meska.hu/meska/logoutIndex">Kijelentkezés&nbsp;<i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
-                </ul>
+                    <a class="dropdown-item" href="https://www.meska.hu/meska/logoutIndex">Kijelentkezés&nbsp;<i class="fa fa-sign-out" aria-hidden="true"></i></a>
+                </div>
             </div>
         </div>
     </div>

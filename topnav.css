@@ -27,9 +27,7 @@
     float: left;
     height: 40px;
     padding: 5px;
-}
-.topnav .header .left .dropdown:hover{
-    background-color: #eee;
+    margin: 0 0 0 10px;
 }
 .topnav .header .left .dropdown img{
     width: 25px;
@@ -38,7 +36,6 @@
 .topnav .header .left .dropdown .dropdown-menu{
     position: absolute;
     top: 38px;
-    display: none;
     z-index: 99999;
     position: absolute;
     background-color: #ffffff;
@@ -48,7 +45,18 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
-.topnav .header .left .dropdown .dropdown-menu li a{
+.topnav .header .left .dropdown .btn-secondary{
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+}
+.topnav .header .left .dropdown .btn-secondary:hover{
+    background-color: #eee;
+}
+.topnav .header .left .dropdown .dropdown-toggle::after{
+    color: #666;
+}
+.topnav .header .left .dropdown .dropdown-menu .dropdown-item{
     display: block;
     padding: 3px 20px;
     clear: both;
@@ -60,9 +68,7 @@
 .topnav .header .left .dropdown .dropdown-menu li a:hover{
     background-color: #eee;
 }
-.topnav .header .left .dropdown:hover .dropdown-menu{
-    display: block;
-}
+
 .topnav .header .left #search-form{
     float: left;
     margin: 2px 0 0 10px;
@@ -95,11 +101,7 @@
     padding: 3px 7px;
     border-radius: 10px;
 }
-.topnav .header .right .dropdown:hover{
-    background-color: #eee;
-}
 .topnav .header .right .dropdown .dropdown-menu{
-    display: none;
     position: absolute;
     top: 38px;
     left: 83px;
@@ -116,9 +118,20 @@
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.15);
     border-radius: 0 0 5px 5px;
-
 }
-.topnav .header .right .dropdown .dropdown-menu li a{
+.topnav .header .right .dropdown .btn-secondary{
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    color: #666;
+}
+.topnav .header .right .dropdown .btn-secondary:hover{
+    background-color: #eee;
+}
+.topnav .header .right .dropdown .dropdown-toggle::after{
+    color: #666;
+}
+.topnav .header .right .dropdown .dropdown-menu .dropdown-item{
     display: block;
     padding: 3px 20px;
     clear: both;
@@ -130,9 +143,6 @@
 }
 .topnav .header .right .dropdown .dropdown-menu li a:hover{
     background-color: #eee;
-}
-.topnav .header .right .dropdown:hover .dropdown-menu{
-    display: block;
 }
 .topnav .header .right .kosar{
     float: right;
@@ -192,42 +202,33 @@
     border-radius: 0 0 3px 3px;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
 }
-.topnav .header .burgernav{
-    display: none;
+
+.burger{
     float: right;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-}
-.topnav .header .burgernav:hover{
-    background-color: #eee;
-}
-.topnav .header .burgernav .fa-bars{
-    margin: 5px 15px;
-    font-size: 25px;
-}
-.topnav .header .burgernav .dropdown-menu{
     display: none;
-    width: 100%;
-    position: absolute;
-    top: 40px;
-    z-index: 99999;
-    background-color: #ffffff;
-    border-top: 1px solid #cccccc;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    border-radius: 0;
+}
+.burger .btn, .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle{
+    background-color: #fff;
+    color: #666;
+    border: 1px solid #666;
+}
+.burger .dropdown-toggle::after{
+    display: none;
+}
+.burger .fa{
+    margin: 0;
+}
+.burger .dropdown-item{
+    background-color: transparent;
     text-align: center;
 }
-.topnav .header .burgernav #search-form{
+.burger #search-form{
     margin: auto;
     border: 1px solid #aaa;
     padding: 5px;
     width: 300px;
 }
-.topnav .header .burgernav #search-form .input-txt{
+.burger #search-form .input-txt{
     padding: 6px 12px 10px 12px;
     font-size: 14px;
     line-height: 1.42857143;
@@ -235,71 +236,23 @@
     background-color: #fff;
     border: 0;
 }
-.topnav .header .burgernav #search-form .input-btn{
+.burger #search-form .input-btn{
     background-color: #fff;
     border: 0;
     cursor: pointer;
 }
-.topnav .header .burgernav .dropdown{
-    line-height: 40px;
-    cursor: pointer;
-    padding: 0 10px;
-    color: #777;
-}
-.topnav .header .burgernav .dropdown .badge{
-    padding: 3px 7px;
-    border-radius: 10px;
-}
-.topnav .header .burgernav .dropdown:hover{
-    background-color: #eee;
-}
-.topnav .header .burgernav .dropdown .dropdown-menu-b{
-    display: none;
-    width: 75%;
-    position: absolute;
-    top: 38px;
-    z-index: 1000;
-    float: left;
-    min-width: 10rem;
-    padding: .5rem 0;
-    margin: .125rem 0 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 0 0 5px 5px;
-}
-.topnav .header .burgernav .dropdown .dropdown-menu-b li a{
-    display: block;
-    padding: 3px 20px;
-    clear: both;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    color: #333;
-    white-space: nowrap;
-}
-.topnav .header .burgernav .dropdown .dropdown-menu-b li a:hover{
-    background-color: #eee;
-}
-.topnav .header .burgernav .dropdown:hover .dropdown-menu-b{
-    display: block;
-}
-.topnav .header .burgernav .kosar{
+.burger .kosar{
     margin: 8px 10px 10px 10px;
 }
-.topnav .header .burgernav .kosar a{
+.burger .kosar a{
     border: 1px solid #cccccc;
     border-radius: 4px;
     padding: 7px 5px 5px 5px;
 }
-.topnav .header .burgernav .kosar a:hover{
+.burger .kosar a:hover{
     color: #333;
 }
-.topnav .header .burgernav .kosar .badge{
+.burger .kosar .badge{
     display: inline-block;
     padding: 4px 7px;
     font-size: 12px;
@@ -311,21 +264,20 @@
     vertical-align: baseline;
     border-radius: 10px;
 }
-.topnav .header .burgernav .kosar .visible-xs-inline-block{
+.burger .kosar .visible-xs-inline-block{
     display: none!important;
 }
-.topnav .header .burgernav .dropdown-menu > li{
-    margin: 25px 0;
-}
-.topnav .header .burgernav:hover .dropdown-menu{
-    display: block;
+.burger .dropdown-menu.show{
+    position: absolute !important;
+    top: 10px !important;
+    left: 11px !important;
 }
 /* RESPONSIVE */
 @media only screen and (min-width: 600px) and (max-width: 1000px){
     .topnav .header .right{
         display: none;
     }
-    .topnav .header .burgernav{
+    .topnav .header .burger{
         display: block;
     }
     .topnav .cat{
@@ -339,7 +291,7 @@
     .topnav .header .right{
         display: none;
     }
-    .topnav .header .burgernav{
+    .topnav .header .burger{
         display: block;
     }
     .topnav .cat{
