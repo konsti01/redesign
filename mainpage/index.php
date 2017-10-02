@@ -10,9 +10,6 @@
 <!-- FONTS -->
 <link rel="stylesheet" type="text/css" href="/fonts.css">
 
-<!-- BOOTSTRAP -->
-<link rel="stylesheet" type="text/css" href="BootstrapXL.css">
-
 <div class="row">
     <div class="row-wrapper">
         <!-- LEFT COL -->
@@ -771,5 +768,5 @@
 <script src="/landingpage/js/jquery.appear.js"></script>
 <script src="/landingpage/js/jquery.timer.js"></script>
 <script src="/landingpage/js/jquery.sticky.js"></script>
-<script src="/landingpage/js/main.js"></script>
+<script src="/landingpage/js/script.js"></script>
 <script src="/landingpage/js/number-divider.js"></script>

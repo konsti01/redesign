@@ -10,9 +10,6 @@
 <!-- FONTS -->
 <link rel="stylesheet" type="text/css" href="/fonts.css">
 
-<!-- BOOTSTRAP -->
-<link rel="stylesheet" type="text/css" href="/productlist/BootstrapXL.css">
-
 <div class="row">
     <div class="row-wrapper">
         <!-- LEFT COL -->
@@ -589,4 +586,8 @@
     </div>
     {{/products}}
 </script>
+
 <?php include_once('../footer.php'); ?>
+
+<!-- LocalJS -->
+<script src="script.js"></script>
