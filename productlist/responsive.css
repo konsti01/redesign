@@ -222,11 +222,7 @@
         position: absolute;
         left: 41px;
     }
-    .row-left:hover{
-        position: absolute;
-        left: 250px;
-        transition: left 1s;
-    }
+
     .nav-wrap{
         margin: 90px 0 0 0;
     }

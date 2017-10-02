@@ -773,5 +773,5 @@
 <script src="/landingpage/js/script.js"></script>
 <script src="/landingpage/js/number-divider.js"></script>
 
-<!-- scrolltotop -->
+<!-- scroll to top & sidebar appear -->
 <script src="/productlist/script.js"></script>

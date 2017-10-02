@@ -395,11 +395,7 @@
         left: 41px;
         top: 90px;
     }
-    .row-left:hover{
-        position: absolute;
-        left: 250px;
-        transition: left 1s;
-    }
+
     .nav-wrap{
         margin: 0;
     }

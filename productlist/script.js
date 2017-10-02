@@ -272,5 +272,14 @@ $(document).ready(function() {
                 $('#pn5').click();
         }
     });
+
+
+    // SIDEBAR DISPLAY
+    $(".row-left").click(function(){
+        $('.row-left').css('position', 'absolute'),
+        $('.row-left').css('left', '250px'),
+        $('.row-left').css('transition', 'left 1s');
+    });
+
 });
 
