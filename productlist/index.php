@@ -529,6 +529,7 @@
                             <div class="product-price">
                                 <div class="price"><?=$p['formatted_price']?></div>
                                 <div class="basket">Kosárba »</div>
+                                <div class="basket-mobile"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
                                 <div class="clear"></div>
                             </div>
                             <div class="clear"></div>
@@ -591,6 +592,7 @@
             <div class="product-price">
                 <div class="price">{{ formatted_price }}</div>
                 <div class="basket">Kosárba »</div>
+                <div class="basket-mobile"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
                 <div class="clear"></div>
             </div>
             <div class="clear"></div>

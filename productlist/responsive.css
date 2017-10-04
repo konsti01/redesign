@@ -25,8 +25,11 @@
         width: 100%;
     }
     .product-box .price{
-        font-size: 30px;
-        float: right;
+        font-size: 27px;
+    }
+    .basket-mobile{
+        width: 100%;
+        text-align: center;
     }
     .seller-pic{
         display: none;
@@ -48,7 +51,6 @@
     }
     .product-box .price{
         font-size: 30px;
-        float: right;
     }
 }     /* xs */
 
@@ -237,11 +239,22 @@
         position: fixed;
         top: 50px;
         left: 41px;
-        width: 90%;
+        width: 95%;
     }
 
     .keywords {
         margin: 180px 5px 0 5px;
+    }
+
+    /*ProductBox*/
+    .product-box .description{
+        height: 49px;
+    }
+    .basket{
+        display: none;
+    }
+    .basket-mobile{
+        display: block;
     }
 }
 
