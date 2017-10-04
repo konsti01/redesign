@@ -774,6 +774,12 @@ article p{
     text-align: center;
     margin: 0.25em auto 10px;
 }
+.carousel-item blockquote p{
+    height: 210px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+}
 .carousel-item blockquote cite{
     font-size: 14px;
     display: block;
