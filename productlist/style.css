@@ -59,6 +59,7 @@ body{
     padding: 10px 5px 10px 15px;
     text-align: right;
     outline: none;
+    cursor: pointer;
 }
 .sidebar .trigger:hover, .sidebar .trigger:active, .sidebar .trigger:focus,
 .sidebar .trigger.hover, .sidebar .trigger.active, .sidebar .trigger.focus{
@@ -461,12 +462,12 @@ body{
 }
 
 .show-more{
-    width: 270px;
+    width: 50%;
     text-align: center;
-    color: #88B04B;
-    border: 1px solid #88B04B;
+    color: #fff;
+    background-color: #88B04B;
     border-radius: 5px;
-    margin: 10px auto 0 auto;
+    margin: 10px auto 10px auto;
     padding: 10px 10px;
     text-transform: uppercase;
     letter-spacing:1px;
@@ -474,8 +475,7 @@ body{
 }
 .show-more:hover{
     color: #fff;
-    background-color: #88B04B;
-    border: 1px solid #88B04B;
+    background-color: #336600;
 }
 /***************************************************/
 .load-more{

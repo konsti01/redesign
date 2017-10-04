@@ -536,6 +536,8 @@
                     </div>
                 <?php } ?>
             </div>
+
+            <!--
             <div class="page-select">
                 <span class="page-num" id="pn1">1</span>
                 <span class="page-num" id="pn2">2</span>
@@ -544,7 +546,9 @@
                 <span class="page-num" id="pn5">5</span>
                 <span class="next">Következő</span>
             </div>
-            <!--<div id="load-more-products" class="show-more">Több termék megjelenítése</div>-->
+            -->
+
+            <div id="load-more-products" class="show-more">Több termék megjelenítése</div>
             <div class="category-desc">
                 <div class="title">Termékkategória leírása</div>
                 <div class="content">

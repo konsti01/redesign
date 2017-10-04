@@ -108,6 +108,7 @@ $(document).ready(function() {
         dropdownCssClass: 'colors'
     });
 
+/*
     // LOAD MORE PROD
     var current = 1;
 
@@ -272,7 +273,10 @@ $(document).ready(function() {
                 $('#pn5').click();
         }
     });
+*/
 
+    //LOAD MORE PROD BUTTON
+    $('.show-more').click(getProductsJson);
 
     // SIDEBAR DISPLAY
     $(".row-left").click(function(){
