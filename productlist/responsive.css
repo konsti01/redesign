@@ -260,6 +260,9 @@
     .ask .back, .ask #accordion .card-header a{
         font-size: 14px;
     }
+    .ask #accordion textarea{
+        height: 100px;
+    }
 }
 
 /* NAVBAR FIX */
