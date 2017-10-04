@@ -93,7 +93,7 @@ body{
     padding: 5px 25px 5px 5px;
     font-family: "Open Sans";
     font-size: 12px;
-    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
 }
 .subnav a:hover{
     width: 100%;
@@ -748,6 +748,7 @@ body{
     text-align: left;
     padding: 10px;
     border-radius: 5px;
+    color: #333;
 }
 .ask #accordion textarea{
     width: 100%;
@@ -755,6 +756,7 @@ body{
     background-color: #d1f08e;
     border: 1px solid #333;
     border-radius: 5px;
+    color: #333;
     margin: 5px 0 0 0;
 }
 .ask #accordion input{
