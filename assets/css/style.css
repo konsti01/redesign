@@ -1001,7 +1001,7 @@ body{
     padding: 100px;
     margin-bottom: 20px;
     text-align: center;
-    background-image: url(/landingpage/images/static.jpg);
+    background-image: url(../img/static.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -1532,12 +1532,6 @@ a, a:hover, a:visited, a:active, a:focus {
     padding-left: 0;
 }
 
-@media(min-width:992px) {
-    .row.md-no-gutter>[class*='col-']:last-of-type:not(:only-of-type) {
-        padding-left: 0;
-    }
-}
-
 div[class^='col-']>div {
     background-color: white;
 }
@@ -1668,19 +1662,6 @@ h1.bold {
 }
 .image-container a img{
     width: 100%;
-}
-
-@media(max-width:991px) {
-    .image-container.sm-6>img,
-    .image-container.sm-6 a{
-        width: 15%;
-    }
-}
-@media(max-width:767px) {
-    .image-container.xs-4>img,
-    .image-container.xs-4 a{
-        width: 23.5%;
-    }
 }
 
 .image-container:before,
@@ -1818,11 +1799,6 @@ h1.bold {
     padding: 0 10px 0 10px;
     display: none;
     opacity: 0.5;
-}
-@media(min-width:1160px) {
-    .to-basket-def {
-        display: inline-block;
-    }
 }
 
 #to-basket-number-container{
@@ -2159,39 +2135,6 @@ h1.bold {
     overflow: hidden;
 }
 
-@media(max-width:991px) {
-    .sm-no-margin{
-        margin: 0 !important;
-    }
-    .sm-margin-top-10{
-        margin-top: 15px;
-    }
-    .sm-margin-top-15{
-        margin-top: 15px;
-    }
-}
-
-@media(min-width:992px) {
-    .md-margin-top-10{
-        margin-top: 10px;
-    }
-}
-
-@media(max-width:767px) {
-    .xs-no-float{
-        float: none !important;
-    }
-    .xs-no-margin{
-        margin: 0 !important;
-    }
-    .xs-margint10{
-        margin-top:10px;
-    }
-}
-
-
-
-
 input:invalid {
     box-shadow: 0 0 5px 1px red;
 }
@@ -2207,13 +2150,6 @@ input:invalid {
     right: 15px !important;
 }
 
-/*TOPNAV RESP*/
-@media only screen and (max-width:767px){
-    .navbar-header{
-        border-bottom:1px solid #999;
-    }
-}
-
 /*SEARCH BAR*/
 .kereso{
     height:200px;
@@ -2224,22 +2160,7 @@ input:invalid {
     width:610px;
     margin: 50px auto;
 }
-@media only screen and (max-width:650px){
-    .searchbar{
-        width:300px;
-    }
-    .searchbar img{
-        width:20px;
-        position:relative;
-        top:35px;
-        opacity:0.3;
-    }
-    #search-button{
-        position: relative;
-        top: -40px;
-        left: 219px !important;
-    }
-}
+
 
 .searchbar input[type="search"] {
     border: 1px solid #ddd;
@@ -2334,28 +2255,6 @@ input:invalid {
     color: black;
 }
 
-@media only screen and (max-width:767px){
-    .faq-nav li a{
-        display:block;
-        color: #fff;
-        padding: 8px;
-        margin:5px 0;
-        border-radius: 5px;
-        background-color:#006633;
-    }
-
-    .faq-nav li a.active, .faq-nav li a.active:hover {
-        background-color: #007733;
-        color:#fff;
-    }
-    .faq-nav li a:hover {
-        background-color: #005533;
-        color: #fff;
-    }
-
-
-}
-
 /*KÉRDÉSEK*/
 .alert {
     padding: 15px;
@@ -2389,7 +2288,7 @@ input:invalid {
     color:#fff;
 }
 .col-md-12 .fa{
-    margin-right:20px;
+
 }
 
 #query.active #search-button{
