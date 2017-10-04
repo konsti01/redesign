@@ -554,7 +554,6 @@
         <div class="product-box">
             <a href="https://www.meska.hu/t{{ id }}" class="image-wrap">
                 <img class="product-image" alt="{{ image_alt }}" title="{{ image_title }}" src="{{ image }}">
-                <img src="img/plus.svg" class="icon">
             </a>
             <div class="seller-pic">
                 {{# avatar }}
