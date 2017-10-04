@@ -87,7 +87,7 @@ body{
     text-align: right;
     background-color: #a9ce5a;
     color: #fff;
-    padding: 5px 35px 5px 5px;
+    padding: 5px 25px 5px 5px;
     font-family: "Open Sans";
     font-size: 12px;
     border-bottom: 1px solid #ccc;
@@ -100,6 +100,9 @@ body{
 }
 .subnav a:last-child{
     border-bottom: 0;
+}
+.subnav .fa{
+    margin: 0 0 0 20px;
 }
 .hamburger-menu{
     width: 14px !important;

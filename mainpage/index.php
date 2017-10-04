@@ -30,9 +30,9 @@
                                 <span>Állatfelszerelések</span>
                             </button>
                             <div id="01" class="subnav collapse">
-                                <a href="">Állatfelszerelések Almenü 1</a>
-                                <a href="">Állatfelszerelések Almenü 2</a>
-                                <a href="">Állatfelszerelések Almenü 3</a>
+                                <a href="">Állatfelszerelések Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Állatfelszerelések Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Állatfelszerelések Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -41,9 +41,9 @@
                                 <span>Baba-mama-gyerek</span>
                             </button>
                             <div id="02" class="subnav collapse">
-                                <a href="">Baba-mama-gyerek Almenü 1</a>
-                                <a href="">Baba-mama-gyerek Almenü 2</a>
-                                <a href="">Baba-mama-gyerek Almenü 3</a>
+                                <a href="">Baba-mama-gyerek Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Baba-mama-gyerek Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Baba-mama-gyerek Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -52,9 +52,9 @@
                                 <span>Bútor</span>
                             </button>
                             <div id="03" class="subnav collapse">
-                                <a href="">Bútor Almenü 1</a>
-                                <a href="">Bútor Almenü 2</a>
-                                <a href="">Bútor Almenü 3</a>
+                                <a href="">Bútor Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Bútor Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Bútor Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -63,9 +63,9 @@
                                 <span>Dekoráció</span>
                             </button>
                             <div id="04" class="subnav collapse">
-                                <a href="">Dekoráció Almenü 1</a>
-                                <a href="">Dekoráció Almenü 2</a>
-                                <a href="">Dekoráció Almenü 3</a>
+                                <a href="">Dekoráció Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Dekoráció Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Dekoráció Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -74,9 +74,9 @@
                                 <span>Ékszer, óra</span>
                             </button>
                             <div id="05" class="subnav collapse">
-                                <a href="">Ékszer, óra Almenü 1</a>
-                                <a href="">Ékszer, óra Almenü 2</a>
-                                <a href="">Ékszer, óra Almenü 3</a>
+                                <a href="">Ékszer, óra Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Ékszer, óra Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Ékszer, óra Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -85,9 +85,9 @@
                                 <span>Esküvő</span>
                             </button>
                             <div id="06" class="subnav collapse">
-                                <a href="">Esküvő Almenü 1</a>
-                                <a href="">Esküvő Almenü 2</a>
-                                <a href="">Esküvő Almenü 3</a>
+                                <a href="">Esküvő Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Esküvő Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Esküvő Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -96,9 +96,9 @@
                                 <span>Férfiaknak</span>
                             </button>
                             <div id="07" class="subnav collapse">
-                                <a href="">Férfiaknak Almenü 1</a>
-                                <a href="">Férfiaknak Almenü 2</a>
-                                <a href="">Férfiaknak Almenü 3</a>
+                                <a href="">Férfiaknak Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Férfiaknak Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Férfiaknak Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -107,9 +107,9 @@
                                 <span>Játék</span>
                             </button>
                             <div id="08" class="subnav collapse">
-                                <a href="">Játék Almenü 1</a>
-                                <a href="">Játék Almenü 2</a>
-                                <a href="">Játék Almenü 3</a>
+                                <a href="">Játék Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Játék Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Játék Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -118,9 +118,9 @@
                                 <span>Képzőművészet</span>
                             </button>
                             <div id="09" class="subnav collapse">
-                                <a href="">Képzőművészet Almenü 1</a>
-                                <a href="">Képzőművészet Almenü 2</a>
-                                <a href="">Képzőművészet Almenü 3</a>
+                                <a href="">Képzőművészet Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Képzőművészet Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Képzőművészet Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -129,9 +129,9 @@
                                 <span>Konyhafelszerelés</span>
                             </button>
                             <div id="10" class="subnav collapse">
-                                <a href="">Konyhafelszerelés Almenü 1</a>
-                                <a href="">Konyhafelszerelés Almenü 2</a>
-                                <a href="">Konyhafelszerelés Almenü 3</a>
+                                <a href="">Konyhafelszerelés Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Konyhafelszerelés Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Konyhafelszerelés Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -140,9 +140,9 @@
                                 <span>Magyar motívumokkal</span>
                             </button>
                             <div id="11" class="subnav collapse">
-                                <a href="">Magyar motívumokkal Almenü 1</a>
-                                <a href="">Magyar motívumokkal Almenü 2</a>
-                                <a href="">Magyar motívumokkal Almenü 3</a>
+                                <a href="">Magyar motívumokkal Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Magyar motívumokkal Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Magyar motívumokkal Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -151,9 +151,9 @@
                                 <span>Mindenmás</span>
                             </button>
                             <div id="12" class="subnav collapse">
-                                <a href="">Mindenmás Almenü 1</a>
-                                <a href="">Mindenmás Almenü 2</a>
-                                <a href="">Mindenmás Almenü 3</a>
+                                <a href="">Mindenmás Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Mindenmás Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Mindenmás Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -162,9 +162,9 @@
                                 <span>Naptár, képeslap, album</span>
                             </button>
                             <div id="13" class="subnav collapse">
-                                <a href="">Naptár, képeslap, album Almenü 1</a>
-                                <a href="">Naptár, képeslap, album Almenü 2</a>
-                                <a href="">Naptár, képeslap, album Almenü 3</a>
+                                <a href="">Naptár, képeslap, album Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Naptár, képeslap, album Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Naptár, képeslap, album Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -173,9 +173,9 @@
                                 <span>Otthon, lakberendezés</span>
                             </button>
                             <div id="14" class="subnav collapse">
-                                <a href="">Otthon, lakberendezés Almenü 1</a>
-                                <a href="">Otthon, lakberendezés Almenü 2</a>
-                                <a href="">Otthon, lakberendezés Almenü 3</a>
+                                <a href="">Otthon, lakberendezés Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Otthon, lakberendezés Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Otthon, lakberendezés Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -184,9 +184,9 @@
                                 <span>Ruha, divat, cipő</span>
                             </button>
                             <div id="15" class="subnav collapse">
-                                <a href="">Ruha, divat, cipő Almenü 1</a>
-                                <a href="">Ruha, divat, cipő Almenü 2</a>
-                                <a href="">Ruha, divat, cipő Almenü 3</a>
+                                <a href="">Ruha, divat, cipő Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Ruha, divat, cipő Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Ruha, divat, cipő Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -195,9 +195,9 @@
                                 <span>Szépségápolás</span>
                             </button>
                             <div id="16" class="subnav collapse">
-                                <a href="">Szépségápolás Almenü 1</a>
-                                <a href="">Szépségápolás Almenü 2</a>
-                                <a href="">Szépségápolás Almenü 3</a>
+                                <a href="">Szépségápolás Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Szépségápolás Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Szépségápolás Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
@@ -206,9 +206,9 @@
                                 <span>Táska</span>
                             </button>
                             <div id="17" class="subnav collapse">
-                                <a href="">Táska Almenü 1</a>
-                                <a href="">Táska Almenü 2</a>
-                                <a href="">Táska Almenü 3</a>
+                                <a href="">Táska Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Táska Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Táska Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
