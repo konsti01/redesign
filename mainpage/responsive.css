@@ -22,11 +22,22 @@
         text-transform: uppercase;
     }
     .product-box .description{
-        height: 90px;
+        height: 70px;
+        font-size: 14px;
+        height: 65px;
+    }
+    .product-box .product-description{
+        width: 100%;
+        padding: 10px 0px 0px 0px;
     }
     .product-box .price{
-        font-size: 30px;
-        float: right;
+        font-size: 27px;
+        padding: 0;
+    }
+    .basket-mobile{
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
     }
 
     /*ProductCat Pos*/
@@ -82,7 +93,6 @@
     /*product-box*/
     .product-box .price{
         font-size: 30px;
-        float: right;
     }
     /*newsletter*/
     .newsletter form .input-text {
@@ -108,9 +118,6 @@
         left: 230px;
     }
     /*product-box*/
-    .product-box{
-        min-height: 365px;
-    }
     .product-box .seller{
         font-size: 17px;
         text-transform: uppercase;
@@ -418,6 +425,17 @@
 
     .row-right{
         margin: 40px 0 0 0;
+    }
+
+    /*ProductBox*/
+    .product-box .description{
+        height: 49px;
+    }
+    .basket{
+        display: none;
+    }
+    .basket-mobile{
+        display: block;
     }
 }
 

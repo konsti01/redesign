@@ -277,13 +277,29 @@ $(document).ready(function() {
 
     //LOAD MORE PROD BUTTON
     $('.show-more').click(getProductsJson);
+});
 
-    // SIDEBAR DISPLAY
+// SIDEBAR DISPLAY
+if ($(window).width() < 1000) {
     $(".row-left").click(function(){
         $('.row-left').css('position', 'absolute'),
         $('.row-left').css('left', '250px'),
         $('.row-left').css('transition', 'left 1s');
     });
 
+    $(".row-right").click(function(){
+        $('.row-left').css('position', 'absolute'),
+        $('.row-left').css('left', '41px'),
+        $('.row-left').css('transition', 'left 1s');
+    });
+}
+else if ($(window).width() > 1000){
+    $('.row-left').css('position', 'absolute'),
+    $('.row-left').css('left', '250px'),
+    $('.row-left').css('transition', 'left 1s');
+}
+$(window).resize(function() {
+    if ($(window).width() < 1000){
+        location.reload();
+    }
 });
-

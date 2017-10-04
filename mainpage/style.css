@@ -406,7 +406,27 @@ body{
     position: relative;
     top: -3px;
 }
-.basket:hover{
+.basket-mobile{
+    display: none;
+    float: right;
+    position: relative;
+    font-family: Open Sans Condensed;
+    font-size: 16px;
+    line-height: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: #88b048;
+    border: 1px solid #88b048;
+    padding: 8px;
+    margin: 11px 0 11px 0;
+    border-radius: 3px;
+}
+.basket-mobile .fa{
+    margin: 0;
+}
+
+.basket:hover, .basket-mobile:hover{
     color: #fff;
     background-color: #88b048;
     border: 1px solid #88b048;
