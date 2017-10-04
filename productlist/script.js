@@ -279,6 +279,7 @@ $(document).ready(function() {
     $('.show-more').click(getProductsJson);
 });
 
+
 // SIDEBAR DISPLAY
 if ($(window).width() < 1000) {
     $(".row-left").click(function(){

@@ -696,3 +696,76 @@ body{
     outline: 0;
     box-shadow: 0 0 0 0 rgba(0, 123, 255, .25);
 }
+
+/* ASK */
+.ask{
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    width: 500px;
+    background-color: #88b048;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Open Sans";
+}
+.ask .back{
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+}
+.ask .back:hover{
+    background-color: #336600;
+}
+.ask #accordion{
+    width: 100%;
+}
+.ask #accordion .card{
+    border: 0;
+}
+.ask #accordion .card-header{
+    background-color: #88b048;
+    padding: 5px;
+    border-bottom: 0;
+}
+.ask #accordion .card-header:hover{
+    background-color: #336600;
+}
+.ask #accordion .card-header h5{
+    font-weight: normal;
+}
+.ask #accordion .card-header a{
+    color: #fff;
+    font-size: 18px;
+}
+.ask #accordion .collapse{
+    background-color: #88b048;
+}
+.ask #accordion .card-block{
+    background-color: #a9ce5a;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+}
+.ask #accordion textarea{
+    width: 100%;
+    height: 200px;
+    background-color: #d1f08e;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 5px 0 0 0;
+}
+.ask #accordion input{
+    background-color: #d1f08e;
+    border: 1px solid #333;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ask #accordion input:hover{
+    background-color: #88b048;
+    color: #333;
+}

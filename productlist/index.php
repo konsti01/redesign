@@ -600,7 +600,30 @@
     </div>
     {{/products}}
 </script>
-
+<div class="ask">
+    <a class="back" href="https://www.meska.hu/">Vissza a régi listaoldalra</a>
+    <div id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="card">
+            <div class="card-header" role="tab" id="headingOne">
+                <h5 class="mb-0">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Visszajelzés küldése a Meskának
+                    </a>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="card-block">
+                    Köszönjük, ha megírod észrevételedet az új listaoldalról.<br>
+                    Ez még csak teszt verzió, örömmel fogadunk minden pozitív és negatív észrevételt :)
+                    <form>
+                        <textarea></textarea><br>
+                        <input type="submit" name="submit" value="Küldés">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <?php include_once('../footer.php'); ?>
 
 <!-- LocalJS -->
