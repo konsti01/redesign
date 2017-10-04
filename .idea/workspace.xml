@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/index.php" afterPath="$PROJECT_DIR$/productlist/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/responsive.css" afterPath="$PROJECT_DIR$/productlist/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/style.css" afterPath="$PROJECT_DIR$/productlist/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redesign.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,27 +59,26 @@
       <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/productlist/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.602349" vertical-offset="757" max-vertical-offset="1620">
-              <caret line="250" column="18" selection-start-line="250" selection-start-column="18" selection-end-line="250" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.05872483" vertical-offset="1" max-vertical-offset="2430">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding>
-                <element signature="e#0#797#0" expanded="false" />
-                <element signature="e#812#983#0" expanded="false" />
-                <element signature="e#998#1737#0" expanded="false" />
-                <element signature="e#1752#2100#0" expanded="false" />
-                <element signature="e#2115#2331#0" expanded="false" />
-                <element signature="e#2348#2787#0" expanded="false" />
-                <element signature="e#2802#3120#0" expanded="false" />
-                <element signature="e#3138#3827#0" expanded="false" />
-                <element signature="e#3860#4098#0" expanded="false" />
-                <element signature="e#4918#5190#0" expanded="false" />
-                <element signature="e#5192#5362#0" expanded="false" />
-                <element signature="e#5386#5510#0" expanded="false" />
-                <element signature="e#5511#5594#0" expanded="false" />
-                <element signature="e#5595#5725#0" expanded="false" />
-                <element signature="e#5726#5806#0" expanded="false" />
-                <element signature="e#5807#5898#0" expanded="false" />
-                <element signature="e#5899#5977#0" expanded="false" />
-                <element signature="e#5978#6055#0" expanded="false" />
+                <element signature="e#813#984#0" expanded="false" />
+                <element signature="e#999#1738#0" expanded="false" />
+                <element signature="e#1753#2101#0" expanded="false" />
+                <element signature="e#2116#2332#0" expanded="false" />
+                <element signature="e#2349#2788#0" expanded="false" />
+                <element signature="e#2803#3121#0" expanded="false" />
+                <element signature="e#3139#3828#0" expanded="false" />
+                <element signature="e#3861#4099#0" expanded="false" />
+                <element signature="e#4919#5191#0" expanded="false" />
+                <element signature="e#5193#5363#0" expanded="false" />
+                <element signature="e#5387#5511#0" expanded="false" />
+                <element signature="e#5512#5595#0" expanded="false" />
+                <element signature="e#5596#5726#0" expanded="false" />
+                <element signature="e#5727#5807#0" expanded="false" />
+                <element signature="e#5808#5899#0" expanded="false" />
+                <element signature="e#5900#5978#0" expanded="false" />
+                <element signature="e#5979#6056#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -280,7 +276,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1360" height="738" extended-state="0" />
+    <frame x="0" y="30" width="1360" height="738" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1147,27 +1143,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/productlist/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.602349" vertical-offset="757" max-vertical-offset="1620">
-          <caret line="250" column="18" selection-start-line="250" selection-start-column="18" selection-end-line="250" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.05872483" vertical-offset="1" max-vertical-offset="2430">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding>
-            <element signature="e#0#797#0" expanded="false" />
-            <element signature="e#812#983#0" expanded="false" />
-            <element signature="e#998#1737#0" expanded="false" />
-            <element signature="e#1752#2100#0" expanded="false" />
-            <element signature="e#2115#2331#0" expanded="false" />
-            <element signature="e#2348#2787#0" expanded="false" />
-            <element signature="e#2802#3120#0" expanded="false" />
-            <element signature="e#3138#3827#0" expanded="false" />
-            <element signature="e#3860#4098#0" expanded="false" />
-            <element signature="e#4918#5190#0" expanded="false" />
-            <element signature="e#5192#5362#0" expanded="false" />
-            <element signature="e#5386#5510#0" expanded="false" />
-            <element signature="e#5511#5594#0" expanded="false" />
-            <element signature="e#5595#5725#0" expanded="false" />
-            <element signature="e#5726#5806#0" expanded="false" />
-            <element signature="e#5807#5898#0" expanded="false" />
-            <element signature="e#5899#5977#0" expanded="false" />
-            <element signature="e#5978#6055#0" expanded="false" />
+            <element signature="e#813#984#0" expanded="false" />
+            <element signature="e#999#1738#0" expanded="false" />
+            <element signature="e#1753#2101#0" expanded="false" />
+            <element signature="e#2116#2332#0" expanded="false" />
+            <element signature="e#2349#2788#0" expanded="false" />
+            <element signature="e#2803#3121#0" expanded="false" />
+            <element signature="e#3139#3828#0" expanded="false" />
+            <element signature="e#3861#4099#0" expanded="false" />
+            <element signature="e#4919#5191#0" expanded="false" />
+            <element signature="e#5193#5363#0" expanded="false" />
+            <element signature="e#5387#5511#0" expanded="false" />
+            <element signature="e#5512#5595#0" expanded="false" />
+            <element signature="e#5596#5726#0" expanded="false" />
+            <element signature="e#5727#5807#0" expanded="false" />
+            <element signature="e#5808#5899#0" expanded="false" />
+            <element signature="e#5900#5978#0" expanded="false" />
+            <element signature="e#5979#6056#0" expanded="false" />
           </folding>
         </state>
       </provider>
