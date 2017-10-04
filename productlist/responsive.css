@@ -23,13 +23,16 @@
     }
     .product-box .product-description{
         width: 100%;
+        padding: 10px 0px 0px 0px;
     }
     .product-box .price{
         font-size: 27px;
+        padding: 0;
     }
     .basket-mobile{
         width: 100%;
         text-align: center;
+        margin: 5px 0;
     }
     .seller-pic{
         display: none;
@@ -60,10 +63,6 @@
     }
     .breadcrumb-meskahu{
         display: none;
-    }
-
-    .product-box{
-        min-height: 365px;
     }
     .product-box .seller{
         font-size: 17px;
@@ -97,9 +96,6 @@
 @media only screen and (min-width: 551px) and (max-width: 767px){
     .col-xs-6-custom{
         width: 50%;
-    }
-    .product-box{
-        min-height: 365px;
     }
     .product-box .seller{
         font-size: 26px;
