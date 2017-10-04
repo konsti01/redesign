@@ -4,11 +4,11 @@
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
-<link rel="stylesheet" type="text/css" href="../topnav.css">
-<link rel="stylesheet" type="text/css" href="../footer.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/topnav.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
 
 <!-- FONTS -->
-<link rel="stylesheet" type="text/css" href="/fonts.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/fonts.css">
 
 <div class="row">
     <div class="row-wrapper">
@@ -215,8 +215,8 @@
                 </div>
             </div>
             <div class="clear"></div>
-            <div class="bannerhely col-md-2-250 col-lg-2-250 col-xl-2-250">BANNERHELY</div>
-            <div class="widget col-md-2-250 col-lg-2-250 col-xl-2-250">WIDGET</div>
+            <div class="bannerhely-mp col-md-2-250 col-lg-2-250 col-xl-2-250">BANNERHELY</div>
+            <div class="widget-mp col-md-2-250 col-lg-2-250 col-xl-2-250">WIDGET</div>
         </div>
         <!-- RIGHT COL -->
         <div class="row-right">

@@ -186,7 +186,8 @@
 
 /* ROW LEFT */
 @media only screen and (max-width: 1100px){
-    .bannerhely, .widget, .bannerhely-fixed, .widget-fixed, .bannerhely-fixed-bottom, .widget-fixed-bottom{
+    .bannerhely-pl, .widget-pl, .bannerhely-fixed-pl, .widget-fixed-pl, .bannerhely-fixed-bottom-pl, .widget-fixed-bottom-pl,
+    .bannerhely-mp, .widget-mp, .bannerhely-fixed-mp, .widget-fixed-mp, .bannerhely-fixed-bottom-mp, .widget-fixed-bottom-mp{
         display: none;
     }
 
@@ -256,6 +257,11 @@
     }
     .ask #accordion textarea{
         height: 100px;
+    }
+
+    /*showmore*/
+    .show-more{
+        font-size: 14px;
     }
 }
 

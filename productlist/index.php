@@ -4,11 +4,11 @@
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
-<link rel="stylesheet" type="text/css" href="../topnav.css">
-<link rel="stylesheet" type="text/css" href="../footer.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/topnav.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
 
 <!-- FONTS -->
-<link rel="stylesheet" type="text/css" href="/fonts.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/fonts.css">
 
 <div class="row">
     <div class="row-wrapper">
@@ -224,8 +224,8 @@
                 </div>
             </div>
             <div class="clear"></div>
-            <div class="bannerhely col-md-2-250 col-lg-2-250 col-xl-2-250">BANNERHELY</div>
-            <div class="widget col-md-2-250 col-lg-2-250 col-xl-2-250">WIDGET</div>
+            <div class="bannerhely-pl col-md-2-250 col-lg-2-250 col-xl-2-250">BANNERHELY</div>
+            <div class="widget-pl col-md-2-250 col-lg-2-250 col-xl-2-250">WIDGET</div>
         </div>
         <!-- RIGHT COL -->
         <div class="row-right">
@@ -564,7 +564,7 @@
 </div>
 <script id="productBoxTemplate" type="text/html">
     {{# products }}
-    <div class="products col-xs-6 col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+    <div class="products col-xs-6-custom col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
         <div class="product-box">
             <a href="https://www.meska.hu/t{{ id }}" class="image-wrap">
                 <img class="product-image" alt="{{ image_alt }}" title="{{ image_title }}" src="{{ image }}">

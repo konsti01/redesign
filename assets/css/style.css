@@ -128,36 +128,36 @@ body{
     margin: 130px 0 0 0;
 }
 
-.bannerhely{
+.bannerhely-pl{
     margin: 10px 0 0 0;
     height: 250px;
     background-color: #ccc;
 }
-.bannerhely-fixed{
+.bannerhely-fixed-pl{
     margin: 48px 0 0 0;
     height: 250px;
     background-color: #ccc;
     position: fixed; top: 90px;
 }
-.bannerhely-fixed-bottom{
+.bannerhely-fixed-bottom-pl{
     margin: 48px 0 0 0;
     height: 250px;
     background-color: #ccc;
     position: fixed; bottom: 410px;
 }
 
-.widget{
+.widget-pl{
     margin: 10px 0 0 0;
     height: 150px;
     background-color: #ccc;
 }
-.widget-fixed{
+.widget-fixed-pl{
     margin: 50px 0 0 0;
     height: 150px;
     background-color: #ccc;
-    position: fixed; top: 350px;
+    position: fixed; top: 345px;
 }
-.widget-fixed-bottom{
+.widget-fixed-bottom-pl{
     margin: 48px 0 0 0;
     height: 150px;
     background-color: #ccc;
@@ -305,13 +305,13 @@ body{
 }
 
 .cont{
-    margin: 250px 0 0 0;
+    margin: 150px 0 0 0;
     width: 100%;
 }
 
 .keywords{
     float: left;
-    margin:200px 5px 0 5px;
+    margin: 100px 5px 0 5px;
 }
 .keywords-box{
     float: left;
@@ -901,36 +901,36 @@ body{
     margin: 37px 0 0 0;
 }
 
-.bannerhely{
+.bannerhely-mp{
     margin: 10px 0 0 0;
     height: 250px;
     background-color: #ccc;
 }
-.bannerhely-fixed{
+.bannerhely-fixed-mp{
     margin: 48px 0 0 0;
     height: 250px;
     background-color: #ccc;
-    position: fixed; top: 99px;
+    position: fixed; top: 90px;
 }
-.bannerhely-fixed-bottom{
+.bannerhely-fixed-bottom-mp{
     margin: 48px 0 0 0;
     height: 250px;
     background-color: #ccc;
     position: fixed; bottom: 610px;
 }
 
-.widget{
+.widget-mp{
     margin: 10px 0 0 0;
     height: 150px;
     background-color: #ccc;
 }
-.widget-fixed{
+.widget-fixed-mp{
     margin: 50px 0 0 0;
     height: 150px;
     background-color: #ccc;
-    position: fixed; top: 359px;
+    position: fixed; top: 345px;
 }
-.widget-fixed-bottom{
+.widget-fixed-bottom-mp{
     margin: 48px 0 0 0;
     height: 150px;
     background-color: #ccc;

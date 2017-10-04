@@ -4,18 +4,29 @@ $(window).scroll(function() {
     var bottom = $(window).scrollTop() + $(window).height() > $(document).height() - 220;
 
     if(scroll < 700){
-        $(".bannerhely-fixed").removeClass("bannerhely-fixed").addClass("bannerhely"),
-        $(".widget-fixed").removeClass("widget-fixed").addClass("widget");
+        $(".bannerhely-fixed-pl").removeClass("bannerhely-fixed-pl").addClass("bannerhely-pl"),
+        $(".widget-fixed-pl").removeClass("widget-fixed-pl").addClass("widget-pl");
+
+        $(".bannerhely-fixed-mp").removeClass("bannerhely-fixed-mp").addClass("bannerhely-mp"),
+        $(".widget-fixed-mp").removeClass("widget-fixed-mp").addClass("widget-mp");
     }
     if (scroll >= 700) {
-        $(".bannerhely").removeClass("bannerhely").addClass("bannerhely-fixed"),
-        $(".widget").removeClass("widget").addClass("widget-fixed"),
-        $(".bannerhely-fixed-bottom").removeClass("bannerhely-fixed-bottom").addClass("bannerhely-fixed"),
-        $(".widget-fixed-bottom").removeClass("widget-fixed-bottom").addClass("widget-fixed");
+        $(".bannerhely-pl").removeClass("bannerhely-pl").addClass("bannerhely-fixed-pl"),
+        $(".widget-pl").removeClass("widget-pl").addClass("widget-fixed-pl"),
+        $(".bannerhely-fixed-bottom-pl").removeClass("bannerhely-fixed-bottom-pl").addClass("bannerhely-fixed-pl"),
+        $(".widget-fixed-bottom-pl").removeClass("widget-fixed-bottom-pl").addClass("widget-fixed-pl");
+
+        $(".bannerhely-mp").removeClass("bannerhely-mp").addClass("bannerhely-fixed-mp"),
+        $(".widget-mp").removeClass("widget-mp").addClass("widget-fixed-mp"),
+        $(".bannerhely-fixed-bottom-mp").removeClass("bannerhely-fixed-bottom-mp").addClass("bannerhely-fixed-mp"),
+        $(".widget-fixed-bottom-mp").removeClass("widget-fixed-bottom-mp").addClass("widget-fixed-mp");
     }
     if(bottom){
-        $(".bannerhely-fixed").removeClass("bannerhely-fixed", 1000).addClass("bannerhely-fixed-bottom", 1000),
-        $(".widget-fixed").removeClass("widget-fixed", 1000).addClass("widget-fixed-bottom", 1000);
+        $(".bannerhely-fixed-pl").removeClass("bannerhely-fixed-pl", 1000).addClass("bannerhely-fixed-bottom-pl", 1000),
+        $(".widget-fixed-pl").removeClass("widget-fixed-pl", 1000).addClass("widget-fixed-bottom-pl", 1000);
+
+        $(".bannerhely-fixed-mp").removeClass("bannerhely-fixed-mp", 1000).addClass("bannerhely-fixed-bottom-mp", 1000),
+        $(".widget-fixed-mp").removeClass("widget-fixed-mp", 1000).addClass("widget-fixed-bottom-mp", 1000);
     }
 });
 
@@ -24,14 +35,14 @@ $('input[name=query]').keyup(function(){
     if($(this).val().length){
         $('.keresesi-szempontok').show();
 
-        $('.cont').css('margin-top', '270px'),
-        $('.keywords').css('margin', '220px 5px 0px 5px');
+        $('.cont').css('margin-top', '170px'),
+        $('.keywords').css('margin', '150px 5px 0px 5px');
     }
     else{
         $('.keresesi-szempontok').hide();
 
-        $('.cont').css('margin-top', '230px')
-        $('.keywords').css('margin', '180px 5px 0px 5px');
+        $('.cont').css('margin-top', '130px')
+        $('.keywords').css('margin', '100px 5px 0px 5px');
 
     }
 });
