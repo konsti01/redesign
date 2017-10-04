@@ -28,6 +28,7 @@ $(document).ready(function() {
         if(!isMobile.any()) $(this).addClass('animated');
     });
 
+    //numbers
     $('.number-container').appear(function() {
         var count_element = parseInt($(".number", this).html(), 10);
         $('.number', this).countTo({
@@ -52,6 +53,23 @@ $(document).ready(function() {
             }
         });
 });
+
+    //faq
+    $('.collapse')
+        .on('shown.bs.collapse', function() {
+            $(this)
+                .parent()
+                .find(".fa-plus")
+                .removeClass("fa-plus")
+                .addClass("fa-minus");
+        })
+        .on('hidden.bs.collapse', function() {
+            $(this)
+                .parent()
+                .find(".fa-minus")
+                .removeClass("fa-minus")
+                .addClass("fa-plus");
+        });
 
     function toggleBlock(block){
         var parentToggle = block.parent();
