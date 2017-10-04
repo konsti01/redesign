@@ -252,6 +252,14 @@
     .basket-mobile{
         display: block;
     }
+    /*ask*/
+    .ask{
+        width: 280px;
+        font-size: 14px;
+    }
+    .ask .back, .ask #accordion .card-header a{
+        font-size: 14px;
+    }
 }
 
 /* NAVBAR FIX */
