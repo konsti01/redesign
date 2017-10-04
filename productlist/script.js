@@ -299,8 +299,10 @@ else if ($(window).width() > 1000){
     $('.row-left').css('left', '250px'),
     $('.row-left').css('transition', 'left 1s');
 }
+/*
 $(window).resize(function() {
     if ($(window).width() < 1000){
         location.reload();
     }
 });
+*/
