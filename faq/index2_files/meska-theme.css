@@ -428,7 +428,7 @@ h1.bold {
 	border: 1px solid #cccccc;
 	border-radius: 5px;
 }
-
+/*
 .yellow-painted-bg-ltr {
 	background-image: url('/bootstrap/svg/yellow-painted-bg-ltr.png');
 	background-repeat: no-repeat;
@@ -455,7 +455,7 @@ h1.bold {
 	padding: 10px 10px 20px 20px;
 	padding: 7% 6% 15% 6%;
 }
-
+*/
 .table-postage {
 	font-size: 0.9em;
 }
@@ -774,7 +774,6 @@ input:invalid {
 }
 
 .searchbar input[type="search"]:focus {
-    border: 1px solid #0072ef;
     color: #555;
 }
 
@@ -938,6 +937,10 @@ input:invalid {
 }
 .fa:focus{
     outline: none;
+}
+
+input:focus{
+    outline: none !important;
 }
 
 button:focus{
