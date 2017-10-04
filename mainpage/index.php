@@ -2,7 +2,7 @@
 <?php include_once('data.php'); ?>
 
 <!-- CSS -->
-<link rel="stylesheet" type="text/css" href="/mainpage/style.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="/mainpage/responsive.css">
 <link rel="stylesheet" type="text/css" href="../topnav.css">
 <link rel="stylesheet" type="text/css" href="../footer.css">
