@@ -768,8 +768,6 @@
 
 <?php include_once('../footer.php'); ?>
 
-<!-- LocalJS -->
-
 <!-- numbers -->
 <script src="/landingpage/js/jquery.appear.js"></script>
 <script src="/landingpage/js/jquery.timer.js"></script>

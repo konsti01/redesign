@@ -470,6 +470,10 @@ article p{
     margin-right: 0;
     margin-left: 0;
 }
+#benefits .far, #benefits .fab{
+    color: #006633;
+    font-weight: 100;
+}
 #benefits .icon-cont-lock{
     text-align: center;
     margin: 0px auto 40px auto;
