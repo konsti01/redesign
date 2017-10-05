@@ -624,6 +624,9 @@ article p{
     background: -moz-linear-gradient(right, #339900, #47C7EC);
     background: linear-gradient(to right, #339900 , #47C7EC);
 }
+#price-com .far{
+    font-size: 60px;
+}
 .price-details{
   padding-left: 15px;
   padding-right: 15px;
