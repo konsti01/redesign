@@ -343,7 +343,7 @@
                     <div class="search-bar">
                         <form role="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get" class="search search-full">
                             <input name="utf8" type="hidden" value="✓">
-                            <img src="https://image.flaticon.com/icons/svg/54/54554.svg">
+                            <i class="far fa-search" aria-hidden="true"></i>
                             <input type="search" name="query" id="search-bar" placeholder="Szabadszavas kereső..." autocomplete="off" aria-label="Search">
                         </form>
                     </div>
@@ -402,11 +402,11 @@
                 </div>
                 <div class="keresesi-szempontok col-md-12 col-sm-12 col-xs-12 no-padding paddingtb10">
                     Keresési szempontok:
-                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
-                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
-                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
-                    <span class="szempont">szempont 1 <a href=""><img src="img/close.png"></a></span>
-                    <a href=""><div class="trashcan"></div></a>
+                    <span class="szempont">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
+                    <span class="szempont">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
+                    <span class="szempont">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
+                    <span class="szempont">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
+                    <a href=""><div class="trashcan"><i class="far fa-trash-alt fa-fw" aria-hidden="true"></i></div></a>
                 </div>
                 <div class="clearfix"></div>
             </div>
