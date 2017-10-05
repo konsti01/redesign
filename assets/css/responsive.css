@@ -362,10 +362,6 @@
     .col-xs-6-custom {
         width: 50%;
     }
-    /*Search*/
-    .search{
-        display: none;
-    }
     /*numbers*/
     .numbers-row .headline{
         margin: 0px 0 10px 0;
@@ -436,10 +432,6 @@
     .col-xs-6-custom {
         width: 50%;
     }
-    /*Search*/
-    .search{
-        display: none;
-    }
     /*numbers*/
     .numbers-row .headline{
         margin: 0px 0 10px 0;
@@ -461,10 +453,6 @@
 @media only screen and (min-width: 425px) and (max-width: 550px){
     .col-xs-6-custom {
         width: 50%;
-    }
-    /*Search*/
-    .search{
-        display: none;
     }
     /*numbers*/
     .numbers-row .headline{

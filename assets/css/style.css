@@ -1415,6 +1415,7 @@ ul{
     text-transform: uppercase;
     border-radius: 5px;
     transition: all 0.2s linear;
+    cursor: pointer;
 }
 .newsletter form .input-button:hover{
     color: #fff;

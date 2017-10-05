@@ -303,7 +303,6 @@
                                 <div class="product-box" onclick="location.href='#';">
                                     <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                         <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
-                                        <img src="img/plus.svg" class="icon">
                                     </a>
                                     <div class="seller-pic">
                                         <?php if ($p['avatar'] != '') { ?>
@@ -356,7 +355,6 @@
                             <div class="product-box" onclick="location.href='#';">
                                 <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
-                                    <img src="img/plus.svg" class="icon">
                                 </a>
                                 <div class="seller-pic">
                                     <?php if ($p['avatar'] != '') { ?>
@@ -408,7 +406,6 @@
                             <div class="product-box" onclick="location.href='#';">
                                 <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
-                                    <img src="img/plus.svg" class="icon">
                                 </a>
                                 <div class="seller-pic">
                                     <?php if ($p['avatar'] != '') { ?>
@@ -699,7 +696,6 @@
                             <div class="product-box" onclick="location.href='#';">
                                 <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
-                                    <img src="img/plus.svg" class="icon">
                                 </a>
                                 <div class="seller-pic">
                                     <?php if ($p['avatar'] != '') { ?>
