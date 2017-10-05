@@ -470,8 +470,8 @@ article p{
     margin-right: 0;
     margin-left: 0;
 }
-#benefits .far, #benefits .fab{
-    color: #006633;
+#benefits .svg-inline--fa{
+    color: #006633 !important;
     font-weight: 100;
 }
 #benefits .icon-cont-lock{
@@ -484,7 +484,6 @@ article p{
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    color: #fff;
     background-color: #fff;
     padding-top: 30.5px;
     font-size: 32px;
@@ -501,7 +500,6 @@ article p{
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    color: #fff;
     background-color: #fff;
     padding-top: 31px;
     font-size: 33px;
@@ -518,7 +516,6 @@ article p{
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    color: #fff;
     background-color: #fff;
     padding-top: 29px;
     font-size: 33px;
@@ -535,7 +532,6 @@ article p{
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    color: #fff;
     background-color: #fff;
     padding-top: 32px;
     font-size: 33px;
@@ -624,7 +620,7 @@ article p{
     background: -moz-linear-gradient(right, #339900, #47C7EC);
     background: linear-gradient(to right, #339900 , #47C7EC);
 }
-#price-com .far{
+#price-com .svg-inline--fa{
     font-size: 60px;
 }
 .price-details{
@@ -858,9 +854,18 @@ article p{
     float: left;
     font-size: 1.1em;
 }
-.card-header i{
+.card-header .fa-plus{
+    display: none;
     margin-right: 30px;
     float: left;
+}
+.card-header .fa-minus{
+    display: none;
+    margin-right: 30px;
+    float: left;
+}
+.card-header .active{
+    display: block;
 }
 .card-header span{
     float: left;

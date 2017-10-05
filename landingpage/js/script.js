@@ -60,55 +60,20 @@ $(document).ready(function() {
             $(this)
                 .parent()
                 .find(".fa-plus")
-                .removeClass("fa-plus")
-                .addClass("fa-minus");
+                .removeClass("active")
+            $(this)
+                .parent()
+                .find(".fa-minus")
+                .addClass("active");
         })
         .on('hidden.bs.collapse', function() {
             $(this)
                 .parent()
                 .find(".fa-minus")
-                .removeClass("fa-minus")
-                .addClass("fa-plus");
+                .removeClass("active")
+            $(this)
+                .parent()
+                .find(".fa-plus")
+                .addClass("active");
         });
-
-    function toggleBlock(block){
-        var parentToggle = block.parent();
-        var parent = parentToggle.parent();
-        var content = $(".toggle-content", block.parent());
-        var title = block;
-
-        if(parent.hasClass("single-toggles")) {
-            $(".toggle-title-text",parent).addClass("hover-icon");
-            if($(".toggle .toggle-title").hasClass("active-toggle"))
-                $(".toggle .toggle-title").removeClass("active-toggle");
-            if($(".toggle").hasClass("active-bg"))
-                $(".toggle").removeClass("active-bg");
-        }
-
-        if(content.css("display") === "none") {
-            if(parent.hasClass("single-toggles")) {
-                $(".toggle-content", parent).slideUp(200);
-                $(".toggle-title-text", parent).addClass("hover-icon");
-            }
-
-            title.addClass("active-toggle");
-            parentToggle.addClass("active-bg");
-            content.slideDown(200);
-            $(".toggle-title-text", block).removeClass("hover-icon");
-        }
-        else {
-            content.slideUp(200);
-            if(title.hasClass("active-toggle")){
-                title.removeClass("active-toggle");
-            }
-            parentToggle.removeClass("active-bg");
-            $(".toggle-title-text", block).addClass("hover-icon");
-        }
-    }
-
-    $(".toggle .toggle-title").click(function() {
-        toggleBlock($(this));
-    });
-
-    toggleBlock($(".single-toggles .toggle:first-child .toggle-title"));
 });
