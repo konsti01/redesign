@@ -307,12 +307,12 @@ body{
     font-size: 16px;
 }
 .topnav .fa-envelope{
-    margin: 0 5px 0 0;
-    font-size: 16px;
+    margin: 0 5px 0 0 !important;
+    font-size: 16px !important;
 }
 .topnav .fa-sign-out{
-    margin: 0 0 0 5px;
-    font-size: 16px;
+    margin: 0 0 0 5px !important;
+    font-size: 16px !important;
 }
 .topnav .fa-shopping-cart{
     margin: 0 0 3px 0;
@@ -1203,6 +1203,13 @@ ul{
     border-radius: 3px;
     background-color: #fff;
 }
+.search-bar-wrap .fa-search{
+    font-size: 24px;
+    color: #666;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
 .search-bar-wrap #search-bar{
     float: left;
     width: 80%;
@@ -1244,7 +1251,7 @@ ul{
     padding: 15px 0 0 0;
     text-align: center;
 }
-.benefits-box .far{
+.benefits-box .svg-inline--fa{
     font-size: 42px;
     color: #333;
     margin: 7px 0 0 0;
@@ -1282,10 +1289,10 @@ ul{
     height: 100px;
     margin: auto;
 }
-.customers-say-row .quote-circle i{
+.customers-say-row .quote-circle .fa-quote-right{
     position: relative;
     top: 70px;
-    left: 5px;
+    left: 0px;
     font-size: 50px;
 }
 

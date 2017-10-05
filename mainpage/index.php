@@ -17,196 +17,196 @@
                     <div class="main">
                         <button type="button" onclick="topFunction()" class="trigger btn btn-info" data-toggle="collapse" data-target="#00">
                             <span>Kategóriák</span>
-                            <i class="fa fa-bars" aria-hidden="true"></i>
+                            <i class="far fa-bars" aria-hidden="true"></i>
                         </button>
                         <div id="00" class="subnav collapse"></div>
                     </div>
                     <div class="nav-wrap">
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#01">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Állatfelszerelések</span>
                             </button>
                             <div id="01" class="subnav collapse">
-                                <a href="">Állatfelszerelések Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Állatfelszerelések Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Állatfelszerelések Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Állatfelszerelések Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Állatfelszerelések Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Állatfelszerelések Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#02">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Baba-mama-gyerek</span>
                             </button>
                             <div id="02" class="subnav collapse">
-                                <a href="">Baba-mama-gyerek Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Baba-mama-gyerek Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Baba-mama-gyerek Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Baba-mama-gyerek Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Baba-mama-gyerek Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Baba-mama-gyerek Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#03">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Bútor</span>
                             </button>
                             <div id="03" class="subnav collapse">
-                                <a href="">Bútor Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Bútor Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Bútor Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Bútor Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Bútor Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Bútor Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#04">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Dekoráció</span>
                             </button>
                             <div id="04" class="subnav collapse">
-                                <a href="">Dekoráció Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Dekoráció Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Dekoráció Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Dekoráció Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Dekoráció Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Dekoráció Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#05">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Ékszer, óra</span>
                             </button>
                             <div id="05" class="subnav collapse">
-                                <a href="">Ékszer, óra Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Ékszer, óra Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Ékszer, óra Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Ékszer, óra Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Ékszer, óra Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Ékszer, óra Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#06">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Esküvő</span>
                             </button>
                             <div id="06" class="subnav collapse">
-                                <a href="">Esküvő Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Esküvő Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Esküvő Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Esküvő Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Esküvő Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Esküvő Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#07">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Férfiaknak</span>
                             </button>
                             <div id="07" class="subnav collapse">
-                                <a href="">Férfiaknak Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Férfiaknak Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Férfiaknak Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Férfiaknak Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Férfiaknak Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Férfiaknak Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#08">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Játék</span>
                             </button>
                             <div id="08" class="subnav collapse">
-                                <a href="">Játék Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Játék Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Játék Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Játék Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Játék Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Játék Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#09">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Képzőművészet</span>
                             </button>
                             <div id="09" class="subnav collapse">
-                                <a href="">Képzőművészet Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Képzőművészet Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Képzőművészet Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Képzőművészet Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Képzőművészet Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Képzőművészet Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#10">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Konyhafelszerelés</span>
                             </button>
                             <div id="10" class="subnav collapse">
-                                <a href="">Konyhafelszerelés Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Konyhafelszerelés Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Konyhafelszerelés Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Konyhafelszerelés Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Konyhafelszerelés Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Konyhafelszerelés Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#11">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Magyar motívumokkal</span>
                             </button>
                             <div id="11" class="subnav collapse">
-                                <a href="">Magyar motívumokkal Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Magyar motívumokkal Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Magyar motívumokkal Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Magyar motívumokkal Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Magyar motívumokkal Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Magyar motívumokkal Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#12">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Mindenmás</span>
                             </button>
                             <div id="12" class="subnav collapse">
-                                <a href="">Mindenmás Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Mindenmás Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Mindenmás Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Mindenmás Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Mindenmás Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Mindenmás Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#13">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Naptár, képeslap, album</span>
                             </button>
                             <div id="13" class="subnav collapse">
-                                <a href="">Naptár, képeslap, album Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Naptár, képeslap, album Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Naptár, képeslap, album Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Naptár, képeslap, album Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Naptár, képeslap, album Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Naptár, képeslap, album Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#14">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Otthon, lakberendezés</span>
                             </button>
                             <div id="14" class="subnav collapse">
-                                <a href="">Otthon, lakberendezés Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Otthon, lakberendezés Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Otthon, lakberendezés Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Otthon, lakberendezés Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Otthon, lakberendezés Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Otthon, lakberendezés Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#15">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Ruha, divat, cipő</span>
                             </button>
                             <div id="15" class="subnav collapse">
-                                <a href="">Ruha, divat, cipő Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Ruha, divat, cipő Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Ruha, divat, cipő Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Ruha, divat, cipő Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Ruha, divat, cipő Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Ruha, divat, cipő Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#16">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Szépségápolás</span>
                             </button>
                             <div id="16" class="subnav collapse">
-                                <a href="">Szépségápolás Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Szépségápolás Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Szépségápolás Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Szépségápolás Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Szépségápolás Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Szépségápolás Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="nav">
                             <button type="button" class="trigger btn btn-info" data-toggle="collapse" data-target="#17">
-                                <img src="/productlist/img/baba-mama-gyerek.svg" alt="Állatfelszerelések" title="Állatfelszerelések">
+                                <i class="far fa-trophy" aria-hidden="true"></i>
                                 <span>Táska</span>
                             </button>
                             <div id="17" class="subnav collapse">
-                                <a href="">Táska Almenü 1<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Táska Almenü 2<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
-                                <a href="">Táska Almenü 3<i class="fa fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Táska Almenü 1<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Táska Almenü 2<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
+                                <a href="">Táska Almenü 3<i class="far fa-level-down-alt fa-rotate-90" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -221,7 +221,7 @@
             <div class="top-search col">
                 <div class="search-bar-wrap">
                     <input type="text" id="search-bar" placeholder="Keresés">
-                    <img src="https://image.flaticon.com/icons/svg/54/54554.svg">
+                    <i class="far fa-search" aria-hidden="true"></i>
                     <div class="clear"></div>
                 </div>
                 <span>Keresés 8 245 alkotó 102 341 terméke között.</span>
@@ -266,26 +266,26 @@
                 <div class="content">
                     <div class="benefits col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="benefits-box">
-                            <i class="fa fa-lock" aria-hidden="true"></i>
+                            <i class="far fa-lock" aria-hidden="true"></i>
                         </div>
                         <span class="benefits-text">Biztonságos</span>
                         <div class="clear"></div>
                     </div>
                     <div class="benefits col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="benefits-box">
-                            <i class="fa fa-credit-card" aria-hidden="true"></i>
+                            <i class="far fa-credit-card" aria-hidden="true"></i>
                         </div>
                         <span class="benefits-text">Bankkártya</span>
                     </div>
                     <div class="benefits col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="benefits-box">
-                            <i class="fa fa-heart" aria-hidden="true"></i>
+                            <i class="far fa-heart" aria-hidden="true"></i>
                         </div>
                         <span class="benefits-text">Kézműves</span>
                     </div>
                     <div class="benefits col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="benefits-box">
-                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="far fa-star" aria-hidden="true"></i>
                         </div>
                         <span class="benefits-text">Egyedi</span>
                     </div>
@@ -328,7 +328,7 @@
                                     <div class="product-price">
                                         <div class="price"><?=$p['formatted_price']?></div>
                                         <div class="basket">Kosárba »</div>
-                                        <div class="basket-mobile"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                                        <div class="basket-mobile"><i class="far fa-shopping-cart" aria-hidden="true"></i></div>
                                         <div class="clear"></div>
                                     </div>
                                     <div class="clear"></div>
@@ -380,7 +380,7 @@
                                 <div class="product-price">
                                     <div class="price"><?=$p['formatted_price']?></div>
                                     <div class="basket">Kosárba »</div>
-                                    <div class="basket-mobile"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                                    <div class="basket-mobile"><i class="far fa-shopping-cart" aria-hidden="true"></i></div>
                                     <div class="clear"></div>
                                 </div>
                                 <div class="clear"></div>
@@ -432,7 +432,7 @@
                                 <div class="product-price">
                                     <div class="price"><?=$p['formatted_price']?></div>
                                     <div class="basket">Kosárba »</div>
-                                    <div class="basket-mobile"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                                    <div class="basket-mobile"><i class="far fa-shopping-cart" aria-hidden="true"></i></div>
                                     <div class="clear"></div>
                                 </div>
                                 <div class="clear"></div>
@@ -453,7 +453,7 @@
                 <div class="headline">Meskáról mondták</div>
                 <div class="content">
                     <div class="quote-circle">
-                        <i class="fa fa-quote-right"></i>
+                        <i class="far fa-quote-right"></i>
                     </div>
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
@@ -723,7 +723,7 @@
                                 <div class="product-price">
                                     <div class="price"><?=$p['formatted_price']?></div>
                                     <div class="basket">Kosárba »</div>
-                                    <div class="basket-mobile"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                                    <div class="basket-mobile"><i class="far fa-shopping-cart" aria-hidden="true"></i></div>
                                     <div class="clear"></div>
                                 </div>
                                 <div class="clear"></div>
