@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
     <!-- FontAwesome5 -->
-    <script defer src="/assets/fontawesome-5.0.0-rc2-linux/js/packs/brands.js.js"></script>
-    <script defer src="/assets/fontawesome-5.0.0-rc2-linux/js/packs/light.js.js"></script>
+    <script defer src="/assets/fontawesome-5.0.0-rc2-linux/js/packs/brands.js"></script>
+    <script defer src="/assets/fontawesome-5.0.0-rc2-linux/js/packs/light.js"></script>
     <script defer src="/assets/fontawesome-5.0.0-rc2-linux/js/packs/regular.js"></script>
-    <script defer src="/assets/fontawesome-5.0.0-rc2-linux/js/packs/solid.js.js"></script>
+    <script defer src="/assets/fontawesome-5.0.0-rc2-linux/js/packs/solid.js"></script>
     <script defer src="/assets/fontawesome-5.0.0-rc2-linux/js/fontawesome.js"></script>
 
     <!-- RangeSlider -->
