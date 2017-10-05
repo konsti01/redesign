@@ -762,12 +762,12 @@
 
     .specify{
         position: fixed;
-        top: 53px;
+        top: 50px;
         left: 35px;
     }
 
     .keywords {
-        margin: 180px 5px 0 5px;
+        margin: 70px 5px 0 5px;
     }
 
     .row-right{
@@ -813,7 +813,7 @@
     }
 
     .keywords {
-        margin: 221px 5px 0 5px;
+        margin: 70px 5px 0 5px;
     }
 }
 /* NUMBERS */

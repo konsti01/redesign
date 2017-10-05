@@ -188,7 +188,6 @@ body{
 .topnav .header .right .kosar .visible-xs-inline-block{
     display: none!important;
 }
-.topnav .cat{}
 .topnav .cat .main-cat{
     float: left !important;
     list-style-type: none;
@@ -233,8 +232,9 @@ body{
 .burger .dropdown-toggle::after{
     display: none;
 }
-.burger .fa{
-    margin: 0;
+.burger .fa-bars{
+    font-size: 22px !important;
+    margin: 0 !important;
 }
 .burger .dropdown-item{
     background-color: transparent;
@@ -290,9 +290,6 @@ body{
     top: 10px !important;
     left: 11px !important;
 }
-.fa{
-    margin: 0 10px 0 0;
-}
 
 .btn.focus, .btn:focus{
     outline: 0;
@@ -302,6 +299,27 @@ body{
     content: "";
     display: table;
     clear: both;
+}
+
+/* FA */
+.topnav .fa-bars{
+    margin: 0 5px 0 0;
+    font-size: 16px;
+}
+.topnav .fa-envelope{
+    margin: 0 5px 0 0;
+    font-size: 16px;
+}
+.topnav .fa-sign-out{
+    margin: 0 0 0 5px;
+    font-size: 16px;
+}
+.topnav .fa-shopping-cart{
+    margin: 0 0 3px 0;
+    font-size: 16px;
+}
+.topnav .fa-search{
+    color: #666;
 }
 /*-------------------------------------------------------------------------------------------*/
 /* GLOBAL - FOOTER */
@@ -392,9 +410,6 @@ body{
     border-top: 1px solid #ccc;
     outline: none;
 }
-.sidebar .glyphicon{
-    margin: 0 0 0 7px;
-}
 .sidebar .trigger img{
     margin: -2px 2px -2px 5px;
     width: 25px;
@@ -428,9 +443,6 @@ body{
 .subnav a:last-child{
     border-bottom: 0;
 }
-.subnav .fa{
-    margin: 0 0 0 20px;
-}
 .hamburger-menu{
     width: 14px !important;
     height: 16px !important;
@@ -443,14 +455,10 @@ body{
     z-index: 9999;
     border-bottom: 1px solid #ccc;
 }
-.main .fa-bars{
-    margin: 0 8px 0 5px;
-}
 .nav-wrap{
     width: 250px;
     margin: 130px 0 0 0;
 }
-/* Termékkategória nav */
 .col-md-2-250{
     width: 250px;
 }
@@ -459,6 +467,17 @@ body{
 }
 .col-xl-2-250{
     width: 250px;
+}
+
+.trigger .fa-bars{
+    margin: 0 7px 0 8px;
+}
+.subnav .fa-level-down-alt{
+    margin: 0 -3px 0 10px;
+}
+.nav .fa-trophy{
+    float: right;
+    margin: 2px 5px 0 10px;
 }
 /*-------------------------------------------------------------------------------------------*/
 /* GLOBAL - PRODUCTBOX */
@@ -573,7 +592,7 @@ body{
     border: 1px solid #88b048;
 }
 
-.basket-mobile .fa{
+.basket-mobile .far{
     margin: 0;
 }
 /*-------------------------------------------------------------------------------------------*/
@@ -673,6 +692,9 @@ ul{
     padding: 0 5px;
     color: #ccc;
     content: "/\00a0";
+}
+.breadcrumb .fa-home{
+    margin: 0 10px 0 0;
 }
 
 .specify{
@@ -789,14 +811,14 @@ ul{
     display: none;
     float: right;
 }
-.search-row .sort .fa{
+.search-row .sort .far{
     width: 10px;
 }
 .keywords .sort{
     float: right;
     margin: 0px 0px 0px 10px;
 }
-.keywords .sort .fa{
+.keywords .sort .far{
     width: 10px;
 }
 
@@ -825,9 +847,6 @@ ul{
 .keyword a:hover{
     color: #000;
     text-decoration: none;
-}
-.fa{
-    margin: 0 10px 0 0;
 }
 
 .search-row-mobile{
@@ -865,6 +884,11 @@ ul{
     color: #262626;
     text-decoration: none;
     background-color: #f5f5f5;
+}
+
+.dropdown-menu .svg-inline--fa{
+    font-size: 16px;
+    margin: 0 10px 0 0;
 }
 
 .btn-group #technika{
@@ -1041,6 +1065,7 @@ ul{
     padding: 10px;
     border-radius: 5px;
     font-family: "Open Sans";
+    z-index: 9999999;
 }
 .ask .back{
     width: 100%;
@@ -1221,7 +1246,7 @@ ul{
     padding: 15px 0 0 0;
     text-align: center;
 }
-.benefits-box .fa{
+.benefits-box .far{
     font-size: 42px;
     color: #333;
     margin: 7px 0 0 0;
@@ -1574,7 +1599,7 @@ ul{
 .alert button{
     opacity: 1;
 }
-.alert .fa{
+.alert .far{
     color: #84b848;
 }
 .close{
@@ -1592,7 +1617,7 @@ ul{
 .text-center a:hover{
     background-color: #336600;
 }
-.text-center a .fa{
+.text-center a .far{
     color: #fff;
 }
 .text-center a span{
