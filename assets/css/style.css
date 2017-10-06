@@ -714,6 +714,8 @@ ul{
     border: 1px solid #aaa;
     background-color: #fff;
     font-size: 14px;
+    height: 28px;
+    color: #444;
 }
 .btn-default:hover {
     background-color: transparent;
@@ -736,7 +738,12 @@ ul{
     width: 100% !important;
     text-align: center;
 }
-
+.search-row .btn-group{
+    height: 28px;
+}
+.search-row .btn-group .svg-inline--fa{
+    width: 20px;
+}
 .color{
     width: 20px;
     height: 20px;
@@ -816,10 +823,17 @@ ul{
     float: right;
     margin: 0px 0px 0px 10px;
 }
-.keywords .sort .far{
-    width: 10px;
+.keywords .svg-inline--fa{
+    width: 20px;
 }
-
+/*
+.keywords .sort .fa-arrow-to-top, .keywords .sort .fa-arrow-to-bottom{
+    margin: 0 13px 0 3px;
+}
+.keywords .sort .fa-recycle{
+    margin: 0 12px 0 0;
+}
+*/
 .cont{
     margin: 150px 0 0 0;
     width: 100%;
@@ -907,6 +921,7 @@ ul{
     padding: 3px 12px;
     border: 1px solid #aaa;
     background-color: #fff;
+    color: #444;
 }
 
 .open > .dropdown-menu-2{

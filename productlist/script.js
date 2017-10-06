@@ -54,6 +54,7 @@ $(window).scroll(function() {
  if (scroll >= 1) {
      $('.search-row .btn-group .btn').css('padding', '3px 6px'),
      $('.search-row .btn-group .btn').css('font-size', '12px'),
+     $('.search-row .btn-group .btn').css('height', '25px'),
      $('.search-row .btn-group .btn').css('transition', 'padding 200ms'),
      $('.search-row .btn-group .btn').css('transition', 'font-size 200ms'),
      $('.select2-container .select2-selection--single').css('height', '25px'),
@@ -64,6 +65,7 @@ $(window).scroll(function() {
      $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('transition', 'font-size 200ms'),
      $('.search-bar').css('font-size', '11px'),
      $('.search-bar').css('padding', '3px 10px'),
+     $('.search-bar').css('height', '25px'),
      $('.search-bar img').css('width', '15px'),
      $('.search-bar').css('transition', 'padding 200ms'),
      $('.search-bar img').css('transition', 'width 200ms'),
@@ -72,11 +74,13 @@ $(window).scroll(function() {
  }else{
      $('.search-row .btn-group .btn').css('padding', '3px 12px'),
      $('.search-row .btn-group .btn').css('font-size', '14px'),
+     $('.search-row .btn-group .btn').css('height', '28px'),
      $('.select2-container .select2-selection--single').css('height', '28px'),
      $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('line-height', '28px'),
      $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('font-size', '14px'),
      $('.search-bar').css('font-size', '14px'),
      $('.search-bar').css('padding', '2px 10px'),
+     $('.search-bar').css('height', '28px'),
      $('.search-bar img').css('width', '20px'),
      $('.search-row .sort').css('display', 'none'),
      $('.keywords .sort').css('display', 'block');
