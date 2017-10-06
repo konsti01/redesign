@@ -1584,6 +1584,7 @@ ul{
     padding: 8px;
     border-radius: 0px;
     border-bottom:1px solid #999;
+    text-decoration: none;
 }
 
 .faq-nav li a.active, .faq-nav li a.active:hover {
@@ -1604,9 +1605,11 @@ ul{
 }
 .alert button{
     opacity: 1;
+    outline: none;
 }
-.alert .far{
+.alert .fa-plus, .alert .fa-minus{
     color: #84b848;
+    margin: 0 10px 0 0;
 }
 .close{
     float:left;
