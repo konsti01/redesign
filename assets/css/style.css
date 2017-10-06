@@ -1564,7 +1564,7 @@ ul{
     border: 0;
     color: #fff;
     border-radius: 5px;
-    background-color: rgb(139, 195, 74);
+    background-color: #84b848;
     height: 30px;
     position:relative;
     top: -40px;
@@ -1603,7 +1603,7 @@ ul{
 }
 
 .faq-nav li a.active, .faq-nav li a.active:hover {
-    background-color: green;
+    background-color: #8bc34a;
     color:white;
 }
 .faq-nav li a:hover {
@@ -1632,18 +1632,17 @@ ul{
     top: 2px;
 }
 
-.text-center a{
+.text-center a, .text-center .btn-default{
     padding: 15px;
     background-color: #8bc34a;
     color: #fff;
     cursor: pointer;
+    height: auto;
 }
 .text-center a:hover{
     background-color: #336600;
 }
 .text-center a .far{
     color: #fff;
-}
-.text-center a span{
-
+    margin: 0 10px 0 0;
 }
