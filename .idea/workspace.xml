@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faq/index.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/87XNE1PC38r.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/936375726452989" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/ajax_loadable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/analytics.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/carousel-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/echo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/ecommerce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/fbevents.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/gtm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/header-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/jquery.base64.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/lightbox-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/lightbox.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/lightbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/menu-dropdown-hover.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/meska_logo1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/pinit_main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/platform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/saved_resource" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/sdk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/simple-sidebar-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/simple-sidebar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/stat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/tab-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/todo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq/index2_files/vue.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/index.php" afterPath="$PROJECT_DIR$/productlist/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/responsive.css" afterPath="$PROJECT_DIR$/assets/css/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="" />
     <ignored path="redesign.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -70,56 +30,7 @@
     <favorites_list name="redesign" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faq/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5263157" vertical-offset="0" max-vertical-offset="594">
-              <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-              <folding>
-                <element signature="n#div#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#!!top" expanded="false" />
-                <element signature="n#script#0;n#!!top" expanded="false" />
-                <element signature="n#script#1;n#!!top" expanded="false" />
-                <element signature="n#script#2;n#!!top" expanded="false" />
-                <element signature="n#script#3;n#!!top" expanded="false" />
-                <element signature="n#script#4;n#!!top" expanded="false" />
-                <element signature="n#script#5;n#!!top" expanded="false" />
-                <element signature="n#script#6;n#!!top" expanded="false" />
-                <element signature="n#script#7;n#!!top" expanded="false" />
-                <element signature="n#script#9;n#!!top" expanded="false" />
-                <element signature="n#script#10;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6501767" vertical-offset="29314" max-vertical-offset="31014">
-              <caret line="1649" column="19" selection-start-line="1649" selection-start-column="19" selection-end-line="1649" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -229,6 +140,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="redesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -618,9 +543,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6501767" vertical-offset="29314" max-vertical-offset="31014">
+          <caret line="1649" column="19" selection-start-line="1649" selection-start-column="19" selection-end-line="1649" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/faq/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5263157" vertical-offset="0" max-vertical-offset="594">
+        <state vertical-scroll-proportion="0.2671614" vertical-offset="0" max-vertical-offset="594">
           <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#!!top" expanded="false" />
@@ -651,14 +584,6 @@
             <element signature="n#script#9;n#!!top" expanded="false" />
             <element signature="n#script#10;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6501767" vertical-offset="29314" max-vertical-offset="31014">
-          <caret line="1649" column="19" selection-start-line="1649" selection-start-column="19" selection-end-line="1649" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
