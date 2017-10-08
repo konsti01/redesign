@@ -24,12 +24,8 @@ $(document).ready(function() {
         }
     };
 
-    $('.my-animation').appear(function() {
-        if(!isMobile.any()) $(this).addClass('animated');
-    });
-
     //numbers
-    $('.number-container').appear(function() {
+    $('.number-container').appear(function(){
         var count_element = parseInt($(".number", this).html(), 10);
         $('.number', this).countTo({
             from: 0,
@@ -37,22 +33,15 @@ $(document).ready(function() {
             speed: 2500,
             refreshInterval: 50,
             decimals: 0,
-            onUpdate: function () {
-                $('.number').divide({
-                    delimiter: ' ',
-                    divideThousand: true, // 1,000..9 999
-                    delimiterRegExp: /[\.\,\s]/g
-                });
+            formatter: function (value, options) {
+                value = value.toFixed(options.decimals);
+                value = value.replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+                return value;
             },
-            onComplete: function () {
-                $('.number').divide({
-                    delimiter: ' ',
-                    divideThousand: true, // 1,000..9 999
-                    delimiterRegExp: /[\.\,\s]/g
-                });
-            }
+            onUpdate: Math.trunc(count_element),
+            onComplete: Math.trunc(count_element)
         });
-});
+    });
 
     //faq
     $('.collapse')
