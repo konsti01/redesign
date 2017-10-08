@@ -923,6 +923,28 @@
     .xs-margint10{
         margin-top:10px;
     }
+    .faq-type-nav{
+
+    }
+    .faq-type-nav li{
+        padding:5px;
+    }
+    .faq-type-nav li.active{
+        border-top:0;
+        margin:3px 0 0 0;
+    }
+    .faq-type-nav li.active a{
+        color: #fff;
+        background-color: #007733;
+    }
+    .faq-type-nav li a{
+        display: block;
+        color: #fff;
+        padding: 8px;
+        margin: 5px 0;
+        border-radius: 5px;
+        background-color: #006633;
+    }
 }
 @media only screen and (max-width:650px){
     .searchbar{

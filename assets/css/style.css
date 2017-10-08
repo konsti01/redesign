@@ -546,7 +546,7 @@ body{
 }
 
 .product-box .price{
-    font-family: Amatic SC;
+    font-family: Amatica SC;
     font-size: 30px;
     font-weight: 400;
     color: #000;
@@ -696,7 +696,13 @@ ul{
 .breadcrumb .fa-home{
     margin: 0 10px 0 0;
 }
-
+.title {
+    color: #000000;
+    font-weight: normal;
+    font-size: 30px;
+    font-family: 'Amatica SC', cursive;
+    margin: 0;
+}
 .specify{
     position:fixed;
     top: 91px;
@@ -1477,7 +1483,7 @@ ul{
     font-size: 2.5em;
     letter-spacing: 1.5px;
     font-weight: normal;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatica SC', cursive;
     color: #777;
     margin: 50px 0 10px 0;
     padding: 0 0 0 5px;
@@ -1494,6 +1500,18 @@ ul{
 /*********************************************************************************************/
 /********** FAQ **********/
 /*********************************************************************************************/
+.text-center{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.1em;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-family: 'Amatica SC', cursive;
+    color: #333;
+    letter-spacing: -2px;
+}
 /*SEARCH BAR*/
 .kereso{
     height:200px;
@@ -1610,13 +1628,62 @@ ul{
     background-color: #eaeaea;
     color: black;
 }
+.faq-question {
+    font-size: 18px;
+}
+.faq-item {
+    cursor: pointer;
+}
+.faq-item:hover {
+    background-color: #f7f7f7;
+}
+.faq-answer {
+    border-top: 1px solid #eaeaea;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.faq-answer a{
+    color: #88b048;
+}
+.faq-answer a:hover{
+    color: #336600;
+}
+.faq-nav {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.faq-type-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #eaeaea;
+    height: 65px;
+}
+.faq-type-nav li {
+    display: block;
+    float:left;
+    padding: 20px;
+    border-top: 3px solid white;
+}
+.faq-type-nav li.active {
+    border-top: 3px solid green;
+}
+.faq-type-nav li.active a {
+    font-weight: bold;
+    color: green;
+}
 /*KÉRDÉSEK*/
 .alert {
     padding: 15px;
     margin:0;
-    border-bottom: 1px solid #999;
     border-top: 1px solid #999;
     border-radius: 0;
+}
+.alert:last-of-type{
+    border-bottom: 1px solid #999;
 }
 .alert button{
     opacity: 1;
@@ -1631,18 +1698,21 @@ ul{
     position: relative;
     top: 2px;
 }
-
-.text-center a, .text-center .btn-default{
+.button-center{
+    text-align: center;
+}
+.button-center a, .button-center .btn-default{
     padding: 15px;
     background-color: #8bc34a;
     color: #fff;
     cursor: pointer;
     height: auto;
 }
-.text-center a:hover{
+.button-center a:hover{
     background-color: #336600;
 }
-.text-center a .far{
+.button-center a .fa-envelope{
     color: #fff;
     margin: 0 10px 0 0;
+    font-size: 16px;
 }

@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
     <!-- FontAwesome5 -->
-    <script defer src="/assets/fontawesome-5.0.0-rc2-linux/js/packs/brands.js"></script>
-    <script defer src="/assets/fontawesome-5.0.0-rc2-linux/js/packs/light.js"></script>
-    <script defer src="/assets/fontawesome-5.0.0-rc2-linux/js/packs/regular.js"></script>
-    <script defer src="/assets/fontawesome-5.0.0-rc2-linux/js/packs/solid.js"></script>
-    <script defer src="/assets/fontawesome-5.0.0-rc2-linux/js/fontawesome.js"></script>
+    <script defer src="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/js/packs/brands.js"></script>
+    <script defer src="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/js/packs/light.js"></script>
+    <script defer src="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/js/packs/regular.js"></script>
+    <script defer src="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/js/packs/solid.js"></script>
+    <script defer src="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/js/fontawesome.js"></script>
 
     <!-- RangeSlider -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.7/css/ion.rangeSlider.css">
@@ -35,7 +35,10 @@
 
     <script src="https://www.meska.hu/js/stat.js" type="text/javascript"></script>
 
-    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Amatica+SC:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
