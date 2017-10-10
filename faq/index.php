@@ -518,15 +518,4 @@
         })
     });
 </script>
-
-<script>
-    function(){
-
-
-        if('.faq-answer'){
-            alert('nyitva');
-        }
-    }
-</script>
-
 <base href="https://www.meska.hu/" />
