@@ -1,25 +1,5 @@
 $(document).ready(function() {
     $("#top-menu").sticky({topSpacing:0});
-    var isMobile = {
-        Android: function() {
-            return navigator.userAgent.match(/Android/i);
-        },
-        BlackBerry: function() {
-            return navigator.userAgent.match(/BlackBerry/i);
-        },
-        iOS: function() {
-            return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-        },
-        Opera: function() {
-            return navigator.userAgent.match(/Opera Mini/i);
-        },
-        Windows: function() {
-            return navigator.userAgent.match(/IEMobile/i);
-        },
-        any: function() {
-            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-        }
-    };
 
     //numbers
     $('.number-container').appear(function(){
@@ -32,9 +12,7 @@ $(document).ready(function() {
             decimals: 0,
             formatter: function (value, options) {
                 return value.toFixed(options.decimals).replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-            },
-            onUpdate: Math.trunc(count_element),
-            onComplete: Math.trunc(count_element)
+            }
         });
     });
 
