@@ -40,6 +40,7 @@ body{
     height: 40px;
     padding: 5px;
     margin: 0 0 0 10px;
+    bottom: 3px;
 }
 .topnav .header .left .dropdown img{
     width: 25px;
@@ -113,6 +114,7 @@ body{
     cursor: pointer;
     padding: 0 10px;
     color: #777;
+    bottom: 3px;
 }
 .topnav .header .right .dropdown .badge{
     padding: 3px 7px;
