@@ -9,6 +9,15 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+    <!--
+    <link rel="stylesheet" href="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/css/fontawesome-pro-brands.css">
+    <link rel="stylesheet" href="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/css/fontawesome-pro-core.css">
+    <link rel="stylesheet" href="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/css/fontawesome-pro-light.css">
+    <link rel="stylesheet" href="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/css/fontawesome-pro-regular.css">
+    <link rel="stylesheet" href="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/css/fontawesome-pro-solid.css">
+    <link rel="stylesheet" href="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/css/fontawesome-pro-svg-framework.css">
+    -->
+
     <!-- FontAwesome5 -->
     <script defer src="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/js/packs/brands.js"></script>
     <script defer src="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/js/packs/light.js"></script>

@@ -67,7 +67,9 @@
                                 <div class="col-md-10">
                                     <span style="font-size: 10px; color: #ccc; text-transform: uppercase;">KÉRDÉSEK-VÁLASZOK</span>
                                     <div v-for="(faq, id) in faqs[selectedCategory]" class="alert alert-default faq-item" @click="selectFaq(id)">
-                                        <button type="button" class="close"><i aria-hidden="true" class="far" :class="{'fa-plus': !faq.selected, 'fa-minus': faq.selected}"></i></button>
+                                        <button type="button" class="close">
+                                            <i aria-hidden="true" class="far" :class="{'fa-plus': !faq.selected, 'fa-minus': faq.selected}"></i>
+                                        </button>
                                         <div style="cursor:pointer" class="faq-question">{{faq.question}}</div>
                                         <div v-if="faq.selected" v-html="faq.answer" class="faq-answer"></div>
                                     </div>
@@ -516,4 +518,15 @@
         })
     });
 </script>
+
+<script>
+    function(){
+
+
+        if('.faq-answer'){
+            alert('nyitva');
+        }
+    }
+</script>
+
 <base href="https://www.meska.hu/" />
