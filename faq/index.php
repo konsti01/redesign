@@ -437,10 +437,7 @@
                 selectFaq: function(e) {
                     this.faqs[this.selectedCategory][e].selected = !this.faqs[this.selectedCategory][e].selected;
 
-                        var icon = document.getElementsByClassName('far');
-                        icon.classList.remove('fa-plus');
-                        icon.classList.add('fa-minus');
-                        alert('nyitva');
+                    alert('Klikk!');
 
                 },
                 selectType: function(e) {
