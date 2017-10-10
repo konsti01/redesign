@@ -599,7 +599,7 @@
     .product-box .description{
         font-size:14px;
         padding: 5px 0px;
-        height: 72px;
+        height: 70px;
     }
 }        /* lg */
 @media only screen and (min-width: 1651px){

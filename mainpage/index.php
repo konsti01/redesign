@@ -763,11 +763,10 @@
 <?php include_once('../footer.php'); ?>
 
 <!-- numbers -->
-<script src="/landingpage/js/jquery.appear.js"></script>
-<script src="/landingpage/js/jquery.timer.js"></script>
+<script src="/landingpage/js/appear.js"></script>
+<script src="/landingpage/js/jquery.countTo.js"></script>
 <script src="/landingpage/js/jquery.sticky.js"></script>
 <script src="/landingpage/js/script.js"></script>
-<script src="/landingpage/js/number-divider.js"></script>
 
 <!-- scroll to top & sidebar appear -->
 <script src="/productlist/script.js"></script>
