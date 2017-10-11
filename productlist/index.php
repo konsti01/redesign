@@ -599,7 +599,10 @@
         </form>
     </div>
     <a class="response"><i class="far fa-user-alt"></i></a>
-    <a class="back" href="https://www.meska.hu/"><i class="far fa-arrow-alt-left"></i></a>
+    <a class="back" href="https://www.meska.hu/">
+        <span>Vissza a régi listaoldalra!</span>
+        <i class="far fa-arrow-alt-left"></i>
+    </a>
 </div>
 
 <?php include_once('../footer.php'); ?>
