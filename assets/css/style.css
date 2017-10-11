@@ -717,6 +717,11 @@ ul{
     margin: 0 5px 0 5px;
     padding: 0 0 5px 0;
 }
+.specify:after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .btn-default{
     padding: 3px 12px;
@@ -828,14 +833,7 @@ ul{
 .keywords .svg-inline--fa{
     width: 20px;
 }
-/*
-.keywords .sort .fa-arrow-to-top, .keywords .sort .fa-arrow-to-bottom{
-    margin: 0 13px 0 3px;
-}
-.keywords .sort .fa-recycle{
-    margin: 0 12px 0 0;
-}
-*/
+
 .cont{
     margin: 150px 0 0 0;
     width: 100%;
@@ -843,7 +841,7 @@ ul{
 
 .keywords{
     float: left;
-    margin: 100px 5px 0 5px;
+    margin: 90px 5px 0 5px;
 }
 .keywords-box{
     float: left;
@@ -865,6 +863,7 @@ ul{
 
 .search-row-mobile{
     display: none;
+    float: left;
 }
 .search-row-mobile .card{
     border: 0;
@@ -872,9 +871,29 @@ ul{
 .search-row-mobile .card-header{
     border: 0;
     background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
 }
 .search-row-mobile .card-header h5{
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.search-row-mobile .card-block{
+    font-size: 14px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+.search-row-mobile .card-block .btn-group,
+.search-row-mobile .card-block .select2-container,
+.search-row-mobile .card-block .btn-group .btn{
+    width: 180px !important;
+    margin: 15px 5px;
+    text-align: left;
+    display: block !important;
+}
+
+.search-row-mobile .card-block .sort{
+    margin: 0;
 }
 
 .dropdown-menu{

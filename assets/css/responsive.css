@@ -214,15 +214,69 @@
         position: fixed; top: 99px;
     }
 }        /* xl */
+
 /* MOBILE SEARCH ROW */
 @media (max-width: 1200px){
     .search-row{
-        display: none;
+        display: block;
     }
     .search-row-mobile{
         display: block;
+        width: 220px;
+        margin: 0 0 0 10px;
     }
 }
+@media only screen and (min-width: 1155px) and (max-width: 1199px){
+    .search-row .search-bar{display: none;}
+}
+@media only screen and (min-width: 1065px) and (max-width: 1154px){
+    .search-row .search-bar{display: none;}
+    .search-row #misc{display: none;}
+}
+@media only screen and (min-width: 1000px) and (max-width: 1064px){
+    .search-row .search-bar{display: none;}
+    .search-row #misc{display: none;}
+    .search-row #price{display: none;}
+
+}
+@media only screen and (min-width: 925px) and (max-width: 999px){
+    .search-row .search-bar{display: none;}
+}
+@media only screen and (min-width: 825px) and (max-width: 924px){
+    .search-row .search-bar{display: none;}
+    .search-row #misc{display: none;}
+}
+@media only screen and (min-width: 757px) and (max-width: 824px){
+    .search-row .search-bar{display: none;}
+    .search-row #misc{display: none;}
+    .search-row #price{display: none;}
+}
+@media only screen and (min-width: 616px) and (max-width: 756px){
+    .search-row .search-bar{display: none;}
+    .search-row #misc{display: none;}
+    .search-row #price{display: none;}
+    .search-row #szin{display: none;}
+}
+@media only screen and (min-width: 425px) and (max-width: 616px){
+    .search-row .search-bar{display: none;}
+    .search-row #misc{display: none;}
+    .search-row #price{display: none;}
+    .search-row #szin{display: none;}
+    .search-row #technika{display: none;}
+
+    .search-row-mobile #price{display: none !important;}
+}
+@media only screen and (max-width: 425px){
+    .search-row .search-bar{display: none;}
+    .search-row #misc{display: none;}
+    .search-row #price{display: none;}
+    .search-row #szin{display: none;}
+    .search-row #technika{display: none;}
+    .search-row .sort{display: none;}
+
+    .search-row-mobile #price{display: none !important;}
+}
+
 /* ROW LEFT */
 @media only screen and (max-width: 1100px){
     .bannerhely-pl, .widget-pl, .bannerhely-fixed-pl, .widget-fixed-pl, .bannerhely-fixed-bottom-pl, .widget-fixed-bottom-pl,
@@ -264,11 +318,7 @@
         position: fixed;
         top: 50px;
         left: 41px;
-        width: 95%;
-    }
-
-    .keywords {
-        margin: 180px 5px 0 5px;
+        width: 93%;
     }
 
     /*ProductBox*/
@@ -317,46 +367,6 @@
 @media only screen and (min-width: 1000px) and (max-width: 1100px){
     .specify{
         position: fixed;
-    }
-
-    .keywords {
-        margin: 221px 5px 0 5px;
-    }
-}
-/* SEARCH ROW RESP */
-@media only screen and (min-width: 1000px) and (max-width: 1179px){
-    .specify .search-bar{
-        display: block;
-    }
-}
-@media (max-width: 959px){
-    .specify .search-bar{
-        display: none;
-    }
-}
-@media only screen and (min-width: 712px) and (max-width: 768px){
-    .search-row .sort{
-        display: none !important;
-    }
-}
-@media (max-width: 712px){
-    .specify #payment{
-        display: none;
-    }
-}
-@media (max-width: 564px){
-    .search-row .sort{
-        display: none !important;
-    }
-}
-@media (max-width: 466px){
-    .specify #price{
-        display: none;
-    }
-}
-@media (max-width: 410px){
-    .specify #szin{
-        display: none;
     }
 }
 
@@ -681,10 +691,6 @@
         left: 35px;
     }
 
-    .keywords {
-        margin: 90px 5px 0 5px;
-    }
-
     .row-right{
         margin: 40px 0 0 0;
     }
@@ -725,10 +731,6 @@
 @media only screen and (min-width: 1000px) and (max-width: 1100px){
     .specify{
         position: fixed;
-    }
-
-    .keywords {
-        margin: 70px 5px 0 5px;
     }
 }
 /* NUMBERS */
