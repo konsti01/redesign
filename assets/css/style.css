@@ -1154,7 +1154,7 @@ ul{
     display: block;
 }
 .ask .response .fa-comment-alt{
-    margin: 17px;
+    margin: 16px;
     color: #fff;
     font-size: 18px;
 }
@@ -1171,7 +1171,7 @@ ul{
 .ask .response-box .fa-times{
     float: right;
     font-size: 16px;
-    color: #cc0000;
+    color: #fff;
     cursor: pointer;
 }
 .ask .response-box p{
