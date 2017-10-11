@@ -1136,7 +1136,8 @@ ul{
     display: none;
     position: absolute;
     top: -25px;
-    left: -50px;
+    left: -55px;
+    right: 15px;
     color: #eee;
     background-color: #333;
     padding: 5px;
@@ -1164,7 +1165,7 @@ ul{
     display: none;
     position: absolute;
     top: -25px;
-    left: 50px;
+    right: 0px;
     color: #eee;
     background-color: #333;
     padding: 5px;

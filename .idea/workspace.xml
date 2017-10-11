@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/responsive.css" afterPath="$PROJECT_DIR$/assets/css/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/script.js" afterPath="$PROJECT_DIR$/productlist/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redesign.iws" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/productlist/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5634" max-vertical-offset="13410">
-              <caret line="313" column="39" selection-start-line="313" selection-start-column="39" selection-end-line="313" selection-end-column="39" />
+            <state vertical-scroll-proportion="-5.0350876" vertical-offset="12871" max-vertical-offset="13410">
+              <caret line="731" column="48" selection-start-line="731" selection-start-column="48" selection-end-line="731" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -48,18 +48,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.866667" vertical-offset="6598" max-vertical-offset="32184">
-              <caret line="383" column="9" selection-start-line="383" selection-start-column="9" selection-end-line="383" selection-end-column="9" />
+            <state vertical-scroll-proportion="-3.8666666" vertical-offset="20296" max-vertical-offset="32202">
+              <caret line="1134" column="0" selection-start-line="1134" selection-start-column="0" selection-end-line="1144" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="911" max-vertical-offset="11340">
-              <caret line="300" column="5" selection-start-line="300" selection-start-column="5" selection-end-line="300" selection-end-column="5" />
+            <state vertical-scroll-proportion="1.6912751" vertical-offset="0" max-vertical-offset="8550">
+              <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
               <folding>
                 <element signature="e#1020#1896#0" expanded="false" />
                 <element signature="e#1910#2081#0" expanded="false" />
@@ -70,6 +70,7 @@
                 <element signature="e#3792#4110#0" expanded="false" />
                 <element signature="e#4127#4816#0" expanded="false" />
                 <element signature="e#4858#5038#0" expanded="false" />
+                <element signature="e#5039#5152#0" expanded="false" />
                 <element signature="e#5153#5304#0" expanded="false" />
                 <element signature="e#5305#5496#0" expanded="false" />
                 <element signature="e#5497#5608#0" expanded="false" />
@@ -78,20 +79,24 @@
                 <element signature="e#5948#6174#0" expanded="false" />
                 <element signature="e#6175#6501#0" expanded="false" />
                 <element signature="e#6502#6843#0" expanded="false" />
-                <element signature="e#8156#8428#0" expanded="false" />
-                <element signature="e#8429#8543#0" expanded="false" />
-                <element signature="e#13452#13771#0" expanded="false" />
-                <element signature="e#13788#14468#0" expanded="false" />
-                <element signature="e#14500#14683#0" expanded="false" />
+                <element signature="e#6860#7186#0" expanded="false" />
+                <element signature="e#7228#8272#0" expanded="false" />
+                <element signature="e#8290#8562#0" expanded="false" />
+                <element signature="e#8563#8677#0" expanded="false" />
+                <element signature="e#8908#10228#0" expanded="false" />
+                <element signature="e#10242#10699#0" expanded="false" />
+                <element signature="e#13586#13905#0" expanded="false" />
+                <element signature="e#13922#14602#0" expanded="false" />
+                <element signature="e#14634#14817#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/productlist/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.224832" vertical-offset="0" max-vertical-offset="3222">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3222">
               <caret line="173" column="3" selection-start-line="173" selection-start-column="3" selection-end-line="173" selection-end-column="3" />
               <folding />
             </state>
@@ -153,10 +158,10 @@
         <option value="$PROJECT_DIR$/landingpage/index.html" />
         <option value="$PROJECT_DIR$/landingpage/responsive.css" />
         <option value="$PROJECT_DIR$/landingpage/style.css" />
+        <option value="$PROJECT_DIR$/productlist/script.js" />
         <option value="$PROJECT_DIR$/productlist/index.php" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/css/responsive.css" />
-        <option value="$PROJECT_DIR$/productlist/script.js" />
       </list>
     </option>
   </component>
@@ -389,6 +394,7 @@
             <element signature="e#3792#4110#0" expanded="false" />
             <element signature="e#4127#4816#0" expanded="false" />
             <element signature="e#4858#5038#0" expanded="false" />
+            <element signature="e#5039#5152#0" expanded="false" />
             <element signature="e#5153#5304#0" expanded="false" />
             <element signature="e#5305#5496#0" expanded="false" />
             <element signature="e#5497#5608#0" expanded="false" />
@@ -397,11 +403,15 @@
             <element signature="e#5948#6174#0" expanded="false" />
             <element signature="e#6175#6501#0" expanded="false" />
             <element signature="e#6502#6843#0" expanded="false" />
-            <element signature="e#8156#8428#0" expanded="false" />
-            <element signature="e#8429#8543#0" expanded="false" />
-            <element signature="e#13452#13771#0" expanded="false" />
-            <element signature="e#13788#14468#0" expanded="false" />
-            <element signature="e#14500#14683#0" expanded="false" />
+            <element signature="e#6860#7186#0" expanded="false" />
+            <element signature="e#7228#8272#0" expanded="false" />
+            <element signature="e#8290#8562#0" expanded="false" />
+            <element signature="e#8563#8677#0" expanded="false" />
+            <element signature="e#8908#10228#0" expanded="false" />
+            <element signature="e#10242#10699#0" expanded="false" />
+            <element signature="e#13586#13905#0" expanded="false" />
+            <element signature="e#13922#14602#0" expanded="false" />
+            <element signature="e#14634#14817#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -549,26 +559,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/productlist/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3222">
+          <caret line="173" column="3" selection-start-line="173" selection-start-column="3" selection-end-line="173" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/productlist/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5634" max-vertical-offset="13410">
-          <caret line="313" column="39" selection-start-line="313" selection-start-column="39" selection-end-line="313" selection-end-column="39" />
+        <state vertical-scroll-proportion="-5.0350876" vertical-offset="12871" max-vertical-offset="13410">
+          <caret line="731" column="48" selection-start-line="731" selection-start-column="48" selection-end-line="731" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.866667" vertical-offset="6598" max-vertical-offset="32184">
-          <caret line="383" column="9" selection-start-line="383" selection-start-column="9" selection-end-line="383" selection-end-column="9" />
+        <state vertical-scroll-proportion="-3.8666666" vertical-offset="20296" max-vertical-offset="32202">
+          <caret line="1134" column="0" selection-start-line="1134" selection-start-column="0" selection-end-line="1144" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="911" max-vertical-offset="11340">
-          <caret line="300" column="5" selection-start-line="300" selection-start-column="5" selection-end-line="300" selection-end-column="5" />
+        <state vertical-scroll-proportion="1.6912751" vertical-offset="0" max-vertical-offset="8550">
+          <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
           <folding>
             <element signature="e#1020#1896#0" expanded="false" />
             <element signature="e#1910#2081#0" expanded="false" />
@@ -579,6 +597,7 @@
             <element signature="e#3792#4110#0" expanded="false" />
             <element signature="e#4127#4816#0" expanded="false" />
             <element signature="e#4858#5038#0" expanded="false" />
+            <element signature="e#5039#5152#0" expanded="false" />
             <element signature="e#5153#5304#0" expanded="false" />
             <element signature="e#5305#5496#0" expanded="false" />
             <element signature="e#5497#5608#0" expanded="false" />
@@ -587,20 +606,16 @@
             <element signature="e#5948#6174#0" expanded="false" />
             <element signature="e#6175#6501#0" expanded="false" />
             <element signature="e#6502#6843#0" expanded="false" />
-            <element signature="e#8156#8428#0" expanded="false" />
-            <element signature="e#8429#8543#0" expanded="false" />
-            <element signature="e#13452#13771#0" expanded="false" />
-            <element signature="e#13788#14468#0" expanded="false" />
-            <element signature="e#14500#14683#0" expanded="false" />
+            <element signature="e#6860#7186#0" expanded="false" />
+            <element signature="e#7228#8272#0" expanded="false" />
+            <element signature="e#8290#8562#0" expanded="false" />
+            <element signature="e#8563#8677#0" expanded="false" />
+            <element signature="e#8908#10228#0" expanded="false" />
+            <element signature="e#10242#10699#0" expanded="false" />
+            <element signature="e#13586#13905#0" expanded="false" />
+            <element signature="e#13922#14602#0" expanded="false" />
+            <element signature="e#14634#14817#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productlist/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.224832" vertical-offset="0" max-vertical-offset="3222">
-          <caret line="173" column="3" selection-start-line="173" selection-start-column="3" selection-end-line="173" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
