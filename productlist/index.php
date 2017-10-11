@@ -599,7 +599,10 @@
             <input type="submit" name="submit" value="Küldés">
         </form>
     </div>
-    <a class="response"><i class="far fa-user-alt"></i></a>
+    <a class="response">
+        <span>Visszajelzés</span>
+        <i class="far fa-user-alt"></i>
+    </a>
     <a class="back" href="https://www.meska.hu/">
         <span>Vissza a régi listaoldalra!</span>
         <i class="far fa-arrow-alt-left"></i>
