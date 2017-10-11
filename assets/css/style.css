@@ -825,7 +825,6 @@ ul{
 }
 .search-row .sort{
     margin: 0px 5px 0px 0px;
-    display: none;
     float: right;
 }
 .search-row .sort .far{

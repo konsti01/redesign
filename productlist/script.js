@@ -69,8 +69,7 @@ $(window).scroll(function() {
      $('.search-bar img').css('width', '15px'),
      $('.search-bar').css('transition', 'padding 200ms'),
      $('.search-bar img').css('transition', 'width 200ms'),
-     $('.search-row .sort').css('display', 'inline-block'),
-     $('.keywords .sort').css('display', 'none');
+     $('.search-row .sort').css('display', 'inline-block');
  }else{
      $('.search-row .btn-group .btn').css('padding', '3px 12px'),
      $('.search-row .btn-group .btn').css('font-size', '14px'),
@@ -81,9 +80,7 @@ $(window).scroll(function() {
      $('.search-bar').css('font-size', '14px'),
      $('.search-bar').css('padding', '2px 10px'),
      $('.search-bar').css('height', '28px'),
-     $('.search-bar img').css('width', '20px'),
-     $('.search-row .sort').css('display', 'none'),
-     $('.keywords .sort').css('display', 'block');
+     $('.search-bar img').css('width', '20px');
  }
  });
 

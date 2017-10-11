@@ -434,56 +434,6 @@
                     <span class="keyword"><a href="">kulcsszo19</a></span>,
                     <span class="keyword"><a href="">kulcsszo20</a></span>,
                 </div>
-                <div class="sort">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="far fa-sort-amount-down" aria-hidden="true"></i>
-                        Rendezés <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="">
-                                <i class="far fa-home" aria-hidden="true"></i>
-                                Meska.hu sorrend
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="far fa-heart"></i>
-                                Legnépszerűbb
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="far fa-recycle" aria-hidden="true"></i>
-                                Legújabb
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="far fa-eye"></i>
-                                Legnézettebb
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="far fa-star" aria-hidden="true"></i>
-                                Kiemelt
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="far fa-arrow-to-bottom" aria-hidden="true"></i>
-                                Ár szerint csökkenő
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="far fa-arrow-to-top" aria-hidden="true"></i>
-                                Ár szerint növekvő
-                            </a>
-                        </li>
-                    </ul>
-                </div>
             </div>
             <div id="product-wrapper" class="row cont">
                 <?php
