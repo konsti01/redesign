@@ -1102,6 +1102,7 @@ ul{
     display: block;
     border-radius: 50%;
     background-color: #88b048;
+    box-shadow: 5px 5px 10px -3px rgba(51,51,51,0.81);
 }
 .ask .back .fa-arrow-alt-left{
     margin: 17px;
@@ -1134,6 +1135,7 @@ ul{
     border-radius: 50%;
     background-color: #88b048;
     cursor: pointer;
+    box-shadow: 5px 5px 10px -3px rgba(51,51,51,0.81);
 }
 .ask .response:hover{
     background-color: #336600;
@@ -1147,10 +1149,11 @@ ul{
     display: none;
     width: 300px;
     background-color: #88b048;
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
     border-radius: 5px;
     text-align: center;
+    box-shadow: 5px 5px 10px -3px rgba(51,51,51,0.81);
 }
 .ask .response-box .fa-times{
     float: right;
