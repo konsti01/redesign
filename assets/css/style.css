@@ -735,17 +735,8 @@ ul{
     outline: none;
 }
 
-/*SELECT2*/
-.search-row #technika .select2-container{
-    width: 220px !important;
-}
-.search-row-mobile #technika .select2-container{
-    width: 100% !important;
-    text-align: center;
-}
-.search-row-mobile #szin .select2-container{
-    width: 100% !important;
-    text-align: center;
+#technika{
+    max-width: 190px;
 }
 .search-row .btn-group{
     height: 28px;
@@ -875,9 +866,17 @@ ul{
 .search-row-mobile{
     display: none;
 }
-.search-row-mobile-content{
-    display: none;
+.search-row-mobile .card{
+    border: 0;
 }
+.search-row-mobile .card-header{
+    border: 0;
+    background-color: #fff;
+}
+.search-row-mobile .card-header h5{
+    font-size: 16px;
+}
+
 .dropdown-menu{
     border: 1px solid rgba(0,0,0,.15);
     border-radius: 4px;

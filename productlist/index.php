@@ -400,6 +400,18 @@
                         </div>
                     </div>
                 </div>
+                <div class="search-row-mobile" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h5 class="mb-0"><a>Keresési szempontok</a></h5>
+                        </div>
+                        <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="card-block">
+                                Szűrési lehetőségek
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="keresesi-szempontok col-md-12 col-sm-12 col-xs-12 no-padding paddingtb10">
                     Keresési szempontok:
                     <span class="szempont">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
