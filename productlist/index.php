@@ -605,7 +605,7 @@
     </a>
     <a class="back" href="https://www.meska.hu/">
         <span>Vissza a régi listaoldalra!</span>
-        <i class="far fa-arrow-alt-left"></i>
+        <i class="far fa-undo"></i>
     </a>
 </div>
 
