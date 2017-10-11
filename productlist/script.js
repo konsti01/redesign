@@ -292,8 +292,16 @@ $(document).ready(function() {
 
     //LOAD MORE PROD BUTTON
     $('.show-more').click(getProductsJson);
-});
 
+    //RESPONSE BOX DISPLAY
+        $( ".response" ).click(function() {
+                $('.response-box').css('display', 'block');
+
+                $( ".fa-times" ).click(function() {
+                    $('.response-box').css('display', 'none');
+                });
+        });
+});
 
 // SIDEBAR DISPLAY
 if ($(window).width() < 1000) {
@@ -314,10 +322,3 @@ else if ($(window).width() > 1000){
     $('.row-left').css('left', '250px'),
     $('.row-left').css('transition', 'left 1s');
 }
-/*
-$(window).resize(function() {
-    if ($(window).width() < 1000){
-        location.reload();
-    }
-});
-*/

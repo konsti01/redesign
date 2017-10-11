@@ -590,28 +590,16 @@
     {{/products}}
 </script>
 <div class="ask">
-    <a class="back" href="https://www.meska.hu/">Vissza a régi oldalra</a>
-    <div id="accordion" role="tablist" aria-multiselectable="true">
-        <div class="card">
-            <div class="card-header" role="tab" id="headingOne">
-                <h5 class="mb-0">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Visszajelzés küldése
-                    </a>
-                </h5>
-            </div>
-            <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-                <div class="card-block">
-                    Köszönjük, ha megírod észrevételedet az új listaoldalról.<br>
-                    Ez még csak teszt verzió, örömmel fogadunk minden pozitív és negatív észrevételt :)
-                    <form>
-                        <textarea></textarea><br>
-                        <input type="submit" name="submit" value="Küldés">
-                    </form>
-                </div>
-            </div>
-        </div>
+    <div class="response-box">
+        <i class="far fa-times" id="close"></i>
+        <p>Köszönjük, ha megírod észrevételedet az új listaoldalról. Ez még csak teszt verzió, örömmel fogadunk minden pozitív és negatív észrevételt :)</p>
+        <form>
+            <textarea></textarea><br>
+            <input type="submit" name="submit" value="Küldés">
+        </form>
     </div>
+    <a class="response"><i class="far fa-user-alt"></i></a>
+    <a class="back" href="https://www.meska.hu/"><i class="far fa-arrow-alt-left"></i></a>
 </div>
 
 <?php include_once('../footer.php'); ?>
