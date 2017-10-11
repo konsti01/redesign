@@ -783,6 +783,10 @@
     }
 } /* hamburger + reg */
 @media only screen and (max-width: 768px){
+    #about-jump{
+        position: relative;
+        top: -90px;
+    }
     .nav .jump{
         display: none;
     }

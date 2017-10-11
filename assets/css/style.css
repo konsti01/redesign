@@ -1081,20 +1081,21 @@ ul{
     position: fixed;
     right: 5px;
     bottom: 5px;
-    width: 500px;
+    width: 200px;
     background-color: #88b048;
     text-align: center;
     padding: 10px;
     border-radius: 5px;
     font-family: "Open Sans";
+    font-size: 14px;
     z-index: 9999999;
 }
 .ask .back{
     width: 100%;
     padding: 5px;
     color: #fff;
-    font-size: 18px;
     display: block;
+    border-radius: 5px;
 }
 .ask .back:hover{
     background-color: #336600;
@@ -1104,11 +1105,13 @@ ul{
 }
 .ask #accordion .card{
     border: 0;
+    background-color: #88b048;
 }
 .ask #accordion .card-header{
     background-color: #88b048;
     padding: 5px;
     border-bottom: 0;
+    border-radius: 5px;
 }
 .ask #accordion .card-header:hover{
     background-color: #336600;
@@ -1118,7 +1121,7 @@ ul{
 }
 .ask #accordion .card-header a{
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
 }
 .ask #accordion .collapse{
     background-color: #88b048;
@@ -1140,6 +1143,7 @@ ul{
     margin: 5px 0 0 0;
 }
 .ask #accordion input{
+    fonz-size: 14px;
     background-color: #d1f08e;
     border: 1px solid #333;
     color: #333;

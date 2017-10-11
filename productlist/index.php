@@ -590,13 +590,13 @@
     {{/products}}
 </script>
 <div class="ask">
-    <a class="back" href="https://www.meska.hu/">Vissza a régi listaoldalra</a>
+    <a class="back" href="https://www.meska.hu/">Vissza a régi oldalra</a>
     <div id="accordion" role="tablist" aria-multiselectable="true">
         <div class="card">
             <div class="card-header" role="tab" id="headingOne">
                 <h5 class="mb-0">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Visszajelzés küldése a Meskának
+                        Visszajelzés küldése
                     </a>
                 </h5>
             </div>
