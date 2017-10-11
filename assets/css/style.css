@@ -1153,7 +1153,7 @@ ul{
 .ask .response:hover span{
     display: block;
 }
-.ask .response .fa-user-alt{
+.ask .response .fa-comment-alt{
     margin: 17px;
     color: #fff;
     font-size: 18px;

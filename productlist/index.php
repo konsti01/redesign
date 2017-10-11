@@ -601,7 +601,7 @@
     </div>
     <a class="response">
         <span>Visszajelzés</span>
-        <i class="far fa-user-alt"></i>
+        <i class="far fa-comment-alt"></i>
     </a>
     <a class="back" href="https://www.meska.hu/">
         <span>Vissza a régi listaoldalra!</span>
