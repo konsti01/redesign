@@ -22,18 +22,16 @@ $(document).ready(function() {
 });
 
 //SPECIFY VISIBILITY
-$('input[name=query]').keyup(function(){
+$('#search-bar').keyup(function(){
     if($(this).val().length){
-        $('.keresesi-szempontok').show();
+        $('.search-tags').show();
 
-        $('.cont').css('margin-top', '170px'),
-        $('.keywords').css('margin', '220px 5px 0px 5px');
+        $('.keywords').addClass('gap');
     }
     else{
-        $('.keresesi-szempontok').hide();
+        $('.search-tags').hide();
 
-        $('.cont').css('margin-top', '130px')
-        $('.keywords').css('margin', '170px 5px 0px 5px');
+        $('.keywords').removeClass('gap');
 
     }
 });
@@ -133,31 +131,26 @@ $(document).ready(function() {
         var sidebar_breakpoint = 986;
 
         if(windowsize >= sidebar_breakpoint) {
-            $rowleft.css('position', 'absolute'),
-            $rowleft.css('left', '250px'),
-            $rowleft.css('transition', 'left 1s');
+            $rowleft.removeClass('mobile');
+            $rowleft.addClass('normal');
 
             $rowright.click(function(){
-                $rowleft.css('position', 'absolute'),
-                $rowleft.css('left', '250px'),
-                $rowleft.css('transition', 'left 1s');
+                $rowleft.removeClass('mobile');
+                $rowleft.addClass('normal');
             });
         }
         else if(windowsize < sidebar_breakpoint){
-            $rowleft.css('position', 'absolute'),
-            $rowleft.css('left', '41px'),
-            $rowleft.css('transition', 'left 1s');
+            $rowleft.removeClass('normal');
+            $rowleft.addClass('mobile');
 
             $rowleft.click(function(){
-                $rowleft.css('position', 'absolute'),
-                $rowleft.css('left', '250px'),
-                $rowleft.css('transition', 'left 1s');
+                $rowleft.removeClass('mobile');
+                $rowleft.addClass('normal');
             });
 
             $rowright.click(function(){
-                $rowleft.css('position', 'absolute'),
-                $rowleft.css('left', '41px'),
-                $rowleft.css('transition', 'left 1s');
+                $rowleft.removeClass('normal');
+                $rowleft.addClass('mobile');
             });
         }
     }

@@ -215,7 +215,7 @@
             </div>
             <div class="clear"></div>
             <div class="sticky-banner">
-                <div class="bannerhely-pl width-250">BANNERHELY</div>
+                <div class="bannerspot-pl width-250">BANNERHELY</div>
                 <div class="widget-pl width-250">WIDGET</div>
             </div>
         </div>
@@ -237,7 +237,7 @@
                         </div>
                         <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                             <div class="card-block">
-                                <div id="technika" class="btn-group">
+                                <div id="technic" class="btn-group">
                                     <select class="technika">
                                         <option value="00" disabled selected>Technika</option>
                                         <option value="01">Baba-és bábkészítés</option>
@@ -284,7 +284,7 @@
                                         <option value="42">Zsugorka</option>
                                     </select>
                                 </div>
-                                <div id="szin" class="btn-group">
+                                <div id="color" class="btn-group">
                                     <select class="szin">
                                         <option value="00" disabled selected>Szín</option>
                                         <option value="01">Arany</option>
@@ -406,7 +406,7 @@
                     </div>
                 </div>
                 <div class="search-row">
-                    <div id="technika" class="btn-group">
+                    <div id="technic" class="btn-group">
                             <select class="technika">
                                 <option value="00" disabled selected>Technika</option>
                                 <option value="01">Baba-és bábkészítés</option>
@@ -453,7 +453,7 @@
                                 <option value="42">Zsugorka</option>
                             </select>
                     </div>
-                    <div id="szin" class="btn-group">
+                    <div id="color" class="btn-group">
                         <select class="szin">
                             <option value="00" disabled selected>Szín</option>
                             <option value="01">Arany</option>
@@ -578,12 +578,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="keresesi-szempontok col-md-12 col-sm-12 col-xs-12 no-padding paddingtb10">
+                <div class="search-tags col-md-12 col-sm-12 col-xs-12 no-padding paddingtb10">
                     Keresési szempontok:
-                    <span class="szempont">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
-                    <span class="szempont">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
-                    <span class="szempont">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
-                    <span class="szempont">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
+                    <span class="tag">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
+                    <span class="tag">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
+                    <span class="tag">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
+                    <span class="tag">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
                     <a href=""><div class="trashcan"><i class="far fa-trash-alt fa-fw" aria-hidden="true"></i></div></a>
                 </div>
                 <div class="clearfix"></div>

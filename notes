@@ -8,9 +8,5 @@ xs  -   2 product   0       -       576 //default - no css rule
 
 NOTES:
 51. sor toggleclass-el
-25. sornál legyen ID az inputra és display block vagy none legyen a .cont
-legyen minden classname angol!
-131.sor .css helyett classokkal
-
 
 TODO:
