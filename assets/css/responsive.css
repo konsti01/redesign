@@ -226,7 +226,7 @@
         margin: 0 0 0 10px;
     }
 }
-@media only screen and (min-width: 1155px) and (max-width: 1199px){
+@media only screen and (min-width: 1155px) and (max-width: 1200px){
     .search-row .search-bar{display: none;}
 }
 @media only screen and (min-width: 1065px) and (max-width: 1154px){
@@ -239,25 +239,25 @@
     .search-row #price{display: none;}
 
 }
-@media only screen and (min-width: 925px) and (max-width: 999px){
+@media only screen and (min-width: 939px) and (max-width: 999px){
     .search-row .search-bar{display: none;}
 }
-@media only screen and (min-width: 825px) and (max-width: 924px){
+@media only screen and (min-width: 843px) and (max-width: 938px){
     .search-row .search-bar{display: none;}
     .search-row #misc{display: none;}
 }
-@media only screen and (min-width: 757px) and (max-width: 824px){
+@media only screen and (min-width: 773px) and (max-width: 842px){
     .search-row .search-bar{display: none;}
     .search-row #misc{display: none;}
     .search-row #price{display: none;}
 }
-@media only screen and (min-width: 616px) and (max-width: 756px){
+@media only screen and (min-width: 630px) and (max-width: 772px){
     .search-row .search-bar{display: none;}
     .search-row #misc{display: none;}
     .search-row #price{display: none;}
     .search-row #szin{display: none;}
 }
-@media only screen and (min-width: 425px) and (max-width: 616px){
+@media only screen and (min-width: 425px) and (max-width: 629px){
     .search-row .search-bar{display: none;}
     .search-row #misc{display: none;}
     .search-row #price{display: none;}
