@@ -1,0 +1,116 @@
+/***********************************************************************************************/
+/********** FAQ **********/
+/***********************************************************************************************/
+@media(min-width:992px) {
+    .row.md-no-gutter>[class*='col-']:last-of-type:not(:only-of-type) {
+        padding-left: 0;
+    }
+}
+@media(max-width:991px) {
+    .image-container.sm-6>img,
+    .image-container.sm-6 a{
+        width: 15%;
+    }
+}
+@media(max-width:767px) {
+    .image-container.xs-4>img,
+    .image-container.xs-4 a{
+        width: 23.5%;
+    }
+}
+@media(min-width:1160px) {
+    .to-basket-def {
+        display: inline-block;
+    }
+}
+@media(max-width:991px) {
+    .sm-no-margin{
+        margin: 0 !important;
+    }
+    .sm-margin-top-10{
+        margin-top: 15px;
+    }
+    .sm-margin-top-15{
+        margin-top: 15px;
+    }
+}
+@media(min-width:992px) {
+    .md-margin-top-10{
+        margin-top: 10px;
+    }
+}
+@media(max-width:767px) {
+    .xs-no-float{
+        float: none !important;
+    }
+    .xs-no-margin{
+        margin: 0 !important;
+    }
+    .xs-margint10{
+        margin-top:10px;
+    }
+    .faq-type-nav{
+
+    }
+    .faq-type-nav li{
+        padding:5px;
+    }
+    .faq-type-nav li.active{
+        border-top:0;
+        margin:3px 0 0 0;
+    }
+    .faq-type-nav li.active a{
+        color: #fff;
+        background-color: #007733;
+    }
+    .faq-type-nav li a{
+        display: block;
+        color: #fff;
+        padding: 8px;
+        margin: 5px 0;
+        border-radius: 5px;
+        background-color: #006633;
+    }
+}
+@media only screen and (max-width:650px){
+    .searchbar{
+        width:300px;
+    }
+    .searchbar img{
+        width:20px;
+        position:relative;
+        top:35px;
+        opacity:0.3;
+    }
+    #search-button{
+        position: relative;
+        top: -40px;
+        left: 219px !important;
+    }
+}
+@media only screen and (max-width:767px){
+    .navbar-header{
+        border-bottom:1px solid #999;
+    }
+}
+@media only screen and (max-width:767px){
+    .faq-nav li a{
+        display:block;
+        color: #fff;
+        padding: 8px;
+        margin:5px 0;
+        border-radius: 5px;
+        background-color:#006633;
+    }
+
+    .faq-nav li a.active, .faq-nav li a.active:hover {
+        background-color: #007733;
+        color:#fff;
+    }
+    .faq-nav li a:hover {
+        background-color: #005533;
+        color: #fff;
+    }
+
+
+}

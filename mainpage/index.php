@@ -4,6 +4,10 @@
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/topnav.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
+<link rel="stylesheet" type="text/css" href="mainpage.css">
+<link rel="stylesheet" type="text/css" href="mainpage_responsive.css">
 
 <!-- FONTS -->
 <link rel="stylesheet" type="text/css" href="/assets/css/fonts.css">
@@ -213,8 +217,10 @@
                 </div>
             </div>
             <div class="clear"></div>
-            <div class="bannerhely-mp col-md-2-250 col-lg-2-250 col-xl-2-250">BANNERHELY</div>
-            <div class="widget-mp col-md-2-250 col-lg-2-250 col-xl-2-250">WIDGET</div>
+            <div class="sticky-banner">
+                <div class="bannerhely-mp width-250">BANNERHELY</div>
+                <div class="widget-mp width-250">WIDGET</div>
+            </div>
         </div>
         <!-- RIGHT COL -->
         <div class="row-right">
@@ -299,7 +305,7 @@
                         $count = 0;
                         foreach($products as $p){ ?>
 
-                            <div class="products col-xs-6-custom col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                            <div class="products col-sm-6 col-md-4 col-lg-3 col-xl-2 padding5">
                                 <div class="product-box" onclick="location.href='#';">
                                     <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                         <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -351,7 +357,7 @@
                     $count = 0;
                     foreach($products as $p){ ?>
 
-                        <div class="products col-xs-6-custom col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                        <div class="products col-sm-6 col-md-4 col-lg-3 col-xl-2 padding5">
                             <div class="product-box" onclick="location.href='#';">
                                 <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -402,7 +408,7 @@
                     $count = 0;
                     foreach($products as $p){ ?>
 
-                        <div class="products col-xs-6-custom col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                        <div class="products col-sm-6 col-md-4 col-lg-3 col-xl-2 padding5">
                             <div class="product-box" onclick="location.href='#';">
                                 <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -692,7 +698,7 @@
                     $count = 0;
                     foreach($products as $p){ ?>
 
-                        <div class="products col-xs-6-custom col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                        <div class="products col-sm-6 col-md-4 col-lg-3 col-xl-2 padding5">
                             <div class="product-box" onclick="location.href='#';">
                                 <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -763,10 +769,10 @@
 <?php include_once('../footer.php'); ?>
 
 <!-- numbers -->
-<script src="/landingpage/js/appear.js"></script>
-<script src="/landingpage/js/jquery.countTo.js"></script>
-<script src="/landingpage/js/jquery.sticky.js"></script>
-<script src="/landingpage/js/script.js"></script>
+<script src="https://assets.meska.hu/js/alkotok/appear.js"></script>
+<script src="https://assets.meska.hu/js/jquery/jquery.countTo.js"></script>
+<script src="https://assets.meska.hu/js/jquery/jquery.sticky.js"></script>
+<script src="https://assets.meska.hu/js/alkotok/script.js"></script>
 
 <!-- scroll to top & sidebar appear -->
-<script src="/productlist/script.js"></script>
+<script src="script.js"></script>

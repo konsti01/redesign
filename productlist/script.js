@@ -1,4 +1,3 @@
-
 //BANNERHELY ÉS WIDGET FIX
 function bannerscroll(){
     //TODO mi ez a 140?
@@ -9,7 +8,7 @@ function bannerscroll(){
 
     if (scrolltop > rowheight){
         if (scrolltop + bannerbottom - rowheight < footertop){
-            $('.sticky-banner').css('margin-top', scrolltop-rowheight);
+            $('.sticky-banner').css('margin-top', scrolltop -rowheight);
         } else {
             $('.sticky-banner').css('margin-top', footertop - bannerbottom - 10);
         }
@@ -28,13 +27,13 @@ $('input[name=query]').keyup(function(){
         $('.keresesi-szempontok').show();
 
         $('.cont').css('margin-top', '170px'),
-        $('.keywords').css('margin', '150px 5px 0px 5px');
+        $('.keywords').css('margin', '220px 5px 0px 5px');
     }
     else{
         $('.keresesi-szempontok').hide();
 
         $('.cont').css('margin-top', '130px')
-        $('.keywords').css('margin', '100px 5px 0px 5px');
+        $('.keywords').css('margin', '170px 5px 0px 5px');
 
     }
 });
@@ -117,10 +116,10 @@ $(document).ready(function() {
 
     //RESPONSE BOX DISPLAY
     $( ".response" ).click(function() {
-            $('.response-box').css('display', 'block');
+            $('.response-box').show();
 
             $( ".fa-times" ).click(function() {
-                $('.response-box').css('display', 'none');
+                $('.response-box').hide();
             });
         });
 
@@ -131,8 +130,9 @@ $(document).ready(function() {
 
     function checkWidth() {
         var windowsize = $window.width();
+        var sidebar_breakpoint = 986;
 
-        if(windowsize > 1000) {
+        if(windowsize >= sidebar_breakpoint) {
             $rowleft.css('position', 'absolute'),
             $rowleft.css('left', '250px'),
             $rowleft.css('transition', 'left 1s');
@@ -143,7 +143,7 @@ $(document).ready(function() {
                 $rowleft.css('transition', 'left 1s');
             });
         }
-        else{
+        else if(windowsize < sidebar_breakpoint){
             $rowleft.css('position', 'absolute'),
             $rowleft.css('left', '41px'),
             $rowleft.css('transition', 'left 1s');

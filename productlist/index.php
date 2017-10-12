@@ -4,9 +4,10 @@
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
-
-<!-- FONTS -->
-<link rel="stylesheet" type="text/css" href="/assets/css/fonts.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/topnav.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
+<link rel="stylesheet" type="text/css" href="productlist.css">
+<link rel="stylesheet" type="text/css" href="productlist_responsive.css">
 
 <div class="row">
     <div class="row-wrapper">
@@ -214,8 +215,8 @@
             </div>
             <div class="clear"></div>
             <div class="sticky-banner">
-                <div class="bannerhely-pl col-md-2-250 col-lg-2-250 col-xl-2-250">BANNERHELY</div>
-                <div class="widget-pl col-md-2-250 col-lg-2-250 col-xl-2-250">WIDGET</div>
+                <div class="bannerhely-pl width-250">BANNERHELY</div>
+                <div class="widget-pl width-250">WIDGET</div>
             </div>
         </div>
         <!-- RIGHT COL -->
@@ -615,7 +616,7 @@
             <div id="product-wrapper" class="row cont">
                 <?php
                 foreach ($products as $p){ ?>
-                    <div class="products col-xs-6-custom col-sm-4-custom col-md-3-custom col-lg-2-custom col-xl-2-custom padding5">
+                    <div class="products col-sm-6 col-md-4 col-lg-3 col-xl-2 padding5">
                         <div class="product-box" onclick="location.href='#';">
                             <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                 <!--
@@ -653,17 +654,6 @@
                     </div>
                 <?php } ?>
             </div>
-
-            <!--
-            <div class="page-select">
-                <span class="page-num" id="pn1">1</span>
-                <span class="page-num" id="pn2">2</span>
-                <span class="page-num" id="pn3">3</span>
-                <span class="page-num" id="pn4">4</span>
-                <span class="page-num" id="pn5">5</span>
-                <span class="next">Következő</span>
-            </div>
-            -->
 
             <div id="load-more-products" class="show-more">Több termék megjelenítése</div>
             <div class="category-desc">

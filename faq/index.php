@@ -3,6 +3,10 @@
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/topnav.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
+<link rel="stylesheet" type="text/css" href="faq.css">
+<link rel="stylesheet" type="text/css" href="faq_responsive.css">
 
 <div id="wrapper" class="disabled">
     <!-- Page Content -->
