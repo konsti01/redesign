@@ -246,10 +246,11 @@ body{
     margin: auto;
     border: 1px solid #aaa;
     padding: 5px;
-    width: 300px;
+    width: 250px;
 }
 .burger #search-form .input-txt{
-    padding: 6px 12px 10px 12px;
+    padding: 6px 0px 10px 12px;
+    margin: 0;
     font-size: 14px;
     line-height: 1.42857143;
     color: #555;
@@ -291,6 +292,7 @@ body{
     position: absolute !important;
     top: 10px !important;
     left: 11px !important;
+    width: 330px;
 }
 
 .btn.focus, .btn:focus{
@@ -322,6 +324,7 @@ body{
 }
 .topnav .fa-search{
     color: #666;
+    margin: 0!important;
 }
 /*-------------------------------------------------------------------------------------------*/
 /* GLOBAL - FOOTER */
@@ -871,7 +874,7 @@ ul{
 .search-row-mobile .card-header{
     border: 0;
     background-color: #fff;
-    padding: 10px;
+    padding: 6px;
     cursor: pointer;
 }
 .search-row-mobile .card-header h5{
@@ -1101,6 +1104,7 @@ ul{
     position: fixed;
     right: 5px;
     bottom: 5px;
+    width: 320px;
     text-align: center;
     padding: 10px;
     border-radius: 5px;
@@ -1134,10 +1138,9 @@ ul{
 }
 .ask .back span{
     display: none;
-    position: absolute;
-    top: -25px;
-    left: -55px;
-    right: 15px;
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
     color: #eee;
     background-color: #333;
     padding: 5px;
@@ -1163,9 +1166,9 @@ ul{
 }
 .ask .response span{
     display: none;
-    position: absolute;
-    top: -25px;
-    right: 0px;
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
     color: #eee;
     background-color: #333;
     padding: 5px;
@@ -1181,7 +1184,7 @@ ul{
 }
 .ask .response-box{
     display: none;
-    width: 300px;
+    width: 100%;
     background-color: #88b048;
     padding: 10px;
     margin: 5px;
