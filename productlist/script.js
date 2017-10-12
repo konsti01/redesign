@@ -1,33 +1,25 @@
+
 //BANNERHELY ÉS WIDGET FIX
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    var bottom = $(window).scrollTop() + $(window).height() > $(document).height() - 220;
+function bannerscroll(){
+    //TODO mi ez a 140?
+    rowheight = $('.sidebar').height() - 140;
+    footertop = $('footer').position().top;
+    bannerbottom = $('.sticky-banner').position().top + $('.sticky-banner').height();
+    scrolltop = $(document).scrollTop();
 
-    if(scroll < 700){
-        $(".bannerhely-fixed-pl").removeClass("bannerhely-fixed-pl").addClass("bannerhely-pl"),
-        $(".widget-fixed-pl").removeClass("widget-fixed-pl").addClass("widget-pl");
-
-        $(".bannerhely-fixed-mp").removeClass("bannerhely-fixed-mp").addClass("bannerhely-mp"),
-        $(".widget-fixed-mp").removeClass("widget-fixed-mp").addClass("widget-mp");
+    if (scrolltop > rowheight){
+        if (scrolltop + bannerbottom - rowheight < footertop){
+            $('.sticky-banner').css('margin-top', scrolltop-rowheight);
+        } else {
+            $('.sticky-banner').css('margin-top', footertop - bannerbottom - 10);
+        }
+    } else {
+        $('.sticky-banner').css('margin-top', 0);
     }
-    if (scroll >= 700) {
-        $(".bannerhely-pl").removeClass("bannerhely-pl").addClass("bannerhely-fixed-pl"),
-        $(".widget-pl").removeClass("widget-pl").addClass("widget-fixed-pl"),
-        $(".bannerhely-fixed-bottom-pl").removeClass("bannerhely-fixed-bottom-pl").addClass("bannerhely-fixed-pl"),
-        $(".widget-fixed-bottom-pl").removeClass("widget-fixed-bottom-pl").addClass("widget-fixed-pl");
-
-        $(".bannerhely-mp").removeClass("bannerhely-mp").addClass("bannerhely-fixed-mp"),
-        $(".widget-mp").removeClass("widget-mp").addClass("widget-fixed-mp"),
-        $(".bannerhely-fixed-bottom-mp").removeClass("bannerhely-fixed-bottom-mp").addClass("bannerhely-fixed-mp"),
-        $(".widget-fixed-bottom-mp").removeClass("widget-fixed-bottom-mp").addClass("widget-fixed-mp");
-    }
-    if(bottom){
-        $(".bannerhely-fixed-pl").removeClass("bannerhely-fixed-pl", 1000).addClass("bannerhely-fixed-bottom-pl", 1000),
-        $(".widget-fixed-pl").removeClass("widget-fixed-pl", 1000).addClass("widget-fixed-bottom-pl", 1000);
-
-        $(".bannerhely-fixed-mp").removeClass("bannerhely-fixed-mp", 1000).addClass("bannerhely-fixed-bottom-mp", 1000),
-        $(".widget-fixed-mp").removeClass("widget-fixed-mp", 1000).addClass("widget-fixed-bottom-mp", 1000);
-    }
+}
+$(window).bind('scroll resize', bannerscroll);
+$(document).ready(function() {
+    bannerscroll();
 });
 
 //SPECIFY VISIBILITY

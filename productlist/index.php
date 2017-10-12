@@ -213,8 +213,10 @@
                 </div>
             </div>
             <div class="clear"></div>
-            <div class="bannerhely-pl col-md-2-250 col-lg-2-250 col-xl-2-250">BANNERHELY</div>
-            <div class="widget-pl col-md-2-250 col-lg-2-250 col-xl-2-250">WIDGET</div>
+            <div class="sticky-banner">
+                <div class="bannerhely-pl col-md-2-250 col-lg-2-250 col-xl-2-250">BANNERHELY</div>
+                <div class="widget-pl col-md-2-250 col-lg-2-250 col-xl-2-250">WIDGET</div>
+            </div>
         </div>
         <!-- RIGHT COL -->
         <div class="row-right">
