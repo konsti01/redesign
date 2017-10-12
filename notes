@@ -1,12 +1,12 @@
 //BT4
 
-xl  -   6 product   1200    -       ->
+xl  -   5 product   1200    -       ->
 lg  -   4 product   992     -       1199
 md  -   3 product   768     -       991
 sm  -   2 product   576     -       767
 xs  -   2 product   0       -       576 //default - no css rule
 
 NOTES:
-51. sor toggleclass-el
+40. sor toggleclass-el
 
 TODO:

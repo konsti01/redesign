@@ -525,7 +525,7 @@
                             <input type="search" name="query" id="search-bar" placeholder="Szabadszavas kereső..." autocomplete="off" aria-label="Search">
                         </form>
                     </div>
-                    <div class="sort">
+                    <div class="sort pushed">
                         <div class="btn-group">
                             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="far fa-sort-amount-down" aria-hidden="true"></i>
@@ -616,7 +616,7 @@
             <div id="product-wrapper" class="row cont">
                 <?php
                 foreach ($products as $p){ ?>
-                    <div class="products col-sm-6 col-md-4 col-lg-3 col-xl-2 padding5">
+                    <div class="products col-sm-6 col-md-4 col-lg-3 col-xl-2-custom padding5">
                         <div class="product-box" onclick="location.href='#';">
                             <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                 <!--

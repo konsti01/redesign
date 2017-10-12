@@ -302,8 +302,18 @@
 }
 
 /* COL-CUSTOM */
-@media only screen and (min-width: 992px) and (max-width: 1191px){
+
+@media only screen and (min-width: 1200px) and (max-width: 1350px){
+    .basket{
+        display: none;
+    }
+    .basket-mobile{
+        display: block;
+    }
+}
+@media only screen and (min-width: 1200px){
     .col-xl-2-custom{
+        width: 20%;
         max-width: 20%;
     }
 }
@@ -313,17 +323,5 @@
     }
     .basket-mobile{
         display: block;
-    }
-}
-@media only screen and (min-width: 1200px){
-    .basket{
-        display: none;
-    }
-    .basket-mobile{
-        display: block;
-    }
-    .product-box .price{
-        font-size: 26px;
-        margin-top: 5px;
     }
 }

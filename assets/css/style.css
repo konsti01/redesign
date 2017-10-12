@@ -135,6 +135,10 @@ body{
 /*-------------------------------------------------------------------------------------------*/
 /* GLOBAL - PRODUCTBOX */
 /*-------------------------------------------------------------------------------------------*/
+.row-right .row{
+    margin-right: -20px;
+    margin-left: -10px;
+}
 .products{
     width: 50%;
 }
@@ -175,7 +179,7 @@ body{
 }
 .product-box .product-description{
     width: 78%;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
     float: left;
     font-size: 12px;
     overflow: hidden;
@@ -207,7 +211,6 @@ body{
     font-weight: 400;
     color: #000;
     opacity: 0.5;
-    padding: 3px 0px 0px 0px;
     float: left;
     letter-spacing: -2px;
 }

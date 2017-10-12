@@ -41,6 +41,8 @@ $(window).scroll(function() {
  var scroll = $(window).scrollTop();
 
  if (scroll >= 1) {
+     $('.search-row .sort').removeClass('pushed');
+
      $('.search-row .btn-group .btn').css('padding', '3px 6px'),
      $('.search-row .btn-group .btn').css('font-size', '12px'),
      $('.search-row .btn-group .btn').css('height', '25px'),
@@ -60,6 +62,8 @@ $(window).scroll(function() {
      $('.search-bar img').css('transition', 'width 200ms'),
      $('.search-row .sort').css('display', 'inline-block');
  }else{
+     $('.search-row .sort').addClass('pushed');
+
      $('.search-row .btn-group .btn').css('padding', '3px 12px'),
      $('.search-row .btn-group .btn').css('font-size', '14px'),
      $('.search-row .btn-group .btn').css('height', '28px'),

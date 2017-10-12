@@ -167,18 +167,36 @@
 .specify .search-bar #search-bar{
     border: 0;
     outline: none;
+    font-size: 14px;
+    color: #333;
+}
+.specify ::-webkit-input-placeholder { /* Chrome */
+    color: #ccc;
+}
+.specify :-ms-input-placeholder { /* IE */
+    color: red;
+}
+.specify ::-moz-placeholder { /* Firefox */
+    color: red;
+    opacity: 1;
+}
+.specify :-moz-placeholder { /* Firefox */
+    color: red;
+    opacity: 1;
 }
 .search-row .sort{
     margin: 0px 5px 0px 0px;
     float: right;
+
+}
+.pushed{
+    position: relative;
+    top: 50px;
 }
 .search-row .sort .far{
     width: 10px;
 }
-.keywords .sort{
-    float: right;
-    margin: 0px 0px 0px 10px;
-}
+
 .keywords .svg-inline--fa{
     width: 20px;
 }
