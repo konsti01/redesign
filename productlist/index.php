@@ -285,7 +285,7 @@
                                     </select>
                                 </div>
                                 <div id="color" class="btn-group">
-                                    <select class="szin">
+                                    <select class="colors">
                                         <option value="00" disabled selected>Szín</option>
                                         <option value="01">Arany</option>
                                         <option value="02">Áttetsző</option>

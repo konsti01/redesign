@@ -440,7 +440,8 @@
 }
 .colors li{
     background-size: 20px 20px;
-    background: no-repeat center right;
+    background-repeat: no-repeat;
+    background-position: center right;
 }
 .colors li:nth-child(2){background-image: url(img/colors/gold.png);}
 .colors li:nth-child(3){background-image: url(img/colors/attatszo.png);}
