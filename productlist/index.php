@@ -584,6 +584,7 @@
                     <span class="tag">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
                     <span class="tag">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
                     <span class="tag">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
+                    <span class="tag">szempont 1 <a href=""><i class="far fa-times fa-fw" aria-hidden="true"></i></a></span>
                     <a href=""><div class="trashcan"><i class="far fa-trash-alt fa-fw" aria-hidden="true"></i></div></a>
                 </div>
                 <div class="clearfix"></div>
