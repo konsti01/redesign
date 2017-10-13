@@ -67,9 +67,7 @@
     left: 255px;
     right: 10px;
     background-color: #F8F8F8;
-    border-bottom: 2px solid #F8F8F8;
     z-index: 999;
-    margin: 0 5px 0 5px;
     padding: 0 0 5px 0;
 }
 .specify:after{
@@ -187,7 +185,8 @@
 .search-row .sort{
     margin: 0px 5px 0px 0px;
     float: right;
-
+    position: relative;
+    right: 7px;
 }
 .pushed{
     position: relative;

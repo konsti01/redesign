@@ -1,6 +1,9 @@
 //BANNERHELY ÉS WIDGET FIX
 function bannerscroll(){
-    //TODO mi ez a 140?
+    //TODO  - ".topnav (90px)"
+    //TODO  - ".main (40px)"
+    //TODO  - ".sidebar és .bannerspot közötti kihagyás (10px)"
+
     rowheight = $('.sidebar').height() - 140;
     footertop = $('footer').position().top;
     bannerbottom = $('.sticky-banner').position().top + $('.sticky-banner').height();
