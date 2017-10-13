@@ -55,7 +55,7 @@ $(window).scroll(function() {
      $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('transition', 'line-height 200ms'),
      $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('transition', 'font-size 200ms'),
      $('.search-bar').css('font-size', '11px'),
-     $('.search-bar').css('padding', '3px 10px'),
+     $('.search-bar').css('padding', '0px 10px'),
      $('.search-bar').css('height', '25px'),
      $('.search-bar img').css('width', '15px'),
      $('.search-bar').css('transition', 'padding 200ms'),
