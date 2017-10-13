@@ -441,8 +441,22 @@
                 selectFaq: function(e) {
                     this.faqs[this.selectedCategory][e].selected = !this.faqs[this.selectedCategory][e].selected;
 
-                    alert('Klikk!');
+                    function change(){
 
+
+                        $('.alert .svg-inline--fa').attr('data-icon','minus');
+
+                        /*
+                        var plus = document.getElementsByClassName('fa-plus');
+                        var minus = document.getElementsByClassName('fa-minus');
+
+                        icon.removeClass('fa-plus');
+                        icon.addClass=('fa-minus');
+
+                        icon change!
+                        */
+                    }
+                    change();
                 },
                 selectType: function(e) {
                     this.selectedType = e;
