@@ -70,7 +70,7 @@
     .newsletter form .input-text {
         margin: 0 0 15px 0;
     }
-}     /* xs */
+}
 @media only screen and (min-width: 425px) and (max-width: 485px){
     .col-xs-6-custom {
         width: 50%;
@@ -92,7 +92,7 @@
     .newsletter form .input-text {
         margin: 0 0 15px 0;
     }
-}     /* xs */
+}
 @media only screen and (min-width: 425px) and (max-width: 550px){
     .col-xs-6-custom {
         width: 50%;
@@ -141,7 +141,7 @@
         width: 100% !important;
         margin: 0 0 50px 0;
     }
-}     /* xs */
+}
 @media only screen and (min-width: 551px) and (max-width: 767px){
     .col-xs-6-custom {
         width: 50%;
@@ -190,7 +190,7 @@
         width: 100% !important;
         margin: 0 0 50px 0;
     }
-}     /* xs */
+}
 @media only screen and (min-width: 768px) and (max-width: 1100px){
     .benefits-text {
         text-transform: uppercase;
@@ -208,7 +208,7 @@
         font-size: 24px;
         text-transform: uppercase;
     }
-}       /* sm */
+}
 @media only screen and (min-width: 1101px) and (max-width: 1300px){
     .col-md-3-custom{
         width: 25%;
@@ -229,7 +229,7 @@
     .product-box .basket{
         margin: 14px 0 11px 0;
     }
-}     /* md */
+}
 @media only screen and (min-width: 1301px) and (max-width: 1650px){
     .col-lg-2-custom{
         width: 20%;
@@ -244,7 +244,7 @@
         padding: 5px 0px;
         height: 70px;
     }
-}        /* lg */
+}
 @media only screen and (min-width: 1651px){
     .col-xl-2-custom{
         width: 20%
@@ -275,13 +275,8 @@
         background-color: #ccc;
         position: fixed; top: 99px;
     }
-}        /* xl */
-/* ROW LEFT */
-@media only screen and (max-width: 1100px){
-    .bannerhely, .widget, .bannerhely-fixed, .widget-fixed, .bannerhely-fixed-bottom, .widget-fixed-bottom {
-        display: none;
-    }
-}       /* sm - xs */
+}
+
 /* NAVBAR DISPLAY */
 @media (max-width: 1000px){
     .hidden-xs {
@@ -337,12 +332,14 @@
         display: block;
     }
 }
+
 /* SEARCH DISPLAY */
 @media (max-width: 767px){
     .top-search{
         display: none;
     }
 }
+
 /* NAVBAR FIX */
 @media only screen and (min-width: 768px) and (max-width: 941px){
     /*ProductCat Pos*/
@@ -364,12 +361,14 @@
         position: fixed;
     }
 }
+
 /* NUMBERS */
 @media only screen and (min-width: 768px) and (max-width: 848px){
     .number-container .number-details{
         height: 32px;
     }
 }
+
 /* BENEFITS */
 @media only screen and (min-width: 551px) and (max-width: 600px){
 
@@ -429,32 +428,5 @@
         position: relative;
         top: -105px;
         left: 110px;
-    }
-}
-
-/* COL-CUSTOM */
-@media only screen and (min-width: 992px) and (max-width: 1191px){
-    .col-xl-2-custom{
-        max-width: 20%;
-    }
-}
-@media only screen and (min-width: 1000px) and (max-width: 1150px){
-    .basket{
-        display: none;
-    }
-    .basket-mobile{
-        display: block;
-    }
-}
-@media only screen and (min-width: 1200px){
-    .basket{
-        display: none;
-    }
-    .basket-mobile{
-        display: block;
-    }
-    .product-box .price{
-        font-size: 26px;
-        margin-top: 5px;
     }
 }

@@ -305,7 +305,7 @@
                         $count = 0;
                         foreach($products as $p){ ?>
 
-                            <div class="products col-sm-6 col-md-4 col-lg-3 col-xl-2 padding5">
+                            <div class="products col-sm-6 col-md-4 col-lg-3 col-xl-2-custom padding5">
                                 <div class="product-box" onclick="location.href='#';">
                                     <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                         <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -357,7 +357,7 @@
                     $count = 0;
                     foreach($products as $p){ ?>
 
-                        <div class="products col-sm-6 col-md-4 col-lg-3 col-xl-2 padding5">
+                        <div class="products col-sm-6 col-md-4 col-lg-3 col-xl-2-custom padding5">
                             <div class="product-box" onclick="location.href='#';">
                                 <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
@@ -408,7 +408,7 @@
                     $count = 0;
                     foreach($products as $p){ ?>
 
-                        <div class="products col-sm-6 col-md-4 col-lg-3 col-xl-2 padding5">
+                        <div class="products col-sm-6 col-md-4 col-lg-3 col-xl-2-custom padding5">
                             <div class="product-box" onclick="location.href='#';">
                                 <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                     <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
