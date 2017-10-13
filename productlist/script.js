@@ -43,39 +43,23 @@ $(window).scroll(function() {
  if (scroll >= 1) {
      $('.search-row .sort').removeClass('pushed');
 
-     $('.search-row .btn-group .btn').css('padding', '3px 6px'),
-     $('.search-row .btn-group .btn').css('font-size', '12px'),
-     $('.search-row .btn-group .btn').css('height', '25px'),
-     $('.search-row .btn-group .btn').css('transition', 'padding 200ms'),
-     $('.search-row .btn-group .btn').css('transition', 'font-size 200ms'),
-     $('.select2-container .select2-selection--single').css('height', '25px'),
-     $('.select2-container .select2-selection--single').css('transition', 'height 200ms'),
-     $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('line-height', '25px'),
-     $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('font-size', '12px'),
-     $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('transition', 'line-height 200ms'),
-     $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('transition', 'font-size 200ms'),
-     $('.search-bar').css('font-size', '11px'),
-     $('.search-bar').css('padding', '0px 10px'),
-     $('.search-bar').css('height', '25px'),
-     $('.search-bar img').css('width', '15px'),
-     $('.search-bar').css('transition', 'padding 200ms'),
-     $('.search-bar img').css('transition', 'width 200ms'),
-     $('.search-row .sort').css('display', 'inline-block');
- }else{
+     $('.search-row .btn-group .btn').addClass('btn-mini');
+     $('.select2-container .select2-selection--single').addClass('select2-single-mini');
+     $('.select2-container--default .select2-selection--single .select2-selection__rendered').addClass('select2-rendered-mini');
+     $('.search-bar').addClass('search-bar-mini');
+     $('.search-bar .fa-search').addClass('search-bar-i-mini');
+     $('.search-row .sort').addClass('sort-mini');
+ }else {
      $('.search-row .sort').addClass('pushed');
 
-     $('.search-row .btn-group .btn').css('padding', '3px 12px'),
-     $('.search-row .btn-group .btn').css('font-size', '14px'),
-     $('.search-row .btn-group .btn').css('height', '28px'),
-     $('.select2-container .select2-selection--single').css('height', '28px'),
-     $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('line-height', '28px'),
-     $('.select2-container--default .select2-selection--single .select2-selection__rendered').css('font-size', '14px'),
-     $('.search-bar').css('font-size', '14px'),
-     $('.search-bar').css('padding', '2px 10px'),
-     $('.search-bar').css('height', '28px'),
-     $('.search-bar img').css('width', '20px');
+     $('.search-row .btn-group .btn').removeClass('btn-mini');
+     $('.select2-container .select2-selection--single').removeClass('select2-single-mini');
+     $('.select2-container--default .select2-selection--single .select2-selection__rendered').removeClass('select2-rendered-mini');
+     $('.search-bar').removeClass('search-bar-mini');
+     $('.search-bar .fa-search').removeClass('search-bar-i-mini');
+     $('.search-row .sort').removeClass('sort-mini');
  }
- });
+});
 
 //NAV SCROLL TO TOP
 function topFunction() {
