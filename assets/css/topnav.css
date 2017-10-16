@@ -228,9 +228,11 @@
 .burger .dropdown-toggle::after{
     display: none;
 }
-.burger .fa-bars{
-    font-size: 22px !important;
-    margin: 0 !important;
+.burger span{
+    font-size: 16px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Open Sans", cursive;
 }
 .burger .dropdown-item{
     background-color: transparent;

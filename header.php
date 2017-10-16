@@ -135,7 +135,7 @@
         </div>
         <div class="dropdown burger">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="far fa-bars"></i>
+                <span>Menü</span>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <div class="subdrop-menu" aria-labelledby="dropdownMenuButton">

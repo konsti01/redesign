@@ -591,7 +591,7 @@
             </div>
             <div class="keywords">
                 <div class="keywords-box">
-                    <b>Termékkategóriában népszerű kulcsszavak:</b>
+                    <b>Kategóriában népszerű kulcsszavak:</b>
                     <span class="keyword"><a href="">kulcsszo1</a></span>,
                     <span class="keyword"><a href="">kulcsszo2</a></span>,
                     <span class="keyword"><a href="">kulcsszo3</a></span>,

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq/index.php" afterPath="$PROJECT_DIR$/faq/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/index.php" afterPath="$PROJECT_DIR$/productlist/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/productlist.css" afterPath="$PROJECT_DIR$/productlist/productlist.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/productlist_responsive.css" afterPath="$PROJECT_DIR$/productlist/productlist_responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/topnav.css" afterPath="$PROJECT_DIR$/assets/css/topnav.css" />
     </list>
     <ignored path="redesign.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +36,38 @@
     <favorites_list name="redesign" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="productlist.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productlist/productlist.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.633333" vertical-offset="9509" max-vertical-offset="11124">
+              <caret line="556" column="30" selection-start-line="556" selection-start-column="30" selection-end-line="556" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/productlist/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.36731106" vertical-offset="10465" max-vertical-offset="13284">
+              <caret line="593" column="61" selection-start-line="593" selection-start-column="61" selection-end-line="593" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productlist_responsive.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productlist/productlist_responsive.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3904" max-vertical-offset="5526">
+              <caret line="242" column="5" selection-start-line="242" selection-start-column="5" selection-end-line="242" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,23 +109,23 @@
         <option value="$PROJECT_DIR$/landingpage/responsive.css" />
         <option value="$PROJECT_DIR$/landingpage/style.css" />
         <option value="$PROJECT_DIR$/assets/css/fonts.css" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/mainpage/mainpage.css" />
         <option value="$PROJECT_DIR$/mainpage/script.js" />
         <option value="$PROJECT_DIR$/faq/faq_responsive.css" />
         <option value="$PROJECT_DIR$/faq/faq.css" />
-        <option value="$PROJECT_DIR$/assets/css/topnav.css" />
         <option value="$PROJECT_DIR$/notes" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/productlist/script.js" />
-        <option value="$PROJECT_DIR$/productlist/index.php" />
-        <option value="$PROJECT_DIR$/productlist/productlist.css" />
         <option value="$PROJECT_DIR$/assets/css/footer.css" />
         <option value="$PROJECT_DIR$/mainpage/index.php" />
-        <option value="$PROJECT_DIR$/productlist/productlist_responsive.css" />
         <option value="$PROJECT_DIR$/assets/css/responsive.css" />
         <option value="$PROJECT_DIR$/mainpage/mainpage_responsive.css" />
         <option value="$PROJECT_DIR$/faq/index.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/assets/css/topnav.css" />
+        <option value="$PROJECT_DIR$/productlist/productlist.css" />
+        <option value="$PROJECT_DIR$/productlist/productlist_responsive.css" />
+        <option value="$PROJECT_DIR$/productlist/index.php" />
       </list>
     </option>
   </component>
@@ -126,6 +161,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,9 +180,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="productlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,10 +261,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1360" height="738" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24048707" sideWeight="0.88087773" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24429224" sideWeight="0.88087773" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -283,7 +332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -291,7 +339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -477,34 +524,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7943761" vertical-offset="304" max-vertical-offset="7830">
-          <caret line="42" column="98" selection-start-line="42" selection-start-column="98" selection-end-line="42" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/topnav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9408867" vertical-offset="5205" max-vertical-offset="5886">
-          <caret line="321" column="1" selection-start-line="321" selection-start-column="1" selection-end-line="321" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1487" max-vertical-offset="5508">
           <caret line="88" column="29" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productlist/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2790">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -520,31 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8522167" vertical-offset="75" max-vertical-offset="720">
           <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productlist/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.432282" vertical-offset="10909" max-vertical-offset="13284">
-          <caret line="619" column="83" selection-start-line="619" selection-start-column="41" selection-end-line="619" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productlist/productlist.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3004926" vertical-offset="7791" max-vertical-offset="11124">
-          <caret line="443" column="38" selection-start-line="443" selection-start-column="38" selection-end-line="443" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productlist/productlist_responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8091873" vertical-offset="4960" max-vertical-offset="5526">
-          <caret line="301" column="1" selection-start-line="301" selection-start-column="1" selection-end-line="301" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,26 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2955665" vertical-offset="0" max-vertical-offset="648">
           <caret line="277" column="1" selection-start-line="277" selection-start-column="1" selection-end-line="277" selection-end-column="1" />
-          <folding>
-            <element signature="e#229#1549#0" expanded="false" />
-            <element signature="e#1550#2007#0" expanded="false" />
-            <element signature="e#2008#2970#0" expanded="false" />
-            <element signature="e#2971#3925#0" expanded="false" />
-            <element signature="e#3926#4362#0" expanded="false" />
-            <element signature="e#4363#4826#0" expanded="false" />
-            <element signature="e#4827#5146#0" expanded="false" />
-            <element signature="e#5147#5827#0" expanded="false" />
-            <element signature="e#5850#6655#0" expanded="false" />
-            <element signature="e#6678#6752#0" expanded="false" />
-            <element signature="e#6771#7034#0" expanded="false" />
-            <element signature="e#7035#7149#0" expanded="false" />
-            <element signature="e#7165#7299#0" expanded="false" />
-            <element signature="e#7316#7605#0" expanded="false" />
-            <element signature="e#7606#7895#0" expanded="false" />
-            <element signature="e#7896#8185#0" expanded="false" />
-            <element signature="e#8186#8475#0" expanded="false" />
-            <element signature="e#8476#8766#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,13 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33221477" vertical-offset="0" max-vertical-offset="596">
           <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
-          <folding>
-            <element signature="e#261#503#0" expanded="false" />
-            <element signature="e#522#809#0" expanded="false" />
-            <element signature="e#1088#1249#0" expanded="false" />
-            <element signature="e#1250#1367#0" expanded="false" />
-            <element signature="e#1368#1529#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,6 +571,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6520211" vertical-offset="7819" max-vertical-offset="9846">
           <caret line="455" column="36" selection-start-line="455" selection-start-column="36" selection-end-line="455" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/topnav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29188254" vertical-offset="4043" max-vertical-offset="5922">
+          <caret line="234" column="38" selection-start-line="234" selection-start-column="38" selection-end-line="234" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38664323" vertical-offset="212" max-vertical-offset="5796">
+          <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#5416#5727#0#HTML" expanded="false" />
+            <element signature="n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productlist/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030201342" vertical-offset="72" max-vertical-offset="2790">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productlist/productlist_responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3904" max-vertical-offset="5526">
+          <caret line="242" column="5" selection-start-line="242" selection-start-column="5" selection-end-line="242" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productlist/productlist.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.633333" vertical-offset="9509" max-vertical-offset="11124">
+          <caret line="556" column="30" selection-start-line="556" selection-start-column="30" selection-end-line="556" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productlist/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36731106" vertical-offset="10465" max-vertical-offset="13284">
+          <caret line="593" column="61" selection-start-line="593" selection-start-column="61" selection-end-line="593" selection-end-column="61" />
           <folding />
         </state>
       </provider>
