@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/index.php" afterPath="$PROJECT_DIR$/productlist/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/productlist.css" afterPath="$PROJECT_DIR$/productlist/productlist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/productlist_responsive.css" afterPath="$PROJECT_DIR$/productlist/productlist_responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/topnav.css" afterPath="$PROJECT_DIR$/assets/css/topnav.css" />
     </list>
     <ignored path="redesign.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,6 +33,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/productlist/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27240774" vertical-offset="5011" max-vertical-offset="13284">
+              <caret line="287" column="57" selection-start-line="287" selection-start-column="57" selection-end-line="287" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="productlist.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/productlist/productlist.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,21 +53,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/productlist/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36731106" vertical-offset="10465" max-vertical-offset="13284">
-              <caret line="593" column="61" selection-start-line="593" selection-start-column="61" selection-end-line="593" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="productlist_responsive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/productlist/productlist_responsive.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="3904" max-vertical-offset="5526">
               <caret line="242" column="5" selection-start-line="242" selection-start-column="5" selection-end-line="242" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.555555" vertical-offset="2235" max-vertical-offset="7830">
+              <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topnav.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/topnav.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4043" max-vertical-offset="5922">
+              <caret line="234" column="38" selection-start-line="234" selection-start-column="38" selection-end-line="234" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -177,20 +193,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="productlist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,6 +530,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1487" max-vertical-offset="5508">
           <caret line="88" column="29" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -574,29 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/topnav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29188254" vertical-offset="4043" max-vertical-offset="5922">
-          <caret line="234" column="38" selection-start-line="234" selection-start-column="38" selection-end-line="234" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38664323" vertical-offset="212" max-vertical-offset="5796">
-          <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#5416#5727#0#HTML" expanded="false" />
-            <element signature="n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/productlist/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.030201342" vertical-offset="72" max-vertical-offset="2790">
@@ -621,10 +601,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.555555" vertical-offset="2235" max-vertical-offset="7830">
+          <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/topnav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4043" max-vertical-offset="5922">
+          <caret line="234" column="38" selection-start-line="234" selection-start-column="38" selection-end-line="234" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/productlist/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36731106" vertical-offset="10465" max-vertical-offset="13284">
-          <caret line="593" column="61" selection-start-line="593" selection-start-column="61" selection-end-line="593" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.27240774" vertical-offset="5011" max-vertical-offset="13284">
+          <caret line="287" column="57" selection-start-line="287" selection-start-column="57" selection-end-line="287" selection-end-column="57" />
           <folding />
         </state>
       </provider>
