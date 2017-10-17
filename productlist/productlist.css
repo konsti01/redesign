@@ -464,9 +464,9 @@
 .colors li:nth-child(20){background-image: url(img/colors/green.svg);}
 .colors li:nth-child(21){background-image: url(img/colors/stripe.svg);}
 .colors li:nth-child(22){background-image: url(img/colors/ska.svg);}
-.colors li:nth-child(23){}
+.colors li:nth-child(23){background-image: url(img/colors/pattern.svg);}
 .colors li:nth-child(24){background-image: url(img/colors/dot.svg);}
-.colors li:nth-child(25){}
+.colors li:nth-child(25){background-image: url(img/colors/multicolored.svg);}
 .colors li:nth-child(26){background-image: url(img/colors/orange.svg);}
 
 

@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/attatszo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/barna.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/bezs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/bronze.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/copper.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/deepred.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/dot.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/gold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/gray.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/magenta.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/pattern.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/silver.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/ska.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/stripe.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/tarka.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/turkiz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/productlist/img/colors/yellow.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/img/colors/gray.svg" afterPath="$PROJECT_DIR$/productlist/img/colors/gray.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/productlist.css" afterPath="$PROJECT_DIR$/productlist/productlist.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist/img/colors/stripe.svg" afterPath="$PROJECT_DIR$/productlist/img/colors/stripe.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redesign.iws" />
@@ -72,18 +49,18 @@
       <file leaf-file-name="productlist.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/productlist/productlist.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8981938" vertical-offset="7859" max-vertical-offset="11124">
-              <caret line="467" column="67" selection-start-line="467" selection-start-column="67" selection-end-line="467" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.36617404" vertical-offset="8075" max-vertical-offset="11124">
+              <caret line="461" column="69" selection-start-line="461" selection-start-column="69" selection-end-line="461" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ska.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/productlist/img/colors/ska.svg">
+      <file leaf-file-name="gray.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productlist/img/colors/gray.svg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -110,9 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/landingpage/css/style.css" />
-        <option value="$PROJECT_DIR$/faq/index.html" />
-        <option value="$PROJECT_DIR$/faq2/index.php" />
         <option value="$PROJECT_DIR$/landingpage/js/appeartest.js" />
         <option value="$PROJECT_DIR$/landingpage/js/script.js" />
         <option value="$PROJECT_DIR$/landingpage/js/appear.js" />
@@ -147,7 +121,6 @@
         <option value="$PROJECT_DIR$/productlist/img/colors/brown.svg" />
         <option value="$PROJECT_DIR$/productlist/img/colors/copper.svg" />
         <option value="$PROJECT_DIR$/productlist/img/colors/deepred.svg" />
-        <option value="$PROJECT_DIR$/productlist/img/colors/gray.svg" />
         <option value="$PROJECT_DIR$/productlist/img/colors/green.svg" />
         <option value="$PROJECT_DIR$/productlist/img/colors/magenta.svg" />
         <option value="$PROJECT_DIR$/productlist/img/colors/orange.svg" />
@@ -160,7 +133,11 @@
         <option value="$PROJECT_DIR$/productlist/img/colors/white.svg" />
         <option value="$PROJECT_DIR$/productlist/img/colors/beige.svg" />
         <option value="$PROJECT_DIR$/productlist/img/colors/ska.svg" />
+        <option value="$PROJECT_DIR$/productlist/img/colors/stripe.svg" />
+        <option value="$PROJECT_DIR$/productlist/img/colors/dot.svg" />
         <option value="$PROJECT_DIR$/productlist/productlist.css" />
+        <option value="$PROJECT_DIR$/productlist/img/colors/multicolored.svg" />
+        <option value="$PROJECT_DIR$/productlist/img/colors/gray.svg" />
       </list>
     </option>
   </component>
@@ -403,34 +380,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/landingpage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="13915" max-vertical-offset="14472">
-          <caret line="790" column="60" selection-start-line="790" selection-start-column="60" selection-end-line="790" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productlist/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3853" max-vertical-offset="10764">
-          <caret line="224" column="20" selection-start-line="224" selection-start-column="20" selection-end-line="224" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/productlist/ajaxtest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5532646" vertical-offset="128" max-vertical-offset="1062">
@@ -662,14 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/productlist/img/colors/gray.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14778325" vertical-offset="0" max-vertical-offset="609">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/productlist/img/colors/green.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14778325" vertical-offset="0" max-vertical-offset="609">
@@ -734,14 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/productlist/img/colors/turquiz.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0591133" vertical-offset="0" max-vertical-offset="609">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/productlist/img/colors/yellow.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0591133" vertical-offset="0" max-vertical-offset="609">
@@ -779,16 +712,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/productlist/img/colors/ska.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+        <state vertical-scroll-proportion="0.75503355" vertical-offset="0" max-vertical-offset="596">
           <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productlist/img/colors/turquiz.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0591133" vertical-offset="0" max-vertical-offset="609">
+          <caret line="2" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productlist/img/colors/stripe.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030201342" vertical-offset="0" max-vertical-offset="596">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productlist/img/colors/pattern.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3438">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productlist/img/colors/dot.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18456376" vertical-offset="16" max-vertical-offset="990">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productlist/img/colors/multicolored.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45302013" vertical-offset="0" max-vertical-offset="990">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productlist/img/colors/gray.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/productlist/productlist.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8981938" vertical-offset="7859" max-vertical-offset="11124">
-          <caret line="467" column="67" selection-start-line="467" selection-start-column="67" selection-end-line="467" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.36617404" vertical-offset="8075" max-vertical-offset="11124">
+          <caret line="461" column="69" selection-start-line="461" selection-start-column="69" selection-end-line="461" selection-end-column="69" />
           <folding />
         </state>
       </provider>
