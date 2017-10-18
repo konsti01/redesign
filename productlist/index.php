@@ -285,7 +285,7 @@
                                     </select>
                                 </div>
                                 <div id="color" class="btn-group">
-                                    <select class="szin">
+                                    <select class="colors">
                                         <option value="00" disabled selected>Szín</option>
                                         <option value="01">Arany</option>
                                         <option value="02">Áttetsző</option>
@@ -454,7 +454,7 @@
                             </select>
                     </div>
                     <div id="color" class="btn-group">
-                        <select class="szin">
+                        <select class="colors">
                             <option value="00" disabled selected>Szín</option>
                             <option value="01">Arany</option>
                             <option value="02">Áttetsző</option>
@@ -482,6 +482,41 @@
                             <option value="24">Tarka</option>
                             <option value="25">Narancssárga</option>
                         </select>
+                        <script>
+                            var color_data = [{
+                                id: 0,
+                                text: 'Szín',
+                                title: 'Szín',
+                                select2visible: true,
+                                selected: true,
+                                disabled: true
+                            },{
+                                id: 1,
+                                text: 'Nem arany',
+                                html: 'Nem arany',
+                                url: 'https://www.meska.hu/s/Mind',
+                                svgColor: '#0033cc',
+                                title: 'Nem arany',
+                                select2visible: true
+                            },{
+                                id: 2,
+                                text: 'Arany',
+                                html: 'Arany',
+                                url: 'https://www.meska.hu/s/Mind',
+                                svgColor: '#cc9900',
+                                title: 'Arany',
+                                select2visible: true
+                            },{
+                                id: 2,
+                                text: 'Pöttyös',
+                                html: 'Pöttyös',
+                                url: 'https://www.meska.hu/s/Mind',
+                                svgColor: 'dot',
+                                title: 'Pöttyös',
+                                select2visible: true
+                            }
+                            ]
+                        </script>
                     </div>
                     <div id="price" class="btn-group">
                         <button type="button" id="price" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

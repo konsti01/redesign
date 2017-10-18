@@ -95,10 +95,30 @@ function appendProducts(products) {
 $(document).ready(function() {
     //SELECT2
     $('.technic').select2();
-    $('.szin').select2({
-        containerCssClass : "colors-wrap",
-        dropdownCssClass: 'colors'
+    $('.colors').select2({
+        data: color_data,
+        escapeMarkup: function(markup) {
+            return markup;
+        },
+        templateResult: function(data) {
+            if (data.select2visible != undefined){
+                if (data.svgColor != undefined) {
+                    if (['dot', 'multicolored', 'pattern', 'ska', 'stripe'].indexOf(data.svgColor) >=0){
+                        var svg = '<img style="float: right; margin-top: 3px; width: 20px; height: 20px;" src="https://assets.meska.hu/images/productlist/'+data.svgColor+'.svg"/>';
+                    } else {
+                        var svg = '<svg style="float: right; margin-top: 3px; width: 20px; height: 20px;" xmlns="http://www.w3.org/2000/svg" version="1.1" baseProfile="full" width="20px" height="20px"><rect width="100%" height="100%" fill="' + data.svgColor + '" stroke="#666666" stroke-width="1"/></svg>';
+                    }
+
+                    return data.html+svg;
+                }
+                return data.text;
+            }
+        },
+        templateSelection: function(data) {
+            return data.text;
+        }
     });
+
 
     //LOAD MORE PROD BUTTON
     $('.show-more').click(getProductsJson);
