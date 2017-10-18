@@ -233,6 +233,7 @@
     margin: 0;
     text-transform: uppercase;
     font-family: "Open Sans", cursive;
+    color: #003366;
 }
 .burger .dropdown-item{
     background-color: transparent;

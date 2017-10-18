@@ -238,7 +238,7 @@
                         <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                             <div class="card-block">
                                 <div id="technic" class="btn-group">
-                                    <select class="technika">
+                                    <select class="technic">
                                         <option value="00" disabled selected>Technika</option>
                                         <option value="01">Baba-és bábkészítés</option>
                                         <option value="02">Bőrművesség</option>
@@ -407,7 +407,7 @@
                 </div>
                 <div class="search-row">
                     <div id="technic" class="btn-group">
-                            <select class="technika">
+                            <select class="technic">
                                 <option value="00" disabled selected>Technika</option>
                                 <option value="01">Baba-és bábkészítés</option>
                                 <option value="02">Bőrművesség</option>

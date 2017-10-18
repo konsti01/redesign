@@ -94,7 +94,7 @@ function appendProducts(products) {
 
 $(document).ready(function() {
     //SELECT2
-    $(".technika").select2();
+    $('.technic').select2();
     $('.szin').select2({
         containerCssClass : "colors-wrap",
         dropdownCssClass: 'colors'
