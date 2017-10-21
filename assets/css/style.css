@@ -13,6 +13,7 @@ body{
 }
 .row-wrapper{
     padding-left: 250px;
+    width: 100%;
 }
 .row-left{
     padding: 0;

@@ -1,0 +1,233 @@
+/*** BANNER - WIDGET ***/
+.bannerspot{
+    margin: 10px 0 0 0;
+    height: 250px;
+    background-color: #ccc;
+}
+.bannerspot-fixed{
+    margin: 48px 0 0 0;
+    height: 250px;
+    background-color: #ccc;
+    position: fixed; top: 90px;
+}
+.bannerspot-fixed-bottom{
+    margin: 48px 0 0 0;
+    height: 250px;
+    background-color: #ccc;
+    position: fixed; bottom: 410px;
+}
+
+.widget{
+    margin: 10px 0 0 0;
+    height: 150px;
+    background-color: #ccc;
+}
+.widget-fixed{
+    margin: 50px 0 0 0;
+    height: 150px;
+    background-color: #ccc;
+    position: fixed; top: 345px;
+}
+.widget-fixed-bottom{
+    margin: 48px 0 0 0;
+    height: 150px;
+    background-color: #ccc;
+    position: fixed; bottom: 250px;
+}
+
+/*** DASHBOARD ***/
+.dashboard-container{
+    width: 100%;
+    margin-top: 91px;
+    margin-bottom: 1000px;
+}
+.dashboard-wrapper{
+    width: 100%;
+    margin: 0;
+}
+.dash-wrapper{
+    padding:10px;
+}
+.dash{
+    min-height: 135px;
+    padding:10px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.dash p{
+    margin: 0;
+}
+.dash .text{
+    text-transform: uppercase;
+    color: #999;
+    font-size: 16px;
+}
+.dash button{
+    width: 100%;
+    margin: 15px 0 0 0;
+    background-color: #88b048;
+    border: 0;
+    padding: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+.dash button:hover{
+    background-color: #006633;
+}
+
+/*** First Dash ***/
+.first .svg-inline--fa{
+    float: right;
+    color: #006633;
+}
+.first .number{
+    color: #006633;
+    font-size:30px;
+}
+.first .number-after{
+    color: #006633;
+    font-size: 14px;
+}
+
+/*** Second Dash ***/
+.second .svg-inline--fa{
+    float: right;
+    color: #f0ad4e;
+}
+.second .number{
+    color: #f0ad4e;
+    font-size:30px;
+}
+.second .number-after{
+    color: #f0ad4e;
+    font-size: 14px;
+}
+
+/*** Third Dash ***/
+.third .svg-inline--fa{
+    float: right;
+    color: #2ab4c0;
+}
+.third .number{
+    color: #2ab4c0;
+    font-size:30px;
+}
+.third .number-after{
+    color: #2ab4c0;
+    font-size: 14px;
+}
+
+/*** Fourth Dash ***/
+.fourth .svg-inline--fa{
+    float: right;
+    color: #8877a9;
+}
+.fourth .number{
+    color: #8877a9;
+    font-size:30px;
+}
+.fourth .number-after{
+    color: #8877a9;
+    font-size: 14px;
+}
+
+/*** Fifth Dash ***/
+.fifth .svg-inline--fa{
+    float: right;
+    color: #88b048;
+}
+.fifth .number{
+    color: #88b048;
+    font-size:30px;
+}
+.fifth .number-after{
+    color: #88b048;
+    font-size: 14px;
+}
+
+/*** Sixth Dash ***/
+.sixth .svg-inline--fa{
+    float: right;
+    color: #4C2431;
+}
+.sixth .number{
+    color: #4C2431;
+    font-size:30px;
+}
+.sixth .number-after{
+    color: #4C2431;
+    font-size: 14px;
+}
+
+/*** Seventh Dash ***/
+.seventh .svg-inline--fa{
+    float: right;
+    color: #5E85A1;
+}
+.seventh .number{
+    color: #5E85A1;
+    font-size:30px;
+}
+.seventh .number-after{
+    color: #5E85A1;
+    font-size: 14px;
+}
+
+/*** Eighth Dash ***/
+.eighth .svg-inline--fa{
+    float: right;
+    color: #0a8465;
+}
+.eighth .number{
+    color: #0a8465;
+    font-size:30px;
+}
+.eighth .number-after{
+    color: #0a8465;
+    font-size: 14px;
+}
+
+/*** Ninth Dash ***/
+.ninth .svg-inline--fa{
+    float: right;
+    color: #f0ad4e;
+}
+.ninth .number{
+    color: #f0ad4e;
+    font-size:30px;
+}
+.ninth .number-after{
+    color: #f0ad4e;
+    font-size: 14px;
+}
+
+/*** Tenth Dash ***/
+.tenth .svg-inline--fa{
+    float: right;
+    color: #88b048;
+}
+.tenth .number{
+    color: #88b048;
+    font-size:30px;
+}
+.tenth .number-after{
+    color: #88b048;
+    font-size: 14px;
+}
+
+/*** Alert Dash ***/
+.alert .svg-inline--fa{
+    float: right;
+    color: #ae0000;
+    font-size: 50px;
+}
+.alert .number{
+    color: #ae0000;
+    font-size:30px;
+}
+.alert .number-after{
+    color: #ae0000;
+    font-size: 14px;
+}
