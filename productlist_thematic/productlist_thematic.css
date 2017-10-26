@@ -1,0 +1,127 @@
+/*-------------------------------------------------------------------------------------------*/
+/* THEMATIC PRODUCTLIST */
+/*-------------------------------------------------------------------------------------------*/
+.bannerspot-pl{
+    margin: 10px 0 0 0;
+    height: 250px;
+    background-color: #ccc;
+}
+.bannerspot-fixed-pl{
+    margin: 48px 0 0 0;
+    height: 250px;
+    background-color: #ccc;
+    position: fixed; top: 90px;
+}
+.bannerspot-fixed-bottom-pl{
+    margin: 48px 0 0 0;
+    height: 250px;
+    background-color: #ccc;
+    position: fixed; bottom: 410px;
+}
+
+.widget-pl{
+    margin: 10px 0 0 0;
+    height: 150px;
+    background-color: #ccc;
+}
+.widget-fixed-pl{
+    margin: 50px 0 0 0;
+    height: 150px;
+    background-color: #ccc;
+    position: fixed; top: 345px;
+}
+.widget-fixed-bottom-pl{
+    margin: 48px 0 0 0;
+    height: 150px;
+    background-color: #ccc;
+    position: fixed; bottom: 250px;
+}
+
+.breadcrumb{
+    padding: 5px;
+    background-color: transparent;
+    list-style: none;
+    margin: 0 0 0 0;
+}
+.breadcrumb li{
+    display: inline-block;
+}
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+.breadcrumb .fa-home{
+    margin: 0 10px 0 0;
+}
+.title {
+    color: #000000;
+    font-weight: normal;
+    font-size: 30px;
+    font-family: 'Amatica SC', cursive;
+    margin: 0;
+}
+.specify{
+    position:fixed;
+    top: 91px;
+    left: 255px;
+    right: 10px;
+    background-color: #F8F8F8;
+    z-index: 999;
+    padding: 0 0 5px 0;
+}
+.specify:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cont{
+    width: 100%;
+}
+
+.category-desc{
+    margin: 200px 5px 0 5px;
+}
+.category-desc .content{
+    text-align:justify;
+}
+.specify .content{
+    font-family: "Open Sans";
+    padding: 0 0 0 10px;
+}
+.specify .content p{
+    margin: 0;
+}
+.specify .content p span{
+    font-style: italic;
+}
+
+.social{
+    margin: 25px 0 0 0;
+}
+.facebook-share{
+    color: #3B5998;
+    background-color: #eceef5;
+    border: 1px solid #cad4e7;
+    border-radius: 3px;
+    width: 90px;
+    padding: 2px;
+}
+.facebook-share .fa-facebook{
+    font-size: 20px;
+}
+.facebook-share span{
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.recommendations{
+    margin: 25px 0 0 0;
+}
+.recommendations a{
+    color: #88b048;
+}
+.recommendations a:hover{
+    color: #006633;
+}
