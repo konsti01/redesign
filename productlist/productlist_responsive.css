@@ -43,10 +43,16 @@
         position: fixed;
         top: 55px;
     }
+    .show-more{
+        width: 50%;
+    }
 }
 @media only screen and (min-width: 425px) and (max-width: 485px){
     .product-box .price{
         font-size: 30px;
+    }
+    .show-more{
+        width: 50%;
     }
 }
 @media only screen and (min-width: 425px) and (max-width: 550px){
@@ -76,6 +82,10 @@
     .main{
         position: fixed;
         top: 55px;
+    }
+
+    .show-more{
+        width: 50%;
     }
 }
 @media only screen and (min-width: 551px) and (max-width: 767px){

@@ -228,7 +228,11 @@
                             <img src="https://www.meska.hu/bootstrap/svg/meska_hu.svg" style="" class="breadcrumb-meskahu"/>
                         </a>
                     </li>
-                    <li class="active"><a href="https://www.meska.hu/s/Mind"></a><span class="title">Termékkategória</span></li>
+                    <li class="active">
+                        <span class="title">
+                            <a href="https://www.meska.hu/s/Mind">Termékkategória</a>
+                        </span>
+                    </li>
                 </ol>
                 <div class="search-row-mobile" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="card">
@@ -693,7 +697,7 @@
 
             <div id="load-more-products" class="show-more">Több termék megjelenítése</div>
             <div class="category-desc">
-                <div class="title">Termékkategória leírása</div>
+                <h3 class="title">Termékkategória leírása</h3>
                 <div class="content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

@@ -59,7 +59,7 @@
     font-weight: normal;
     font-size: 30px;
     font-family: 'Amatica SC', cursive;
-    margin: 0;
+    margin: 0 0 10px 0;
 }
 .specify{
     position:fixed;
@@ -419,12 +419,12 @@
 }
 
 .show-more{
-    width: 50%;
+    width: 30%;
     text-align: center;
     color: #fff;
     background-color: #88B04B;
     border-radius: 5px;
-    margin: 10px auto 10px auto;
+    margin: 25px auto 10px auto;
     padding: 10px 10px;
     text-transform: uppercase;
     letter-spacing:1px;
@@ -444,6 +444,8 @@
 }
 .category-desc .content{
     text-align:justify;
+    font-family: Arial;
+    font-size: 14px;
 }
 
 /* Kategória dropdown */
