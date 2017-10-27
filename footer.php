@@ -101,6 +101,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.js"></script>
 <!-- Mustache -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
+<!-- FontAwesome5 -->
+<script defer src="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/js/packs/brands.js"></script>
+<script defer src="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/js/packs/light.js"></script>
+<script defer src="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/js/packs/regular.js"></script>
+<script defer src="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/js/packs/solid.js"></script>
+<script defer src="https://assets.meska.hu/libs/fontawesome-5.0.0-rc2-linux/js/fontawesome.js"></script>
+
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://www.meska.hu/bootstrap/js/jquery.base64.min.js" type="text/javascript"></script>

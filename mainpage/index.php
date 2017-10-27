@@ -774,5 +774,5 @@
 <script src="https://assets.meska.hu/js/jquery/jquery.sticky.js"></script>
 <script src="https://assets.meska.hu/js/alkotok/script.js"></script>
 
-<!-- scroll to top & sidebar appear -->
-<script src="script.js"></script>
+<!-- Local JS -->
+<script src="/assets/js/script.js"></script>

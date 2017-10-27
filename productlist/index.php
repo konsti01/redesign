@@ -769,4 +769,5 @@
 <?php include_once('../footer.php'); ?>
 
 <!-- LocalJS -->
+<script src="/assets/js/script.js"></script>
 <script src="script.js"></script>

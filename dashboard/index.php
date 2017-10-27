@@ -314,5 +314,5 @@
 
 <?php include_once('../footer.php'); ?>
 
-<!-- LocalJS -->
-<script src="script.js"></script>
+<!-- Local JS -->
+<script src="/assets/js/script.js"></script>
