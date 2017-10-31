@@ -230,20 +230,18 @@
                     </li>
                     <li class="active">
                         <span class="title">
-                            <a href="https://www.meska.hu/s/Mind">Rémkastély</a>
+                            <a href="https://www.meska.hu/s/Mind">Rémkastély tematikus termékajánló</a>
                         </span>
                     </li>
                 </ol>
                 <div class="search-row">
                     <div class="content">
-                        <p>Rémkastély tematikus termékajánló</p>
-                        <p>Összeállította: <span>username</span></p>
+                        <p>Összeállította: <a href="">username</a></p>
                     </div>
                 </div>
             </div>
 
             <div class="category-desc">
-                <h3 class="title">Termékkategória leírása</h3>
                 <div class="content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -258,22 +256,8 @@
                     <div class="products col-sm-6 col-md-4 col-lg-3 col-xl-2-custom padding5">
                         <div class="product-box" onclick="location.href='#';">
                             <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
-                                <!--
-                                <i class="fa fa-plus" aria-hidden="true"></i>
-                                -->
                                 <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
                             </a>
-                            <div class="seller-pic">
-                                <?php if ($p['avatar'] != '') { ?>
-                                <a href="https://<?=$p['shop_name']?>.meska.hu">
-                                    <img src="https://www.meska.hu/img/avatar/thumbnail/<?=$p['avatar']?>">
-                                </a>
-                                <?php } else {?>
-                                <a href="https://<?=$p['shop_name']?>.meska.hu">
-                                    <img src="https://www.meska.hu/images/no_avatar.jpg">
-                                </a>
-                                <?php } ?>
-                            </div>
                             <div class="product-description">
                                 <a href="https://<?=$p['shop_name']?>.meska.hu">
                                     <div class="seller"><?=$p['shop_name']?></div>
@@ -295,12 +279,12 @@
             </div>
 
             <div class="social">
-                <a href="">
                     <div class="facebook-share">
-                        <i class="fab fa-facebook"></i>
-                        <span>Megosztom</span>
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Megosztom</span>
+                        </a>
                     </div>
-                </a>
             </div>
 
             <div class="recommendations">

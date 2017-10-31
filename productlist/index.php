@@ -748,7 +748,9 @@
 </script>
 <div class="ask">
     <div class="response-box">
-        <i class="far fa-times" id="close"></i>
+        <span id="close">
+            <i class="far fa-times"></i>
+        </span>
         <br>
         <p>Köszönjük, ha megírod észrevételedet az új listaoldalról. Ez még csak teszt verzió, örömmel fogadunk minden pozitív és negatív észrevételt :)</p>
         <form>

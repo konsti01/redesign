@@ -92,11 +92,12 @@ $(document).ready(function() {
     $('.show-more').click(getProductsJson);
 
     //RESPONSE BOX DISPLAY
+    //RESPONSE BOX
     $( ".response" ).click(function() {
-            $('.response-box').show();
+        $('.response-box').slideToggle();
+    });
 
-            $( ".fa-times" ).click(function() {
-                $('.response-box').hide();
-            });
-        });
+    $( ".response-box #close" ).click(function() {
+        $('.response-box').slideToggle();
+    });
 });

@@ -81,7 +81,7 @@
 }
 
 .category-desc{
-    margin: 200px 5px 0 5px;
+    margin: 170px 5px 0 5px;
 }
 .category-desc .content{
     text-align:justify;
@@ -95,31 +95,48 @@
 .specify .content p{
     margin: 0;
 }
-.specify .content p span{
-    font-style: italic;
+.specify .content a{
+    color: #88b048;
+}
+.specify .content a:hover{
+    color: #006633;
+}
+
+.product-box .product-description{
+    padding: 10px 0 0 0;
 }
 
 .social{
     margin: 25px 0 0 0;
 }
 .facebook-share{
-    color: #3B5998;
-    background-color: #eceef5;
-    border: 1px solid #cad4e7;
-    border-radius: 3px;
-    width: 90px;
-    padding: 2px;
+    background-color: #3B5998;
+    width: 200px;
+    height: 50px;
+    line-height: 40px;
+    margin: auto;
+    text-align: center;
 }
-.facebook-share .fa-facebook{
+.facebook-share a{
+    display: block;
+}
+.facebook-share .fa-facebook-f{
     font-size: 20px;
+    color: #fff;
+    margin: 0 5px 0 0;
 }
 .facebook-share span{
-    font-size: 12px;
+    font-size: 18px;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .recommendations{
-    margin: 25px 0 0 0;
+    margin: 10px 0 0 0;
+    text-align: center;
 }
 .recommendations a{
     color: #88b048;
