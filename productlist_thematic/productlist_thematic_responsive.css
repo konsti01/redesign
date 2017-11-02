@@ -147,7 +147,7 @@
 }
 
 /* ROW LEFT */
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 10000px){
     .bannerspot-pl, .widget-pl, .bannerspot-fixed-pl, .widget-fixed-pl, .bannerspot-fixed-bottom-pl, .widget-fixed-bottom-pl,
     .bannerspot-mp, .widget-mp, .bannerspot-fixed-mp, .widget-fixed-mp, .bannerspot-fixed-bottom-mp, .widget-fixed-bottom-mp{
         display: none;
@@ -156,6 +156,18 @@
 
 /* NAVBAR DISPLAY */
 @media (max-width: 1000px){
+    .specify {
+        position: fixed;
+        top: 50px !important;
+        left: 41px;
+        width: 100%;
+    }
+    .main {
+        position: fixed;
+        top: 50px !important;
+    }
+}
+@media (max-width: 10000px){
     .hidden-xs {
         display: none!important;
     }
@@ -163,7 +175,7 @@
     /*ProductCat Pos*/
     .main{
         position: fixed;
-        top: 50px;
+        top: 91px;
 
     }
     .row-wrapper {
@@ -182,9 +194,9 @@
 
     .specify{
         position: fixed;
-        top: 50px;
+        top: 91px;
         left: 41px;
-        width: 93%;
+        width: 100%;
     }
 
     /*ProductBox*/
@@ -192,10 +204,10 @@
         height: 49px;
     }
     .basket{
-        display: none;
+        display: block;
     }
     .basket-mobile{
-        display: block;
+        display: none;
     }
 }
 

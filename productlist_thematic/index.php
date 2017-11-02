@@ -12,7 +12,7 @@
 <div class="row">
     <div class="row-wrapper">
         <!-- LEFT COL -->
-        <div class="row-left">
+        <div class="row-left mobile">
             <div class="sidebar col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div class="sidebar-content col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="main">

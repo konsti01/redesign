@@ -38,7 +38,7 @@ $(document).ready(function() {
 
     function checkWidth() {
         var windowsize = $window.width();
-        var sidebar_breakpoint = 986;
+        var sidebar_breakpoint = 10000;
 
         if(windowsize >= sidebar_breakpoint) {
             $rowleft.removeClass('mobile');
