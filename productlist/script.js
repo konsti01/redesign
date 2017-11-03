@@ -1,15 +1,62 @@
+$(document).ready(function () {
+
+    //RESPONSE BOX
+    $( ".response" ).click(function() {
+        $('.response-box').slideToggle();
+    });
+
+    $( ".response-box #close" ).click(function() {
+        $('.response-box').slideToggle();
+    });
+
+    $('#ask_form').ajaxForm({
+        method: 'POST',
+        data: {url: window.location.href},
+        dataType: 'json',
+        clearForm: true,
+        success: function (data) {
+            $('.response-box').hide();
+            alert('Köszönjük a visszajelzást!');
+        },
+        error: function(){
+            alert('Hiba történt, kérlek próbáld meg újra!');
+        }
+    });
+});
+
+//BANNERHELY ÉS WIDGET FIX
+function bannerscroll(){
+    //TODO  - ".topnav (90px)"
+    //TODO  - ".main (40px)"
+    //TODO  - ".sidebar és .bannerspot közötti kihagyás (10px)"
+
+    rowheight = $('.sidebar').height() - 140;
+    footertop = $('footer').position().top;
+    bannerbottom = $('.sticky-banner').position().top + $('.sticky-banner').height();
+    scrolltop = $(document).scrollTop();
+
+    if (scrolltop > rowheight){
+        if (scrolltop + bannerbottom - rowheight < footertop){
+            $('.sticky-banner').css('margin-top', scrolltop -rowheight);
+        } else {
+            $('.sticky-banner').css('margin-top', footertop - bannerbottom - 10);
+        }
+    } else {
+        $('.sticky-banner').css('margin-top', 0);
+    }
+}
+$(window).bind('scroll resize', bannerscroll);
+$(document).ready(function() {
+    bannerscroll();
+});
+
 //SPECIFY VISIBILITY
 $('#search-bar').keyup(function(){
     if($(this).val().length){
-        $('.search-tags').show();
-
         $('.keywords').addClass('gap');
     }
     else{
-        $('.search-tags').hide();
-
         $('.keywords').removeClass('gap');
-
     }
 });
 
@@ -38,18 +85,29 @@ $(window).scroll(function() {
  }
 });
 
+//NAV SCROLL TO TOP
+function topFunction() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+}
+
 //LOAD MORE PROD
 function getProductsJson() {
+    var button = $('.show-more');
+    var page = button.data('page');
+    page++;
+    var href = window.location.href;
+
     $.ajax({
         dataType: 'json',
         method: 'POST',
-        url: '/productlist/data.php',
-        data: {json: 1},
+        url: '/Redesign/productlist',
+        data: {json: 1, href: href, page: page},
         success: function(data){
             appendProducts(data);
+            button.data('page', page);
         },
         error: function(){
-            alert('error');
+            //alert('error');
         }
     });
 }
