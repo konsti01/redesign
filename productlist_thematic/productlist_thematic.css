@@ -1,6 +1,41 @@
 /*-------------------------------------------------------------------------------------------*/
 /* THEMATIC PRODUCTLIST */
 /*-------------------------------------------------------------------------------------------*/
+.hidden-xs {
+    display: none!important;
+}
+
+/*ProductCat Pos*/
+.main{
+    position: fixed;
+    top: 91px;
+
+}
+.row-wrapper {
+    padding-left: 41px;
+}
+
+.sidebar{
+
+}
+.sidebar .trigger span{
+    margin-right: 5px;
+}
+.nav-wrap{
+    margin: 91px 0 0 0;
+}
+
+/*ProductBox*/
+.product-box .description{
+    height: 49px;
+}
+.basket{
+    display: block;
+}
+.basket-mobile{
+    display: none;
+}
+
 .bannerspot-pl{
     margin: 10px 0 0 0;
     height: 250px;
@@ -37,6 +72,11 @@
     position: fixed; bottom: 250px;
 }
 
+.row-right{
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+}
+
 .breadcrumb{
     padding: 5px;
     background-color: transparent;
@@ -46,13 +86,11 @@
 .breadcrumb li{
     display: inline-block;
 }
-.breadcrumb>li+li:before {
-    padding: 0 5px;
-    color: #ccc;
-    content: "/\00a0";
-}
 .breadcrumb .fa-home{
     margin: 0 10px 0 0;
+}
+.slash{
+    color: #777;
 }
 .title {
     color: #000000;
@@ -64,11 +102,12 @@
 .specify{
     position:fixed;
     top: 91px;
-    left: 255px;
+    left: 75px;
     right: 10px;
     background-color: #F8F8F8;
     z-index: 999;
     padding: 0 0 5px 0;
+    width: 100%;
 }
 .specify:after{
     content: "";
@@ -80,66 +119,46 @@
     width: 100%;
 }
 
-.category-desc{
-    margin: 170px 5px 0 5px;
-}
 .category-desc .content{
     text-align:justify;
     font-family: Arial;
     font-size: 14px;
 }
-.specify .content{
+.search-row .content{
     font-family: Arial;
-    padding: 0 0 0 10px;
+    font-size: 14px;
+    margin: 140px 5px 10px 0;
 }
-.specify .content p{
+.search-row .content p{
     margin: 0;
 }
-.specify .content a{
+.search-row .content a{
     color: #88b048;
 }
-.specify .content a:hover{
+.search-row .content a:hover{
     color: #006633;
 }
 
 .product-box .product-description{
     padding: 10px 0 0 0;
+    width: 100%;
 }
 
 .social{
     margin: 25px 0 0 0;
-}
-.facebook-share{
-    background-color: #3B5998;
-    width: 200px;
-    height: 50px;
-    line-height: 40px;
-    margin: auto;
     text-align: center;
 }
-.facebook-share a{
-    display: block;
-}
-.facebook-share .fa-facebook-f{
-    font-size: 20px;
-    color: #fff;
-    margin: 0 5px 0 0;
-}
-.facebook-share span{
-    font-size: 18px;
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    color: #fff;
-    line-height: 50px;
-    text-transform: uppercase;
-    font-weight: bold;
+.social img{
+    width: 250px;
 }
 
 .recommendations{
-    margin: 10px 0 0 0;
+    margin: 10px 0 50px 0;
     text-align: center;
 }
 .recommendations a{
     color: #88b048;
+    font-size: 15px;
 }
 .recommendations a:hover{
     color: #006633;

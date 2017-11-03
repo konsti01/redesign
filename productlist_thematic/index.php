@@ -228,16 +228,19 @@
                             <img src="https://www.meska.hu/bootstrap/svg/meska_hu.svg" style="" class="breadcrumb-meskahu"/>
                         </a>
                     </li>
+                    <li>
+                        <span class="slash">/</span>
+                    </li>
                     <li class="active">
-                        <span class="title">
+                        <h1 class="title">
                             <a href="https://www.meska.hu/s/Mind">Rémkastély tematikus termékajánló</a>
-                        </span>
+                        </h1>
                     </li>
                 </ol>
-                <div class="search-row">
-                    <div class="content">
-                        <p>Összeállította: <a href="">username</a></p>
-                    </div>
+            </div>
+            <div class="search-row">
+                <div class="content">
+                    <p>Összeállította: <a href="">username</a></p>
                 </div>
             </div>
 
@@ -279,12 +282,7 @@
             </div>
 
             <div class="social">
-                    <div class="facebook-share">
-                        <a href="">
-                            <i class="fab fa-facebook-f"></i>
-                            <span>Megosztom</span>
-                        </a>
-                    </div>
+                    <a href=""><img src="img/fbshare.png"></a>
             </div>
 
             <div class="recommendations">

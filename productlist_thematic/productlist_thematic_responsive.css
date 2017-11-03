@@ -167,49 +167,6 @@
         top: 50px !important;
     }
 }
-@media (max-width: 10000px){
-    .hidden-xs {
-        display: none!important;
-    }
-
-    /*ProductCat Pos*/
-    .main{
-        position: fixed;
-        top: 91px;
-
-    }
-    .row-wrapper {
-        padding-left: 41px;
-    }
-
-    .sidebar{
-
-    }
-    .sidebar .trigger span{
-        margin-right: 5px;
-    }
-    .nav-wrap{
-        margin: 91px 0 0 0;
-    }
-
-    .specify{
-        position: fixed;
-        top: 91px;
-        left: 41px;
-        width: 100%;
-    }
-
-    /*ProductBox*/
-    .product-box .description{
-        height: 49px;
-    }
-    .basket{
-        display: block;
-    }
-    .basket-mobile{
-        display: none;
-    }
-}
 
 /* NAVBAR FIX */
 @media only screen and (min-width: 768px) and (max-width: 941px){

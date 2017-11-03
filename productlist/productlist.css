@@ -46,13 +46,11 @@
 .breadcrumb li{
     display: inline-block;
 }
-.breadcrumb>li+li:before {
-    padding: 0 5px;
-    color: #ccc;
-    content: "/\00a0";
-}
 .breadcrumb .fa-home{
     margin: 0 10px 0 0;
+}
+.slash{
+    color: #777;
 }
 .title {
     color: #000000;

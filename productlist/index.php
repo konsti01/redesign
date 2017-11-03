@@ -228,10 +228,13 @@
                             <img src="https://www.meska.hu/bootstrap/svg/meska_hu.svg" style="" class="breadcrumb-meskahu"/>
                         </a>
                     </li>
+                    <li>
+                        <span class="slash">/</span>
+                    </li>
                     <li class="active">
-                        <span class="title">
+                        <h1 class="title">
                             <a href="https://www.meska.hu/s/Mind">Termékkategória</a>
-                        </span>
+                        </h1>
                     </li>
                 </ol>
                 <div class="search-row-mobile" id="accordion" role="tablist" aria-multiselectable="true">
