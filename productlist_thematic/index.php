@@ -243,7 +243,6 @@
                     <p>Összeállította: <a href="">username</a></p>
                 </div>
             </div>
-
             <div class="category-desc">
                 <div class="content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -252,7 +251,13 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </div>
             </div>
-
+            <div class="banner-kit">
+            <div class="banner">
+                <img src="img/meska-logo-feher.svg">
+                <h1>Rémkastély tematikus termékajánló</h1>
+                <span>username</span>
+            </div>
+            </div>
             <div id="product-wrapper" class="row cont">
                 <?php
                 foreach ($products as $p){ ?>
@@ -280,11 +285,13 @@
                     </div>
                 <?php } ?>
             </div>
-
             <div class="social">
-                    <a href=""><img src="img/fbshare.png"></a>
+                <a href="">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Megosztom</span>
+                </a>
+                <!--<a href=""><img src="img/fbshare.png"></a>-->
             </div>
-
             <div class="recommendations">
                 <a href="">Korábbi tematikus termékajánlók</a>
             </div>

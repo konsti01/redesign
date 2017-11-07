@@ -32,37 +32,22 @@ function topFunction() {
 $(document).ready(function() {
 
     //SIDEBAR DISPLAY
-    var $window = $(window);
     var $rowleft = $('.row-left');
     var $rowright = $('.row-right');
 
-    function checkWidth() {
-        var windowsize = $window.width();
-        var sidebar_breakpoint = 10000;
-
-        if(windowsize >= sidebar_breakpoint) {
-            $rowleft.removeClass('mobile');
-            $rowleft.addClass('normal');
-
-            $rowright.click(function(){
-                $rowleft.removeClass('mobile');
-                $rowleft.addClass('normal');
-            });
-        }
-        else if(windowsize < sidebar_breakpoint){
+    function checkWidth(){
             $rowleft.removeClass('normal');
             $rowleft.addClass('mobile');
 
-            $rowleft.click(function(){
+            $rowleft.hover(function(){
                 $rowleft.removeClass('mobile');
                 $rowleft.addClass('normal');
             });
 
-            $rowright.click(function(){
+            $rowright.hover(function(){
                 $rowleft.removeClass('normal');
                 $rowleft.addClass('mobile');
             });
-        }
     }
     checkWidth();
     $(window).resize(checkWidth);

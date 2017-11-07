@@ -1,6 +1,9 @@
 /*-------------------------------------------------------------------------------------------*/
 /* THEMATIC PRODUCTLIST */
 /*-------------------------------------------------------------------------------------------*/
+.row-right .row{
+    margin: 0;
+}
 .hidden-xs {
     display: none!important;
 }
@@ -22,7 +25,7 @@
     margin-right: 5px;
 }
 .nav-wrap{
-    margin: 91px 0 0 0;
+    margin: 132px 0 0 0;
 }
 
 /*ProductBox*/
@@ -74,7 +77,7 @@
 
 .row-right{
     width: 100%;
-    padding: 10px 10px 10px 40px;
+    padding: 10px 30px 10px 30px;
 }
 
 .breadcrumb{
@@ -102,12 +105,13 @@
 .specify{
     position:fixed;
     top: 91px;
-    left: 75px;
+    left: 65px;
     right: 10px;
     background-color: #F8F8F8;
     z-index: 999;
-    padding: 0 0 5px 0;
+    padding: 10px 0 5px 0;
     width: 100%;
+    padding: 0 5px;
 }
 .specify:after{
     content: "";
@@ -123,11 +127,14 @@
     text-align:justify;
     font-family: Arial;
     font-size: 14px;
+    margin: 0 0 10px 0;
+    padding: 0 5px;
 }
 .search-row .content{
     font-family: Arial;
     font-size: 14px;
-    margin: 140px 5px 10px 0;
+    margin: 145px 5px 10px 0;
+    padding: 0 5px;
 }
 .search-row .content p{
     margin: 0;
@@ -138,7 +145,26 @@
 .search-row .content a:hover{
     color: #006633;
 }
-
+.banner-kit{
+    padding: 5px;
+}
+.banner{
+    width: 100%;
+    background-color: #88b048;
+    text-align: center;
+    padding: 5px;
+}
+.banner img{
+    width: 250px;
+}
+.banner h1{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Amatica SC', cursive;
+}
+.banner span{
+    color: #fff;
+}
 .product-box .product-description{
     padding: 10px 0 0 0;
     width: 100%;
@@ -148,8 +174,25 @@
     margin: 25px 0 0 0;
     text-align: center;
 }
-.social img{
+.social a{
+    display: block;
     width: 250px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    background-color: #3b5998;
+    color: #fff;
+}
+.social a .fa-facebook-f{
+    font-size: 25px;
+    margin-right: 5px;
+}
+.social a span{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Open Sans", cursive;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .recommendations{
@@ -159,6 +202,7 @@
 .recommendations a{
     color: #88b048;
     font-size: 15px;
+    font-family: Arial;
 }
 .recommendations a:hover{
     color: #006633;
