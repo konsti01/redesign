@@ -228,9 +228,7 @@
                             <img src="https://www.meska.hu/bootstrap/svg/meska_hu.svg" style="" class="breadcrumb-meskahu"/>
                         </a>
                     </li>
-                    <li>
-                        <span class="slash">/</span>
-                    </li>
+                    <li><span class="slash">/</span></li>
                     <li class="active">
                         <h1 class="title">
                             <a href="https://www.meska.hu/s/Mind">Termékkategória</a>
@@ -698,7 +696,7 @@
                 <?php } ?>
             </div>
 
-            <div id="load-more-products" class="show-more">Több termék megjelenítése</div>
+            <div id="load-more-products" class="show-more" data-page="1">Több termék megjelenítése</div>
             <div class="category-desc">
                 <h3 class="title">Termékkategória leírása</h3>
                 <div class="content">
