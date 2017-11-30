@@ -1,0 +1,1176 @@
+        Fri, 24 Nov 2017 10:47:04 +0100 (CET)
+Date: Fri, 24 Nov 2017 10:47:04 +0100
+To: Josh Adams <josh@site.com>
+From: Meskacsapat <test@meska.hu>
+Subject: Here is the subject
+Message-ID: <D0eAmH3T1htLV3XizDAZZTs6tfyamXK45mSFI0NjBRY@redesign.test>
+X-Mailer: PHPMailer 6.0.1 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_D0eAmH3T1htLV3XizDAZZTs6tfyamXK45mSFI0NjBRY"
+Content-Transfer-Encoding: 8bit
+
+This is a multi-part message in MIME format.
+--b1_D0eAmH3T1htLV3XizDAZZTs6tfyamXK45mSFI0NjBRY
+Content-Type: text/plain; charset=us-ascii
+
+This is the text-only body
+
+--b1_D0eAmH3T1htLV3XizDAZZTs6tfyamXK45mSFI0NjBRY
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+
+<!DOCTYPE html>
+<html style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #555555; font-size: 1vw;">
+<head>
+    <title>Kedvenc alkotóid termékei a Meskán</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Amatica+SC:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+<body style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #555555; font-size: 1em; margin-top: 0.5%;">
+    <div class="wrapper" style="background-color: #ffffff; border: 1px solid #dddddd; border-radius: 0.5vw; width: 99%; margin: 0 auto 0 auto;">
+        <div class="header">
+            <img src="http://www.meska.hu/images/meska_logo1.png" class="logo">
+            <h1><a target="_blank" href="https://www.meska.hu/MyFavouriteSellersProducts?code={{.User.Code}}">Kedvenc alkotóid legújabb termékei a Meskán</a></h1>
+        </div>
+        <div class="breaker thick green" style="width: 100%; height: 0px; border-color: #006600; border-style: solid; border-top-width: 1px; border-left: none; border-right: none; border-bottom: none; border-width: 0.3vw;"> </div>
+
+        <!-- CONTENT -->
+        <div class="content">
+            <div class="product-wrapper">
+                                <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1606174" class="image-wrap">
+                            <img class="product-image" alt="Hangjegyes evőeszköz szett, Baba-mama-gyerek, Férfiaknak, Ékszer, óra, Otthon, lakberendezés, Gyurma, "Hangjegyek mindenhol" :)
+Elkészüt a teljes szett amely egy villát ,kanalat kést és kiskanalat ta..., Meska" title="Hangjegyes evőeszköz szett, Baba-mama-gyerek, Férfiaknak, Ékszer, óra, Otthon, lakberendezés, Gyurma, Meska" src="https://www.meska.hu/img/product/small/l/e/levike_product_57864_170114163430_099962.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://Levike.meska.hu">
+                                <div class="seller">Levike</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1606174">
+                                <div class="description">Hangjegyes evőeszköz szett</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">2 550.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1507484" class="image-wrap">
+                            <img class="product-image" alt="Pink Floyd - The Wall - Bakelit falióra, Ékszer, óra, Otthon, lakberendezés, Karóra, óra, Falióra, Újrahasznosított alapanyagból készült termékek, Egyedi tervezésű bakelit falióra.
+Csendes óraszerkezet kúszó másodpercmutatóval, 1 év garancia az ó..., Meska" title="Pink Floyd - The Wall - Bakelit falióra, Ékszer, óra, Otthon, lakberendezés, Karóra, óra, Falióra, Újrahasznosított alapanyagból készült termékek, Meska" src="https://www.meska.hu/img/product/small/f/o/fonografik_product_152608_160919191041_67491.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://Fonografik.meska.hu">
+                                <div class="seller">Fonografik</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1507484">
+                                <div class="description">Pink Floyd - The Wall - Bakelit falióra</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">7 900.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1484190" class="image-wrap">
+                            <img class="product-image" alt="Virágos ruha, miniruha AKCIÓ!!, Ruha, divat, cipő, Női ruha, Ruha, Varrás, AKCIÓS TERMÉK!!
+9500Ft helyett most csk 5000Ft-ért lehet a tied.
+Nyári virágos ruha S és M közti mé..., Meska" title="Virágos ruha, miniruha AKCIÓ!!, Ruha, divat, cipő, Női ruha, Ruha, Varrás, Meska" src="https://www.meska.hu/img/product/small/i/m/imolafashion_product_29563_140601205110_2.JPG">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://imolafashion.meska.hu">
+                                <div class="seller">imolafashion</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1484190">
+                                <div class="description">Virágos ruha, miniruha AKCIÓ!!</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">5 000.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t986579" class="image-wrap">
+                            <img class="product-image" alt="A nagy főnök - egyedi kézműves termék, Dekoráció, Konyhafelszerelés, Otthon, lakberendezés, Tárolóeszköz, Famegmunkálás, "A FA AZ EMBERI ÉRINTÉSTŐL CSAK NEMESEBB LESZ"
+
+A legnépszerűbb termékeim közé tartznak a barnás,br..., Meska" title="A nagy főnök - egyedi kézműves termék, Dekoráció, Konyhafelszerelés, Otthon, lakberendezés, Tárolóeszköz, Famegmunkálás, Meska" src="https://www.meska.hu/img/product/small/f/a/faesztergalo_product_80534_140725215807_4.jpg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://faesztergalo.meska.hu">
+                                <div class="seller">faesztergalo</div>
+                            </a>
+                            <a href="https://www.meska.hu/t986579">
+                                <div class="description">A nagy főnök - egyedi kézműves termék</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">6 660.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1177219" class="image-wrap">
+                            <img class="product-image" alt="Hongroise gyűrű, Ékszer, óra, Gyűrű, Gyöngyfűzés, Raw technikával fűzött gyűrű, csiszolt gyöngyökből, barack színű swarovski gyöngyökből. A gyűrűsín ..., Meska" title="Hongroise gyűrű, Ékszer, óra, Gyűrű, Gyöngyfűzés, Meska" src="https://www.meska.hu/img/product/small/m/i/mia74_product_30411_120812152820_1.jpg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://Mia74.meska.hu">
+                                <div class="seller">Mia74</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1177219">
+                                <div class="description">Hongroise gyűrű</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">3 500.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1645739" class="image-wrap">
+                            <img class="product-image" alt="Aktatáska-G400 -GárdaiEXKLUZIV !, Férfiaknak, Táska, Bőrművesség, Fekete marhabőr aktatáska
+CSAK RENDELÉSRE!!!
+Kérhető :bármilyen egyéb vésett mintával 
+üdv.: Steix..., Meska" title="Aktatáska-G400 -GárdaiEXKLUZIV !, Férfiaknak, Táska, Bőrművesség, Meska" src="https://www.meska.hu/img/product/small/s/t/steixner_product_22108_160321210728_414110.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://Steixner.meska.hu">
+                                <div class="seller">Steixner</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1645739">
+                                <div class="description">Aktatáska-G400 -GárdaiEXKLUZIV !</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">267 984.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1637816" class="image-wrap">
+                            <img class="product-image" alt="Pillangós fehér-kék puhatalpú cipő, Baba-mama-gyerek, Ruha, divat, cipő, Baba-mama kellék, Cipő, papucs, Bőrművesség, Hímzés, Puhatalpú bőr babacipők tizenegy méretben (9 cm-es belső talphossztól 21,4 cm-esig), újszülött kort..., Meska" title="Pillangós fehér-kék puhatalpú cipő, Baba-mama-gyerek, Ruha, divat, cipő, Baba-mama kellék, Cipő, papucs, Bőrművesség, Hímzés, Meska" src="https://www.meska.hu/img/product/small/s/z/szofibabacipo_product_206720_161030194728_820935.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://Szofibabacipo.meska.hu">
+                                <div class="seller">Szofibabacipo</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1637816">
+                                <div class="description">Pillangós fehér-kék puhatalpú cipő</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">5 290.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1515758" class="image-wrap">
+                            <img class="product-image" alt="Dombormintás táska szabead gépi tűzéssel /bézs, Ruha, divat, cipő, Táska, Válltáska, oldaltáska, Varrás, Kedvenc technikámmal: szabad gépi tűzéssel rajzolgattam a táska felületére a dombormintát.
+A dombo..., Meska" title="Dombormintás táska szabead gépi tűzéssel /bézs, Ruha, divat, cipő, Táska, Válltáska, oldaltáska, Varrás, Meska" src="https://www.meska.hu/img/product/small/z/s/zsuzsa47_product_565_161003124734_543177.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://zsuzsa47.meska.hu">
+                                <div class="seller">zsuzsa47</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1515758">
+                                <div class="description">Dombormintás táska szabead gépi tűzéssel /bézs</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">6 800.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t847913" class="image-wrap">
+                            <img class="product-image" alt=""Szivárvány" szett - lánykáknak, gyöngy, ásvány, karkötő, fülbevaló, lánynak, ajándék, karácsony, Ékszer, óra, Baba-mama-gyerek, Ékszerszett, Karácsonyi, adventi apróságok, Ékszerkészítés, Gyöngyfűzés, Ezt a szettet kislányoknak javaslom. Vidám, színes, jó hatású, egészséges. Miért kellene egy gyerek..., Meska" title=""Szivárvány" szett - lánykáknak, gyöngy, ásvány, karkötő, fülbevaló, lánynak, ajándék, karácsony, Ékszer, óra, Baba-mama-gyerek, Ékszerszett, Karácsonyi, adventi apróságok, Ékszerkészítés, Gyöngyfűzés, Meska" src="https://www.meska.hu/img/product/small/a/g/agnesasvanyaruhaza_product_47127_131207132826_2.JPG">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://agnesasvanyaruhaza.meska.hu">
+                                <div class="seller">agnesasvanyaruhaza</div>
+                            </a>
+                            <a href="https://www.meska.hu/t847913">
+                                <div class="description">"Szivárvány" szett - lánykáknak, gyöngy, ásvány, karkötő, fülbevaló, lánynak, ajándék, karácsony</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">2 800.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1550451" class="image-wrap">
+                            <img class="product-image" alt="Yin yan füli 9, Ékszer, óra, Mindenmás, Fülbevaló, Ékszerkészítés, Mindenmás, Nagyon mutatós darab.
+Mindkét oldalát mintával láttam el.
+Antiallergén akasztót helyeztem rá és a c..., Meska" title="Yin yan füli 9, Ékszer, óra, Mindenmás, Fülbevaló, Ékszerkészítés, Mindenmás, Meska" src="https://www.meska.hu/img/product/small/e/r/erika1970_product_27772_170520165128_436154.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://Erika1970.meska.hu">
+                                <div class="seller">Erika1970</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1550451">
+                                <div class="description">Yin yan füli 9</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">650.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1509992" class="image-wrap">
+                            <img class="product-image" alt="Levendula csokor fülbevaló, Ékszer, óra, Fülbevaló, Csokor, Decoupage, transzfer és szalvétatechnika, 6,5 cm hosszú, decoupage technológiával készített ellipszis alakú fülbevaló, hozzáillő gyönggyel. S..., Meska" title="Levendula csokor fülbevaló, Ékszer, óra, Fülbevaló, Csokor, Decoupage, transzfer és szalvétatechnika, Meska" src="https://www.meska.hu/img/product/small/c/v/cvzs_product_213834_160925105737_243518.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://cvzs.meska.hu">
+                                <div class="seller">cvzs</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1509992">
+                                <div class="description">Levendula csokor fülbevaló</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">1 400.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1495975" class="image-wrap">
+                            <img class="product-image" alt="Anubisz , Dekoráció, Otthon, lakberendezés, Mindenmás, Varrás, Anubisz, az egyiptomi sakál (kutya) isten most pompon (pompom) változatban :) Különlegesség Egyipto..., Meska" title="Anubisz , Dekoráció, Otthon, lakberendezés, Mindenmás, Varrás, Meska" src="https://www.meska.hu/img/product/small/i/l/illanilam_product_7807_160831190607_193737.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://Illanilam.meska.hu">
+                                <div class="seller">Illanilam</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1495975">
+                                <div class="description">Anubisz </div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">5 000.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1617839" class="image-wrap">
+                            <img class="product-image" alt="montírfa, Dekoráció, Férfiaknak, Otthon, lakberendezés, Horgászat, vadászat, Famegmunkálás, Égerfából készül ez az őz trófeaalátét.
+Diópáccal kezeljük.
+Tökéletes ajándék vadászok részére.
+
+Mé..., Meska" title="montírfa, Dekoráció, Férfiaknak, Otthon, lakberendezés, Horgászat, vadászat, Famegmunkálás, Meska" src="https://www.meska.hu/img/product/small/p/i/pitti855_product_197559_170202133618_261228.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://pitti855.meska.hu">
+                                <div class="seller">pitti855</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1617839">
+                                <div class="description">montírfa</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">2 200.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1412771" class="image-wrap">
+                            <img class="product-image" alt="Babaszoba Dekoráció, Kéz és Láb lenyomat Print, Gyerekszoba Print, Anyák napi Ajándék, virágos festmény, Dekoráció, Baba-mama-gyerek, Gyerekszoba, Baba falikép, Festészet, Fotó, grafika, rajz, illusztráció, Lepd meg a Nagyszülőket, Rokonokat ezzel az Egyedi személyre szóló Printtel.
+
++Szerkesztési költség..., Meska" title="Babaszoba Dekoráció, Kéz és Láb lenyomat Print, Gyerekszoba Print, Anyák napi Ajándék, virágos festmény, Dekoráció, Baba-mama-gyerek, Gyerekszoba, Baba falikép, Festészet, Fotó, grafika, rajz, illusztráció, Meska" src="https://www.meska.hu/img/product/small/l/i/lindabuttercup_product_192228_160424225403_585546.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://LindaButtercup.meska.hu">
+                                <div class="seller">LindaButtercup</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1412771">
+                                <div class="description">Babaszoba Dekoráció, Kéz és Láb lenyomat Print, Gyerekszoba Print, Anyák napi Ajándék, virágos festmény</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">1 790.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1627077" class="image-wrap">
+                            <img class="product-image" alt=""VIDÉKEN - ANGOL TÁJKÉP "- nagyméretű festmény, Képzőművészet, Festmény, Akril, Festészet, EGYENESEN AZ ALKOTÓTÓL MEGVÁSÁROLHATÓ FESTMÉNY-MŰTEREMBŐL
+
+GARANTÁLT MINŐSÉG
+
+ÚJ ÁLLAPOTBAN
+
+- képk..., Meska" title=""VIDÉKEN - ANGOL TÁJKÉP "- nagyméretű festmény, Képzőművészet, Festmény, Akril, Festészet, Meska" src="https://www.meska.hu/img/product/small/s/z/szinpaletta_product_91914_170216101346_104380.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://Szinpaletta.meska.hu">
+                                <div class="seller">Szinpaletta</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1627077">
+                                <div class="description">"VIDÉKEN - ANGOL TÁJKÉP "- nagyméretű festmény</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">24 900.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1646942" class="image-wrap">
+                            <img class="product-image" alt="Tiszta pamut fürdőlepedő, Magyar motívumokkal, Otthon, lakberendezés, Dekoráció, Lakástextil, Szövés, Varrás, Nagyon szép darázsfészek mintával szőtt, tiszta pamut fürdőlepedő, melybe két sávon beleszőtt hímze..., Meska" title="Tiszta pamut fürdőlepedő, Magyar motívumokkal, Otthon, lakberendezés, Dekoráció, Lakástextil, Szövés, Varrás, Meska" src="https://www.meska.hu/img/product/small/e/r/erikj_product_95670_141206204756_1.jpg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://erikj.meska.hu">
+                                <div class="seller">erikj</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1646942">
+                                <div class="description">Tiszta pamut fürdőlepedő</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">1 300.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1620736" class="image-wrap">
+                            <img class="product-image" alt="BETŰK, BABABETŰK -ÁDIN style, Dekoráció, Baba-mama-gyerek, Gyerekszoba, Festett tárgyak, Mindenmás, Egyedileg díszített polisztirol habbetűket készítünk igény szerinti színvilág, egyéni/egyedi stílus..., Meska" title="BETŰK, BABABETŰK -ÁDIN style, Dekoráció, Baba-mama-gyerek, Gyerekszoba, Festett tárgyak, Mindenmás, Meska" src="https://www.meska.hu/img/product/small/n/o/noanoa_product_67116_160907083523_6241.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://NoaNoa.meska.hu">
+                                <div class="seller">NoaNoa</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1620736">
+                                <div class="description">BETŰK, BABABETŰK -ÁDIN style</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">1 400.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1261315" class="image-wrap">
+                            <img class="product-image" alt="Bimbózó szerelem - romantikus mécses tartó, Dekoráció, Otthon, lakberendezés, Gyertya, mécses, gyertyatartó, Virágkötés, Egy pici rózsaszín kerámia vödör lett az alapja ennek a kedves, szerelmes mécses tartónak, ami jóle..., Meska" title="Bimbózó szerelem - romantikus mécses tartó, Dekoráció, Otthon, lakberendezés, Gyertya, mécses, gyertyatartó, Virágkötés, Meska" src="https://www.meska.hu/img/product/small/a/n/anniesdesign_product_145129_151001081251_08986.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://anniesdesign.meska.hu">
+                                <div class="seller">anniesdesign</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1261315">
+                                <div class="description">Bimbózó szerelem - romantikus mécses tartó</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">1 800.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1575865" class="image-wrap">
+                            <img class="product-image" alt="Macis betű, Baba-mama-gyerek, Dekoráció, Gyerekszoba, Baba falikép, Festett tárgyak, 
+A feltüntetett ár 1DB 12 CM MAGAS BETŰRE VONATKOZIK..ahány betűt szeretne annyit tegyen a kosárb..., Meska" title="Macis betű, Baba-mama-gyerek, Dekoráció, Gyerekszoba, Baba falikép, Festett tárgyak, Meska" src="https://www.meska.hu/img/product/small/l/e/lellilubaby_product_207064_170122160152_386878.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://LelliLuBaby.meska.hu">
+                                <div class="seller">LelliLuBaby</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1575865">
+                                <div class="description">Macis betű</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">900.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1625258" class="image-wrap">
+                            <img class="product-image" alt="Fehér ekrü fülbevaló, Esküvő, Ékszer, óra, Fülbevaló, Esküvői ékszer, Ékszerkészítés, Varrás, Egyedi, saját tervezésű sujtás fülbevaló.
+Menyasszonyoknak, vagy bármilyen alakalomra ajánlom! :)
+
+..., Meska" title="Fehér ekrü fülbevaló, Esküvő, Ékszer, óra, Fülbevaló, Esküvői ékszer, Ékszerkészítés, Varrás, Meska" src="https://www.meska.hu/img/product/small/t/i/timeadesign1_product_202556_170213152404_18728.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://timeadesign1.meska.hu">
+                                <div class="seller">timeadesign1</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1625258">
+                                <div class="description">Fehér ekrü fülbevaló</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">3 990.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1353136" class="image-wrap">
+                            <img class="product-image" alt="Szemüveges cicák és 2 kutya párnahuzat , Dekoráció, Otthon, lakberendezés, Lakástextil, Varrás, Digitalprint eljárással nyomott pamutvászon párnahuzat, vicces szemüveges cica fejekkel, melyek köz..., Meska" title="Szemüveges cicák és 2 kutya párnahuzat , Dekoráció, Otthon, lakberendezés, Lakástextil, Varrás, Meska" src="https://www.meska.hu/img/product/small/v/o/vodika_product_80153_150319131921_250898.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://VODIKA.meska.hu">
+                                <div class="seller">VODIKA</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1353136">
+                                <div class="description">Szemüveges cicák és 2 kutya párnahuzat </div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">2 500.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1636357" class="image-wrap">
+                            <img class="product-image" alt="Meggymag zsák 12 X 15 cm 3 db, Baba-mama-gyerek, Játék, Készségfejlesztő játék, Varrás, A meggymag jól használható fülfájásra, egyéb olyan tünetek enyhítésére, melyek melegítéssel vagy h..., Meska" title="Meggymag zsák 12 X 15 cm 3 db, Baba-mama-gyerek, Játék, Készségfejlesztő játék, Varrás, Meska" src="https://www.meska.hu/img/product/small/e/n/ennavel_product_1663_170304080425_846191.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://ennavel.meska.hu">
+                                <div class="seller">ennavel</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1636357">
+                                <div class="description">Meggymag zsák 12 X 15 cm 3 db</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">2 550.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1628521" class="image-wrap">
+                            <img class="product-image" alt="Mesélő bögre: nagymama kislánnyal, Konyhafelszerelés, Bögre, csésze, Kerámia, Ezen a bögrén nagymamáknak terveztem a rajzokat.Kézzel korongozom és a rajzokat is egyenként karcol..., Meska" title="Mesélő bögre: nagymama kislánnyal, Konyhafelszerelés, Bögre, csésze, Kerámia, Meska" src="https://www.meska.hu/img/product/small/t/u/tunderkert67_product_14958_170218164657_355467.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://tunderkert67.meska.hu">
+                                <div class="seller">tunderkert67</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1628521">
+                                <div class="description">Mesélő bögre: nagymama kislánnyal</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">1 800.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1242406" class="image-wrap">
+                            <img class="product-image" alt="AKCIÓS!!!! Szürke, elefántos, fedeles válltáska, Baba-mama-gyerek, Táska, Ruha, divat, cipő, Válltáska, oldaltáska, Varrás, Hímzés, Szürke bársonyból készült, csepp formájú táska, melynek elejét, indiai, elefánt mintás, pamutvászon..., Meska" title="AKCIÓS!!!! Szürke, elefántos, fedeles válltáska, Baba-mama-gyerek, Táska, Ruha, divat, cipő, Válltáska, oldaltáska, Varrás, Hímzés, Meska" src="https://www.meska.hu/img/product/small/b/k/bkrisztina_product_82400_140225121052_2.JPG">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://bkrisztina.meska.hu">
+                                <div class="seller">bkrisztina</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1242406">
+                                <div class="description">AKCIÓS!!!! Szürke, elefántos, fedeles válltáska</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">3 800.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1377713" class="image-wrap">
+                            <img class="product-image" alt="Folyóparton - tűzzománc fülbevaló, Ékszer, óra, Fülbevaló, Ékszerkészítés, Tűzzománc, Türkiz és fekete fülbevaló, zöld levelek, indák a folyó partján, Samarindában.
+Rekeszzománc domborí..., Meska" title="Folyóparton - tűzzománc fülbevaló, Ékszer, óra, Fülbevaló, Ékszerkészítés, Tűzzománc, Meska" src="https://www.meska.hu/img/product/small/b/m/bmgabriella_product_31884_151009120617_93671.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://bmgabriella.meska.hu">
+                                <div class="seller">bmgabriella</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1377713">
+                                <div class="description">Folyóparton - tűzzománc fülbevaló</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">3 800.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1638127" class="image-wrap">
+                            <img class="product-image" alt="Rézcső industrial asztali bortartó, Otthon, lakberendezés, Férfiaknak, Tárolóeszköz, Steampunk ajándékok, Fémmegmunkálás, Asztali bortartó 18mm átmérőjű részcsőből. Ragasztott vagy forrasztott kötésekkel. Stabil, megbízha..., Meska" title="Rézcső industrial asztali bortartó, Otthon, lakberendezés, Férfiaknak, Tárolóeszköz, Steampunk ajándékok, Fémmegmunkálás, Meska" src="https://www.meska.hu/img/product/small/m/e/mechafeel_product_254633_170307162508_478343.png">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://mechafeel.meska.hu">
+                                <div class="seller">mechafeel</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1638127">
+                                <div class="description">Rézcső industrial asztali bortartó</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">11 900.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1170006" class="image-wrap">
+                            <img class="product-image" alt="Kék menyasszonyi óra, Kék esküvői óra, Ékszer, óra, Esküvő, Karóra, óra, Esküvői ékszer, Ékszerkészítés, Gyöngyfűzés, Kék menyasszonyi óra, Kék esküvői óra
+
+Az órát nagy odafigyeléssel készítettem el. Törekedtem arra,..., Meska" title="Kék menyasszonyi óra, Kék esküvői óra, Ékszer, óra, Esküvő, Karóra, óra, Esküvői ékszer, Ékszerkészítés, Gyöngyfűzés, Meska" src="https://www.meska.hu/img/product/small/e/v/evelinsspark_product_176920_161113205117_909930.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://evelinsspark.meska.hu">
+                                <div class="seller">evelinsspark</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1170006">
+                                <div class="description">Kék menyasszonyi óra, Kék esküvői óra</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">4 500.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1647590" class="image-wrap">
+                            <img class="product-image" alt="Évről évre kedves ajándék-2015 változat:-), Otthon, lakberendezés, Gyöngyfűzés, Egyedi, angyalkás könyvjelzök!
+Ha nincs ötleted ajándéknak, ha apróságot szeretnél, de angyalkát, b..., Meska" title="Évről évre kedves ajándék-2015 változat:-), Otthon, lakberendezés, Gyöngyfűzés, Meska" src="https://www.meska.hu/img/product/small/h/e/herta_product_6564_151124213500_326681.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://herta.meska.hu">
+                                <div class="seller">herta</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1647590">
+                                <div class="description">Évről évre kedves ajándék-2015 változat:-)</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">1 590.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1621059" class="image-wrap">
+                            <img class="product-image" alt="Kalocsai mintás szatyor 1!, Magyar motívumokkal, Táska, Szatyor, Hímzés, Varrás, Drapp színű lenvászon anyagból készült.Elején kézzel hímzett Kalocsai minta található.Méretei:36cm ..., Meska" title="Kalocsai mintás szatyor 1!, Magyar motívumokkal, Táska, Szatyor, Hímzés, Varrás, Meska" src="https://www.meska.hu/img/product/small/b/o/bolvarievi_product_110542_170207102354_031777.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://Bolvarievi.meska.hu">
+                                <div class="seller">Bolvarievi</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1621059">
+                                <div class="description">Kalocsai mintás szatyor 1!</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">3 200.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1404359" class="image-wrap">
+                            <img class="product-image" alt="Szülinapi meghívó, Minion képeslap, Szülinapi buli meghívó, Szülinapi party, Szülinapi képeslap, minion party, Naptár, képeslap, album, Baba-mama-gyerek, Baba-mama kellék, Képeslap, levélpapír, Festészet, Fotó, grafika, rajz, illusztráció, A/6-os méretű Minion Szülinapi Party Meghívó borítékkal.
+
+Minimum Rendelés : 5 DB
+Vásárláskor kérle..., Meska" title="Szülinapi meghívó, Minion képeslap, Szülinapi buli meghívó, Szülinapi party, Szülinapi képeslap, minion party, Naptár, képeslap, album, Baba-mama-gyerek, Baba-mama kellék, Képeslap, levélpapír, Festészet, Fotó, grafika, rajz, illusztráció, Meska" src="https://www.meska.hu/img/product/small/l/i/lindabuttercup_product_192228_160411174457_863244.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://LindaButtercup.meska.hu">
+                                <div class="seller">LindaButtercup</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1404359">
+                                <div class="description">Szülinapi meghívó, Minion képeslap, Szülinapi buli meghívó, Szülinapi party, Szülinapi képeslap, minion party</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">500.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1443568" class="image-wrap">
+                            <img class="product-image" alt="vintage doboz emlékeknek, ékszernek , Ékszer, óra, Dekoráció, Baba-mama-gyerek, Ékszertartó, Decoupage, transzfer és szalvétatechnika, Cuki koptatott vintage mintájú ékszeres , emlékes kis doboz, kislányoknak, vagy gyermeklelkűeknek ..., Meska" title="vintage doboz emlékeknek, ékszernek , Ékszer, óra, Dekoráció, Baba-mama-gyerek, Ékszertartó, Decoupage, transzfer és szalvétatechnika, Meska" src="https://www.meska.hu/img/product/small/v/m/vmorsy_product_17009_160103221700_264716.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://vmorsy.meska.hu">
+                                <div class="seller">vmorsy</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1443568">
+                                <div class="description">vintage doboz emlékeknek, ékszernek </div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">3 800.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t837108" class="image-wrap">
+                            <img class="product-image" alt=" Szerelem mandala ékszer , -Rúdiumos, nikkelmentes, Mandala szett, Ékszer, óra, Ékszerszett, Ékszerkészítés, Jelentése:
+A szerelem a legtisztább, a legbölcsebb, a legszentebb lehetőség, amit minden ember, a h..., Meska" title=" Szerelem mandala ékszer , -Rúdiumos, nikkelmentes, Mandala szett, Ékszer, óra, Ékszerszett, Ékszerkészítés, Meska" src="https://www.meska.hu/img/product/small/o/r/orsolya1204_product_10823_150214091422_788562.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://Orsolya1204.meska.hu">
+                                <div class="seller">Orsolya1204</div>
+                            </a>
+                            <a href="https://www.meska.hu/t837108">
+                                <div class="description"> Szerelem mandala ékszer , -Rúdiumos, nikkelmentes, Mandala szett</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">6 800.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1535037" class="image-wrap">
+                            <img class="product-image" alt="Kis bagoly, Mindenmás, Férfiaknak, Kulcstartó, Bőrművesség, Marhabőr alapon nyomott mintával díszített kulcstartó, mely díszként funkciónál. 
+Bagoly minta talá..., Meska" title="Kis bagoly, Mindenmás, Férfiaknak, Kulcstartó, Bőrművesség, Meska" src="https://www.meska.hu/img/product/small/b/o/borboszi_product_796_161029145849_916919.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://borboszi.meska.hu">
+                                <div class="seller">borboszi</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1535037">
+                                <div class="description">Kis bagoly</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">350.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1689983" class="image-wrap">
+                            <img class="product-image" alt="Mini övtáska-mobil tartó, Táska, Ruha, divat, cipő, Pénztárca, tok, tárca, Mobiltok, Varrás, Kisméretű , övre gombolható övtáska ... ha csak a legszükségesebbeket szeretnéd magaddal vinni . 
+P..., Meska" title="Mini övtáska-mobil tartó, Táska, Ruha, divat, cipő, Pénztárca, tok, tárca, Mobiltok, Varrás, Meska" src="https://www.meska.hu/img/product/small/s/z/szatlonekriszta_product_2214_170528152309_743735.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://Szatlonekriszta.meska.hu">
+                                <div class="seller">Szatlonekriszta</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1689983">
+                                <div class="description">Mini övtáska-mobil tartó</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">1 950.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1205539" class="image-wrap">
+                            <img class="product-image" alt="Sötétkék rózsa kitűző, Ékszer, óra, Bross, kitűző, Varrás, Nyolc sötétkék taft sziromból áll ez az eleganciát sugárzó, egyedi rózsa kitűző, mely pompás kiegés..., Meska" title="Sötétkék rózsa kitűző, Ékszer, óra, Bross, kitűző, Varrás, Meska" src="https://www.meska.hu/img/product/small/w/o/wondertextiles_product_107467_150715102320_370858.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://Wondertextiles.meska.hu">
+                                <div class="seller">Wondertextiles</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1205539">
+                                <div class="description">Sötétkék rózsa kitűző</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">1 250.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1440694" class="image-wrap">
+                            <img class="product-image" alt="Kapcsos üveg fülbevaló, Ékszer, óra, Mindenmás, Fülbevaló, Medál, Ékszerkészítés, Üvegművészet, Az első képen látható francia kapcsos fülbevaló melynek az üvegpötty része 1,2 cm átmérőjű.
+Antiall..., Meska" title="Kapcsos üveg fülbevaló, Ékszer, óra, Mindenmás, Fülbevaló, Medál, Ékszerkészítés, Üvegművészet, Meska" src="https://www.meska.hu/img/product/small/e/d/edian_product_57063_160610195631_665699.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://Edian.meska.hu">
+                                <div class="seller">Edian</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1440694">
+                                <div class="description">Kapcsos üveg fülbevaló</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">1 000.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1404059" class="image-wrap">
+                            <img class="product-image" alt="Esküvői csokor, menyasszonyi csokor, Esküvő, Esküvői csokor, Hajdísz, ruhadísz, Csokor, Virágkötés, Az esküvői csokor neve: Carmen
+
+Ez a csokor szaténból, selyemből készült, gyöngyökkel díszítve. Min..., Meska" title="Esküvői csokor, menyasszonyi csokor, Esküvő, Esküvői csokor, Hajdísz, ruhadísz, Csokor, Virágkötés, Meska" src="https://www.meska.hu/img/product/small/m/k/mkedesign_product_82004_150727182429_43855.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://MkeDesign.meska.hu">
+                                <div class="seller">MkeDesign</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1404059">
+                                <div class="description">Esküvői csokor, menyasszonyi csokor</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">27 000.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1644050" class="image-wrap">
+                            <img class="product-image" alt="Fekete-fehér csíkos textilgomb fülbevaló, gombékszer, Ékszer, óra, Fülbevaló, Ékszerkészítés, Fekete - fehér vékony csíkos textilgombokból készült ez a fülbevaló.
+
+A fülbevalóalap antik bronzsz..., Meska" title="Fekete-fehér csíkos textilgomb fülbevaló, gombékszer, Ékszer, óra, Fülbevaló, Ékszerkészítés, Meska" src="https://www.meska.hu/img/product/small/m/a/macskameez_product_175273_170313194315_4328100.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://Macskameez.meska.hu">
+                                <div class="seller">Macskameez</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1644050">
+                                <div class="description">Fekete-fehér csíkos textilgomb fülbevaló, gombékszer</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">890.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1510288" class="image-wrap">
+                            <img class="product-image" alt="Kis magyar tánc - szett AKCIÓ!, Ékszer, óra, Nyaklánc, Ékszerszett, Ékszerkészítés, Gyöngyfűzés, 
+Az első szettet egy anyuka rendelte tőlem, a lánya családja költözött Dániába, neki szánta búcsúzó..., Meska" title="Kis magyar tánc - szett AKCIÓ!, Ékszer, óra, Nyaklánc, Ékszerszett, Ékszerkészítés, Gyöngyfűzés, Meska" src="https://www.meska.hu/img/product/small/k/i/kiskobold_product_22451_160924095326_320371.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://kiskobold.meska.hu">
+                                <div class="seller">kiskobold</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1510288">
+                                <div class="description">Kis magyar tánc - szett AKCIÓ!</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">3 950.- Ft</div>
+                        </div>
+                    </div>
+
+                                    <div class="product-box" onclick="location.href='#';">
+
+                        <a href="https://www.meska.hu/t1190887" class="image-wrap">
+                            <img class="product-image" alt="Autószerelő, Dekoráció, Férfiaknak, Mindenmás, Otthon, lakberendezés, Fémmegmunkálás, Egyedi ajándék, evővillából készítem a szobrokat.A szobrok átlagosan 13 cm magasak és 17cm*12cm fa ..., Meska" title="Autószerelő, Dekoráció, Férfiaknak, Mindenmás, Otthon, lakberendezés, Fémmegmunkálás, Meska" src="https://www.meska.hu/img/product/small/v/i/villaart_product_144740_150614112452_040668.jpeg">
+                        </a>
+
+                        <div class="product-description">
+                            <a href="https://villaart.meska.hu">
+                                <div class="seller">villaart</div>
+                            </a>
+                            <a href="https://www.meska.hu/t1190887">
+                                <div class="description">Autószerelő</div>
+                            </a>
+                        </div>
+
+                        <div class="product-price">
+                            <div class="price">3 990.- Ft</div>
+                        </div>
+                    </div>
+
+                            </div>
+        </div>
+        <!-- CONTENT END -->
+
+        <div class="breaker" style="width: 100%; height: 0px; border-color: #dddddd; border-style: solid; border-top-width: 1px; border-left: none; border-right: none; border-bottom: none; margin: 2% 0 2% 0;"> </div>
+        <p class="huge center" style="text-align: center; color: #555555; margin-top:0.1em;">
+            Reméljük, hogy minél hamarabb viszont látunk az oldalunkon!
+        </p>
+        <img src="http://www.meska.hu/images/meska_logo1.png" class="logo" style="width: 20%; margin: 2% auto 0 auto; display: block;">
+        <p class="center" style="text-align: center; color: #555555; line-height: 1.5em; font-size: 1.3em;">
+            <a href="https://www.facebook.com/meska.hu/" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-facebook-icon.png" class="picto mini" style="width: 4%; margin: 1%;"></a>
+            <img src="http://www.meska.hu/images/email/meska-email-social-twitter-icon.png" class="picto mini" style="width: 4%; margin: 1%;">
+            <a href="https://www.instagram.com/meska.hu/" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-instagram-icon.png" class="picto mini" style="width: 4%; margin: 1%;"></a>
+            <a href="https://www.youtube.com/user/MeskaVideo" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-youtube-icon.png" class="picto mini" style="width: 4%; margin: 1%;"></a>
+            <img src="http://www.meska.hu/images/email/meska-email-social-google-icon.png" class="picto mini" style="width: 4%; margin: 1%;">
+            <a href="https://hu.pinterest.com/meskahu/" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-pinterest-icon.png" class="picto mini" style="width: 4%; margin: 1%;"></a>
+        </p>
+    </div>
+
+    <div class="container links" style="margin: 0 2% 0 2%; font-size: 1em; margin-top: 2%;">
+        <a href="http://www.meska.hu/help" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">FAQ</a>
+        <a href="http://www.meska.hu/Static/adatkezeles" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">Adatvédelmi szabályzat</a>
+        <a href="http://www.meska.hu/Static/aff" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">Általános Felhasználási Feltételek</a>
+        <a href="http://www.meska.hu/contact" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">Kapcsolat</a>
+    </div>
+
+    <div class="grey-bg" style="background-color: #eeeeee;">
+        <div class="breaker" style="width: 100%; height: 0px; border-color: #dddddd; border-style: solid; border-top-width: 1px; border-left: none; border-right: none; border-bottom: none; margin: 2% 0 2% 0;"> </div>
+
+        <div class="container footer" style="margin: 0 2% 0 2%; color: #888888; font-size: 0.75em; line-height: 1.5em;">
+            <p style="text-align: center; color: #555555; line-height: 1.5em; font-size: 1.3em;">
+                Ezt az e-mailt az {{.Email}} címre küldtük ki, mert a vásárlási folyamat félbeszakadt és erre figyelmeztetni szerettünk volna.
+            </p>
+            <p style="text-align: center; color: #555555; line-height: 1.5em; font-size: 1.3em;">
+                2008-201y &copy; Meska.hu Kft - Minden jog fenntartva.
+            </p>
+        </div>
+        <br><br>
+    </div>
+
+    <!-- Responsive Style -->
+    <style scoped>
+        .wrapper .content{
+            padding: 5%;
+        }
+        .wrapper .content a{
+            color: #88B04B;
+            text-decoration: none;
+        }
+        .header{
+            padding: 5px 100px;
+            height: 80px;
+            position: relative;
+        }
+        .header img{
+            float: left;
+        }
+        .header h1{
+            float: right;
+            margin: 0;
+            position: absolute;
+            bottom: 0;
+            right: 100px;
+        }
+        .header h1 a{
+            width: 50%;
+            color: #84b848;
+            text-decoration: none;
+        }
+        .header:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .center a{
+            text-decoration: none;
+        }
+        .center a:hover{
+            opacity: .7;
+        }
+
+        .product-wrapper{
+
+        }
+
+        .product-box{
+            float: left;
+            width: 16%;
+            padding: 1%;
+            margin: 1%;
+            background-color: #F8F8F8;
+        }
+        .product-image{
+            width: 100%;
+        }
+        .product-description .seller{
+            font-size: 14px;
+            color: #a0a0a0;
+            font-family: 'Open Sans Condensed';
+            text-transform: uppercase;
+            margin: 5px 0 5px 0;
+            overflow: hidden;
+        }
+        .product-description .description{
+            font-size: 16px;
+            color: #333;
+            height: 45px;
+            overflow: hidden;
+            font-family: "Open Sans Condensed";
+            text-transform: uppercase;
+        }
+        .product-price .price{
+            font-family: "Amatica SC";
+            font-size: 26px;
+            letter-spacing: -2px;
+            font-weight: 400;
+        }
+        .product-wrapper:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        @media (max-width: 424px){
+            .wrapper{
+                width: 100%;
+            }
+            .wrapper .logo{
+                width: 200px !important;
+            }
+            .wrapper .content{
+                font-size: 12px;
+            }
+            .wrapper .center{
+                font-size: 12px;
+            }
+            .wrapper .center img{
+                width: 40px !important;
+            }
+            .links a{
+                font-size: 12px !important;
+                width: 100% !important;
+            }
+            .grey-bg .footer p{
+                font-size: 12px !important;
+            }
+
+            .header{
+                padding: 0;
+                text-align: center;
+                height: 100px;
+            }
+            .header img{
+                float: none;
+            }
+            .header h1{
+                float: none;
+                position: relative;
+                right: 0;
+                margin: 10px 0 0 0;
+            }
+            .header h1 a{
+                font-size: 16px;
+            }
+            .product-box{
+                width: 46%;
+            }
+        } /*XXS*/
+        @media (min-width: 425px) and (max-width: 767px){
+            .wrapper{
+                width: 100%;
+            }
+            .wrapper .logo{
+                height: 50px;
+            }
+            .wrapper .content{
+                font-size: 14px;
+            }
+            .wrapper .center{
+                font-size: 14px;
+            }
+            .wrapper .center img{
+                width: 50px !important;
+            }
+            .links a{
+                font-size: 14px !important;
+                width: 100% !important;
+            }
+            .grey-bg .footer p{
+                font-size: 14px !important;
+            }
+            .header{
+                padding: 0;
+                text-align: center;
+                height: 105px;
+            }
+            .header img{
+                float: none;
+            }
+            .header h1{
+                float: none;
+                position: relative;
+                right: 0;
+                margin: 10px 0 0 0;
+            }
+            .header h1 a{
+                font-size: 20px;
+            }
+            .product-box{
+                width: 29.33333%;
+            }
+        } /*XS*/
+        @media (min-width: 768px) and (max-width: 1100px){
+            .wrapper{
+                width: 100%;
+            }
+            .wrapper .logo{
+                width: 300px !important;
+            }
+            .wrapper .content{
+                font-size: 16px;
+            }
+            .wrapper .center{
+                font-size: 16px;
+            }
+            .wrapper .center img{
+                width: 60px !important;
+            }
+            .links a{
+                font-size: 16px !important;
+                width: 100% !important;
+            }
+            .grey-bg .footer p{
+                font-size: 16px !important;
+            }
+            .header{
+                padding: 0;
+                text-align: center;
+                height: 120px;
+            }
+            .header img{
+                float: none;
+            }
+            .header h1{
+                float: none;
+                position: relative;
+                right: 0;
+                margin: 10px 0 0 0;
+            }
+            .header h1 a{
+                font-size: 26px;
+            }
+            .product-box{
+                width: 21%;
+            }
+        } /*SM*/
+        @media (min-width: 1101px) and (max-width: 1300px){
+            .wrapper{
+                width: 100%;
+            }
+            .wrapper .logo{
+                width: 300px !important;
+            }
+            .wrapper .content{
+                font-size: 16px;
+            }
+            .wrapper .center{
+                font-size: 16px;
+            }
+            .wrapper .center img{
+                width: 60px !important;
+            }
+            .links a{
+                font-size: 16px !important;
+                width: 100% !important;
+            }
+            .grey-bg .footer p{
+                font-size: 16px !important;
+            }
+        } /*MD*/
+    </style>
+
+</body>
+</html>
+
+
+--b1_D0eAmH3T1htLV3XizDAZZTs6tfyamXK45mSFI0NjBRY--
+

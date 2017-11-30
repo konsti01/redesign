@@ -1,0 +1,26 @@
+Date: Thu, 9 Nov 2017 14:54:29 +0100
+To: Josh Adams <josh@site.com>, ellen@site.com
+From: Vezeteknev Keresztnev <postafiok@sajat-domain.hu>
+Reply-To: Information <info@sajat-domain.hu>
+Subject: Here is the subject
+Message-ID: <thtaTgxVoAG3eTXZJzHNMAOGrtWe0Bz0Mdg8NZLqo@redesign.test>
+X-Mailer: PHPMailer 6.0.1 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_thtaTgxVoAG3eTXZJzHNMAOGrtWe0Bz0Mdg8NZLqo"
+Content-Transfer-Encoding: 8bit
+
+This is a multi-part message in MIME format.
+--b1_thtaTgxVoAG3eTXZJzHNMAOGrtWe0Bz0Mdg8NZLqo
+Content-Type: text/plain; charset=us-ascii
+
+This is the text-only body
+
+--b1_thtaTgxVoAG3eTXZJzHNMAOGrtWe0Bz0Mdg8NZLqo
+Content-Type: text/html; charset=us-ascii
+
+This is the <b>HTML body</b>
+
+
+--b1_thtaTgxVoAG3eTXZJzHNMAOGrtWe0Bz0Mdg8NZLqo--
+

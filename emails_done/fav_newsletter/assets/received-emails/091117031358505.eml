@@ -1,0 +1,26 @@
+        Thu, 09 Nov 2017 15:13:58 +0100 (CET)
+Date: Thu, 9 Nov 2017 15:13:58 +0100
+To: Josh Adams <josh@site.com>
+From: Meskacsapat <test@meska.hu>
+Subject: Here is the subject
+Message-ID: <9cINalcTNCHm4YraNhefWM382y2d1pOxE6pEt1T3jiM@redesign.test>
+X-Mailer: PHPMailer 6.0.1 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_9cINalcTNCHm4YraNhefWM382y2d1pOxE6pEt1T3jiM"
+Content-Transfer-Encoding: 8bit
+
+This is a multi-part message in MIME format.
+--b1_9cINalcTNCHm4YraNhefWM382y2d1pOxE6pEt1T3jiM
+Content-Type: text/plain; charset=us-ascii
+
+This is the text-only body
+
+--b1_9cINalcTNCHm4YraNhefWM382y2d1pOxE6pEt1T3jiM
+Content-Type: text/html; charset=us-ascii
+
+This is the <b>HTML body</b>
+
+
+--b1_9cINalcTNCHm4YraNhefWM382y2d1pOxE6pEt1T3jiM--
+
