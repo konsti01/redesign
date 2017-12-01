@@ -29,8 +29,8 @@
             clear: both;
         }
         .header img{
-            width: 266px;
-            margin: 2% 0;
+            width: 200px;
+            margin: 1% 0;
         }
         .center a{
             text-decoration: none;
@@ -44,7 +44,7 @@
             width: 50px;
             height: 50px;
             border: 3px solid #ccc;
-            padding: 20px;
+            padding: 27px;
             border-radius: 50%;
             margin: 40px 20px 20px 20px;
         }
@@ -77,11 +77,11 @@
             float: left;
             width: 15%;
             text-align: center;
-            margin: 10% 0 0 0;
+            margin: 21% 0 0 0;
         }
         .seller-pic img{
-            width: 150px;
-            height: 150px;
+            width: 110px;
+            height: 110px;
             border: 1px solid #ccc;
             border-radius: 50%;
             overflow: hidden;
@@ -128,7 +128,7 @@
             width: 100%;
         }
         .shop-name{
-            font-size: 14px;
+            font-size: 12px;
             color: #a0a0a0;
             font-family: 'Open Sans';
             font-weight: 200;
@@ -148,8 +148,9 @@
         .product-price .price{
             float: left;
             font-family: "Open Sans";
-            font-size: 24px;
+            font-size: 20px;
             font-weight: 200;
+            margin: 15px 0 0 0;
         }
         .product-price .basket{
             float: right;
@@ -207,7 +208,7 @@
             .heart{
                 width: 30px;
                 height: 30px;
-                border: 2px solid #666;
+                border: 2px solid #ccc;
                 padding: 10px;
                 margin: 80px 10px 20px 10px;
             }
@@ -269,7 +270,7 @@
             .heart{
                 width: 30px;
                 height: 30px;
-                border: 2px solid #666;
+                border: 2px solid #ccc;
                 padding: 10px;
                 margin: 70px 10px 20px 10px;
             }
@@ -659,7 +660,7 @@
     </p>
 </div>
 
-<div class="container links" style="margin: 0 2% 0 2%; font-size: 1em; margin-top: 2%;">
+<div class="container links" style="margin: 0 2% 0 2%; font-size: 1em; margin-top: 2%; text-align: center;">
     <a href="http://www.meska.hu/help" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">FAQ</a>
     <a href="http://www.meska.hu/Static/adatkezeles" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">Adatvédelmi szabályzat</a>
     <a href="http://www.meska.hu/Static/aff" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">Általános Felhasználási Feltételek</a>

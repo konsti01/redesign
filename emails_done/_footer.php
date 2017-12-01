@@ -16,7 +16,7 @@
 </p>
 </div>
 
-<div class="container links" style="margin: 0 2% 0 2%; font-size: 1em; margin-top: 2%;">
+<div class="container links" style="margin: 0 2% 0 2%; font-size: 1em; margin-top: 2%; text-align: center">
     <a href="http://www.meska.hu/help" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">FAQ</a>
     <a href="http://www.meska.hu/Static/adatkezeles" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">Adatvédelmi szabályzat</a>
     <a href="http://www.meska.hu/Static/aff" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">Általános Felhasználási Feltételek</a>

@@ -24,12 +24,12 @@ session_start();
 
         public function send(){
             $recipients = array(
-                'spardasixx@gmail.com' => 'Görbicz Roland',/*
+                'spardasixx@gmail.com' => 'Görbicz Roland',
                 'info@ux-studio.com' => 'Czár Milán',
                 'akos.meska@gmail.com' => 'Konstanczer Ákos',
                 'airporst@gmail.com' => 'Porst Réka',
                 'hello@meska.hu' => 'Kovács Lóránt',
-                'prepostffyzs@gmail.com' => 'Prepostffy Zsuzsa',*/
+                'prepostffyzs@gmail.com' => 'Prepostffy Zsuzsa',
             );
 
             $mail = new PHPMailer();
