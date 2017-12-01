@@ -231,6 +231,9 @@
                 float: none;
                 width: 100%;
             }
+            .products .seller {
+                background-size: 100% 100%;
+            }
             .product-description{
                 width: 48%;
                 margin-bottom: 1.5%;
@@ -279,6 +282,10 @@
             }
             .heading h1 a{
                 font-size: .75em;
+            }
+
+            .products .seller {
+                background-size: 100% 100%;
             }
 
             .seller-pic{

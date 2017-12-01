@@ -1,7 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: sparda
- * Date: 2017.12.01.
- * Time: 11:14
- */
+session_start();
+
+if(isset($_SESSION['username'])){
+    session_destroy();
+
+    header("Location: index.php");
+    exit;
+}
+else{
+    echo 'Nem vagy bejelentkezve!';
+}

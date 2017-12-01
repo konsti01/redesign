@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emails_done/_footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emails_done/_header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emails_done/conversation_notif.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emails_done/fav_newsletter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emails/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emails_done/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emails_done/fav_newsletter/send.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nano.save" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nano.save.1" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/email_templates.html" afterPath="$PROJECT_DIR$/email_templates.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/conversation_notif.php" afterPath="$PROJECT_DIR$/emails_done/conversation_notif.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/fav_newsletter.php" afterPath="$PROJECT_DIR$/emails_done/fav_newsletter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/fav_newsletter/fav_newsletter.php" afterPath="$PROJECT_DIR$/emails_done/fav_newsletter/fav_newsletter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/index.php" afterPath="$PROJECT_DIR$/emails_done/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/list.php" afterPath="$PROJECT_DIR$/emails_done/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/logout.php" afterPath="$PROJECT_DIR$/emails_done/logout.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redesign.iws" />
@@ -46,21 +42,19 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/emails_done/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30927834" vertical-offset="0" max-vertical-offset="2790">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.30927834" vertical-offset="0" max-vertical-offset="756">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conversation_notif.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/emails_done/conversation_notif.php">
+      <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emails_done/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.666666" vertical-offset="0" max-vertical-offset="936">
-              <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#!!top" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="2.0" vertical-offset="216" max-vertical-offset="2970">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,10 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/productlist/img/colors/magenta.svg" />
-        <option value="$PROJECT_DIR$/productlist/img/colors/orange.svg" />
-        <option value="$PROJECT_DIR$/productlist/img/colors/pink.svg" />
-        <option value="$PROJECT_DIR$/productlist/img/colors/purple.svg" />
         <option value="$PROJECT_DIR$/productlist/img/colors/silver.svg" />
         <option value="$PROJECT_DIR$/productlist/img/colors/translucent.svg" />
         <option value="$PROJECT_DIR$/productlist/img/colors/turquiz.svg" />
@@ -112,18 +102,22 @@
         <option value="$PROJECT_DIR$/productlist_thematic/script.js" />
         <option value="$PROJECT_DIR$/emails/send_test.php" />
         <option value="$PROJECT_DIR$/emails/assets/send_test.php" />
-        <option value="$PROJECT_DIR$/emails_done/index.php" />
         <option value="$PROJECT_DIR$/emails_done/_header.php" />
         <option value="$PROJECT_DIR$/emails_done/_footer.php" />
-        <option value="$PROJECT_DIR$/emails_done/fav_newsletter.php" />
         <option value="$PROJECT_DIR$/emails_done/fav_newsletter/index.php" />
         <option value="$PROJECT_DIR$/emails/index.php" />
         <option value="$PROJECT_DIR$/productlist/index.php" />
         <option value="$PROJECT_DIR$/productlist/data.php" />
         <option value="$PROJECT_DIR$/email_templates.html" />
+        <option value="$PROJECT_DIR$/emails_done/data.php" />
         <option value="$PROJECT_DIR$/emails_done/fav_newsletter/fav_newsletter.php" />
         <option value="$PROJECT_DIR$/emails_done/fav_newsletter/send.php" />
+        <option value="$PROJECT_DIR$/emails_done/index.php" />
+        <option value="$PROJECT_DIR$/emails_done/list.php" />
+        <option value="$PROJECT_DIR$/emails_done/fav_newsletter.php" />
         <option value="$PROJECT_DIR$/emails_done/conversation_notif.php" />
+        <option value="$PROJECT_DIR$/emails_done/send.php" />
+        <option value="$PROJECT_DIR$/emails_done/logout.php" />
       </list>
     </option>
   </component>
@@ -199,7 +193,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/kulso/WebJob/Meska/2017.10.04. - CSS Unite/redesign" />
+    <property name="last_opened_file_path" value="/var/www/html/sample_registration_system" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -258,11 +252,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1360" height="738" extended-state="1" />
+    <frame x="0" y="30" width="1360" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25342464" sideWeight="0.88087773" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26560122" sideWeight="0.88087773" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -326,20 +320,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/productlist/img/colors/stripe.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.030201342" vertical-offset="0" max-vertical-offset="596">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productlist/img/colors/pattern.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3438">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/productlist/img/colors/dot.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1194354" vertical-offset="16" max-vertical-offset="990">
@@ -505,7 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="79056">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,20 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49484536" vertical-offset="0" max-vertical-offset="582">
           <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emails_done/_footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.074074" vertical-offset="421" max-vertical-offset="990">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emails_done/fav_newsletter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0562391" vertical-offset="0" max-vertical-offset="1332">
-          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -611,22 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5887522" vertical-offset="565" max-vertical-offset="1134">
           <caret line="174" column="4" selection-start-line="174" selection-start-column="4" selection-end-line="346" selection-end-column="12" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#13942#15115#0" expanded="false" />
-            <element signature="e#15128#16323#0" expanded="false" />
-            <element signature="e#16335#17531#0" expanded="false" />
-            <element signature="e#17543#18657#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -634,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.031634446" vertical-offset="0" max-vertical-offset="594">
           <caret line="1" column="188" selection-start-line="1" selection-start-column="188" selection-end-line="1" selection-end-column="188" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,85 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.031634446" vertical-offset="0" max-vertical-offset="14058">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emails_done/fav_newsletter/fav_newsletter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43042672" vertical-offset="1226" max-vertical-offset="8262">
-          <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4811#6323#0#HTML" expanded="false" />
-            <element signature="e#6340#7954#0#HTML" expanded="false" />
-            <element signature="e#7970#9031#0#HTML" expanded="false" />
-            <element signature="e#9047#9709#0#HTML" expanded="false" />
-            <element signature="e#9755#10084#0#HTML" expanded="false" />
-            <element signature="e#10101#10453#0#HTML" expanded="false" />
-            <element signature="e#10469#10822#0#HTML" expanded="false" />
-            <element signature="e#10838#11097#0#HTML" expanded="false" />
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#td#1;n#tr#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#1;n#tr#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#td#1;n#tr#0;n#table#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#1;n#tr#0;n#table#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#td#1;n#tr#0;n#table#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#td#1;n#tr#0;n#table#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#1;n#tr#0;n#table#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#2;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#3;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emails_done/fav_newsletter/send.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49384886" vertical-offset="133" max-vertical-offset="1404">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-          <folding>
-            <element signature="e#87#121#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,24 +597,148 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37961337" vertical-offset="0" max-vertical-offset="864">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="9846">
+          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails_done/fav_newsletter/fav_newsletter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6520211" vertical-offset="1609" max-vertical-offset="12366">
+          <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails_done/fav_newsletter/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48681897" vertical-offset="641" max-vertical-offset="1404">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails_done/data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71529" vertical-offset="25" max-vertical-offset="594">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails_done/fav_newsletter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15817223" vertical-offset="0" max-vertical-offset="12564">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#111#220#0#HTML" expanded="true" />
+            <element signature="e#11366#11493#0#HTML" expanded="true" />
+            <element signature="e#11516#11634#0#HTML" expanded="true" />
+            <element signature="e#19425#19451#0#HTML" expanded="true" />
+            <element signature="e#19468#19550#0#HTML" expanded="true" />
+            <element signature="e#19613#19673#0#HTML" expanded="true" />
+            <element signature="e#19779#19798#0#HTML" expanded="true" />
+            <element signature="e#19889#19985#0#HTML" expanded="true" />
+            <element signature="e#20038#20100#0#HTML" expanded="true" />
+            <element signature="e#20407#20586#0#HTML" expanded="true" />
+            <element signature="e#20623#20649#0#HTML" expanded="true" />
+            <element signature="e#20666#20748#0#HTML" expanded="true" />
+            <element signature="e#20811#20871#0#HTML" expanded="true" />
+            <element signature="e#20979#20998#0#HTML" expanded="true" />
+            <element signature="e#21089#21186#0#HTML" expanded="true" />
+            <element signature="e#21230#21292#0#HTML" expanded="true" />
+            <element signature="e#21691#21870#0#HTML" expanded="true" />
+            <element signature="e#21907#21933#0#HTML" expanded="true" />
+            <element signature="e#21950#22032#0#HTML" expanded="true" />
+            <element signature="e#22095#22155#0#HTML" expanded="true" />
+            <element signature="e#22265#22284#0#HTML" expanded="true" />
+            <element signature="e#22375#22472#0#HTML" expanded="true" />
+            <element signature="e#22526#22588#0#HTML" expanded="true" />
+            <element signature="e#22747#22792#0#HTML" expanded="true" />
+            <element signature="e#23468#23647#0#HTML" expanded="true" />
+            <element signature="e#23684#23710#0#HTML" expanded="true" />
+            <element signature="e#23727#23809#0#HTML" expanded="true" />
+            <element signature="e#23872#23932#0#HTML" expanded="true" />
+            <element signature="e#24038#24057#0#HTML" expanded="true" />
+            <element signature="e#24148#24245#0#HTML" expanded="true" />
+            <element signature="e#24318#24380#0#HTML" expanded="true" />
+            <element signature="e#24787#24966#0#HTML" expanded="true" />
+            <element signature="e#25003#25064#0#HTML" expanded="true" />
+            <element signature="e#25215#25274#0#HTML" expanded="true" />
+            <element signature="e#25298#25379#0#HTML" expanded="true" />
+            <element signature="e#25550#25580#0#HTML" expanded="true" />
+            <element signature="e#25693#25723#0#HTML" expanded="true" />
+            <element signature="e#25896#25926#0#HTML" expanded="true" />
+            <element signature="e#26105#26135#0#HTML" expanded="true" />
+            <element signature="e#26247#26277#0#HTML" expanded="true" />
+            <element signature="e#26448#26478#0#HTML" expanded="true" />
+            <element signature="e#26530#26588#0#HTML" expanded="true" />
+            <element signature="e#26629#26733#0#HTML" expanded="true" />
+            <element signature="e#26795#26899#0#HTML" expanded="true" />
+            <element signature="e#26972#27076#0#HTML" expanded="true" />
+            <element signature="e#27158#27262#0#HTML" expanded="true" />
+            <element signature="e#27306#27340#0#HTML" expanded="true" />
+            <element signature="e#27367#27546#0#HTML" expanded="true" />
+            <element signature="e#27590#27690#0#HTML" expanded="true" />
+            <element signature="e#27703#27784#0#HTML" expanded="true" />
+            <element signature="e#27949#28030#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/emails_done/conversation_notif.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.666666" vertical-offset="0" max-vertical-offset="936">
-          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        <state vertical-scroll-proportion="4.8717046" vertical-offset="0" max-vertical-offset="2970">
+          <caret line="154" column="34" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
           <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
+            <element signature="e#695#735#0#HTML" expanded="true" />
+            <element signature="e#950#990#0#HTML" expanded="true" />
+            <element signature="e#1259#1572#0#HTML" expanded="true" />
+            <element signature="e#1643#1691#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails_done/_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.486819" vertical-offset="0" max-vertical-offset="990">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails_done/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09490334" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding>
+            <element signature="e#151#185#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails_done/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21649484" vertical-offset="0" max-vertical-offset="582">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails_done/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0" vertical-offset="216" max-vertical-offset="2970">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/emails_done/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30927834" vertical-offset="0" max-vertical-offset="2790">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.30927834" vertical-offset="0" max-vertical-offset="756">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding />
         </state>
       </provider>

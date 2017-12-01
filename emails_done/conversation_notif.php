@@ -1,4 +1,9 @@
-<?php include_once('_header.php'); ?>
+<?php
+session_start();
+
+if(isset($_SESSION['username'])){
+include_once('_header.php');
+?>
 
 <strong>Kedves <?= $recipient ?>!</strong><br>
 <br>
@@ -147,4 +152,9 @@ A Meska.hu csapata<br>
     } /*MD*/
 </style>
 
-<?php include_once('_footer.php'); ?>
+<?php include_once('_footer.php');
+
+}
+else{
+    echo 'Nem vagy bejelentkezve!';
+}
