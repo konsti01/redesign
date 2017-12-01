@@ -29,6 +29,8 @@ class Emails{
             <a href="/emails_done/list.php?email=fav_newsletter">fav_newsletter</a><br>
             <a href="/emails_done/list.php?email=conversation_notif">belső üzenet értesítő</a><br>
             <br>
+            <a href="/emails_done/send.php">E-mail küldése</a><br>
+            <br>
             Bejelentkezve mint: <? echo $_SESSION['username'] ?><br>
             <a href="/emails_done/logout.php">Kijelentkezés</a>
         <?php

@@ -4,11 +4,8 @@
     <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/conversation_notif.php" afterPath="$PROJECT_DIR$/emails_done/conversation_notif.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/fav_newsletter.php" afterPath="$PROJECT_DIR$/emails_done/fav_newsletter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/fav_newsletter/fav_newsletter.php" afterPath="$PROJECT_DIR$/emails_done/fav_newsletter/fav_newsletter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/index.php" afterPath="$PROJECT_DIR$/emails_done/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/list.php" afterPath="$PROJECT_DIR$/emails_done/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/logout.php" afterPath="$PROJECT_DIR$/emails_done/logout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/send.php" afterPath="$PROJECT_DIR$/emails_done/send.php" />
     </list>
     <ignored path="redesign.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,22 +36,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/emails_done/index.php">
+      <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emails_done/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30927834" vertical-offset="0" max-vertical-offset="756">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state vertical-scroll-proportion="-13.333333" vertical-offset="216" max-vertical-offset="3006">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/emails_done/list.php">
+      <file leaf-file-name="send.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/emails_done/send.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.0" vertical-offset="216" max-vertical-offset="2970">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.62038666" vertical-offset="961" max-vertical-offset="1566">
+              <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+              <folding>
+                <element signature="e#118#152#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,11 +112,11 @@
         <option value="$PROJECT_DIR$/emails_done/fav_newsletter/fav_newsletter.php" />
         <option value="$PROJECT_DIR$/emails_done/fav_newsletter/send.php" />
         <option value="$PROJECT_DIR$/emails_done/index.php" />
+        <option value="$PROJECT_DIR$/emails_done/logout.php" />
         <option value="$PROJECT_DIR$/emails_done/list.php" />
         <option value="$PROJECT_DIR$/emails_done/fav_newsletter.php" />
         <option value="$PROJECT_DIR$/emails_done/conversation_notif.php" />
         <option value="$PROJECT_DIR$/emails_done/send.php" />
-        <option value="$PROJECT_DIR$/emails_done/logout.php" />
       </list>
     </option>
   </component>
@@ -253,10 +252,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1360" height="738" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26560122" sideWeight="0.88087773" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26560122" sideWeight="0.88087773" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -628,79 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emails_done/fav_newsletter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15817223" vertical-offset="0" max-vertical-offset="12564">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#111#220#0#HTML" expanded="true" />
-            <element signature="e#11366#11493#0#HTML" expanded="true" />
-            <element signature="e#11516#11634#0#HTML" expanded="true" />
-            <element signature="e#19425#19451#0#HTML" expanded="true" />
-            <element signature="e#19468#19550#0#HTML" expanded="true" />
-            <element signature="e#19613#19673#0#HTML" expanded="true" />
-            <element signature="e#19779#19798#0#HTML" expanded="true" />
-            <element signature="e#19889#19985#0#HTML" expanded="true" />
-            <element signature="e#20038#20100#0#HTML" expanded="true" />
-            <element signature="e#20407#20586#0#HTML" expanded="true" />
-            <element signature="e#20623#20649#0#HTML" expanded="true" />
-            <element signature="e#20666#20748#0#HTML" expanded="true" />
-            <element signature="e#20811#20871#0#HTML" expanded="true" />
-            <element signature="e#20979#20998#0#HTML" expanded="true" />
-            <element signature="e#21089#21186#0#HTML" expanded="true" />
-            <element signature="e#21230#21292#0#HTML" expanded="true" />
-            <element signature="e#21691#21870#0#HTML" expanded="true" />
-            <element signature="e#21907#21933#0#HTML" expanded="true" />
-            <element signature="e#21950#22032#0#HTML" expanded="true" />
-            <element signature="e#22095#22155#0#HTML" expanded="true" />
-            <element signature="e#22265#22284#0#HTML" expanded="true" />
-            <element signature="e#22375#22472#0#HTML" expanded="true" />
-            <element signature="e#22526#22588#0#HTML" expanded="true" />
-            <element signature="e#22747#22792#0#HTML" expanded="true" />
-            <element signature="e#23468#23647#0#HTML" expanded="true" />
-            <element signature="e#23684#23710#0#HTML" expanded="true" />
-            <element signature="e#23727#23809#0#HTML" expanded="true" />
-            <element signature="e#23872#23932#0#HTML" expanded="true" />
-            <element signature="e#24038#24057#0#HTML" expanded="true" />
-            <element signature="e#24148#24245#0#HTML" expanded="true" />
-            <element signature="e#24318#24380#0#HTML" expanded="true" />
-            <element signature="e#24787#24966#0#HTML" expanded="true" />
-            <element signature="e#25003#25064#0#HTML" expanded="true" />
-            <element signature="e#25215#25274#0#HTML" expanded="true" />
-            <element signature="e#25298#25379#0#HTML" expanded="true" />
-            <element signature="e#25550#25580#0#HTML" expanded="true" />
-            <element signature="e#25693#25723#0#HTML" expanded="true" />
-            <element signature="e#25896#25926#0#HTML" expanded="true" />
-            <element signature="e#26105#26135#0#HTML" expanded="true" />
-            <element signature="e#26247#26277#0#HTML" expanded="true" />
-            <element signature="e#26448#26478#0#HTML" expanded="true" />
-            <element signature="e#26530#26588#0#HTML" expanded="true" />
-            <element signature="e#26629#26733#0#HTML" expanded="true" />
-            <element signature="e#26795#26899#0#HTML" expanded="true" />
-            <element signature="e#26972#27076#0#HTML" expanded="true" />
-            <element signature="e#27158#27262#0#HTML" expanded="true" />
-            <element signature="e#27306#27340#0#HTML" expanded="true" />
-            <element signature="e#27367#27546#0#HTML" expanded="true" />
-            <element signature="e#27590#27690#0#HTML" expanded="true" />
-            <element signature="e#27703#27784#0#HTML" expanded="true" />
-            <element signature="e#27949#28030#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emails_done/conversation_notif.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.8717046" vertical-offset="0" max-vertical-offset="2970">
-          <caret line="154" column="34" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
-          <folding>
-            <element signature="e#695#735#0#HTML" expanded="true" />
-            <element signature="e#950#990#0#HTML" expanded="true" />
-            <element signature="e#1259#1572#0#HTML" expanded="true" />
-            <element signature="e#1643#1691#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/emails_done/_footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.486819" vertical-offset="0" max-vertical-offset="990">
@@ -709,13 +635,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emails_done/send.php">
+    <entry file="file://$PROJECT_DIR$/emails_done/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09490334" vertical-offset="0" max-vertical-offset="1530">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="e#151#185#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.30927834" vertical-offset="0" max-vertical-offset="756">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails_done/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.333333" vertical-offset="216" max-vertical-offset="3006">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails_done/conversation_notif.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8101933" vertical-offset="2005" max-vertical-offset="2574">
+          <caret line="149" column="34" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails_done/fav_newsletter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="21.543058" vertical-offset="0" max-vertical-offset="12384">
+          <caret line="681" column="7" selection-start-line="681" selection-start-column="7" selection-end-line="681" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -727,19 +675,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emails_done/list.php">
+    <entry file="file://$PROJECT_DIR$/emails_done/send.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0" vertical-offset="216" max-vertical-offset="2970">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emails_done/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30927834" vertical-offset="0" max-vertical-offset="756">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
+        <state vertical-scroll-proportion="0.62038666" vertical-offset="961" max-vertical-offset="1566">
+          <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+          <folding>
+            <element signature="e#118#152#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

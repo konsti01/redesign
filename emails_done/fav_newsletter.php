@@ -1,10 +1,4 @@
-<?php
-
-session_start();
-
-if(isset($_SESSION['username'])){
-include_once('data.php');
-?>
+<?php include_once('data.php'); ?>
 
 <!DOCTYPE html>
 <html style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #555555; font-size: 1vw;">
@@ -685,8 +679,4 @@ include_once('data.php');
     </div>
 </div>
 </body>
-</html><?php
-}
-else{
-    echo 'Nem vagy bejelentkezve!';
-}
+</html>

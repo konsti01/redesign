@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if(isset($_SESSION['username'])){
+
 
     error_reporting(E_ALL^E_NOTICE^E_DEPRECATED);
     ini_set('display_errors', "on");
@@ -24,12 +24,12 @@ if(isset($_SESSION['username'])){
 
         public function send(){
             $recipients = array(
-                'spardasixx@gmail.com' => 'Görbicz Roland',
+                'spardasixx@gmail.com' => 'Görbicz Roland',/*
                 'info@ux-studio.com' => 'Czár Milán',
                 'akos.meska@gmail.com' => 'Konstanczer Ákos',
                 'airporst@gmail.com' => 'Porst Réka',
                 'hello@meska.hu' => 'Kovács Lóránt',
-                'prepostffyzs@gmail.com' => 'Prepostffy Zsuzsa',
+                'prepostffyzs@gmail.com' => 'Prepostffy Zsuzsa',*/
             );
 
             $mail = new PHPMailer();
@@ -70,6 +70,8 @@ if(isset($_SESSION['username'])){
             }
         }
     }
+
+if(isset($_SESSION['username'])){
 
     $m = new Mailer();
     $m->send();
