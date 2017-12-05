@@ -21,7 +21,6 @@
             background-color: #ffffff;
             border: 1px solid #dddddd;
             border-radius: 0.5vw;
-            width: 99%;
             margin: 0 auto 0 auto;
         }
         .wrapper .content{
@@ -69,7 +68,7 @@
             padding: 20px;
         }
         .heading h1{
-            margin-left: 100px;
+            margin-left: 14%;
         }
         .heading h1 a{
             color: #555;
@@ -80,6 +79,7 @@
             float: left;
             text-align: justify;
             width: 80%;
+            color: #555;
         }
 
         .product-box{
@@ -168,6 +168,7 @@
             font-size: 20px;
             font-weight: 200;
             margin: 10px 0 0 0;
+            color: #555;
         }
         .product-price .basket{
             float: right;
@@ -199,9 +200,6 @@
             clear: both;
         }
         @media (max-width: 424px){
-            .wrapper{
-                width: 100%;
-            }
             .wrapper .logo{
                 width: 150px !important;
             }
@@ -221,32 +219,32 @@
             .grey-bg .footer p{
                 font-size: 12px !important;
             }
+            .subtext{
+                padding: 5px;
+            }
 
-            .heart{
-                width: 30px;
-                height: 30px;
-                border: 2px solid #ccc;
-                padding: 10px;
-                margin: 30px 10px 20px 10px;
-            }
-            .heart img{
-                width: 30px;
-                margin: 2px 0 0 0;
-            }
-            .heading{
-                width: 75%;
-            }
             .heading h1 a{
-                font-size: .75em;
+                font-size: 20px;
             }
             .heading p {
-                width: 70%;
+                font-size: 16px;
+            }
+            .heart{
+                width: 20%;
+                padding: 20px 0 0 0;
+            }
+            .heart img{
+                margin-top: 20px;
+                width: 90%;
             }
 
             .seller-pic{
                 float: none;
                 width: 100%;
                 margin: 0 0 10px 0;
+            }
+            .seller-pic img {
+                width: 50%;
             }
             .products{
                 float: none;
@@ -256,7 +254,7 @@
                 background-size: 100% 100%;
             }
             .product-description{
-                width: 48%;
+                width: 46%;
                 margin-bottom: 1.5%;
             }
             .product-price .price{
@@ -265,52 +263,42 @@
             }
         } /*XXS*/
         @media (min-width: 425px) and (max-width: 767px){
-            .wrapper{
-                width: 100%;
-            }
             .wrapper .logo{
-                width: 250px;
+                width: 150px !important;
             }
             .wrapper .content{
-                font-size: 14px;
+                font-size: 12px;
             }
             .wrapper .center{
-                font-size: 14px;
+                font-size: 12px;
             }
             .wrapper .center img{
-                width: 50px !important;
+                width: 40px !important;
             }
             .links a{
-                font-size: 14px !important;
+                font-size: 12px !important;
                 width: 100% !important;
             }
             .grey-bg .footer p{
-                font-size: 14px !important;
+                font-size: 12px !important;
+            }
+            .subtext{
+                padding: 5px;
             }
 
-            .heart{
-                width: 30px;
-                height: 30px;
-                border: 2px solid #ccc;
-                padding: 10px;
-                margin: 30px 10px 20px 10px;
-            }
-            .heart img{
-                width: 30px;
-                margin: 2px 0 0 0;
-            }
-            .heading{
-                width: 75%;
-            }
             .heading h1 a{
-                font-size: .75em;
+                font-size: 20px;
             }
             .heading p {
-                width: 78%;
+                font-size: 16px;
+                margin-top: 30px;
             }
-
-            .products .seller {
-                background-size: 100% 100%;
+            .heart{
+                width: 20%;
+                padding: 20px 0 0 0;
+            }
+            .heart img{
+                width: 90%;
             }
 
             .seller-pic{
@@ -318,26 +306,27 @@
                 width: 100%;
                 margin: 0 0 10px 0;
             }
-            .seller-pic .seller{
-                background-size: 75% 100%;
+            .seller-pic img {
+                width: 30%;
             }
             .products{
                 float: none;
                 width: 100%;
             }
+            .products .seller {
+                background-size: 100% 100%;
+                margin: 0 auto 10px auto;
+            }
             .product-description{
-                width: 48%;
+                width: 46%;
                 margin-bottom: 1.5%;
             }
             .product-price .price{
                 font-size: 16px;
-                margin: 12px 0 0 0;
+                margin: 13px 0 0 0;
             }
         } /*XS*/
         @media (min-width: 768px) and (max-width: 1100px){
-            .wrapper{
-                width: 100%;
-            }
             .wrapper .logo{
                 width: 300px !important;
             }
@@ -357,16 +346,6 @@
             .grey-bg .footer p{
                 font-size: 16px !important;
             }
-            .heart{
-                margin: 20px 10px 20px 10px;
-            }
-            .header h1 a{
-                font-size: 26px;
-            }
-
-            .heading{
-                width: 75%;
-            }
             .heading h1 a{
                 font-size: 1em;
             }
@@ -382,9 +361,6 @@
             }
         } /*SM*/
         @media (min-width: 1101px) and (max-width: 1300px){
-            .wrapper{
-                width: 100%;
-            }
             .wrapper .logo{
                 width: 300px !important;
             }
@@ -426,37 +402,83 @@
             float: left;
             width: 87%;
         }
-        .benefits .row .desc h2{}
-        .benefits .row .desc p{}
+        .benefits .row .desc h2{
+            font-weight: normal;
+            font-size: 20px;
+            color: #555;
+        }
+        .benefits .row .desc p{
+            font-size: 16px;
+            color: #555;
+        }
+        .benefits .row .desc ul{
+            font-size: 16px;
+            color: #555;
+        }
 
         @media (max-width: 424px){
-            .wrapper .container{
-                font-size: 12px !important;
+            .benefits .row{
+                padding: 5px;
             }
-            .wrapper .container h1{
-                font-size: 24px !important;
+            .benefits .row .icon{
+                float: none;
+                width: 100%;
+                text-align: center;
+            }
+            .benefits .row .icon img{
+                width: 30%;
+                margin-top: 0px;
+            }
+            .benefits .row .desc{
+                float: none;
+                width: 100%;
+                text-align: center;
+            }
+            .benefits .row .desc h2{
+                font-size: 20px;
+            }
+            .benefits .row .desc p{
+                font-size: 16px;
+            }
+            .benefits .row .desc ul{
+                font-size: 16px;
+                text-align: left;
             }
         } /*XXS*/
         @media (min-width: 425px) and (max-width: 767px){
-            .wrapper .container{
-                font-size: 14px !important;
+            .benefits .row{
+                padding: 5px;
             }
-            .wrapper .container h1{
-                font-size: 32px !important;
+            .benefits .row .icon{
+                float: none;
+                width: 100%;
+                text-align: center;
+            }
+            .benefits .row .icon img{
+                width: 30%;
+                margin-top: 0px;
+            }
+            .benefits .row .desc{
+                float: none;
+                width: 100%;
+                text-align: center;
+            }
+            .benefits .row .desc h2{
+                font-size: 20px;
+            }
+            .benefits .row .desc p{
+                font-size: 16px;
+            }
+            .benefits .row .desc ul{
+                font-size: 16px;
+                text-align: left;
             }
         } /*XS*/
         @media (min-width: 768px) and (max-width: 1100px){
-            .wrapper .container{
-                font-size: 16px !important;
-            }
-            .wrapper .container h1{
-                font-size: 48px !important;
-            }
+
         } /*SM*/
         @media (min-width: 1101px) and (max-width: 1300px){
-            .wrapper .container{
-                font-size: 16px !important;
-            }
+
         } /*MD*/
     </style>
 </head>
@@ -622,8 +644,8 @@
                 <img src="http://www.meska.hu/images/email/meska-email-lock-icon.png">
             </div>
             <div class="desc">
-                <h2 class="no-top-margin" style="font-weight: normal; font-size: 2em; color: #555555; margin-top: 0; margin-bottom: 20px;">Biztonságos tranzakciók</h2>
-                <p style="text-align: justify; color: #555555; margin-top:0.1em;">A Meska.hu oldalait biztonságos (SSL / https) kapcsolaton keresztül böngészed » erre utal a böngésző címsorában megjelenő kis zöld lakat is. Vásárlási adataidat 3. fél nem láthatja, nálunk biztonságban vagy!</p>
+                <h2>Biztonságos tranzakciók</h2>
+                <p>A Meska.hu oldalait biztonságos (SSL / https) kapcsolaton keresztül böngészed » erre utal a böngésző címsorában megjelenő kis zöld lakat is. Vásárlási adataidat 3. fél nem láthatja, nálunk biztonságban vagy!</p>
             </div>
             <div class="clear"></div>
         </div>
@@ -632,19 +654,18 @@
                 <img src="http://www.meska.hu/images/email/meska-email-shield-icon.png">
             </div>
             <div class="desc">
-                <h2 class="no-top-margin" style="font-weight: normal; font-size: 2em; color: #555555; margin-top: 0;  margin-bottom: 20px;">Meska garancia</h2>
-                <p style="text-align: justify; color: #555555; margin-top:0.1em;">Amennyiben bankkártyával egyenlíted ki vásárlásod ellenértékét, az átutalt összeg a postázás után 8 nappal kerül az eladó számlájára, így addig jelezheted nekünk, ha a termék valamilyen okból nem felel meg a leírtaknak; a pénzed és a vásárlásod ez időszak alatt extra biztonságban van, garantáljuk. </p>
+                <h2>Meska garancia</h2>
+                <p>Amennyiben bankkártyával egyenlíted ki vásárlásod ellenértékét, az átutalt összeg a postázás után 8 nappal kerül az eladó számlájára, így addig jelezheted nekünk, ha a termék valamilyen okból nem felel meg a leírtaknak; a pénzed és a vásárlásod ez időszak alatt extra biztonságban van, garantáljuk. </p>
             </div>
             <div class="clear"></div>
         </div>
         <div class="row">
             <div class="icon">
-                <img src="http://www.meska.hu/images/email/meska-email-oneclick-icon.png" class="picto" style="width: 70%;">
-
+                <img src="http://www.meska.hu/images/email/meska-email-oneclick-icon.png">
             </div>
             <div class="desc">
-                <h2 class="no-top-margin" style="font-weight: normal; font-size: 2em; color: #555555; margin-top: 0;  margin-bottom: 20px;">Belépés egy kattintással</h2>
-                <p style="text-align: justify; color: #555555; margin-top:0.1em;">
+                <h2>Belépés egy kattintással</h2>
+                <p>
                     Amennyiben összekötöd Facebook fiókodat Meska fiókoddal (Fiókom / Alapadatok / Adatmódosítás » <a href="https://www.meska.hu/ModAcc" style="color: #84b848; text-decoration: none">https://www.meska.hu/ModAcc</a>) egyetlen kattintással be tudsz lépni Meska fiókodba. Ennek számos előnye van:
                 <ul>
                     <li>Belépésnél nem kell beírni az e-mail címet és a jelszót</li>
@@ -657,12 +678,11 @@
         </div>
         <div class="row">
             <div class="icon">
-                <img src="http://www.meska.hu/images/email/meska-email-card-icon.png" class="picto" style="width: 70%;">
-
+                <img src="http://www.meska.hu/images/email/meska-email-card-icon.png">
             </div>
             <div class="desc">
-                <h2 class="no-top-margin" style="font-weight: normal; font-size: 2em; color: #555555; margin-top: 0;  margin-bottom: 20px;">Fizetés gyorsan, kényelmesen, bankkártyával</h2>
-                <p style="text-align: justify; color: #555555; margin-top:0.1em;">
+                <h2>Fizetés gyorsan, kényelmesen, bankkártyával</h2>
+                <p>
                     Egyre több eladó boltjában lehet bankkártyával fizetni a Meskán is! Nem kell a termék átvételekor a pénzzel foglalkozni, plusz bankkártyás fizetés esetén a Meska garanciát vállal arra, hogy nem lesz probléma a vásárlással (részleteket lásd a következő pontban).
                 </p>
             </div>
