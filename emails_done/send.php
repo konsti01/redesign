@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-
-
     error_reporting(E_ALL^E_NOTICE^E_DEPRECATED);
     ini_set('display_errors', "on");
 
@@ -58,7 +56,7 @@ session_start();
 
             $recipient = 'Címzett';
 
-            $mail->Subject = '[Meska] '.$recipient.', kedvenc alkotóid legújabb termékei ('.$date.') #'.$id;                   // A level targya
+            $mail->Subject = '[Meska] '.$recipient.', kedvenc alkotóid legújabb termékei #'.$id;                   // A level targya
             $mail->Body    = $this->content();                        // A level tartalma
             $mail->AltBody = 'This is the text-only body';            // A level szoveges tartalma
 

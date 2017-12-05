@@ -1,7 +1,4 @@
-</div>
-<!-- CONTENT END -->
 
-<div class="breaker" style="width: 100%; height: 0px; border-color: #dddddd; border-style: solid; border-top-width: 1px; border-left: none; border-right: none; border-bottom: none; margin: 2% 0 2% 0;"> </div>
 <p class="huge center" style="text-align: center; color: #555555; margin-top:0.1em;">
     Reméljük, hogy minél hamarabb viszont látunk az oldalunkon!
 </p>
