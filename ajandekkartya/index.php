@@ -50,26 +50,7 @@
                     </div>
                 </div>
                 <div class="clear"></div>
-
-                <script>
-                    $("#gc_form input[type=radio]").change(function(){
-                        if ($("#other_checkbox").prop('checked')){
-                            console.log('t');
-                            $("#other_select").removeAttr('disabled');
-                            $("#other_blur").slideUp(200);
-                        } else {
-                            $("#other_select").attr('disabled', true);
-                            $("#other_blur").slideDown(200);
-                        }
-                    });
-
-                    $("#other_select").change(function(){
-                        $("#other_bg").css(
-                            'background-image',
-                            'url("<?= $_urlPrefix ?>/images/ajandekkartya/meska-ajandekkartya-'+$("#other_select").val()+'-mini.jpg")'
-                        );
-                    });
-                </script>
+                
                 <span class="error"><?= $error ?></span>
 
                 <div class="send col-12">
