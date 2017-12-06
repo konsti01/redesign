@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="clear"></div>
-                
+
                 <span class="error"><?= $error ?></span>
 
                 <div class="send col-12">

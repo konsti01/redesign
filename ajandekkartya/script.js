@@ -1,6 +1,5 @@
 $("#gc_form input[type=radio]").change(function(){
     if ($("#other_checkbox").prop('checked')){
-        console.log('t');
         $("#other_select").removeAttr('disabled');
         $("#other_blur").slideUp(200);
     } else {
