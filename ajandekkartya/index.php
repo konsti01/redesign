@@ -87,3 +87,6 @@
 </div>
 
 <?php include_once('../footer.php'); ?>
+
+<!-- LOCAL JS -->
+<script src="script.js"></script>
