@@ -1,0 +1,9 @@
+@media only screen and (max-width: 870px){
+    .giftcards-wrap{
+        width: 100%;
+    }
+    .giftcard{
+        float: none;
+        margin: 30px auto;
+    }
+}

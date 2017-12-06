@@ -1,0 +1,45 @@
+.content{
+    padding: 100px 10px 10px 10px;
+}
+.headline{
+    margin: 0 0 30px 0;
+}
+.headline h2, .headline p{
+    text-align: center;
+}
+.giftcards-wrap{
+    width: 820px;
+    margin: auto;
+}
+.giftcard{
+    float: left;
+    text-align: center;
+    margin: 0 5px;
+}
+.value{
+    margin: 10px 0 0 0;
+}
+.send{
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+.send a{
+    color: #88b048;
+}
+.send a:hover{
+    color: #006633;
+}
+.send .right{
+    background-color: #fff;
+    border: 1px solid #88b048;
+    color: #88b048;
+    cursor: pointer;
+}
+.send .right:hover{
+    background-color: #88b048;
+    color: #fff;
+}
+
+.clear{
+    clear: both;
+}

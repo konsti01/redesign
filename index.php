@@ -7,3 +7,4 @@ BOOTSTRAP 4 BETA<br><br>
 <a href="faq">F.A.Q.</a><br>
 <a href="dashboard">Dashboard</a><br>
 <a href="basket">Basket</a><br>
+<a href="ajandekkartya">Ajándékkártya</a><br>
