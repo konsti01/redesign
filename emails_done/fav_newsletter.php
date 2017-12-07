@@ -53,8 +53,6 @@
         }
 
         .heart{
-            float: left;
-            width: 13%;
             text-align: center;
         }
         .heart img{
@@ -62,13 +60,10 @@
         }
         .heading{
             float: left;
-            width: 100%;
-        }
-        .subtext{
             padding: 20px;
         }
         .heading h1{
-            margin-left: 14%;
+
         }
         .heading h1 a{
             color: #555;
@@ -76,7 +71,6 @@
             font-weight: 400;
         }
         .heading p{
-            float: left;
             text-align: justify;
             width: 80%;
             color: #555;
@@ -129,7 +123,7 @@
         }
         .product-description{
             float: left;
-            width: 18%;
+            width: 23%;
             margin: 5px;
             padding: 10px;
             background-color: #f8f8f8;
@@ -223,18 +217,22 @@
                 padding: 5px;
             }
 
+            .heading h1 {
+                padding-right: 30px;
+            }
             .heading h1 a{
                 font-size: 20px;
             }
             .heading p {
                 font-size: 16px;
+                padding-bottom: 0;
             }
             .heart{
                 width: 20%;
                 padding: 20px 0 0 0;
             }
             .heart img{
-                margin-top: 20px;
+                margin-bottom: 80px;
                 width: 90%;
             }
 
@@ -291,11 +289,12 @@
             }
             .heading p {
                 font-size: 16px;
-                margin-top: 30px;
+                margin-top: 0px;
+                padding-bottom: 0;
             }
             .heart{
                 width: 20%;
-                padding: 20px 0 0 0;
+                margin-bottom: 30px;
             }
             .heart img{
                 width: 90%;
@@ -349,6 +348,15 @@
             .heading h1 a{
                 font-size: 1em;
             }
+            .heading p {
+                font-size: 16px;
+                margin-top: 0px;
+                padding-bottom: 0;
+            }
+            .heart{
+                width: 20%;
+                margin-bottom: 0px;
+            }
 
             .seller-pic img {
                 width: 100px;
@@ -373,6 +381,12 @@
             .wrapper .center img{
                 width: 60px !important;
             }
+            .heading p {
+                font-size: 16px;
+                margin-top: 0px;
+                padding-bottom: 10px;
+            }
+
             .links a{
                 font-size: 16px !important;
                 width: 100% !important;
@@ -387,20 +401,21 @@
             margin: 0 0 20px 0;
         }
         .benefits .row{
-            padding: 20px 20px;
+            padding: 26px 20px;
             border-bottom: 1px solid #ddd;
         }
         .benefits .row .icon{
             float: left;
             width: 13%;
-            text-align: center;
+            text-align: right;
         }
         .benefits .row .icon img{
             width: 70%;
         }
         .benefits .row .desc{
             float: left;
-            width: 87%;
+            width: 80%;
+            padding-left: 26px;
         }
         .benefits .row .desc h2{
             font-weight: normal;
@@ -410,6 +425,7 @@
         .benefits .row .desc p{
             font-size: 16px;
             color: #555;
+            text-align: justify;
         }
         .benefits .row .desc ul{
             font-size: 16px;
@@ -492,21 +508,32 @@
     <!-- CONTENT -->
     <div class="content">
         <div class="heading">
-            <?php $name = 'Címzett' ?>
-            <h1><a target="_blank" href="https://www.meska.hu/MyFavouriteSellersProducts?code={{.User.Code}}">
-                    Kedves <?echo $name?>, Kedvenc alkotóid legújabb termékei a Meskán
-                </a>
-            </h1>
-            <div class="subtext">
-                <div class="heart">
-                    <img src="https://assets.meska.hu/images/meska-email-heart-icon.png">
-                </div>
-                <p>Összegyűjtöttük neked, hogy kedvencnek jelölt alkotóid milyen új termékeket töltöttek fel a Meskára. <br>
-                    Reméljük ezek is tetszeni fognak :) <br>
-                    Részletekért vagy vásárláshoz kattints a termékre!
-                </p>
-                <div class="clear"></div>
-            </div>
+            <table>
+                <tr>
+                    <td></td>
+                    <td>
+                        <?php $name = 'Címzett' ?>
+                        <h1><a target="_blank" href="https://www.meska.hu/MyFavouriteSellersProducts?code={{.User.Code}}">
+                                Kedves <?echo $name?>, Kedvenc alkotóid legújabb termékei a Meskán
+                            </a>
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 13%;">
+                        <div class="heart">
+                            <img src="https://assets.meska.hu/images/meska-email-heart-icon.png">
+                        </div>
+                    </td>
+                    <td>
+                        <p>Összegyűjtöttük neked, hogy kedvencnek jelölt alkotóid milyen új termékeket töltöttek fel a Meskára. <br>
+                            Reméljük ezek is tetszeni fognak :) <br>
+                            Részletekért vagy vásárláshoz kattints a termékre!
+                        </p>
+                        <div class="clear"></div>
+                    </td>
+                </tr>
+            </table>
         </div>
         <div class="clear"></div>
         <div class="product-wrapper">
@@ -529,24 +556,6 @@
 
                     <div class="products">
                         <div class="seller"><?=$p['shop_name']?></div>
-                        <div class="product-description">
-                            <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
-                                <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
-                            </a>
-
-                            <div class="shop-name"><?=$p['shop_name']?></div>
-
-                            <a href="https://www.meska.hu/t<?=$p['id']?>">
-                                <div class="description"><?=$p['product_name']?></div>
-                            </a>
-
-                            <div class="product-price">
-                                <div class="price"><?=$p['formatted_price']?></div>
-                                <a href="https://www.meska.hu/t<?=$p['id']?>">
-                                    <div class="basket"><img src="http://assets.meska.hu/images/font-awesome_4-7-0_shopping-cart_20_0_ffffff_none.png"></div>
-                                </a>
-                            </div>
-                        </div>
                         <div class="product-description">
                             <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
                                 <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">

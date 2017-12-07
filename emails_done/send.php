@@ -41,8 +41,8 @@ session_start();
 
             $mail->CharSet  = "utf-8";                                // Karakter kódolás
 
-            $mail->From     = 'test@meska.hu';                        // Felado e-mail cime
-            $mail->FromName = 'Meskacsapat';                          // Felado neve
+            $mail->From     = 'test@mnb-software.com';                        // Felado e-mail cime
+            $mail->FromName = 'Meska.hu';                          // Felado neve
 
             foreach($recipients as $email => $name){
                 $mail->AddAddress($email, $name);                     // Címzett e-mail és név
