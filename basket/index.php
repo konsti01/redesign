@@ -10,7 +10,14 @@
 
 <div class="row">
     <div class="col-12 content">
-        content
+        <div class="wrapper row">
+            <div class="titles col-6">
+                <div class="content">megrendelések</div>
+            </div>
+            <div class="customer-info col-6">
+                <div class="content">megrendelő adatai</div>
+            </div>
+        </div>
     </div>
 </div>
 

@@ -22,12 +22,12 @@ session_start();
 
         public function send(){
             $recipients = array(
-                'spardasixx@gmail.com' => 'Görbicz Roland',
+                'spardasixx@gmail.com' => 'Görbicz Roland',/*
                 'info@ux-studio.com' => 'Czár Milán',
                 'akos.meska@gmail.com' => 'Konstanczer Ákos',
                 'airporst@gmail.com' => 'Porst Réka',
                 'hello@meska.hu' => 'Kovács Lóránt',
-                'prepostffyzs@gmail.com' => 'Prepostffy Zsuzsa',
+                'prepostffyzs@gmail.com' => 'Prepostffy Zsuzsa',*/
             );
 
             $mail = new PHPMailer();
@@ -41,7 +41,7 @@ session_start();
 
             $mail->CharSet  = "utf-8";                                // Karakter kódolás
 
-            $mail->From     = 'test@mnb-software.com';                        // Felado e-mail cime
+            $mail->From     = 'mailtest@mnb-software.com';                        // Felado e-mail cime
             $mail->FromName = 'Meska.hu';                          // Felado neve
 
             foreach($recipients as $email => $name){

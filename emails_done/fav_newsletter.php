@@ -490,12 +490,6 @@
                 text-align: left;
             }
         } /*XS*/
-        @media (min-width: 768px) and (max-width: 1100px){
-
-        } /*SM*/
-        @media (min-width: 1101px) and (max-width: 1300px){
-
-        } /*MD*/
     </style>
 </head>
 <body>
