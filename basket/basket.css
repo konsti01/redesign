@@ -13,3 +13,65 @@
     margin: 5px;
     border-radius: 5px;
 }
+.seller{
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 5px;
+    background-color: #eceef4;
+}
+.seller:last-of-type{
+    margin-bottom: 0;
+}
+.seller button{
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    color: #000;
+    text-align: left;
+}
+.seller button:hover{
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    color: #000;
+}
+.seller .logo{
+    max-width: 250px;
+    float: left;
+}
+.seller .logo img{
+    max-height: 50px;
+}
+.seller .avatar{
+    float: left;
+    margin: 0 0 0 10px;
+}
+.seller .avatar img{
+    border-radius: 50%;
+}
+.btn .sum_price{
+    float: right;
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 50px;
+}
+.card{
+    border: 0;
+    background-color: #eceef4;
+}
+.product .name{
+    float: left;
+}
+.product .price{
+    float: right;
+}
+.sum_price{
+    text-align: right;
+    border-top: 1px solid rgba(0,0,0,.125);
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.clear{
+    clear: both;
+}
