@@ -69,11 +69,12 @@
             float: left;
             width: 15%;
             font-weight: normal;
+            line-height: 40px;
         }
         .message .from img{
             border-radius: 50%;
             height: 77px;
-            margin: 0 15px 0 15px;
+            margin: 15px 15px 0 15px;
         }
         .message .content{
             float: left;
@@ -86,6 +87,7 @@
         }
         .message .sub{
             font-weight: normal;
+            margin: -50px 0 25px 0;
         }
         .reply-button{
             background-color: #88B04B;
@@ -95,12 +97,13 @@
             height: 24px;
             width: 250px;
             line-height: 22px;
-            padding: 5px 10px;
+            padding: 10px 10px;
             margin: 3% auto 0 auto;
             text-align: center;
         }
         .reply-button a{
             color: #fff;
+            font-weight: normal;
         }
 
         .clear{
@@ -307,7 +310,7 @@
 
     <!-- TEXT CONTENT -->
     <div class="text-content">
-        <strong>Kedves <?= $recipient ?>!</strong><br><br>
+        <strong>Kedves <?= $recipient ?>!</strong><br><br><br>
 
         <?php if ($sender == null) { ?>
             Belső üzeneted érkezett <a href="<?=App_Controller::$_protocolStatic?>://www.<?= $domain ?>.hu"><?= App_Helper_Domain::hungarize($domain, true) ?>.hu</a> oldalon keresztül:<br><br>
@@ -318,6 +321,14 @@
         <?php } ?>
         <img class="quote-icon" src="assets/img/quote-icon.png">
         <div class="message">
+            <div class="sub">
+                <?php
+                if ($pid) {
+                    ?>
+                    <br><br>
+                    Üzenetküldést az alábbi termék oldaláról kezdeményezték: <a href="<?=App_Controller::$_urlPrefixStatic?>/ProductView/index/<?= $pid ?>"><?= $product_name ?></a>
+                <?php } ?>
+            </div>
             <div class="from">
                 <?= $sender ?><br>
                 <img src="https://www.meska.hu/img/avatar/large/<?=$p['avatar']?>">
@@ -330,14 +341,6 @@
                 <?php } ?>
             </div>
             <div class="clear"></div>
-            <div class="sub">
-                <?php
-                if ($pid) {
-                    ?>
-                    <br><br>
-                    Üzenetküldést az alábbi termék oldaláról kezdeményezték: <a href="<?=App_Controller::$_urlPrefixStatic?>/ProductView/index/<?= $pid ?>"><?= $product_name ?></a>
-                <?php } ?>
-            </div>
             <div class="reply-button">
                 <?php if ($sender != null) { ?>
                     <a href="<?=App_Controller::$_protocolStatic?>://www.<?= $domain ?>.hu/Conversations/readMessage/<?= $message_id ?>">Teljes üzenet megtekintése</a>
