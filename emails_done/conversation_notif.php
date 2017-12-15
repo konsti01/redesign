@@ -60,19 +60,26 @@
             font-weight: bold;
             font-size: 18px;
         }
+        .text-content .quote-icon{
+            position: absolute;
+            top: 135px;
+            left: 1000px;;
+        }
         .message .from{
             float: left;
             width: 15%;
-            text-align: center;
             font-weight: normal;
         }
         .message .from img{
             border-radius: 50%;
             height: 77px;
+            margin: 0 15px 0 15px;
         }
         .message .content{
             float: left;
             width: 85%;
+            height: 170px;
+            line-height: 40px;
             background: -webkit-linear-gradient(#000, #000, transparent);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -89,7 +96,7 @@
             width: 250px;
             line-height: 22px;
             padding: 5px 10px;
-            margin: 3% auto;
+            margin: 3% auto 0 auto;
             text-align: center;
         }
         .reply-button a{
@@ -201,7 +208,7 @@
             margin: 0 0 20px 0;
         }
         .benefits .row{
-            padding: 20px;
+            padding: 3% 5%;
             border-bottom: 1px solid #ddd;
         }
         .benefits .row .icon{
@@ -214,7 +221,7 @@
         }
         .benefits .row .desc{
             float: left;
-            width: 92%;
+            width: 91%;
         }
         .benefits .row .desc h2{
             font-weight: normal;
@@ -309,10 +316,7 @@
 
             (FONTOS! Ne erre az e-mailre válaszolj, mert az a Meska ügyfélszolgálatára jönne; hanem a Meskára belépve a felületén keresztül: <strong>nyomd meg az üzenet alatt található gombot!</strong>)
         <?php } ?>
-
-        Üdvözlettel,<br><br>
-        A Meska.hu csapata
-
+        <img class="quote-icon" src="assets/img/quote-icon.png">
         <div class="message">
             <div class="from">
                 <?= $sender ?><br>
@@ -334,11 +338,11 @@
                     Üzenetküldést az alábbi termék oldaláról kezdeményezték: <a href="<?=App_Controller::$_urlPrefixStatic?>/ProductView/index/<?= $pid ?>"><?= $product_name ?></a>
                 <?php } ?>
             </div>
-        </div>
-        <div class="reply-button">
-            <?php if ($sender != null) { ?>
-                <a href="<?=App_Controller::$_protocolStatic?>://www.<?= $domain ?>.hu/Conversations/readMessage/<?= $message_id ?>">Teljes üzenet megtekintése</a>
-            <?php } ?>
+            <div class="reply-button">
+                <?php if ($sender != null) { ?>
+                    <a href="<?=App_Controller::$_protocolStatic?>://www.<?= $domain ?>.hu/Conversations/readMessage/<?= $message_id ?>">Teljes üzenet megtekintése</a>
+                <?php } ?>
+            </div>
         </div>
     </div>
 

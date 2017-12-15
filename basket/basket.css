@@ -1,3 +1,4 @@
+/*** TITLES ***/
 .content{
     margin: 91px 0 0 0;
     background-color: #eceef4;
@@ -17,6 +18,9 @@
     border: 1px solid rgba(0,0,0,.125);
     margin-bottom: 5px;
     background-color: #eceef4;
+}
+.seller:first-of-type{
+    display: none;
 }
 .seller:last-of-type{
     margin-bottom: 0;
@@ -62,6 +66,10 @@
 .product .name{
     float: left;
 }
+.product .amount{
+    float: left;
+    margin: 0 0 0 10px;
+}
 .product .price{
     float: right;
 }
@@ -70,6 +78,21 @@
     border-top: 1px solid rgba(0,0,0,.125);
     margin-top: 5px;
     padding-top: 5px;
+}
+.sum_price img{
+    border-radius: 50%;
+    height: 30px;
+}
+
+/*** CUSTOMER ***/
+.personal-info{
+    padding: 5px;
+    background-color: #eceef4;
+}
+.delivery-info{
+    margin: 5px 0 0 0;
+    padding: 5px;
+    background-color: #eceef4;
 }
 
 .clear{
