@@ -1,3 +1,5 @@
+<?php include_once('data.php'); ?>
+
 <!DOCTYPE html>
 <html style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #555555; font-size: 1vw;">
 <head>
@@ -39,11 +41,11 @@
             clear: both;
         }
         .header img{
-            width: 200px;
+            height: 45px;
             margin: 1% 0;
         }
         .text-content{
-            padding: 1% 5%;
+            padding: 3% 5%;
             font-size: 16px;
         }
         .text-content strong{
@@ -54,22 +56,47 @@
             text-decoration: none;
         }
         .message{
-            border: 1px solid #88B04B;
-            padding: 10px;
-            margin: 10px 0 0 0;
+            background-color: #F8F8F8;
+            padding: 50px;
+            margin: 3% 0 0 0;
             border-radius: 5px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .message .from{
+            float: left;
+            width: 15%;
+            text-align: center;
+            font-weight: normal;
+        }
+        .message .from img{
+            border-radius: 50%;
+            height: 77px;
+        }
+        .message .content{
+            float: left;
+            width: 85%;
+            background: -webkit-linear-gradient(#000, #000, transparent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .message .sub{
+            font-weight: normal;
         }
         .reply-button{
-            border: 1px solid #88B04B;
+            background-color: #88B04B;
             border-radius: 5px;
-            color: #88B04B;
             cursor: pointer;
-            display: inline-block;
             text-decoration: none;
             height: 24px;
+            width: 250px;
             line-height: 22px;
             padding: 5px 10px;
-            margin: 10px 0 0 0;
+            margin: 3% auto;
+            text-align: center;
+        }
+        .reply-button a{
+            color: #fff;
         }
 
         .clear{
@@ -177,26 +204,26 @@
             margin: 0 0 20px 0;
         }
         .benefits .row{
-            padding: 26px 20px;
+            padding: 20px;
             border-bottom: 1px solid #ddd;
         }
         .benefits .row .icon{
             float: left;
-            width: 13%;
-            text-align: right;
+            text-align: center;
         }
         .benefits .row .icon img{
-            width: 70%;
+            height: 77px;
+            margin: 0 20px 0 0;
         }
         .benefits .row .desc{
             float: left;
-            width: 80%;
-            padding-left: 26px;
+            width: 92%;
         }
         .benefits .row .desc h2{
             font-weight: normal;
             font-size: 20px;
             color: #555;
+            margin: 0;
         }
         .benefits .row .desc p{
             font-size: 16px;
@@ -290,25 +317,30 @@
         A Meska.hu csapata
 
         <div class="message">
-            <?= $sender ?> üzenetének szövege:
-            <br>
-            <br>
-            <?php if ($isgroup) { ?>
-                <?= $message ?>
-            <?php } else { ?>
-                <?= nl2br($message) ?>
-            <?php } ?>
-
-            <?php
-            if ($pid) {
-                ?>
-                <br><br>
-                Üzenetküldést az alábbi termék oldaláról kezdeményezték: <a href="<?=App_Controller::$_urlPrefixStatic?>/ProductView/index/<?= $pid ?>"><?= $product_name ?></a>
-            <?php } ?>
+            <div class="from">
+                <?= $sender ?><br>
+                <img src="https://www.meska.hu/img/avatar/large/<?=$p['avatar']?>">
+            </div>
+            <div class="content">
+                <?php if ($isgroup) { ?>
+                    <?= $message ?>
+                <?php } else { ?>
+                    <?= nl2br($message) ?>
+                <?php } ?>
+            </div>
+            <div class="clear"></div>
+            <div class="sub">
+                <?php
+                if ($pid) {
+                    ?>
+                    <br><br>
+                    Üzenetküldést az alábbi termék oldaláról kezdeményezték: <a href="<?=App_Controller::$_urlPrefixStatic?>/ProductView/index/<?= $pid ?>"><?= $product_name ?></a>
+                <?php } ?>
+            </div>
         </div>
         <div class="reply-button">
             <?php if ($sender != null) { ?>
-                <a href="<?=App_Controller::$_protocolStatic?>://www.<?= $domain ?>.hu/Conversations/readMessage/<?= $message_id ?>">Válasz <?= $sender ?> üzenetére</a>
+                <a href="<?=App_Controller::$_protocolStatic?>://www.<?= $domain ?>.hu/Conversations/readMessage/<?= $message_id ?>">Teljes üzenet megtekintése</a>
             <?php } ?>
         </div>
     </div>
@@ -371,14 +403,14 @@
         <p class="huge center" style="text-align: center; color: #555555; margin-top:0.1em;">
             Reméljük, hogy minél hamarabb viszont látunk az oldalunkon!
         </p>
-        <img src="http://assets.meska.hu/images/logo/logo.png" class="logo" style="width: 20%; margin: 2% auto 0 auto; display: block;">
+        <img src="http://assets.meska.hu/images/logo/logo.png" class="logo" style="height: 45px; margin: 2% auto 0 auto; display: block;">
         <p class="center" style="text-align: center; color: #555555; line-height: 1.5em; font-size: 1.3em;">
-            <a href="https://www.facebook.com/meska.hu/" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-facebook-icon.png" class="picto mini" style="width: 4%; margin: 1%;"></a>
-            <img src="http://www.meska.hu/images/email/meska-email-social-twitter-icon.png" class="picto mini" style="width: 4%; margin: 1%;">
-            <a href="https://www.instagram.com/meska.hu/" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-instagram-icon.png" class="picto mini" style="width: 4%; margin: 1%;"></a>
-            <a href="https://www.youtube.com/user/MeskaVideo" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-youtube-icon.png" class="picto mini" style="width: 4%; margin: 1%;"></a>
-            <img src="http://www.meska.hu/images/email/meska-email-social-google-icon.png" class="picto mini" style="width: 4%; margin: 1%;">
-            <a href="https://hu.pinterest.com/meskahu/" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-pinterest-icon.png" class="picto mini" style="width: 4%; margin: 1%;"></a>
+            <a href="https://www.facebook.com/meska.hu/" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-facebook-icon.png" class="picto mini" style="height: 35px; margin: 1%;"></a>
+            <img src="http://www.meska.hu/images/email/meska-email-social-twitter-icon.png" class="picto mini" style="height: 35px; margin: 1%;">
+            <a href="https://www.instagram.com/meska.hu/" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-instagram-icon.png" class="picto mini" style="height: 35px; margin: 1%;"></a>
+            <a href="https://www.youtube.com/user/MeskaVideo" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-youtube-icon.png" class="picto mini" style="height: 35px; margin: 1%;"></a>
+            <img src="http://www.meska.hu/images/email/meska-email-social-google-icon.png" class="picto mini" style="height: 35px; margin: 1%;">
+            <a href="https://hu.pinterest.com/meskahu/" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-pinterest-icon.png" class="picto mini" style="height: 35px; margin: 1%;"></a>
         </p>
         <div class="container links" style="margin: 0 2% 0 2%; font-size: 1em; margin-top: 2%; text-align: center;">
             <a href="http://www.meska.hu/help" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">FAQ</a>
