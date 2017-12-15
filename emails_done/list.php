@@ -22,12 +22,16 @@ class Emails{
                 case 'conversation_notif' :
                     $this->conversation_notif();
                     break;
+                case 'purchase_to_customer_notif' :
+                    $this->purchase_to_customer_notif();
+                    break;
                 default :
                     die('Hibás e-mail paraméter!');
             }
         }else{ ?>
             <a href="/emails_done/list.php?email=fav_newsletter">fav_newsletter</a><br>
             <a href="/emails_done/list.php?email=conversation_notif">belső üzenet értesítő</a><br>
+            <a href="/emails_done/list.php?email=purchase_to_customer_notif">vásárlás értesítő</a><br>
             <br>
             <a href="/emails_done/send.php">E-mail küldése</a><br>
             <br>
@@ -52,6 +56,10 @@ class Emails{
         $message_id = 111;
 
         include_once('conversation_notif.php');
+    }
+
+    private function purchase_to_customer_notif(){
+        include_once('purchase_to_customer_notif_meska.php');
     }
 }
 
