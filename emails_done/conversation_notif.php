@@ -48,9 +48,6 @@
             padding: 3% 5%;
             font-size: 16px;
         }
-        .text-content strong{
-            font-size: 18px;
-        }
         .text-content a{
             color: #88B04B;
             text-decoration: none;
@@ -306,11 +303,11 @@
         <strong>Kedves <?= $recipient ?>!</strong><br><br>
 
         <?php if ($sender == null) { ?>
-            Belső üzeneted érkezett <a href="<?=App_Controller::$_protocolStatic?>://www.<?= $domain ?>.hu"><?= App_Helper_Domain::hungarize($domain, true) ?>.hu</a> oldalán az alábbi felhasználótól: admin.<br><br>
+            Belső üzeneted érkezett <a href="<?=App_Controller::$_protocolStatic?>://www.<?= $domain ?>.hu"><?= App_Helper_Domain::hungarize($domain, true) ?>.hu</a> oldalon keresztül:<br><br>
         <?php } else { ?>
             Belső üzeneted érkezett <a href="<?=App_Controller::$_protocolStatic?>://www.<?= $domain ?>.hu"><?= App_Helper_Domain::hungarize($domain, true) ?>.hu</a> oldalán az alábbi felhasználótól: <a href="<?=App_Controller::$_protocolStatic?>://www.<?= $domain ?>.hu/UserProfil/index/<?= $sender_id ?>"><?= $sender ?></a>.<br><br>
 
-            Kérjük, erre az üzenetre ne válaszolj, az üzenet küldőjének <a href="<?=App_Controller::$_protocolStatic?>://www.<?= $domain ?>.hu/Conversations/readMessage/<?= $message_id ?>">ide kattintva válaszolhatsz</a>.<br><br>
+            (FONTOS! Ne erre az e-mailre válaszolj, mert az a Meska ügyfélszolgálatára jönne; hanem a Meskára belépve a felületén keresztül: <strong>nyomd meg az üzenet alatt található gombot!</strong>)
         <?php } ?>
 
         Üdvözlettel,<br><br>
