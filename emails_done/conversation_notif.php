@@ -62,7 +62,7 @@
         }
         .text-content .quote-icon{
             position: absolute;
-            top: 135px;
+            top: 150px;
             left: 1000px;;
         }
         .message .from{
@@ -84,6 +84,16 @@
             background: -webkit-linear-gradient(#000, #000, transparent);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+
+            /* OR */
+
+            /*
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            */
         }
         .message .sub{
             font-weight: normal;
@@ -333,7 +343,7 @@
                 <?= $sender ?><br>
                 <img src="https://www.meska.hu/img/avatar/large/<?=$p['avatar']?>">
             </div>
-            <div class="content">
+            <div class="content">"
                 <?php if ($isgroup) { ?>
                     <?= $message ?>
                 <?php } else { ?>

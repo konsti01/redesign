@@ -1,229 +1,714 @@
-<?php
-$color = '006600';
-$separator = '<div style="height:1px; width: 100%; background-color: #'.$color.';margin: 10px 0 10px 0; line-height: 1px; font-size:1px; clear: both;">&nbsp;</div>';
-$a_style = 'color: #'.$color.'; text-decoration: none;';
-$table_style = 'font-size: 12px; border-spacing: 0; padding: 0; margin:0;';
-$td_style = 'padding:0; margin:0; vertical-align: top; border-spacing: 0;';
-?>
+<?php include_once('data.php'); ?>
 
-<strong>Kedves <?=$_user->name?> (<?=$_user->user_name?>)!</strong><br><br>
-A mai napon <?=App_Helper_Domain::hungarize($domain, true, 'n')?> az alábbi terméke(ke)t vásároltad meg:<br>
+<!DOCTYPE html>
+<html style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #555555; font-size: 1vw;">
+<head>
+    <title>Kedvenc alkotóid termékei a Meskán</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-<?php foreach ($datas as $shop_name=>$products){ ?>
-	<?php
-	foreach ($products as $product) {
-		$shop_user_id = $product['App_Database_Shops'][0]['user_id'];
-		$shop_message = $product['App_Database_Shops'][0][$product['domain'].'_message_to_customer'];
-		break;
-	}
+    <!-- Responsive Style -->
+    <style scoped>
+        body{
+            margin: 0px; padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #555555;
+            font-size: 1em;
+            margin-top: 0.5%;
+        }
+        .wrapper{
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 0.5vw;
+            margin: 0 auto 0 auto;
+        }
+        .wrapper .content{
+            padding: 0;
+        }
+        .wrapper .content a{
+            text-decoration: none;
+        }
+        .header{
+            padding: 5px 100px;
+            position: relative;
+            text-align: center;
+            border-bottom: 5px solid #006600;
+        }
 
-	$sumprice = 0;
-	$sumpost = 0;
-	?>
-	<br><br>
-	<strong><a style="<?=$a_style?>" href="<?=App_Controller::$_protocolStatic?>://<?=$shop_name?>.meska.hu"><?=$shop_name?></a> eladótól</strong>
+        .header:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .header img{
+            width: 200px;
+            margin: 1% 0;
+        }
+        .center a{
+            text-decoration: none;
+        }
+        .center a:hover{
+            opacity: .7;
+        }
 
-	<!-- Termekek -->
-	<?php
-		$more_postage = count($products)>1?true:false;
-		foreach ($products as $product){
-			if ((int)$order['darab_'.$product['id']] > 1){
-				$more_postage = true;
-			}
-		}
-	?>
-	<?php
-	$quantity_overwrite = $more_postage?$more_postage:(count($products) > 1);
-	$maxpost = 0;
-	foreach ($products as $product){ ?>
-		<?=$separator?>
+        .heart{
+            text-align: center;
+        }
+        .heart img{
+            width: 70%;
+        }
+        .heading{
+            float: left;
+            padding: 20px;
+        }
+        .heading h1{
 
-		<table style="<?=$table_style?>">
-			<tr>
-				<td rowspan="2" style="<?=$td_style?> width: 110px;">
-					<a href="<?=App_Controller::$_urlPrefixStatic?>/ProductView/index/<?=$product['id']?>" style="display: block; margin:0 16px 0 0; padding:5px; border:1px solid #d4d9d1; height: 80px; width: 80px;">
-						<img src="<?=$this->getImagePath(App_Controller::$_urlPrefixStatic.'/img/product/thumbnail/' . $product['App_Database_ProductImages'][0]['name'])?>" alt="<?=$product['product_name']?>" title="<?=$product['product_name']?>"
-							 style="border: none; height: 80px; width: 80px;" >
-					</a>
-				</td>
-				<td colspan="2" style="<?=$td_style?>">
-					<a style="<?=$a_style?> font-weight: bold;" href="<?=App_Controller::$_urlPrefixStatic?>/ProductView/index/<?=$product['id']?>">
-						<?=$product['product_name']?>
-					</a><br><br>
-				</td>
-			</tr>
-			<tr>
-				<td style="<?=$td_style?> width: 250px;">
-					<?php $number = ((int)$order['darab_'.$product['id']]) > 0 ? ((int)$order['darab_'.$product['id']]) : 1;?>
-					Mennyiség: <?=$number?> <?=$product['unit'] != "" ? $product['unit'] : "db"?><br>
-					Termék kódja: <?=$product['product_code']?><br>
-					Termék ára: <?=App_Helper_Format::productPrice($product['price'])?> / <?=$product['unit'] != "" ? $product['unit'] : "db"?><br>
-					<?php
-					$sumprice += $number * $product['price'];
-					?>
-					Tranzakció azonosítója: <?=(int)$identifier?><br>
-				</td>
-					<?php
-					 if (App_Helper_PostagePrice::no_default_message('mail') == $_SESSION["transfer_name_{$product['id']}"]){
-						 $post = 0;
-					 } else {
-						 if (App_Helper_Promotions::is_ingyen_posta_promotable($shop_name)){
-							 $post = 0;
-						 } else {
-							 if($webox_shipping_prices[$shop_name] != null) {
-								$post = $webox_shipping_prices[$shop_name];
-							 } else {
-								$post = App_Helper_PostagePrice::getPrice($product['id'], $order['transfer_mode_'.$product['id']], $quantity_overwrite?2:$number);
-							 }
-						 }
-					 }
-						$maxpost = $post>$maxpost?$post:$maxpost;
-					?>
-			</tr>
-		</table>
+        }
+        .heading h1 a{
+            color: #555;
+            font-size: 1.5em;
+            font-weight: 400;
+        }
+        .heading p{
+            text-align: justify;
+            width: 80%;
+            color: #555;
+        }
 
+        .product-box{
+            padding: 20px;
+            margin: 1% 0%;
+            border-bottom: 1px solid #ccc;
+        }
+        .product-box:last-child{
+            border-bottom: 0;
+        }
+        .seller-pic{
+            float: left;
+            width: 13%;
+            text-align: center;
+            margin: 0 0 0 0;
+        }
+        .seller-pic img{
+            width: 70%;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .products{
+            float: left;
+            width: 87%;
+        }
+        .product-box:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .products .seller{
+            width: 330px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 28px;
+            color: #a0a0a0;
+            font-family: 'Open Sans';
+            font-weight: 200;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            overflow: hidden;
+            padding: 10px 0 5px 0;
+            margin: 0 0 10px 0;
+            background: url(https://assets.meska.hu/images/ribbon.png) top center no-repeat;
+            background-size: 100% 100%;
+        }
+        .product-description{
+            float: left;
+            width: 23%;
+            margin: 5px;
+            padding: 10px;
+            background-color: #f8f8f8;
+            /*border: 1px solid #ccc;*/
+            box-sizing: border-box;
+        }
+        .products:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .product-image{
+            width: 100%;
+        }
+        .shop-name{
+            font-size: 10px;
+            color: #a0a0a0;
+            font-family: 'Open Sans';
+            font-weight: 200;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            overflow: hidden;
+        }
+        .product-description .description{
+            font-size: 14px;
+            color: #333;
+            height: 39px;
+            overflow: hidden;
+            font-family: "Open Sans";
+            text-transform: uppercase;
+            margin: 0 0 10px 0;
+        }
+        .product-price .price{
+            float: left;
+            font-family: "Open Sans";
+            font-size: 20px;
+            font-weight: 200;
+            margin: 10px 0 0 0;
+            color: #555;
+        }
+        .product-price .basket{
+            float: right;
+            background-color: #84b848;
+            border-radius: 5px;
+            margin: 8px 3px 3px 0;
+        }
+        .product-price .basket img{
+            margin: 5px 5px 2px 5px;
+        }
+        .product-wrapper:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .more-products{
+            text-align: center;
+            margin: 30px 0 20px 0;
+            font-family: "Open Sans";
+        }
+        .more-products a{
+            color: #84b848;
+            border: 1px solid #84b848;
+            padding: 10px 15px;
+            border-radius: 6px;
+            text-transform: uppercase;
+        }
+        .clear{
+            clear: both;
+        }
+        @media (max-width: 424px){
+            .wrapper .logo{
+                width: 150px !important;
+            }
+            .wrapper .content{
+                font-size: 12px;
+            }
+            .wrapper .center{
+                font-size: 12px;
+            }
+            .wrapper .center img{
+                width: 40px !important;
+            }
+            .links a{
+                font-size: 12px !important;
+                width: 100% !important;
+            }
+            .grey-bg .footer p{
+                font-size: 12px !important;
+            }
+            .subtext{
+                padding: 5px;
+            }
 
-	<?php }
-	$sumpost += $maxpost;
-	?>
+            .heading h1 {
+                padding-right: 30px;
+            }
+            .heading h1 a{
+                font-size: 20px;
+            }
+            .heading p {
+                font-size: 16px;
+                padding-bottom: 0;
+            }
+            .heart{
+                width: 20%;
+                padding: 20px 0 0 0;
+            }
+            .heart img{
+                margin-bottom: 80px;
+                width: 90%;
+            }
 
-	<?=$separator?>
-	<table style="<?=$table_style?>">
-		<tr>
-			<td style="<?=$td_style?> width: 150px;">
-				<strong>Választott szállítási mód:</strong>
-			</td>
-			<td style="<?=$td_style?> width: 350px;">
-				<?=$_SESSION["transfer_name_{$product['id']}"]?>
-			</td>
-			<td style="<?=$td_style?> text-align: right; width: 100px; font-weight: bold;">
-				<?=App_Helper_Format::productPrice($sumpost)?><br>
-			</td>
-		</tr>
-		<?php if($_SESSION['transfer_mode_' . $shop_name] == "webox" || $_SESSION['transfer_mode_' . $shop_name] == "webox_utanvet") { ?>
-			<tr>
-				<td style="<?=$td_style?>" colspan="3">
-					<?= App_Helper_Webox::find_machine_address($_SESSION['transfer_webox_machine_' . $shop_name], $ordered_webox_machines) ?>
-				</td>
-			</tr>
-			<tr>
-				<td style="<?=$td_style?>" colspan="3">
-					<?= App_Helper_Webox::find_machine_location_description($_SESSION['transfer_webox_machine_' . $shop_name], $ordered_webox_machines) ?>
-				</td>
-			</tr>
-		<?php } ?>
-		<tr>
-			<td style="<?=$td_style?> width: 150px;">
-				<strong>Termékek ára összesen:</strong>
-			</td>
-			<td></td>
-			<td style="<?=$td_style?> text-align: right; width: 100px; font-weight: bold;">
-				<?=App_Helper_Format::productPrice($sumprice)?><br>
-			</td>
-		</tr>
-		<tr>
-			<td style="<?=$td_style?> width: 150px;">
-				<strong>Mindösszesen:</strong>
-			</td>
-			<td></td>
-			<td style="<?=$td_style?> text-align: right; width: 100px; font-weight: bold;">
-				<?=App_Helper_Format::productPrice($sumprice+$sumpost)?><br>
-			</td>
-		</tr>
-	</table>
+            .seller-pic{
+                float: none;
+                width: 100%;
+                margin: 0 0 10px 0;
+            }
+            .seller-pic img {
+                width: 50%;
+            }
+            .products{
+                float: none;
+                width: 100%;
+            }
+            .products .seller {
+                background-size: 100% 100%;
+            }
+            .product-description{
+                width: 46%;
+                margin-bottom: 1.5%;
+            }
+            .product-price .price{
+                font-size: 16px;
+                margin: 13px 0 0 0;
+            }
+        } /*XXS*/
+        @media (min-width: 425px) and (max-width: 767px){
+            .wrapper .logo{
+                width: 150px !important;
+            }
+            .wrapper .content{
+                font-size: 12px;
+            }
+            .wrapper .center{
+                font-size: 12px;
+            }
+            .wrapper .center img{
+                width: 40px !important;
+            }
+            .links a{
+                font-size: 12px !important;
+                width: 100% !important;
+            }
+            .grey-bg .footer p{
+                font-size: 12px !important;
+            }
+            .subtext{
+                padding: 5px;
+            }
 
-	<?=$separator?>
-	<table style="<?=$table_style?>">
-		<tr>
-			<td style="text-align: justify">
-				<?php if ($_SESSION['transfer_mode_' . $shop_name] == "webox"){ ?>
-				A fizetéssel kapcsolatban kérjük vedd fel a kapcsolatot az eladóval. Ha csomagod megérkezik a választott csomagautomatába, a WEBOX értesítést küld Részedre <?=$_user->email?> e-mail címedre és <?=$_user->phone_number?> telefonszámodra. Ha adataid változtak, kérjük még mielőtt az eladó feladná a csomagot, változtasd meg azokat a meska.hu <a href="<?=App_Controller::$_urlPrefixStatic?>/ModAcc">Fiókom/Adatmódosítás</a> menüpontban!
-				<?php } elseif ($_SESSION['transfer_mode_' . $shop_name] == "webox_utanvet"){ ?>
-					Ha csomagod megérkezik a választott csomagautomatába, a WEBOX értesítést küld Részedre <?=$_user->email?> e-mail címedre és <?=$_user->phone_number?> telefonszámodra. Ha adataid változtak, kérjük még mielőtt az eladó feladná a csomagot, változtasd meg azokat a meska.hu <a href="<?=App_Controller::$_urlPrefixStatic?>/ModAcc">Fiókom/Adatmódosítás</a> menüpontban! A termék vételárát és szállítási díját átvételkor kell bankkártyával kifizetned a csomagautomatánál.
-				<?php } else { ?>
-					Kérjük vedd fel a kapcsolatot a vásárolt termék(ek) készítőjével és egyeztessétek a fizetés-átvétel részleteit. Az eladó adatait a küldött értesítő e-mailben és belső üzenetben találod, illetve a Fiókom/Vásárolt termékeim menüpontban a termék mellett láthatod.
-				<?php } ?>
-			</td>
-		</tr>
-	</table>
+            .heading h1 a{
+                font-size: 20px;
+            }
+            .heading p {
+                font-size: 16px;
+                margin-top: 0px;
+                padding-bottom: 0;
+            }
+            .heart{
+                width: 20%;
+                margin-bottom: 30px;
+            }
+            .heart img{
+                width: 90%;
+            }
 
-	<!-- Uzenetek -->
-	<?php if ($order['basket_'.$shop_name."_message"] != "") { ?>
-		<?= $separator ?>
-		<strong>Üzeneted a bolt részére:</strong>
-		<p style="text-align: justify;">
-			<?= $order['basket_'.$shop_name."_message"] ?>
-		</p>
-	<?php } ?>
+            .seller-pic{
+                float: none;
+                width: 100%;
+                margin: 0 0 10px 0;
+            }
+            .seller-pic img {
+                width: 30%;
+            }
+            .products{
+                float: none;
+                width: 100%;
+            }
+            .products .seller {
+                background-size: 100% 100%;
+                margin: 0 auto 10px auto;
+            }
+            .product-description{
+                width: 46%;
+                margin-bottom: 1.5%;
+            }
+            .product-price .price{
+                font-size: 16px;
+                margin: 13px 0 0 0;
+            }
+        } /*XS*/
+        @media (min-width: 768px) and (max-width: 1100px){
+            .wrapper .logo{
+                width: 300px !important;
+            }
+            .wrapper .content{
+                font-size: 16px;
+            }
+            .wrapper .center{
+                font-size: 16px;
+            }
+            .wrapper .center img{
+                width: 60px !important;
+            }
+            .links a{
+                font-size: 16px !important;
+                width: 100% !important;
+            }
+            .grey-bg .footer p{
+                font-size: 16px !important;
+            }
+            .heading h1 a{
+                font-size: 1em;
+            }
+            .heading p {
+                font-size: 16px;
+                margin-top: 0px;
+                padding-bottom: 0;
+            }
+            .heart{
+                width: 20%;
+                margin-bottom: 0px;
+            }
 
-	<?php if ($shop_message != "") { ?>
-		<?= $separator ?>
-		<strong>Üzenet <?=$shop_name?> bolttól:</strong>
-		<p style="text-align: justify;">
-			<?= $shop_message ?>
-		</p>
-	<?php } ?>
+            .seller-pic img {
+                width: 100px;
+                height: 100px;
+            }
 
-	<?php if (is_array($_SESSION['giftcard'])){
-		$gc = $_SESSION['giftcard'];
-		if (in_array($product['shop_id'], $gc['shops'])){
-			$sumpay = $sumprice + $sumpost;
-			$sumgcpay = 0;
-			$postcount = false;
-			foreach ($gc['products'] as $p){
-				if ($p['shop_id'] == $product['shop_id']){
-					$sumgcpay += $p['payed'];
-					if (!$postcount){
-						$sumgcpay += $p['postage_payed'];
-						$postcount = true;
-					}
-				}
-			}
+            .product-price .price{
+                font-size: 16px;
+                margin: 13px 0 0 0;
+            }
+        } /*SM*/
+        @media (min-width: 1101px) and (max-width: 1300px){
+            .wrapper .logo{
+                width: 300px !important;
+            }
+            .wrapper .content{
+                font-size: 16px;
+            }
+            .wrapper .center{
+                font-size: 16px;
+            }
+            .wrapper .center img{
+                width: 60px !important;
+            }
+            .heading p {
+                font-size: 16px;
+                margin-top: 0px;
+                padding-bottom: 10px;
+            }
 
-			if ($sumpay > $sumgcpay){
-				//Ha meg kell fizetni
-				$remain = $sumpay - $sumgcpay; ?>
-				<br><?=$shop_name?> alkotótól vásárolt termék(ek) árából és szállítási költségéből <strong><?=App_Helper_Format::productPrice($sumgcpay)?></strong> kiegyenlítésre került Ajándékkártyával. További fizetendőd: <strong><?=App_Helper_Format::productPrice($remain)?></strong> Ft. Kérjük vedd fel a kapcsolatot az eladóval a fizetés és szállítás részleteivel kapcsolatban!<br>
-				<?php
-			} else { ?>
-				<br><?=$shop_name?> alkotótól vásárolt termék(ek) teljes ára és szállítási költsége <strong><?=App_Helper_Format::productPrice($sumgcpay)?></strong> értékben kiegyenlítésre került ajándékkártyával.<br>
-				<?php
-			}
-		}
-		?>
-	<?php } ?>
+            .links a{
+                font-size: 16px !important;
+                width: 100% !important;
+            }
+            .grey-bg .footer p{
+                font-size: 16px !important;
+            }
+        } /*MD*/
 
-	<!-- Elado adatai -->
-	<?php
-	$u = new Users();
-	$user = $u->getUserByIdNative($shop_user_id);
-	?>
-	<?=$separator?>
-	<table style="<?=$table_style?>">
-		<tr>
-			<td style="<?=$td_style?> width: 350px; text-align: left;<?= App_Helper_PostagePrice::is_address_needed_by_transfer_mode($_SESSION['transfer_mode_' . $shop_name]) ? ' border-right: 1px solid #' . $color . ';' : '' ?>">
-				<strong>Eladó adatai:</strong><br><br>
-				<img style="float:left; margin:0 10px 10px 0;" src="<?=$user['avatar'] != "" ? App_Controller::$_urlPrefixStatic.'/img/avatar/thumbnail/'.$user['avatar'] : App_Controller::$_urlPrefixStatic.'/images/no_avatar2.jpg'?>" alt="Avatar" title="avatar">
-				Felhasználónév: <a href="<?=App_Controller::$_protocolStatic?>://<?=$shop_name?>.meska.hu" style="<?=$a_style?>"><?=$user['user_name']?></a><br>
-				Név: <?=$user['name']?><br>
-				Email: <?=$user['email']?><br>
-				Telefon: <?=$user['phone_number']?>
-			</td>
-			<?php if (App_Helper_PostagePrice::is_address_needed_by_transfer_mode($_SESSION['transfer_mode_' . $shop_name])) { ?>
-			<td style="<?=$td_style?> text-align: left; padding-left:10px;">
-				<strong>Szállítási cím:</strong><br><br>
-				<?=$_user->name?><br>
-				<?=$_user->zip_code?>, <?=$_user->city?><br>
-				<?=$_user->street?> <?=$_user->house_number?>.<br>
-				<?=$_user->city?>
-			</td>
-			<?php } ?>
-		</tr>
-	</table>
-	<?=$separator?>
+        /* BENEFITEK CSS */
+        .benefits{
+            margin: 0 0 20px 0;
+        }
+        .benefits .row{
+            padding: 26px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .benefits .row .icon{
+            float: left;
+            width: 13%;
+            text-align: right;
+        }
+        .benefits .row .icon img{
+            width: 70%;
+        }
+        .benefits .row .desc{
+            float: left;
+            width: 80%;
+            padding-left: 26px;
+        }
+        .benefits .row .desc h2{
+            font-weight: normal;
+            font-size: 20px;
+            color: #555;
+        }
+        .benefits .row .desc p{
+            font-size: 16px;
+            color: #555;
+            text-align: justify;
+        }
+        .benefits .row .desc ul{
+            font-size: 16px;
+            color: #555;
+        }
 
-<?php } ?>
+        @media (max-width: 424px){
+            .benefits .row{
+                padding: 5px;
+            }
+            .benefits .row .icon{
+                float: none;
+                width: 100%;
+                text-align: center;
+            }
+            .benefits .row .icon img{
+                width: 30%;
+                margin-top: 0px;
+            }
+            .benefits .row .desc{
+                float: none;
+                width: 100%;
+                text-align: center;
+            }
+            .benefits .row .desc h2{
+                font-size: 20px;
+            }
+            .benefits .row .desc p{
+                font-size: 16px;
+            }
+            .benefits .row .desc ul{
+                font-size: 16px;
+                text-align: left;
+            }
+        } /*XXS*/
+        @media (min-width: 425px) and (max-width: 767px){
+            .benefits .row{
+                padding: 5px;
+            }
+            .benefits .row .icon{
+                float: none;
+                width: 100%;
+                text-align: center;
+            }
+            .benefits .row .icon img{
+                width: 30%;
+                margin-top: 0px;
+            }
+            .benefits .row .desc{
+                float: none;
+                width: 100%;
+                text-align: center;
+            }
+            .benefits .row .desc h2{
+                font-size: 20px;
+            }
+            .benefits .row .desc p{
+                font-size: 16px;
+            }
+            .benefits .row .desc ul{
+                font-size: 16px;
+                text-align: left;
+            }
+        } /*XS*/
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <!-- HEADER -->
+    <div class="header">
+        <img src="http://assets.meska.hu/images/logo/logo.png" class="logo">
+    </div>
 
-<br>
-<strong>Köszönjük a vásárlást!</strong><br><br>
-A Meska csapata
+    <!-- CONTENT -->
+    <div class="content">
+        <div class="heading">
+            <table>
+                <tr>
+                    <td></td>
+                    <td>
+                        <?php $name = 'Címzett' ?>
+                        <h1><a target="_blank" href="https://www.meska.hu/MyFavouriteSellersProducts?code={{.User.Code}}">
+                                Kedves <?echo $name?>!
+                            </a>
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 13%;">
+                        <div class="heart">
+                            <img src="https://assets.meska.hu/images/meska-email-heart-icon.png">
+                        </div>
+                    </td>
+                    <td>
+                        <p>A mai napon az alábbi terméke(ke)t vásároltad meg:</p>
+                        <div class="clear"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="clear"></div>
+        <div class="product-wrapper">
+            <?php
+            $count = 0;
+            foreach($products as $p){ ?>
+                <div class="product-box" onclick="location.href='#';">
+
+                    <div class="seller-pic">
+                        <?php if ($p['avatar'] != '') { ?>
+                            <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                <img src="https://www.meska.hu/img/avatar/large/<?=$p['avatar']?>">
+                            </a>
+                        <?php } else {?>
+                            <a href="https://<?=$p['shop_name']?>.meska.hu">
+                                <img src="https://www.meska.hu/images/no_avatar.jpg">
+                            </a>
+                        <?php } ?>
+                    </div>
+
+                    <div class="products">
+                        <div class="seller"><?=$p['shop_name']?></div>
+                        <div class="product-description">
+                            <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
+                                <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
+                            </a>
+
+                            <div class="shop-name"><?=$p['shop_name']?></div>
+
+                            <a href="https://www.meska.hu/t<?=$p['id']?>">
+                                <div class="description"><?=$p['product_name']?></div>
+                            </a>
+
+                            <div class="product-price">
+                                <div class="price"><?=$p['formatted_price']?></div>
+                            </div>
+                        </div>
+                        <div class="product-description">
+                            <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
+                                <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
+                            </a>
+
+                            <div class="shop-name"><?=$p['shop_name']?></div>
+
+                            <a href="https://www.meska.hu/t<?=$p['id']?>">
+                                <div class="description"><?=$p['product_name']?></div>
+                            </a>
+
+                            <div class="product-price">
+                                <div class="price"><?=$p['formatted_price']?></div>
+                            </div>
+                        </div>
+                        <div class="product-description">
+                            <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
+                                <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
+                            </a>
+
+                            <div class="shop-name"><?=$p['shop_name']?></div>
+
+                            <a href="https://www.meska.hu/t<?=$p['id']?>">
+                                <div class="description"><?=$p['product_name']?></div>
+                            </a>
+
+                            <div class="product-price">
+                                <div class="price"><?=$p['formatted_price']?></div>
+                            </div>
+                        </div>
+                        <div class="product-description">
+                            <a href="https://www.meska.hu/t<?=$p['id']?>" class="image-wrap">
+                                <img class="product-image" alt="<?=$p['image_alt']?>" title="<?=$p['image_title']?>" src="<?=$p['image']?>">
+                            </a>
+
+                            <div class="shop-name"><?=$p['shop_name']?></div>
+
+                            <a href="https://www.meska.hu/t<?=$p['id']?>">
+                                <div class="description"><?=$p['product_name']?></div>
+                            </a>
+
+                            <div class="product-price">
+                                <div class="price"><?=$p['formatted_price']?></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <?php
+                $count++;
+                if($count == 2){
+                    break; //$count. loop után megáll
+                }
+            }
+            ?>
+        </div>
+    </div>
+
+    <!-- BENEFITEK -->
+    <div class="benefits">
+        <div class="row">
+            <div class="icon">
+                <img src="http://www.meska.hu/images/email/meska-email-lock-icon.png">
+            </div>
+            <div class="desc">
+                <h2>Biztonságos tranzakciók</h2>
+                <p>A Meska.hu oldalait biztonságos (SSL / https) kapcsolaton keresztül böngészed » erre utal a böngésző címsorában megjelenő kis zöld lakat is. Vásárlási adataidat 3. fél nem láthatja, nálunk biztonságban vagy!</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="row">
+            <div class="icon">
+                <img src="http://www.meska.hu/images/email/meska-email-shield-icon.png">
+            </div>
+            <div class="desc">
+                <h2>Meska garancia</h2>
+                <p>Amennyiben bankkártyával egyenlíted ki vásárlásod ellenértékét, az átutalt összeg a postázás után 8 nappal kerül az eladó számlájára, így addig jelezheted nekünk, ha a termék valamilyen okból nem felel meg a leírtaknak; a pénzed és a vásárlásod ez időszak alatt extra biztonságban van, garantáljuk. </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="row">
+            <div class="icon">
+                <img src="http://www.meska.hu/images/email/meska-email-oneclick-icon.png">
+            </div>
+            <div class="desc">
+                <h2>Belépés egy kattintással</h2>
+                <p>
+                    Amennyiben összekötöd Facebook fiókodat Meska fiókoddal (Fiókom / Alapadatok / Adatmódosítás » <a href="https://www.meska.hu/ModAcc" style="color: #84b848; text-decoration: none">https://www.meska.hu/ModAcc</a>) egyetlen kattintással be tudsz lépni Meska fiókodba. Ennek számos előnye van:
+                <ul>
+                    <li>Belépésnél nem kell beírni az e-mail címet és a jelszót</li>
+                    <li>Elég a Facebook jelszavadat megjegyezni (sőt, ha be vagy lépve, akkor ez sem kell és tényleg csak egy kattintás)</li>
+                    <li>Különböző mobileszközön is egyszerűbb a belépés, hiszen nem kell hosszú karaktersorokat bepötyögni a telefonodon, tableteden.</li>
+                </ul>
+                </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="row">
+            <div class="icon">
+                <img src="http://www.meska.hu/images/email/meska-email-card-icon.png">
+            </div>
+            <div class="desc">
+                <h2>Fizetés gyorsan, kényelmesen, bankkártyával</h2>
+                <p>
+                    Egyre több eladó boltjában lehet bankkártyával fizetni a Meskán is! Nem kell a termék átvételekor a pénzzel foglalkozni, plusz bankkártyás fizetés esetén a Meska garanciát vállal arra, hogy nem lesz probléma a vásárlással (részleteket lásd a következő pontban).
+                </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <p class="huge center" style="text-align: center; color: #555555; margin-top:0.1em;">
+            Reméljük, hogy minél hamarabb viszont látunk az oldalunkon!
+        </p>
+        <img src="http://assets.meska.hu/images/logo/logo.png" class="logo" style="width: 20%; margin: 2% auto 0 auto; display: block;">
+        <p class="center" style="text-align: center; color: #555555; line-height: 1.5em; font-size: 1.3em;">
+            <a href="https://www.facebook.com/meska.hu/" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-facebook-icon.png" class="picto mini" style="width: 4%; margin: 1%;"></a>
+            <img src="http://www.meska.hu/images/email/meska-email-social-twitter-icon.png" class="picto mini" style="width: 4%; margin: 1%;">
+            <a href="https://www.instagram.com/meska.hu/" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-instagram-icon.png" class="picto mini" style="width: 4%; margin: 1%;"></a>
+            <a href="https://www.youtube.com/user/MeskaVideo" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-youtube-icon.png" class="picto mini" style="width: 4%; margin: 1%;"></a>
+            <img src="http://www.meska.hu/images/email/meska-email-social-google-icon.png" class="picto mini" style="width: 4%; margin: 1%;">
+            <a href="https://hu.pinterest.com/meskahu/" target="_blank"><img src="http://www.meska.hu/images/email/meska-email-social-pinterest-icon.png" class="picto mini" style="width: 4%; margin: 1%;"></a>
+        </p>
+
+        <div class="container links" style="margin: 0 2% 0 2%; font-size: 1em; margin-top: 2%; text-align: center;">
+            <a href="http://www.meska.hu/help" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">FAQ</a>
+            <a href="http://www.meska.hu/Static/adatkezeles" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">Adatvédelmi szabályzat</a>
+            <a href="http://www.meska.hu/Static/aff" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">Általános Felhasználási Feltételek</a>
+            <a href="http://www.meska.hu/contact" style="text-decoration: none; cursor: pointer; color: #555555; display: inline-block; margin: 0 2% 0 0;">Kapcsolat</a>
+        </div>
+
+        <div class="grey-bg" style="background-color: #eeeeee;">
+            <div class="breaker" style="width: 100%; height: 0px; border-color: #dddddd; border-style: solid; border-top-width: 1px; border-left: none; border-right: none; border-bottom: none; margin: 2% 0 2% 0;"> </div>
+
+            <div class="container footer" style="margin: 0 2% 0 2%; padding:0 0 10px 0;color: #888888; font-size: 0.75em; line-height: 1.5em;">
+                <p style="text-align: center; color: #555555; line-height: 1.5em; font-size: 1.3em;">
+                    Ezt az e-mailt az {{.Email}} címre küldtük ki, mert a vásárlási folyamat félbeszakadt és erre figyelmeztetni szerettünk volna.
+                </p>
+                <p style="text-align: center; color: #555555; line-height: 1.5em; font-size: 1.3em;">
+                    2008-201y &copy; Meska.hu Kft - Minden jog fenntartva.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

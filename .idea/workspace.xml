@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cc6b36ee-8936-4517-8018-2c8e2b16fe1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/conversation_notif.php" afterPath="$PROJECT_DIR$/emails_done/conversation_notif.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/purchase_to_customer_notif_meska.php" afterPath="$PROJECT_DIR$/emails_done/purchase_to_customer_notif_meska.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emails_done/send.php" afterPath="$PROJECT_DIR$/emails_done/send.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redesign.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="conversation_notif.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/emails_done/conversation_notif.php">
+      <file leaf-file-name="purchase_to_customer_notif_meska.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/emails_done/purchase_to_customer_notif_meska.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65905094" vertical-offset="1407" max-vertical-offset="8028">
-              <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.7908612" vertical-offset="10530" max-vertical-offset="12960">
+              <caret line="610" column="45" selection-start-line="610" selection-start-column="45" selection-end-line="610" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -51,9 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/productlist/img/colors/ska.svg" />
-        <option value="$PROJECT_DIR$/productlist/img/colors/stripe.svg" />
-        <option value="$PROJECT_DIR$/productlist/img/colors/dot.svg" />
         <option value="$PROJECT_DIR$/productlist/img/colors/multicolored.svg" />
         <option value="$PROJECT_DIR$/productlist/img/colors/gray.svg" />
         <option value="$PROJECT_DIR$/assets/css/topnav.css" />
@@ -97,11 +97,14 @@
         <option value="$PROJECT_DIR$/ajandekkartya/giftcard_responsive.css" />
         <option value="$PROJECT_DIR$/emails_done/fav_newsletter.php" />
         <option value="$PROJECT_DIR$/emails/emails/footer.php" />
-        <option value="$PROJECT_DIR$/emails_done/send.php" />
         <option value="$PROJECT_DIR$/emails_done/list.php" />
         <option value="$PROJECT_DIR$/basket/index.php" />
         <option value="$PROJECT_DIR$/basket/basket.css" />
         <option value="$PROJECT_DIR$/emails_done/conversation_notif.php" />
+        <option value="$USER_HOME$/kulso/WebJob/Upsolution/site/index.html" />
+        <option value="$USER_HOME$/kulso/WebJob/Upsolution/site/style.css" />
+        <option value="$PROJECT_DIR$/emails_done/send.php" />
+        <option value="$PROJECT_DIR$/emails_done/purchase_to_customer_notif_meska.php" />
       </list>
     </option>
   </component>
@@ -165,20 +168,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mainpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="emails_done" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -191,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/var/www/html/sample_registration_system" />
+    <property name="last_opened_file_path" value="$USER_HOME$/kulso/WebJob/Upsolution/site/style.css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -250,11 +239,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1360" height="738" extended-state="6" />
+    <frame x="0" y="30" width="1360" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3021309" sideWeight="0.88087773" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3280061" sideWeight="0.88087773" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -318,41 +307,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basket/basket_responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productlist/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7885906" vertical-offset="1348" max-vertical-offset="1944">
-          <caret line="101" column="7" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1724138" vertical-offset="453" max-vertical-offset="1332">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="68" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productlist/productlist.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="767" max-vertical-offset="10566">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productlist_thematic/productlist_thematic_responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="972">
-          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/productlist_thematic/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4662" max-vertical-offset="5580">
@@ -584,37 +538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emails_done/fav_newsletter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="810" max-vertical-offset="4644">
-          <caret line="541" column="32" selection-start-line="541" selection-start-column="32" selection-end-line="541" selection-end-column="99" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emails_done/send.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1511424" vertical-offset="943" max-vertical-offset="1512">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/emails_done/list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7908612" vertical-offset="0" max-vertical-offset="3150">
           <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emails_done/purchase_to_customer_notif_meska.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4230">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64421415" vertical-offset="9365" max-vertical-offset="15030">
           <caret line="541" column="4" selection-start-line="541" selection-start-column="4" selection-end-line="543" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36617404" vertical-offset="16085" max-vertical-offset="18396">
           <caret line="906" column="5" selection-start-line="906" selection-start-column="1" selection-end-line="906" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,19 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3989455" vertical-offset="1807" max-vertical-offset="11178">
           <caret line="113" column="45" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="45" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#div#1;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#div#1;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#div#0;n#div#0;n#div#1;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#div#0;n#div#0;n#div#1;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#0;n#div#0;n#div#0;n#div#1;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.456942" vertical-offset="11782" max-vertical-offset="14058">
           <caret line="669" column="69" selection-start-line="669" selection-start-column="49" selection-end-line="669" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8226601" vertical-offset="1119" max-vertical-offset="1890">
           <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,21 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6801406" vertical-offset="45" max-vertical-offset="684">
           <caret line="122" column="46" selection-start-line="122" selection-start-column="46" selection-end-line="122" selection-end-column="46" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <marker date="1513349963196" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1513349963196" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1513349963196" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1513349963196" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="15.294991" vertical-offset="0" max-vertical-offset="14094">
           <caret line="458" column="24" selection-start-line="458" selection-start-column="24" selection-end-line="458" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,14 +598,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71378094" vertical-offset="2476" max-vertical-offset="6318">
           <caret line="160" column="33" selection-start-line="160" selection-start-column="33" selection-end-line="165" selection-end-column="1" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/kulso/WebJob/Upsolution/site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3093145" vertical-offset="0" max-vertical-offset="1476">
+          <caret line="116" column="17" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/kulso/WebJob/Upsolution/site/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56157637" vertical-offset="1782" max-vertical-offset="4230">
+          <caret line="118" column="13" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/emails_done/conversation_notif.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65905094" vertical-offset="1407" max-vertical-offset="8028">
-          <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.34797892" vertical-offset="0" max-vertical-offset="2808">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails/emails/shop_rate_warning.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="596">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails/rateWarningToCustomer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails_done/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19332162" vertical-offset="160" max-vertical-offset="1512">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails/emails/purchase_to_customer_notif_meska.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4230">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails_done/fav_newsletter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="17.114235" vertical-offset="0" max-vertical-offset="13302">
+          <caret line="541" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="733" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails_done/purchase_to_customer_notif_meska.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7908612" vertical-offset="10530" max-vertical-offset="12960">
+          <caret line="610" column="45" selection-start-line="610" selection-start-column="45" selection-end-line="610" selection-end-column="45" />
           <folding />
         </state>
       </provider>

@@ -14,7 +14,7 @@ session_start();
     class Mailer{
         public function content(){
             ob_start();
-            include('fav_newsletter.php');
+            include('conversation_notif.php');
             $output = ob_get_contents();
             ob_end_clean();
             return $output;
@@ -22,12 +22,12 @@ session_start();
 
         public function send(){
             $recipients = array(
-                'spardasixx@gmail.com' => 'Görbicz Roland',/*
+                'spardasixx@gmail.com' => 'Görbicz Roland',
                 'info@ux-studio.com' => 'Czár Milán',
                 'akos.meska@gmail.com' => 'Konstanczer Ákos',
                 'airporst@gmail.com' => 'Porst Réka',
                 'hello@meska.hu' => 'Kovács Lóránt',
-                'prepostffyzs@gmail.com' => 'Prepostffy Zsuzsa',*/
+                'prepostffyzs@gmail.com' => 'Prepostffy Zsuzsa',
             );
 
             $mail = new PHPMailer();
