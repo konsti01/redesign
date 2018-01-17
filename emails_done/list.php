@@ -160,9 +160,20 @@ class App_Helper_Domain
         return $d[0] == 'test' || $d[0] == 'www' && $d[1] == 'test' || array_pop($d) == 'test';
     }
 }
-
+?>
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+</head>
+<body>
+<?php
 $asd = new Emails();
 $asd->index();
+?>
+</body>
+</html>
+<?php
 
     }
     else{
